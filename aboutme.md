@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd 
+title: About me 
 ---
 
 ## <span style="color:CadetBlue">Summary</span> 
