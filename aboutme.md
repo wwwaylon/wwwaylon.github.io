@@ -12,18 +12,17 @@ title: About me
 > <span style="font-size:105%">To accomplish this, I support staff and systems to achieve sustainable growth in services, funding, satisfaction, and strategic partnerships. <span style="color:Black">**I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making.**</span> 
   <br/>   
   
-#### <span style="color:grey; font-size:120%">**Education**:</span> <span style="color:Black; font-size:105%"> Ph.D., Quantitative Psychology, University of Kansas (2012); Advisor: [Todd D. Little](https://scholar.google.com/citations?user=T-dKKGkAAAAJ&hl=en) </span>
-  <br/>   
+### <span style="color:grey; font-size:120%">**Education**:</span> <span style="color:Black; font-size:105%"> Ph.D., Quantitative Psychology, University of Kansas (2012); Advisor: [Todd D. Little](https://scholar.google.com/citations?user=T-dKKGkAAAAJ&hl=en)</span>  
   
-#### <span style="color:grey; font-size:120%">**Statistical methods**:</span> <span style="color:black; font-size:100%"> Design and measurement issues in longitudinal research, [panel designs](https://www.quantpsy.org/pubs/little_preacher_selig_card_2007.pdf), [latent growth curve analysis](https://quantpsy.org/pubs/preacher_2010.pdf), [latent class and finite mixture modeling](https://www.statmodel.com/download/Masyn_2013.pdf), [multi-level SEM with longitudinal data](https://www.guilford.com/books/Longitudinal-Structural-Equation-Modeling/Todd-Little/9781462510160), [moderation and mediation](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html), [missing data analysis and power](http://www.appliedmissingdata.com/), and [measurement invariance testing](http://www.joophox.net/publist/CecklistMeasInv.pdf).</span>     
-  <br/>   
-            
-#### <span style="color:grey; font-size:120%">**Typical software**:</span> <span style="color:black; font-size:100%"> R (Rstudio, Rshiny, Rmarkdown, etc.), SAS, Mplus, SPSS, Stata, LISREL, PRELIS, HLM, SciPy - Python (statsmodels) </span>    
-  <br/>   
-  
-#### <span style="color:grey; font-size:120%">**Research grants**:</span> <span style="color:black; font-size:100%">  I have extensive experience in research study design, formulation of hypotheses and the preparation of statistical analytic plans, Monte Carlo simulation based power analyses, as well as basic and innovative statistical analyses as an interdisciplinary-oriented collaborator and mentor.</span>
+### <span style="color:grey; font-size:120%">**Statistical methods**:</span> <span style="color:black; font-size:100%">   
 
-#### <span style="color:grey; font-size:100%">**Substantive research grants (selected)**:</span>     
+#### Design and measurement issues in longitudinal research, [panel designs](https://www.quantpsy.org/pubs/little_preacher_selig_card_2007.pdf), [latent growth curve analysis](https://quantpsy.org/pubs/preacher_2010.pdf), [latent class and finite mixture modeling](https://www.statmodel.com/download/Masyn_2013.pdf), [multi-level SEM with longitudinal data](https://www.guilford.com/books/Longitudinal-Structural-Equation-Modeling/Todd-Little/9781462510160), [moderation and mediation](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html), [missing data analysis and power](http://www.appliedmissingdata.com/), and [measurement invariance testing](http://www.joophox.net/publist/CecklistMeasInv.pdf). **Typical software**:</span> <span style="color:black; font-size:100%"> R (Rstudio, Rshiny, Rmarkdown, etc.), SAS, Mplus, SPSS, Stata, LISREL, PRELIS, HLM, SciPy - Python (statsmodels).</span>           
+   
+### <span style="color:grey; font-size:120%">**Research grants**:</span> 
+
+#### <span style="color:black; font-size:100%">  I have extensive experience in research study design, formulation of hypotheses and the preparation of statistical analytic plans, Monte Carlo simulation based power analyses, as well as basic and innovative statistical analyses as an interdisciplinary-oriented collaborator and mentor.</span>
+
+##### <span style="color:grey; font-size:100%">**Substantive research grants (selected)**:</span>     
   
 1. Centers for Disease Control and Prevention  [U01CE002880](https://app.dimensions.ai/details/grant/grant.7072448)  
     Sara Chrisman, Ph.D.; Emily Kroshus, Ph.D.  
@@ -67,7 +66,7 @@ title: About me
     Parents as Peer Interventionists in Treatment for Pediatric Weight Management  
     Role: Key Personnel (2.5% FTE, inactive) 
 
-#### <span style="color:grey; font-size:100%">**Statistical methods research grants (selected)**:</span>     
+##### <span style="color:grey; font-size:100%">**Statistical methods research grants (selected)**:</span>     
   
 1. Seattle Childrenâs Research Institute (competitive with other Seattle Children's CHBD faculty)  
     Waylon J. Howard, Ph.D., Chuan Zhou, Ph.D.   
