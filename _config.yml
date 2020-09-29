@@ -15,7 +15,7 @@ author: Waylon J. Howard, PhD
 
 navbar-links:
   About Me: "aboutme"
-  About Me: "research"
+  Research: "research"
   Resources:
     - Beautiful Jekyll: "https://www.google.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
