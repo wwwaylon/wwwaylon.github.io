@@ -1,7 +1,7 @@
 ---
 layout: page
-title: research
-subtitle: Why you'd 
+title: Research
+subtitle: Overview 
 ---
 
 ### Methodology development  
