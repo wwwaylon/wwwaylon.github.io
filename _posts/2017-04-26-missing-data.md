@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QQQ
+title: Mising Data
 subtitle: QQQ
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
