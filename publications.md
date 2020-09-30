@@ -1,3 +1,8 @@
+---
+layout: page
+title: Publications 
+---
+
 ### peer-reviewed articles 
 According to Google Scholar, my work has been cited **464** times, and my h-index is **12**. 
 
