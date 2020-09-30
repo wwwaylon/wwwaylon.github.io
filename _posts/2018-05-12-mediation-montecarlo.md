@@ -14,7 +14,7 @@ The following illustrates a simple way to use SAS or R to run a Monte Carlo powe
 
 |  Path diagram           | Model equation(s) |
 :-------------------------:|:-------------------------:
-![SimpleMed](/img/simpleMed_square.png) | ***M*** = *i*<sub>1</sub> + *a*X + e<sub>*M*</sub>  <br/> ***Y*** = *i*<sub>2</sub> + *b*M + c'X + e<sub>*Y*</sub> <br/>  <br/> **Indirect effect**: *ab* <br/> **Direct effect**: *c'*
+![SimpleMed](/assets/img/simpleMed_square.png) | ***M*** = *i*<sub>1</sub> + *a*X + e<sub>*M*</sub>  <br/> ***Y*** = *i*<sub>2</sub> + *b*M + c'X + e<sub>*Y*</sub> <br/>  <br/> **Indirect effect**: *ab* <br/> **Direct effect**: *c'*
 
 ## SAS IML Code
 
