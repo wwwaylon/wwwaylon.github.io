@@ -1,3 +1,8 @@
+---
+layout: page
+title: Presentations 
+---
+
 ### talks and symposia
 
 * Okech D., **Howard, W. J.**, (2018, January). Predictors of Financial Capability among Female Survivors of Human Trafficking in Ghana, West Africa. Symposium Financial Capability across the Globe: Results from Canada, China, and Ghana, 22nd Annual Conference of the Society for Social Work and Research, Washington D.C. ([link](https://sswr.confex.com/sswr/2018/webprogram/Paper32290.html))  
