@@ -26,7 +26,7 @@ title: Research positions
 
 > I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of Graduate Methodology Consultants.
 
-#### <span style="color:black; font-size:150%">**Director of Research and Evaluation**,</span> <span style="color:grey; font-size:100%"> Maryland Ctr. for Developmental Disabilities**, [Kennedy Krieger Institute](https://www.kennedykrieger.org), Baltimore, MD (2012 - 2014)</span>
+#### <span style="color:black; font-size:150%">**Director of Research and Evaluation**,</span> <span style="color:grey; font-size:100%"> Maryland Ctr. for Developmental Disabilities, [Kennedy Krieger Institute](https://www.kennedykrieger.org), Baltimore, MD (2012 - 2014)</span>
 ##### <span style="color:black; font-size:120%">**Visiting Assistant Professor**,</span> <span style="color:grey; font-size:100%"> Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), [Johns Hopkins University](https://www.jhu.edu), Baltimore, MD (2014)</span>
 ##### <span style="color:black; font-size:120%">**Affiliated Faculty Member**,</span> <span style="color:grey; font-size:100%"> [Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014) </span>
 ##### <span style="color:black; font-size:120%">**Senior Research Data Analyst**,</span> <span style="color:grey; font-size:100%"> [Biostatistics, Epidemiology, and Data Management Core](http://beadcore.jhu.edu/), Johns Hopkins University, Bayview, MD (2013 - 2015) </span> 
