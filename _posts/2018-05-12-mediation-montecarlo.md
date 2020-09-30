@@ -4,7 +4,7 @@ title: Using SAS to run simulations in Mplus
 subtitle: Monte Carlo Power Simulation (simple mediation)
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
-tags: [R SAS Mplus monte carlo power]
+tags: [SAS Mplus monte carlo power]
 ---
 
 ## Background
