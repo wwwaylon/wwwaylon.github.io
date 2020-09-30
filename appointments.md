@@ -33,6 +33,6 @@ title: Research positions
   
 > I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.
 
-#### <span style="color:black; font-size:150%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:100%"> Juniper Gardens Childrenâs Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span>
+#### <span style="color:black; font-size:150%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:100%"> Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span>
 
 #### <span style="color:black; font-size:150%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:100%">  Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span>
