@@ -82,7 +82,7 @@ put ("m*&Em; !residual variance of m;");
 put ("y*&Ey; !residual variance of y;");
 put ("m on x*&MonX; !a path;");
 put ("y on m*&YonM; !b path;");
-put ("y on x*&YonX; !câ path;");
+put ("y on x*&YonX; !c' path;");
 put;
 put ("MODEL:");
 put ("[m-y@0];        !mean of m and y;");
@@ -90,7 +90,7 @@ put ("m*&Em; !residual variance of m;");
 put ("y*&Ey; !residual variance of y;");
 put ("m on x*&MonX; !a path;");
 put ("y on m*&YonM; !b path;");
-put ("y on x*&YonX; !câ path;");
+put ("y on x*&YonX; !c' path;");
 put;
 put ("MODEL INDIRECT: !MODEL INDIRECT statement to obtain mediated effect;");
 put ("y IND x;        !Start and endpoint of mediation model defined here;");
@@ -149,7 +149,6 @@ title 'Estimated Statistical Power for the Mediation Model by Sample Size and Ef
 INSET '% denotes proportion of total effect mediated'/ POSITION = BOTTOMleft BORDER;
 run;
 ~~~
-
 Example power curves    
 ![ExamplePowerCurves](/assets/img/medpowercuves_square.png)
 
