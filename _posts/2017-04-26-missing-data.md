@@ -12,4 +12,4 @@ Missing data is really an incredible area of research. It occurs in most areas o
 
 But that’s not what I want to review here, because right now most statistical software programs have defaults that do not properly deal with missing data; also I am not confident that we are currently able to automate the handling of missing data because there are many important considerations that require your input. 
 
-So let’s review about missing data concepts and look at some examples.  
+So let’s review missing data concepts and look at some examples.  
