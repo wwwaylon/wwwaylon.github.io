@@ -150,6 +150,6 @@ run;
 ~~~
 
 Example power curves    
-![ExamplePowerCurves](/img/medpowercuves_square.png)
+![ExamplePowerCurves](/assets/img/medpowercuves_square.png)
 
 
