@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mising Data
+title: Missing Data
 subtitle: QQQ
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
