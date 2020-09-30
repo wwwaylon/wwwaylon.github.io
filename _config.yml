@@ -14,6 +14,7 @@ author: Waylon J. Howard, PhD
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  CV: "https://drive.google.com/file/d/1Vb3Xvx5VaB_FJDYYNdd5xK5lSubkdlEL/view?usp=sharing"
   About Me: "aboutme"
   Research: 
     - Appointments: "appointments"
@@ -24,7 +25,6 @@ navbar-links:
     - RShiny project estiamtor: "https://www.google.com"
     - RShiny workload tracker: "https://www.google.com"
     - RShiny scaled difference testing: "https://whowar.shinyapps.io/NestedModels/"
-  CV: "https://drive.google.com/file/d/1Vb3Xvx5VaB_FJDYYNdd5xK5lSubkdlEL/view?usp=sharing"
 
 # --- Logo --- #
 
