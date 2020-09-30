@@ -1,3 +1,8 @@
+---
+layout: page
+title: Research positions 
+---
+
 ## Current 
 ### **Global Director of Biostatistics and Data Analytics**, Health Economics and Outcomes Research, [ConcertAI](https://www.concertai.com/), Boston, MA (2019 â present)
   
