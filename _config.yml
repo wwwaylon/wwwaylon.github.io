@@ -16,6 +16,7 @@ author: Waylon J. Howard, PhD
 navbar-links:
   About Me: "aboutme"
   Research: 
+    - Appointments: "appointments"
     - Overview: "research"
     - Publications: "publications"
     - Presentations: "presentations"
