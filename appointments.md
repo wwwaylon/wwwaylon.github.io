@@ -14,7 +14,7 @@ title: Research positions
 > I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow/priorities for the HPTN network. I supervised a team of statistical research associates.  
 
 #### <span style="color:black; font-size:150%">**Director of Biostatistics and Data Management**,</span> <span style="color:grey; font-size:120%"> Center for Outcomes Research and Evaluation, [Atrium Health](https://atriumhealth.org), Charlotte, NC (2018 - 2019)</span>
-##### <span style="color:black; font-size:150%">**Associate Professor**,</span> <span style="color:grey; font-size:100%">, Atrium Health, Charlotte, NC (2018 - 2019)</span>   
+##### <span style="color:black; font-size:120%">**Associate Professor**,</span> <span style="color:grey; font-size:100%">, Atrium Health, Charlotte, NC (2018 - 2019)</span>   
   
 > I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.
 
