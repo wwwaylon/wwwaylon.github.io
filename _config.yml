@@ -15,11 +15,15 @@ author: Waylon J. Howard, PhD
 
 navbar-links:
   About Me: "aboutme"
-  Research: "research"
+  Research: 
+    - Overview: "research"
+    - Publications: "publications"
+    - Presentations: "presentations"
   Resources:
-    - Beautiful Jekyll: "https://www.google.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://www.google.com"
+    - RShiny project estiamtor: "https://www.google.com"
+    - RShiny workload tracker: "https://www.google.com"
+    - RShiny scaled difference testing: "https://whowar.shinyapps.io/NestedModels/"
+  Curriculum Vitae: "https://drive.google.com/file/d/1Vb3Xvx5VaB_FJDYYNdd5xK5lSubkdlEL/view?usp=sharing"
 
 # --- Logo --- #
 
