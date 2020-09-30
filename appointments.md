@@ -14,25 +14,25 @@ title: Research positions
 > I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow/priorities for the HPTN network. I supervised a team of statistical research associates.  
 
 #### <span style="color:black; font-size:120%">**Director of Research in Biostatistics and Data Management**,</span> <span style="color:grey; font-size:100%"> Center for Outcomes Research and Evaluation, [Atrium Health](https://atriumhealth.org), Charlotte, NC (2018 - 2019)</span>
-##### Associate Professor, Atrium Health, Charlotte, NC (2018 - 2019)  
+##### <span style="color:black; font-size:120%">**Associate Professor**,</span> <span style="color:grey; font-size:100%">, Atrium Health, Charlotte, NC (2018 - 2019)</span>   
   
 > I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.
 
-#### **Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**, Center for Child Health, Behavior and Development, [Seattle Childrenâs Research Inst.](https://www.seattlechildrens.org/research), Seattle, WA (2015 - 2018)
+#### <span style="color:black; font-size:120%">**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**,</span> <span style="color:grey; font-size:100%"> Center for Child Health, Behavior and Development, [Seattle Children's Research Inst.](https://www.seattlechildrens.org/research), Seattle, WA (2015 - 2018)</span>
 
 > I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the departmentâs research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.
 
-#### **Faculty Research Methodologist**, Inst. for Social Science Research, [University of Massachusetts](https://www.umass.edu), Amherst, MA (2014 - 2015)
+#### <span style="color:black; font-size:120%">**Faculty Research Methodologist**,</span> <span style="color:grey; font-size:100%"> Inst. for Social Science Research, [University of Massachusetts](https://www.umass.edu), Amherst, MA (2014 - 2015)</span>
 
 > I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of Graduate Methodology Consultants.
 
-#### **Director of Research and Evaluation, Maryland Ctr. for Developmental Disabilities**, [Kennedy Krieger Institute](https://www.kennedykrieger.org), Baltimore, MD (2012 - 2014)
-##### Visiting Assistant Professor, Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), [Johns Hopkins University](https://www.jhu.edu), Baltimore, MD (2014)
-##### Affiliated Faculty Member, [Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014) 
-##### Senior Research Data Analyst, [Biostatistics, Epidemiology, and Data Management Core](http://beadcore.jhu.edu/), Johns Hopkins University, Bayview, MD (2013 - 2015)  
+#### <span style="color:black; font-size:120%">**Director of Research and Evaluation**,</span> <span style="color:grey; font-size:100%"> Maryland Ctr. for Developmental Disabilities**, [Kennedy Krieger Institute](https://www.kennedykrieger.org), Baltimore, MD (2012 - 2014)</span>
+##### <span style="color:black; font-size:120%">**Visiting Assistant Professor**,</span> <span style="color:grey; font-size:100%"> Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), [Johns Hopkins University](https://www.jhu.edu), Baltimore, MD (2014)</span>
+##### <span style="color:black; font-size:120%">**Affiliated Faculty Member**,</span> <span style="color:grey; font-size:100%"> [Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014) </span>
+##### <span style="color:black; font-size:120%">**Senior Research Data Analyst**,</span> <span style="color:grey; font-size:100%"> [Biostatistics, Epidemiology, and Data Management Core](http://beadcore.jhu.edu/), Johns Hopkins University, Bayview, MD (2013 - 2015) </span> 
   
 > I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.
 
-#### **Quantitative Psychology Research Assistant**, Juniper Gardens Childrenâs Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)
+#### <span style="color:black; font-size:120%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:100%"> Juniper Gardens Childrenâs Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span>
 
-#### **Quantitative Psychology Research Assistant**, Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)
+#### <span style="color:black; font-size:120%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:100%">  Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span>
