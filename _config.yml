@@ -22,9 +22,9 @@ navbar-links:
     - Publications: "publications"
     - Presentations: "presentations"
   Resources:
-    - RShiny project estiamtor: "https://www.google.com"
-    - RShiny workload tracker: "https://www.google.com"
-    - RShiny scaled difference testing: "https://whowar.shinyapps.io/NestedModels/"
+    - project estiamtor: "https://www.google.com"
+    - workload tracker: "https://www.google.com"
+    - scaled difference testing: "https://whowar.shinyapps.io/NestedModels/"
 
 # --- Logo --- #
 
