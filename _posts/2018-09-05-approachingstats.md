@@ -3,7 +3,7 @@ layout: post
 title: Thinking about and approaching statistics
 subtitle: basics
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/ToddLittleMissing.png
+thumbnail-img: /assets/img/napkin.jpg
 share-img: /assets/img/path.jpg  
 tags: [modern methods, statistics]
 ---
