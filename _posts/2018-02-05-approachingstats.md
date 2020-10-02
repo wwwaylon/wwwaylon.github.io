@@ -18,6 +18,13 @@ This is a handwritten path diagram that demonstrates a lot of deep thinking abou
 
 I often get diagrams like this and I love to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
 
+This is a plot of some data collected for this project. 
+
+![eciplot](/assets/img/eciplot.png "Greenwood, C. R., Walker, D., Buzhardt, J., Howard, W. J., McCune, L., & Anderson, R. A., (2013). Evidence of a continuum in foundational expressive communication skills. Early Childhood Research Quarterly, 28, 540-554.")
+
+Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seems to peak around 18 months than declines – at that peak notice how single words is accelerating – the idea here is that children transition from one communication strategy to another and this tool – can capture it. 
+
+Now, previously these four forms of communication were summed to create a total score. Consider how much important information is lost when these scores are summed. 
 
 
 
