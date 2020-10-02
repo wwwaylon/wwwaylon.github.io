@@ -24,11 +24,16 @@ This is a plot of some data collected for this project.
 
 Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seems to peak around 18 months than declines – at that peak notice how single words is accelerating – the idea here is that children transition from one communication strategy to another and this tool – can capture it. 
 
-Now, previously these four forms of communication were summed to create a total score. Consider how much important information is lost when these scores are summed (more on that here). 
+Now, previously these four forms of communication were summed to create a total score. Consider how much important information is lost when these scores are summed. 
 
-Approach. A major goal here is to identify inter-individual differences in intra-individual change in language development.[^fn1] [^fn2]
+A major goal here is to identify inter-individual differences in intra-individual change in language development.<sup>[1](#nesselroade)</sup><sup>[,]()</sup><sup>[2](#preacher)</sup> Unlike traditional repeated-measures analysis of variance, Latent Growth Curve Models (LGMs) allow for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (fixed effects) and in the variance and covariance of initial level and change (random effects).<sup>[2](#preacher)</sup> We used LGMs to model individual differences in status (intercept variance) and the rates of change (slope variance) from 6 to 36 months. The general tenability of the LGMs were assessed using alternative measures of model fit including: the Root-Mean-Square Error of Approximation (RMSEA), Non-Normed Fit Index (NNFI/TLI), and the Comparative Fit Index (CFI). This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept, slope (α<sub>[1]()</sub> ), and the associated variances and covariance (ψ_44 〖,ψ〗_(55 ) "," ψ_54 )
 
-[^fn1]: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.
-[^fn2]:	Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
+![lgm](/assets/img/lgm.png "exemplary LGM model")
+
+QQQ
+
+References
+<a name="nesselroade">1</a>: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.
+<a name="preacher">1</a>: Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
 
 
