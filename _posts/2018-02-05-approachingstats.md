@@ -40,20 +40,20 @@ This figure illustrates an exemplary LGM model. The key growth parameters of int
   <img width="300" height="300" src="/assets/img/lgmfigure.png">
 </p>
 
-Notice the diagram below – each black line represents an individual person that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point – denoted with a green dot here and also capture the variability around that average intercept. Similarly, we can estimate an average slope and variability around that slope. In the MLM approach, latent growth curve models are limited to a single growth curve, and the intercept and slope of a latent growth curve cannot predict other variables. This would again require that we change our theory to suit the statistical method – so this is not appropriate. With LGM we can fit a parallel process model and simultaneously estimate all these relationships. These models can incorporate: partially missing data, unequally spaced time points, non-normally distributed or discretely scaled repeated measures, complex nonlinear or compound-shaped trajectories, time-varying covariates, and multivariate growth processes. All of these issues routinely arise in developmental research, yet all present significant challenges within traditional analytic approaches. 
+Notice that each black line represents an individual person that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point – denoted with a green dot here and also capture the variability around that average intercept. Similarly, we can estimate an average slope and variability around that slope. In the MLM approach, latent growth curve models are limited to a single growth curve, and the intercept and slope of a latent growth curve cannot predict other variables. In our case using MLM would require that we change our tests to suit the statistical method – so this is not appropriate. 
 
-While traditional methods for analyzing repeated measures data remain a powerful tool in many research applications when the underlying assumptions are met. However, these methods become increasingly limited under conditions commonly encountered in social and behavioral science research, whereas growth models typically are not.
+While traditional methods for analyzing repeated measures data remain a powerful tool in many research applications when the underlying assumptions are met, these methods become increasingly limited under conditions commonly encountered in social and behavioral science research. Advanced methods like LGM iwthin the SEM framewrok are less limited. With LGM we can fit a parallel process model and simultaneously estimate all these relationships. These models can incorporate: partially missing data, unequally spaced time points, non-normally distributed or discretely scaled repeated measures, complex nonlinear or compound-shaped trajectories, time-varying covariates, and multivariate growth processes. All of these issues routinely arise in developmental research, yet all present significant challenges within traditional analytic approaches. 
 
 <p align="center">
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model. We estimated all of the change processes at the same time and evalauted predictive relations across a continuum of communication skills. This approach better captures the theoretical process of interest than I think we would get from classical approaches (simple regression, ANOVA, etc.) 
-
-Limitations here include: complex to specify, less understood by others relative to classical statistical techniques, requires large(ish) samples, software is not user friendly, there is not one correct model (onus on you), among others. 
+This diagram illustrates our final model. We estimated all of the change processes at the same time and evalauted predictive relations across a continuum of communication skills. I believe this approach better captures the theoretical process of interest than we would get at by using classical approaches (simple regression, ANOVA, etc.). There are important limitations to consider such as that these models are complex to specify, less understood by others relative to classical statistical techniques, requires large(ish) samples, software is not user friendly, there is not one correct model (onus on you), among others. 
 
 
 ### Example 2. Psychometric measurement properties 
+QQQ Is it the construct or the tool that's changing QQQ
+
 ### Example 3. Intensive Longitudinal Data
 QQQ
 
