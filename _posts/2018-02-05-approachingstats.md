@@ -36,7 +36,13 @@ A major goal here is to identify inter-individual differences in intra-individua
 
 This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]()</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>) and covariance (ψ<sub>[2,1]()</sub>).
 
-QQQ
+<p align="center">
+  <img width="300" height="300" src="/assets/img/lgmfigure.png">
+</p>
+
+Notice the diagram below – each black line represents an individual person that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point – denoted with a green dot here and also capture the variability around that average intercept. Similarly, we can estimate an average slope and variability around that slope. In the MLM approach, latent growth curve models are limited to a single growth curve, and the intercept and slope of a latent growth curve cannot predict other variables. This would again require that we change our theory to suit the statistical method – so this is not appropriate. With LGM we can fit a parallel process model and simultaneously estimate all these relationships. These models can incorporate: partially missing data, unequally spaced time points, non-normally distributed or discretely scaled repeated measures, complex nonlinear or compound-shaped trajectories, time-varying covariates, and multivariate growth processes. All of these issues routinely arise in developmental research, yet all present significant challenges within traditional analytic approaches. 
+
+While traditional methods for analyzing repeated measures data remain a powerful tool in many research applications when the underlying assumptions are met. However, these methods become increasingly limited under conditions commonly encountered in social and behavioral science research, whereas growth models typically are not.
 
 <p align="center">
   <img width="450" height="500" src="/assets/img/ecimodel.png">
@@ -52,7 +58,7 @@ Limitations here include: complex to specify, less understood by others relative
 QQQ
 
 **References**  
-<a name="nesselroade">1. </a>: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.    
-<a name="preacher">2. </a>: Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
+<a name="nesselroade">1</a>. Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.    
+<a name="preacher">2</a>. Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
 
 
