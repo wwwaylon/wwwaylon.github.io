@@ -34,7 +34,7 @@ A major goal here is to identify inter-individual differences in intra-individua
   <img width="300" height="300" src="/assets/img/lgm.png">
 </p>
 
-This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]()</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>) and covariance (ψ<sub>[2,1]()</sub>). These models allow us to explore the functional form of change over time, specify a spline model or other novel features to better capture theory in how this process works. 
+This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>) and covariance (ψ<sub>[2,1]()</sub>). These models allow us to explore the functional form of change over time, specify a spline model or other novel features to better capture theory in how this process works. 
 
 <p align="center">
   <img width="600" height="300" src="/assets/img/LGMfigure.png">
