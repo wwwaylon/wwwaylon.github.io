@@ -14,7 +14,9 @@ A researcher’s vision can be constrained by how they think about and use data.
 
 This is a handwritten path diagram that demonstrates a lot of deep thinking about a topic. 
 
-![napkin](/assets/img/napkin.jpg "A cool napkin diagram")
+<p align="center">
+  <img width="460" height="300" src="/assets/img/napkin.jpg">
+</p>
 
 I often get diagrams like this and I love to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
 
