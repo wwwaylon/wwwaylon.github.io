@@ -18,7 +18,7 @@ This is a handwritten path diagram that demonstrates a lot of deep thinking abou
   <img width="700" height="600" src="/assets/img/napkin.jpg">
 </p>
 
-I often get diagrams like this and I love to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
+I often get diagrams like this and I <span style="color:red">love</span> to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
 
 This is a plot of some data collected for this project. 
 
@@ -52,7 +52,7 @@ Limitations here include: complex to specify, less understood by others relative
 QQQ
 
 **References**  
-<a name="nesselroade">1</a>: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.
-<a name="preacher">2</a>: Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
+<a name="nesselroade">1. </a>: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.    
+<a name="preacher">2. </a>: Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
 
 
