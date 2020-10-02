@@ -28,7 +28,7 @@ A major goal here is to identify inter-individual differences in intra-individua
 
 ![lgm](/assets/img/lgm.png "exemplary LGM model")
 
-This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]()</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>)) and covariance (ψ<sub>[2,1]()</sub>).
+This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]()</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>) and covariance (ψ<sub>[2,1]()</sub>).
 
 QQQ
 
