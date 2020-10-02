@@ -10,7 +10,7 @@ tags: [modern methods, statistics]
 
 A researcher’s vision can be constrained by how they think about and use data. It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. Advanced statistical techniques allow us to ask more sophisticated questions.
 
-## Example 1. Parallel change processes
+### Example 1. Parallel change processes
 
 This is a handwritten path diagram that demonstrates a lot of deep thinking about a topic. 
 
@@ -39,8 +39,8 @@ This diagram illustrates our final model. We estimated all of the change process
 Limitations here include: complex to specify, less understood by others relative to classical statistical techniques, requires large(ish) samples, software is not user friendly, there is not one correct model (onus on you), among others. 
 
 
-## Example 2. Psychometric measurement properties 
-## Example 3. Intensive Longitudinal Data
+### Example 2. Psychometric measurement properties 
+### Example 3. Intensive Longitudinal Data
 QQQ
 
 **References**  
