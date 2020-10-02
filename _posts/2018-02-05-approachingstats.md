@@ -37,7 +37,7 @@ A major goal here is to identify inter-individual differences in intra-individua
 This figure illustrates an exemplary LGM model. The key growth parameters of interest are mean intercept (α<sub>[1]()</sub>), slope (α<sub>[2]()</sub>), and the associated variances (ψ<sub>[1,1]()</sub>, ψ<sub>[2,2]()</sub>) and covariance (ψ<sub>[2,1]()</sub>).
 
 <p align="center">
-  <img width="300" height="300" src="/assets/img/lgmfigure.png">
+  <img width="300" height="300" src="/assets/img/LGMfigure.png">
 </p>
 
 Notice that each black line represents an individual person that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point – denoted with a green dot here and also capture the variability around that average intercept. Similarly, we can estimate an average slope and variability around that slope. In the MLM approach, latent growth curve models are limited to a single growth curve, and the intercept and slope of a latent growth curve cannot predict other variables. In our case using MLM would require that we change our tests to suit the statistical method – so this is not appropriate. 
