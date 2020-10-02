@@ -52,9 +52,15 @@ This diagram illustrates our final model. We estimated all of the change process
 
 
 ### Example 2. Psychometric measurement properties 
-QQQ Is it the construct or the tool that's changing? QQQ
+
+While traditional methods (e.g., ANOVA, regression) assume all variables are free of measurement error (i.e., perfectly measured) and are unable to determine whether group or time-based change in an outcome measure is due to true change or changes in the structure or measurement of the test instrument over time, the CFA framework corrects for measurement error, provides estimates of the latent structure, and allows for a straightforward examination of measurement invariance. This is key because we need to determine that we are measuring the same constructs across groups of interest and that PRIUSS construct meaning does not change as a function of time, otherwise we are not sure if differences or change are true or are just changes in the measurement tool. We can also upgrade our measure of internal reliability.
+
+QQQ
 
 ### Example 3. Intensive Longitudinal Data
+
+By measuring an individual repeatedly, we can construct a more complete picture of his or her behavior with reference to previous life experiences (temporal context), environment and surrounding circumstances (spatial context), and interactions with others (person context).
+
 QQQ
 
 **References**  
