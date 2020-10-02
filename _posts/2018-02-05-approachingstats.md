@@ -26,7 +26,7 @@ Notice that each line represents a different form of communication – so the fl
 
 Now, previously these four forms of communication were summed to create a total score. Consider how much important information is lost when these scores are summed (more on that here). 
 
-Approach. A major goal here is to identify inter-individual differences in intra-individual change in language development.[^fn1][^fn2]
+Approach. A major goal here is to identify inter-individual differences in intra-individual change in language development.[^fn1] [^fn2]
 
 [^fn1]: Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.
 [^fn2]:	Preacher, K., Zhang, Z., & Zyphur, M. (2015). Multilevel Structural Equation Models for Assessing Moderation Within and Across Levels of Analysis. Psychological Methods.
