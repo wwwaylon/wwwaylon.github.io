@@ -62,15 +62,15 @@ While traditional methods (e.g., ANOVA, regression) assume all variables are fre
 
 This figure illustrates an exemplary CFA model with an 18-item scale with questions organized into three constructs: social impairment, emotional impairment, and risky/impulsive internet use. As before circles represent latent variables, squares are measured variables, single headed arrows are path coefficients (regression weights) related to the factor loadings. Additionally, double headed arrows are the residual item-specific variances or latent variances or covariances.
 
-The goal here was, first, to evaluate the measurement characteristics using a two-group longitudinal confirmatory factor analysis (CFA) model to concurrently test invariance across groups and years. The CFA model permits the investigation of model adequacy and a strong analytic framework for evaluating measurement invariance.<sup>[5](#todd)</sup> To acomplish this we followed the standard approach outlined by Little<sup>[5](#todd)</sup> for evaluating measurement equivalence within a multiple group longitudinal CFA model. Beginning with the least restricted configural model, subsequent nested model constraints were tested using the RMSEA and CFI model tests. 
+Before evaluating means or associations across time and groups, the goal was to determine the degree to which the scale assessed the same constructs across groups (sites in this case) and over time (four years). To evaluate the measurement characteristics we relied on a two-group longitudinal confirmatory factor analysis (CFA) model to concurrently test invariance across groups and years. The CFA model permits the investigation of model adequacy and a strong analytic framework for evaluating measurement invariance. To acomplish this we followed the standard approach outlined by Little<sup>[5](#todd)</sup> for evaluating measurement equivalence within a multiple group longitudinal CFA model. Beginning with the least restricted configural model, subsequent nested model constraints were tested using the RMSEA and CFI model tests. 
 
 The longitudinal model looked something like this: 
 
 <p align="center">
-  <img width="600" height="200" src="/assets/img/cfalong.png">
+  <img width="600" height="400" src="/assets/img/cfalong.png">
 </p>
 
-QQQ
+Results suggest that neither the time frame investigated nor the different groups of participants investigated had a moderating effect on the measurement properties of the scale. Given this we proceeded to compare means and associations over time and across groups. 
 
 ### Example 3. Intensive Longitudinal Data
 
