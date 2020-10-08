@@ -58,15 +58,17 @@ While traditional methods (e.g., ANOVA, regression) assume all variables are fre
 
 This figure illustrates an exemplary CFA model. As before circles represent latent variables, squares are measured variables, etc. 
 
-### Example 3. Intensive Longitudinal Data
-
-By measuring an individual repeatedly, we can construct a more complete picture of his or her behavior with reference to previous life experiences (temporal context), environment and surrounding circumstances (spatial context), and interactions with others (person context).
-
 <p align="center">
   <img width="600" height="200" src="/assets/img/cfa.png">
 </p>
 
 QQQ
+
+
+### Example 3. Intensive Longitudinal Data
+
+By measuring an individual repeatedly, we can construct a more complete picture of his or her behavior with reference to previous life experiences (temporal context), environment and surrounding circumstances (spatial context), and interactions with others (person context). 
+
 
 **References**   
       <a name="greenwood">1</a>. Greenwood, C. R., Walker, D., Buzhardt, J., J Howard, W., McCune, L., & Anderson, R. (2013). Evidence of a Continuum in Foundational Expressive Communication Skills. Early childhood research quarterly, 28(3), 540–554.         
