@@ -46,7 +46,7 @@ In this simple diagram<sup>[5](#todd)</sup>, notice that each black line represe
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model.<sup>[1](#greenwood)</sup> We examined the pattern of growth within and between the four communication skills and found support for a unique pattern of growth and change within each skill trajectory in terms of age at skill onset and peaks in each trajectory defining an inflection point or change from acceleration to deceleration. This path diagram represents the assessment of a complex contextual theory of change. Importantly, there is not a single correct model here. The onus is on the scientist.  
+This diagram illustrates our final model.<sup>[1](#greenwood)</sup> We examined the pattern of growth within and between the four communication skills and found support for a unique pattern of growth and change within each skill trajectory in terms of age at skill onset and peaks in each trajectory defining an inflection point or change from acceleration to deceleration. While this path diagram represents the assessment of a complex contextual theory of change, there is not a single correct model here. The onus is on the scientist.  
 
 ### Example 2. Psychometric measurement properties 
 
