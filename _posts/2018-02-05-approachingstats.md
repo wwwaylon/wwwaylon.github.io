@@ -63,7 +63,7 @@ This figure illustrates an exemplary CFA model. As before circles represent late
 By measuring an individual repeatedly, we can construct a more complete picture of his or her behavior with reference to previous life experiences (temporal context), environment and surrounding circumstances (spatial context), and interactions with others (person context).
 
 <p align="center">
-  <img width="300" height="300" src="/assets/img/cfa.png">
+  <img width="600" height="200" src="/assets/img/cfa.png">
 </p>
 
 QQQ
