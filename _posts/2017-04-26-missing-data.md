@@ -3,7 +3,7 @@ layout: post
 title: Missing Data
 subtitle: basics
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/missingsim2.gif
+thumbnail-img: /assets/img/missingsim.gif
 share-img: /assets/img/path.jpg  
 tags: [missing data, simuation]
 ---
