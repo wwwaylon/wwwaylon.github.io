@@ -4,7 +4,7 @@ title: Publications
 ---
 
 ### peer-reviewed articles 
-According to Google Scholar, my work has been cited **464** times, and my h-index is **12**. 
+According to Google Scholar, my work has been cited **470** times, and my h-index is **12**. 
 
 * Okech, D., Hansen, N., **Howard, W. J.**, Anarfi, J. K., & Burns, A. C. (2018). Social support, dysfunctional coping, and community reintegration as predictors of PTSD among human trafficking survivors. *Behavioral Medicine*, *44*(3), 209-218. [Impact Factor [2.442](https://www.tandfonline.com/toc/vbmd20/current)]  ([PDF](https://www.researchgate.net/profile/David_Okech/publication/326480880_Social_Support_Dysfunctional_Coping_and_Community_Reintegration_as_Predictors_of_PTSD_Among_Human_Trafficking_Survivors/links/5b576dffaca272a2d666f8f3/Social-Support-Dysfunctional-Coping-and-Community-Reintegration-as-Predictors-of-PTSD-Among-Human-Trafficking-Survivors.pdf?_sg%5B0%5D=9lj0LpRwNCgUCK416UYpdKlg47WfZaIHnuNtEtzM0K5SKP63DCRfE1-NLoQIuqcnc-dU8Pwg3-RiWX9b39_C6w.wJ5uHa7lga7QPZRLbTlXYFjJ8vtwMht-oqNB2YNNJyDznmuoFmzPYT769BvnXgK5Haw_PUSPjK311C5TF-0Vew&_sg%5B1%5D=k4fUrM2O620cN2RwCzepGkw4EtPH0PukczH-KcVlJmQnweeTlzdg039b3Rc-ABEp525kDUk-ivYwmGjVAlEOcbQ51JPhkss-9Mevd3Gkl_Xv.wJ5uHa7lga7QPZRLbTlXYFjJ8vtwMht-oqNB2YNNJyDznmuoFmzPYT769BvnXgK5Haw_PUSPjK311C5TF-0Vew&_iepl=),  [Cite](https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F08964289.2018.1432553), [Source Document](https://www.tandfonline.com/doi/abs/10.1080/08964289.2018.1432553))
 
