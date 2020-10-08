@@ -56,14 +56,21 @@ This diagram illustrates our final model.<sup>[1](#greenwood)</sup> We examined 
 
 While traditional methods (e.g., ANOVA, regression) assume all variables are free of measurement error (i.e., perfectly measured) and are unable to determine whether group or time-based change in an outcome measure is due to true change or changes in the structure or measurement of the test instrument over time, the CFA framework corrects for measurement error, provides estimates of the latent structure, and allows for a straightforward examination of measurement invariance. This is key because we need to determine that we are measuring the same constructs across groups of interest and that the construct meaning does not change as a function of time, otherwise we are not sure if differences or change are true or are just changes in the measurement tool. 
 
-This figure illustrates an exemplary CFA model. As before circles represent latent variables, squares are measured variables, etc. 
+This figure illustrates an exemplary CFA model with an 18-item scale with questions organized into three constructs: social impairment, emotional impairment, and risky/impulsive internet use. As before circles represent latent variables, squares are measured variables, single headed arrows are path coefficients (regression weights) related to the factor loadings. Additionally, double headed arrows are the residual item-specific variances or latent variances or covariances.
 
 <p align="center">
   <img width="600" height="200" src="/assets/img/cfa.png">
 </p>
 
-QQQ
+The goal here was, first, to evaluate the measurement characteristics using a two-group longitudinal confirmatory factor analysis (CFA) model to concurrently test invariance across groups and years. The CFA model permits the investigation of model adequacy and a strong analytic framework for evaluating measurement invariance.<sup>[5](#todd)</sup> To acomplish this we followed the standard approach outlined by Little<sup>[5](#todd)</sup> for evaluating measurement equivalence within a multiple group longitudinal CFA model. Beginning with the least restricted configural model, subsequent nested model constraints were tested using the RMSEA and CFI model tests. 
 
+The longitudinal model looked something like this: 
+
+<p align="center">
+  <img width="600" height="200" src="/assets/img/cfalong.png">
+</p>
+
+QQQ
 
 ### Example 3. Intensive Longitudinal Data
 
