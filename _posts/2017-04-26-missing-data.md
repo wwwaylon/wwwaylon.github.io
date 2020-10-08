@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Missing Data
+title: Auxiliary variables
 subtitle: basics
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/missingsim.gif
