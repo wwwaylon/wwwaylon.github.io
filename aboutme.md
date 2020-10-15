@@ -3,18 +3,17 @@ layout: page
 title: About me 
 ---
 
-> <span style="font-size:110">A researcher's vision is constrained by how they think about and use data.    
+<span style="font-size:200">A researcher's vision is constrained by how they think about and use data.</span>    
   
-<span style="color:Indigo">It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with.</span> 
+<span style="color:Indigo font-size:130">It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with.</span> 
 
-Methodological advances allow us to ask more sophisticated questions. But *how* do researchers stay current with advances in methodology and data analysis?</span>
+<span style="font-size:200">Methodological advances allow us to ask more sophisticated questions. But *how* do researchers stay current with advances in methodology and data analysis?</span>
 
-> <span style="font-size:105%">I love to dig into all phases of research projects - from planning to publication. I work to identify and outline investment to build and maintain research capacity by <span style="color:Black">**providing responsive, efficient, and high-quality analytical support**</span>. My work includes multivariate approaches to measurement and analysis of substantive problems where I have led simulation-based research and contributed to recommendations for applied researchers. In addition, I have conducted substantive research using structural equation modeling techniques as a general data analytic approach to studying individual, developmental, and socio-contextual differences within the social, behavioral, and health sciences. I also have extensive grant experience in relation to study design, statistical analytic plans and power analyses.</span> 
+> <span style="font-size:130%">I love to dig into all phases of research projects - from planning to publication. I work to identify and outline investment to build and maintain research capacity by <span style="color:Black">**providing responsive, efficient, and high-quality analytical support**</span>. My work includes multivariate approaches to measurement and analysis of substantive problems where I have led simulation-based research and contributed to recommendations for applied researchers. In addition, I have conducted substantive research using structural equation modeling techniques as a general data analytic approach to studying individual, developmental, and socio-contextual differences within the social, behavioral, and health sciences. I also have extensive grant experience in relation to study design, statistical analytic plans and power analyses.</span> 
 
 <p align="center">
   <img width="450" height="250" src="/assets/img/leadershipmission2.png">
 </p>
-
 
 > <span style="font-size:110%">To accomplish this, I support staff and systems to achieve sustainable growth in services, funding, satisfaction, and strategic partnerships. <span style="color:Black">**I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making.**</span> 
   <br/>   
