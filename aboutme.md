@@ -22,12 +22,12 @@ title: About me
 <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making.</span> 
 <br/>   
 
-## <span style="color:CadetBlue">Education</span> 
+## <span style="color:CadetBlue"; font-family:Palatino;">Education</span> 
 <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">Ph.D., Quantitative Psychology, University of Kansas (2012);       
 Advisor: [Todd D. Little](https://scholar.google.com/citations?user=T-dKKGkAAAAJ&hl=en)</span>  
  
-## <span style="color:CadetBlue">Statistical methods</span>    
+## <span style="color:CadetBlue"; font-family:Palatino;">Statistical methods</span>    
 <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">Design and measurement issues in longitudinal research, [panel designs](https://www.quantpsy.org/pubs/little_preacher_selig_card_2007.pdf), [latent growth curve analysis](https://quantpsy.org/pubs/preacher_2010.pdf), [latent class and finite mixture modeling](https://www.statmodel.com/download/Masyn_2013.pdf), [multi-level SEM with longitudinal data](https://www.guilford.com/books/Longitudinal-Structural-Equation-Modeling/Todd-Little/9781462510160), [moderation and mediation](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html), [missing data analysis and power](http://www.appliedmissingdata.com/), and [measurement invariance testing](http://www.joophox.net/publist/CecklistMeasInv.pdf). Typical software: R (Rstudio, Rshiny, Rmarkdown, etc.), SAS, Mplus, SPSS, Stata, LISREL, PRELIS, HLM, SciPy - Python (statsmodels).</span>           
    
-## <span style="color:CadetBlue">Research grants</span>    
+## <span style="color:CadetBlue"; font-family:Palatino;">Research grants</span>    
 <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I have extensive experience in research study design, formulation of hypotheses and the preparation of statistical analytic plans, Monte Carlo simulation based power analyses, as well as basic and innovative statistical analyses as an interdisciplinary-oriented collaborator and mentor. I have served as a co-Investigator, statistician, or consultant on more than 15 grants and contracts (National Institutes of Health, Centers for Disease Control and Prevention, National Science Foundation, etc.). I have also successfully organized, managed, and taught a week-long summer statistics workshop series including basic and advanced courses (total participants = 60)</span>
