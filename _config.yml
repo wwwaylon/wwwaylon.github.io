@@ -21,10 +21,11 @@ navbar-links:
     - Overview: "research"
     - Publications: "publications"
     - Presentations: "presentations"
-  Resources:
-    - project estiamtor: "https://www.google.com"
-    - workload tracker: "https://www.google.com"
-    - scaled difference testing: "https://www.google.com"
+  R Shiny Apps:
+    - Estimating time: "https://www.google.com"
+    - Tracking assignments: "https://www.google.com"
+    - Effect size: "https://www.google.com"
+    - Model difference testing: "https://www.google.com"
 
 # --- Logo --- #
 
