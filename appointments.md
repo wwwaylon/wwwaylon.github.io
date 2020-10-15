@@ -7,7 +7,8 @@ title: Research positions
 
 <p align="left">
   <img width="250" height="50" src="/assets/img/concertai2.png">
-</p>
+</p>    
+
 #### <span style="color:Indigo; font-family:Palatino; font-size:1.60em;">**Global Director of Biostatistics and Data Analytics**</span>     
 #### <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">Health Economics and Outcomes Research, [ConcertAI](https://www.concertai.com/), Boston, MA (2019 - present)</span>     
  
