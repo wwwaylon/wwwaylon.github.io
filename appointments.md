@@ -4,10 +4,10 @@ title: Research positions
 ---
 
       
-<img width="250" height="50" src="/assets/img/concertai2.png"> | Global Director of Biostatistics and Data Analytics | 
+<img width="250" height="50" src="/assets/img/concertai2.png"> | <span style="color:black; font-family:Palatino; font-size:1.60em;">Global Director of Biostatistics and Data Analytics</span> | 
 
 
-
+QQQQ
 
 <p align="left">
   <img width="250" height="50" src="/assets/img/concertai2.png">
