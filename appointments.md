@@ -4,10 +4,8 @@ title: Research positions
 ---
 
 
-
-Column 1 | Column 2 | Column 3
---- | --- | ---
-**Things** | _Don't_ | <img width="250" height="50" src="/assets/img/concertai2.png">
+--- | --- 
+<img width="250" height="50" src="/assets/img/concertai2.png"> | Global Director of Biostatistics and Data Analytics | 
 
 
 
