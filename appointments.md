@@ -3,12 +3,13 @@ layout: page
 title: Research positions 
 ---
 
---------|--------------------------------|
-QQQQQQQ | <p align="left">
-  <img width="250" height="50" src="/assets/img/concertai2.png">
-</p> |
 
-![concertailogo](/assets/img/concertai2.png)
+
+Column 1 | Column 2 | Column 3
+--- | --- | ---
+**Things** | _Don't_ | <img width="250" height="50" src="/assets/img/concertai2.png">
+
+
 
 
 <p align="left">
