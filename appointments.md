@@ -5,7 +5,7 @@ title: Research positions
 
 ### <span style="color:Indigo; font-family:Palatino; font-size:2em;">Current</span>
 
-#### <span style="color:Indigo; font-family:Palatino; font-size:1.50em;">**Global Director of Biostatistics and Data Analytics**,</span>     
+#### <span style="color:Indigo; font-family:Palatino; font-size:1.60em;">**Global Director of Biostatistics and Data Analytics**</span>     
 
 <p align="left">
   <img width="250" height="50" src="/assets/img/concertai2.png">
