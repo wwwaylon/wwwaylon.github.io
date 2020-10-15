@@ -4,7 +4,13 @@ title: Research positions
 ---
 
 ### <span style="color:Indigo; font-family:Palatino; font-size:2em;">Current</span>
-#### <span style="color:Indigo; font-family:Palatino; font-size:1.50em;">**Global Director of Biostatistics and Data Analytics**,</span> <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">Health Economics and Outcomes Research, [ConcertAI](https://www.concertai.com/), Boston, MA (2019 - present)</span>     
+
+#### <span style="color:Indigo; font-family:Palatino; font-size:1.50em;">**Global Director of Biostatistics and Data Analytics**,</span>     
+
+
+
+
+#### <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">Health Economics and Outcomes Research, [ConcertAI](https://www.concertai.com/), Boston, MA (2019 - present)</span>     
  
 * <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span> 
 
