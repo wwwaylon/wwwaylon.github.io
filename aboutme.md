@@ -3,7 +3,7 @@ layout: page
 title: About me 
 ---
 
-<span style="font-size:200">A researcher's vision is constrained by how they think about and use data.</span>    
+<span style="font-size:200">A researcher's vision is <span style="color:red; font-family:Georgia; font-size:2em;">constrained</span> by how they think about and use data.</span> 
   
 > <span style="color:Indigo; font-size:130">It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with.</span> 
 
