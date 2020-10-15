@@ -12,7 +12,7 @@ Methodological advances allow us to ask more sophisticated questions. But *how* 
 > <span style="font-size:105%">I love to dig into all phases of research projects - from planning to publication. I work to identify and outline investment to build and maintain research capacity by <span style="color:Black">**providing responsive, efficient, and high-quality analytical support**</span>. My work includes multivariate approaches to measurement and analysis of substantive problems where I have led simulation-based research and contributed to recommendations for applied researchers. In addition, I have conducted substantive research using structural equation modeling techniques as a general data analytic approach to studying individual, developmental, and socio-contextual differences within the social, behavioral, and health sciences. I also have extensive grant experience in relation to study design, statistical analytic plans and power analyses.</span> 
 
 <p align="center">
-  <img width="500" height="250" src="/assets/img/leadershipmission2.png">
+  <img width="450" height="250" src="/assets/img/leadershipmission2.png">
 </p>
 
 
