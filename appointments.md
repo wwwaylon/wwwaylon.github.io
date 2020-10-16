@@ -61,7 +61,7 @@ title: Research positions
 <a href="https://www.jhu.edu">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>        
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
@@ -69,7 +69,8 @@ title: Research positions
 <a href="https://www.jhu.edu">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>      
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health</span>           
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Bloomberg School of Public Health</span> 
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
@@ -77,7 +78,7 @@ title: Research positions
 <a href="http://beadcore.jhu.edu/">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology and Data Management Core,</span>             
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology and Data Management Core</span>                  
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
   * <span style="color:slategrey; font-family:Palatino;">The BEAD Core provides research support services that promote, strengthen and expand the research of Johns Hopkins University faculty. I worked as a data analyst including but not limited to programming for new and ongoing research projects, basic and complex biostatistical analyses, as well as consultation and support for study design, analysis plans, manuscript preparation, and public presentations.</span>  
