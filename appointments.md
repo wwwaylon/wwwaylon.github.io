@@ -3,11 +3,19 @@ layout: page
 title: Research positions 
 ---
 <a href="https://www.concertai.com/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> </a>
+    <table>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> 
+    </table> 
+</a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
     
   * <span style="color:Indigo; font-family:Palatino;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
+
+
+<table><tr><td>
+    <img src="/images/logo.png" />
+</td></tr></table>
 
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
