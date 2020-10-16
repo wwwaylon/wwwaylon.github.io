@@ -18,19 +18,26 @@ title: Research positions
 
 * <span style="color:grey; font-family:Palatino; font-size:1.25em;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network. I supervised a team of statistical research associates.</span>   
 
+<br/>
+
 <a href="https://atriumhealth.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
 
-> <span style="color:grey; font-family:Palatino; font-size:1.25em;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span>   
+* <span style="color:grey; font-family:Palatino; font-size:1.25em;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
+
+<br/>
+
+<a href="https://www.seattlechildrens.org/research">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" alt="Seattle Children's"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development, Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>       
+
+* <span style="color:grey; font-family:Palatino; font-size:1.25em;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
 
 
 
-
-#### <span style="color:black; font-size:150%">**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**,</span> <span style="color:grey; font-size:120%"> Center for Child Health, Behavior and Development, [Seattle Children's Research Inst.](https://www.seattlechildrens.org/research), Seattle, WA (2015 - 2018)</span>
-
-> I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the departmentâs research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.
 
 #### <span style="color:black; font-size:150%">**Faculty Research Methodologist**,</span> <span style="color:grey; font-size:120%"> Inst. for Social Science Research, [University of Massachusetts](https://www.umass.edu), Amherst, MA (2014 - 2015)</span>
 
