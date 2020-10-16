@@ -11,20 +11,18 @@ title: Research positions
 * <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
 
 
-QQQ
-
-<p align="center">
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Global Director of Biostatistics and Data Analytics**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.25em;">&nbsp;&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span>
-</p>
- <a href="https://www.concertai.com/">
-<img align="center" width="225" height="45" src="/assets/img/concertai2.png">
-</a>
+<div id="wrapper">
+    <div class="twoColumn">
+         <img align="float" width="225" height="45" src="/assets/img/concertai2.png" />
+    </div>
+    <div class="twoColumn">
+         <p> this is a testingalot test</p>
+</div
 
 
+QQQQ
 
-
-
+QQQQ
 <p align="left">
   <img width="250" height="50" src="/assets/img/concertai2.png">
 </p>    
