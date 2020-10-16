@@ -12,15 +12,13 @@ title: Research positions
     
   * <span style="color:Indigo; font-family:Palatino;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
 
-
-<table><tr><td>
-    <img src="/images/logo.png" />
-</td></tr></table>
-
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="http://www.fredhutch.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
+   <table>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> 
+   </table>
+</a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP), Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>     
 
@@ -29,7 +27,10 @@ title: Research positions
 <br/>
 
 <a href="https://atriumhealth.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> </a>
+    <table>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> 
+    </table>
+</a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
 
