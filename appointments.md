@@ -25,16 +25,16 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
 
-* <span style="color:slategrey; font-family:Palatino;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
+  * <span style="color:slategrey; font-family:Palatino;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
 
 <br/>
 
 <a href="https://www.seattlechildrens.org/research">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" alt="Seattle Children's"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**</span>     
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and  Programming Core**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development, Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>       
 
-* <span style="color:slategrey; font-family:Palatino;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
+  * <span style="color:slategrey; font-family:Palatino;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
 
 <br/>
 
@@ -43,7 +43,7 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research, University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
 
-* <span style="color:slategrey; font-family:Palatino;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research. ISSR served faculty and students across campus, including those from the College of Social and Behavioral Sciences, College of Natural Sciences, College of Education, College of Public Health and Health Sciences, Isenberg School of Management, College of Humanities and Fine Arts, and College of Nursing. I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of graduate student research methodology and statistics consultants.</span>   
+  * <span style="color:slategrey; font-family:Palatino;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research. ISSR served faculty and students across campus, including those from the College of Social and Behavioral Sciences, College of Natural Sciences, College of Education, College of Public Health and Health Sciences, Isenberg School of Management, College of Humanities and Fine Arts, and College of Nursing. I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of graduate student research methodology and statistics consultants.</span>   
 
 <br/>
 
@@ -52,29 +52,47 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities, Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
 
-* <span style="color:slategrey; font-family:Palatino;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.</span>  
+  * <span style="color:slategrey; font-family:Palatino;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.</span>  
+
+<br/>
+
+<a href="https://www.jhu.edu">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+
+<br/>
+
+<a href="https://www.jhu.edu">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+
+<br/>
+
+<a href="http://beadcore.jhu.edu/">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="Institute for Social Science Research"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology, and Data Management Core, Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>       
+
+  * <span style="color:slategrey; font-family:Palatino;">The BEAD Core provides research support services that promote, strengthen and expand the research of Johns Hopkins University faculty. I worked as a data analyst including but not limited to programming for new and ongoing research projects, basic and complex biostatistical analyses, as well as consultation and support for study design, analysis plans, manuscript preparation, and public presentations.</span>  
+
+<br/>
+
+<a href="https://juniper.ku.edu/">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
+
+  * <span style="color:slategrey; font-family:Palatino;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications.</span>  
+
+<br/>
+
+<a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Ctr. for Research Methods and Data Analysis"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>       
+
+  * <span style="color:slategrey; font-family:Palatino;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. It provides resources and support to help social and behavioral scientists to compete for grants and publish in top journals. I provided consultation and assistance to users of the center under the guidance of center personnel. I assisted center personnel by programming statistical analyses using standard (e.g., SAS, SPSS, R) and advanced (e.g., LISREL, Mplus, Parscal, Multilog, openMX) software. I assisted in interpreting output, produced appropriate displays (e.g., tables, graphs, & figures) of analytic results for dissemination. I also assisted in conducting research on quantitative techniques and other projects as needed and assisted in the preparation and presentation of the results at conferences and workshops.</span>  
 
 
-
-
-
-
-#### <span style="color:black; font-size:150%">****,</span> <span style="color:grey; font-size:100%"> </span>
-
-> 
-
-##### <span style="color:black; font-size:120%">**Visiting Assistant Professor**,</span> <span style="color:grey; font-size:100%"> Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), [Johns Hopkins University](https://www.jhu.edu), Baltimore, MD (2014)</span>
-
-##### <span style="color:black; font-size:120%">**Affiliated Faculty Member**,</span> <span style="color:grey; font-size:100%"> [Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014) </span>
-
-##### <span style="color:black; font-size:120%">**Senior Research Data Analyst**,</span> <span style="color:grey; font-size:100%"> [Biostatistics, Epidemiology, and Data Management Core](http://beadcore.jhu.edu/), Johns Hopkins University, Bayview, MD (2013 - 2015) </span> 
-  
-> The BEAD Core provides research support services that promote, strengthen and expand the research of Johns Hopkins University faculty. I worked as a data analyst including but not limited to programming for new and ongoing research projects, basic and complex biostatistical analyses, as well as consultation and support for study design, analysis plans, manuscript preparation, and public presentations
-
-#### <span style="color:black; font-size:150%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:120%"> Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span>
-
-> Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications. 
-
-#### <span style="color:black; font-size:150%">**Quantitative Psychology Research Assistant**,</span> <span style="color:grey; font-size:120%">  Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span>
-
-> The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. It provides resources and support to help social and behavioral scientists to compete for grants and publish in top journals. I provided consultation and assistance to users of the center under the guidance of center personnel. I assisted center personnel by programming statistical analyses using standard (e.g., SAS, SPSS, R) and advanced (e.g., LISREL, Mplus, Parscal, Multilog, openMX) software. I assisted in interpreting output, produced appropriate displays (e.g., tables, graphs, & figures) of analytic results for dissemination. I also assisted in conducting research on quantitative techniques and other projects as needed and assisted in the preparation and presentation of the results at conferences and workshops. 
