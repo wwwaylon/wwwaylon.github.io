@@ -14,8 +14,9 @@ title: Research positions
 
 <a href="http://www.fredhutch.org">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP), Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>     
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP)</span>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
 
   * <span style="color:slategrey; font-family:Palatino;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network. I supervised a team of statistical research associates.</span>   
 
