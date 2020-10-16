@@ -3,7 +3,7 @@ layout: page
 title: Research positions 
 ---
 <a href="https://www.concertai.com/">
-<img align="left" width="200" height="40" src="/assets/img/concertai2.png">
+<img align="left" width="260" height="55" src="/assets/img/concertai2.png">
 </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Global Director of Biostatistics and Data Analytics**</span> 
 <span style="color:slategrey; font-family:Palatino; font-size:1.25em;">&nbsp;&nbsp;Health Economics and Outcomes Research, [ConcertAI](https://www.concertai.com/), Boston, MA (2019 - present)</span> <br clear="left"/>          
