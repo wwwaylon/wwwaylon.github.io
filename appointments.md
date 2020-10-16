@@ -98,7 +98,6 @@ title: Research positions
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project,</span>      
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
-
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>      
   * <span style="color:slategrey; font-family:Palatino;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications.</span>  
  
