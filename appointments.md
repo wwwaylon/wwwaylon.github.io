@@ -34,7 +34,8 @@ title: Research positions
 
 <a href="https://www.seattlechildrens.org/research">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" alt="Seattle Children's"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**</span>     
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology,**</span>        
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Econometrics, and Programming Core**</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>             
 
