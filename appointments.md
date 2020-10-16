@@ -75,7 +75,6 @@ title: Research positions
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Bloomberg School of Public Health</span> 
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
