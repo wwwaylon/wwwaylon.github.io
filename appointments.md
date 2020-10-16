@@ -2,11 +2,11 @@
 layout: page
 title: Research positions 
 ---
+<table>
 <a href="https://www.concertai.com/">
-    <table>
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> 
-    </table> 
-</a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI">   
+</a> 
+</table> 
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
     
