@@ -51,7 +51,8 @@ title: Research positions
 <a href="https://www.kennedykrieger.org">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities, Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities,</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
 
   * <span style="color:slategrey; font-family:Palatino;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.</span>  
 
@@ -60,21 +61,24 @@ title: Research positions
 <a href="https://www.jhu.edu">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/),</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
 
 <a href="https://www.jhu.edu">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/), Bloomberg School of Public Health,</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
 
 <a href="http://beadcore.jhu.edu/">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology, and Data Management Core, Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology, and Data Management Core,</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University,  Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
   * <span style="color:slategrey; font-family:Palatino;">The BEAD Core provides research support services that promote, strengthen and expand the research of Johns Hopkins University faculty. I worked as a data analyst including but not limited to programming for new and ongoing research projects, basic and complex biostatistical analyses, as well as consultation and support for study design, analysis plans, manuscript preparation, and public presentations.</span>  
 
@@ -83,7 +87,8 @@ title: Research positions
 <a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Ctr. for Research Methods and Data Analysis"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis,</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>       
 
   * <span style="color:slategrey; font-family:Palatino;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. It provides resources and support to help social and behavioral scientists to compete for grants and publish in top journals. I provided consultation and assistance to users of the center under the guidance of center personnel. I assisted center personnel by programming statistical analyses using standard (e.g., SAS, SPSS, R) and advanced (e.g., LISREL, Mplus, Parscal, Multilog, openMX) software. I assisted in interpreting output, produced appropriate displays (e.g., tables, graphs, & figures) of analytic results for dissemination. I also assisted in conducting research on quantitative techniques and other projects as needed and assisted in the preparation and presentation of the results at conferences and workshops.</span>  
   
@@ -92,7 +97,8 @@ title: Research positions
 <a href="https://juniper.ku.edu/">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project,</span> 
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
 
   * <span style="color:slategrey; font-family:Palatino;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications.</span>  
  
