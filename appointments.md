@@ -3,32 +3,30 @@ layout: page
 title: Research positions 
 ---
 <a href="https://www.concertai.com/">
-    <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" loading="lazy" alt="ConcertAI"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
     
-> <span style="color:Indigo; font-family:Palatino;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
+  * <span style="color:Indigo; font-family:Palatino;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
 
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="http://www.fredhutch.org">
-    <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" loading="lazy" alt="Fred Hutch"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**QQQ**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;QQQ</span> <br clear="left"/>       
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP), Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>     
 
-> <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
+* <span style="color:grey; font-family:Palatino; font-size:1.25em;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network. I supervised a team of statistical research associates.</span>   
+
+<a href="https://atriumhealth.org">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
+
+> <span style="color:grey; font-family:Palatino; font-size:1.25em;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span>   
 
 
 
-
-#### <span style="color:black; font-size:150%">**Statistical Manager**,</span> <span style="color:grey; font-size:120%"> Statistical Center for HIV/AIDS Research and Prevention (SCHARP), [Fred Hutchinson Cancer Research Center](http://www.fredhutch.org), Seattle, WA (2019)</span> 
-  
-> SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow/priorities for the HPTN network. I supervised a team of statistical research associates.  
-
-#### <span style="color:black; font-size:150%">**Director of Biostatistics and Data Management**,</span> <span style="color:grey; font-size:120%"> Center for Outcomes Research and Evaluation, [Atrium Health](https://atriumhealth.org), Charlotte, NC (2018 - 2019)</span>
-##### <span style="color:black; font-size:120%">**Associate Professor**,</span> <span style="color:grey; font-size:100%">Atrium Health, Charlotte, NC (2018 - 2019)</span>   
-  
-> I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.
 
 #### <span style="color:black; font-size:150%">**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**,</span> <span style="color:grey; font-size:120%"> Center for Child Health, Behavior and Development, [Seattle Children's Research Inst.](https://www.seattlechildrens.org/research), Seattle, WA (2015 - 2018)</span>
 
