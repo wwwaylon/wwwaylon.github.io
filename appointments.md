@@ -9,37 +9,18 @@ title: Research positions
 
 > <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
 
+## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
+<a href="http://www.fredhutch.org">
+    <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" loading="lazy" alt="Fred Hutch"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**QQQ**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;QQQ</span> <br clear="left"/>       
 
-  
-  <div class="pv-entity__logo company-logo">
-    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30"           loading="lazy" alt="ConcertAI" id="ember1553" class="pv-entity__logo-img EntityPhoto-square-5 lazy-image ember-view">
-  </div>
-
-
-   <div class="pv-entity__logo company-logo">
-  <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" loading="lazy" alt="Fred Hutch" id="ember1565" class="pv-entity__logo-img EntityPhoto-square-5 lazy-image ember-view">
-</div>
-
-<div class="pv-entity__logo company-logo">
-  <img src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" loading="lazy" alt="Atrium Health" id="ember1573" class="pv-entity__logo-img EntityPhoto-square-5 lazy-image ember-view">
-</div>
-
-<div class="pv-entity__logo company-logo">
-  <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" loading="lazy" alt="Seattle Children's" id="ember1581" class="pv-entity__logo-img EntityPhoto-square-5 lazy-image ember-view">
-</div>
-
-
-<div class="pv-entity__logo company-logo">
-  <img src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" loading="lazy" alt="Johns Hopkins Medicine" id="ember1589" class="pv-entity__logo-img EntityPhoto-square-5 lazy-image ember-view">
-</div>
+> <span style="color:Indigo; font-family:Palatino; font-size:1.25em;">I provide supervision, direction and technical expertise as a subject matter expert in the areas of biostatistics and programming. I contribute to the development of health informatics systems at ConcertAI and optimize the retrieval and use of health information. I supervise the day-to-day activities of a global team of 10+ analysts working closely with executive scientific staff as well as customers and industry representatives. I provide time and resource estimates, write and review study documents or sections of study documents (e.g., protocols, analysis plans, study reports), develop clinical/statistical programming standards, implement new statistical techniques, and write complex queries and codes for use in the creation, examination and integration of ConcertAI databases.</span>   
 
 
 
 
-
-
-# <span style="color:grey">Previous</span> 
 #### <span style="color:black; font-size:150%">**Statistical Manager**,</span> <span style="color:grey; font-size:120%"> Statistical Center for HIV/AIDS Research and Prevention (SCHARP), [Fred Hutchinson Cancer Research Center](http://www.fredhutch.org), Seattle, WA (2019)</span> 
   
 > SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow/priorities for the HPTN network. I supervised a team of statistical research associates.  
