@@ -2,11 +2,9 @@
 layout: page
 title: Research positions 
 ---
-<table>
+
 <a href="https://www.concertai.com/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI">   
-</a> 
-</table> 
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> </a> 
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
     
@@ -15,10 +13,7 @@ title: Research positions
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="http://www.fredhutch.org">
-   <table>
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> 
-   </table>
-</a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP), Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>     
 
@@ -27,10 +22,7 @@ title: Research positions
 <br/>
 
 <a href="https://atriumhealth.org">
-    <table>
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> 
-    </table>
-</a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
 
@@ -80,20 +72,11 @@ title: Research positions
 <br/>
 
 <a href="http://beadcore.jhu.edu/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="Institute for Social Science Research"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology, and Data Management Core, Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>       
 
   * <span style="color:slategrey; font-family:Palatino;">The BEAD Core provides research support services that promote, strengthen and expand the research of Johns Hopkins University faculty. I worked as a data analyst including but not limited to programming for new and ongoing research projects, basic and complex biostatistical analyses, as well as consultation and support for study design, analysis plans, manuscript preparation, and public presentations.</span>  
-
-<br/>
-
-<a href="https://juniper.ku.edu/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
-
-  * <span style="color:slategrey; font-family:Palatino;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications.</span>  
 
 <br/>
 
@@ -103,5 +86,13 @@ title: Research positions
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis, University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>       
 
   * <span style="color:slategrey; font-family:Palatino;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. It provides resources and support to help social and behavioral scientists to compete for grants and publish in top journals. I provided consultation and assistance to users of the center under the guidance of center personnel. I assisted center personnel by programming statistical analyses using standard (e.g., SAS, SPSS, R) and advanced (e.g., LISREL, Mplus, Parscal, Multilog, openMX) software. I assisted in interpreting output, produced appropriate displays (e.g., tables, graphs, & figures) of analytic results for dissemination. I also assisted in conducting research on quantitative techniques and other projects as needed and assisted in the preparation and presentation of the results at conferences and workshops.</span>  
+  
+<br/>
 
+<a href="https://juniper.ku.edu/">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project, [University of Kansas](https://www.ku.edu), Kansas City, KS (2008 - 2012)</span> <br clear="left"/>       
 
+  * <span style="color:slategrey; font-family:Palatino;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. I worked with project staff and the university faculty to manage the current data base and prepared it for statistical analyses, including addressing missing data. I provided training for project staff in statistical analyses and data base management, conducted statistical analyses, and prepared graphic displays and narrative for project reports and publications.</span>  
+ 
