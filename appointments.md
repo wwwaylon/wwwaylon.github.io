@@ -16,7 +16,7 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP), Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>     
 
-* <span style="color:grey; font-family:Palatino; font-size:1.25em;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network. I supervised a team of statistical research associates.</span>   
+  * <span style="color:slategrey; font-family:Palatino;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases. I provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network. I supervised a team of statistical research associates.</span>   
 
 <br/>
 
@@ -25,7 +25,7 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
 
-* <span style="color:grey; font-family:Palatino; font-size:1.25em;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
+* <span style="color:slategrey; font-family:Palatino;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
 
 <br/>
 
@@ -34,18 +34,34 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development, Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>       
 
-* <span style="color:grey; font-family:Palatino; font-size:1.25em;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
+* <span style="color:slategrey; font-family:Palatino;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
+
+<br/>
+
+<a href="https://www.umass.edu">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGmZZ0wcNKTuQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=0k-_Z39N3fBJ-T1n9LXiK68fQurVjInhD087cbXExec" alt="Institute for Social Science Research"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research, University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
+
+* <span style="color:slategrey; font-family:Palatino;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research. ISSR served faculty and students across campus, including those from the College of Social and Behavioral Sciences, College of Natural Sciences, College of Education, College of Public Health and Health Sciences, Isenberg School of Management, College of Humanities and Fine Arts, and College of Nursing. I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of graduate student research methodology and statistics consultants.</span>   
+
+<br/>
+
+<a href="https://www.kennedykrieger.org">
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="Institute for Social Science Research"> </a>
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities, Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
+
+* <span style="color:slategrey; font-family:Palatino;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.</span>  
 
 
 
 
-#### <span style="color:black; font-size:150%">**Faculty Research Methodologist**,</span> <span style="color:grey; font-size:120%"> Inst. for Social Science Research, [University of Massachusetts](https://www.umass.edu), Amherst, MA (2014 - 2015)</span>
 
-> The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research. ISSR served faculty and students across campus, including those from the College of Social and Behavioral Sciences, College of Natural Sciences, College of Education, College of Public Health and Health Sciences, Isenberg School of Management, College of Humanities and Fine Arts, and College of Nursing. I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of graduate student research methodology and statistics consultants. 
 
-#### <span style="color:black; font-size:150%">**Director of Research and Evaluation**,</span> <span style="color:grey; font-size:100%"> Maryland Ctr. for Developmental Disabilities, [Kennedy Krieger Institute](https://www.kennedykrieger.org), Baltimore, MD (2012 - 2014)</span>
+#### <span style="color:black; font-size:150%">****,</span> <span style="color:grey; font-size:100%"> </span>
 
-> The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. I worked with executive leaders in identifying and shaping strategic initiatives that align with emerging health care and disability policies, I worked with multi-disciplinary teams to prepare federal, state, and foundation funded submissions. I oversaw multiple initiatives that evaluate programs and services using both quantitative and qualitative methods. I worked with Senior Leaders to identify, establish, and report on key performance indicators and establish organizational processes to reliably capture organizational and quality data. I served as the in-house expert on statistical methods and analysis.
+> 
 
 ##### <span style="color:black; font-size:120%">**Visiting Assistant Professor**,</span> <span style="color:grey; font-size:100%"> Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/), [Johns Hopkins University](https://www.jhu.edu), Baltimore, MD (2014)</span>
 
