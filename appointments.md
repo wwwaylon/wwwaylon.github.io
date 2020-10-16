@@ -24,7 +24,8 @@ title: Research positions
 <a href="https://atriumhealth.org">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation, Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation</span>         
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>            
 
   * <span style="color:slategrey; font-family:Palatino;">I planned, directed, evaluated and managed the Research Biostatistics Department in the Center for Outcomes Research and Evaluation (CORE). As Lead Statistician, I supervised a team of MS- and PhD-level biostatisticians and provided expert leadership to design, implement and analyze clinical, translational and outcomes research studies in collaboration with physician and scientist investigators across virtually all departments within Atrium Health. I provided biostatistics expertise for grant submissions and developed, promoted and delivered biostatistics education to medical residents, faculty and CORE team members.</span> 
 
@@ -32,8 +33,9 @@ title: Research positions
 
 <a href="https://www.seattlechildrens.org/research">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" alt="Seattle Children's"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and  Programming Core**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development, Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>       
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology, Econometrics, and Programming Core**</span>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development</span>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>             
 
   * <span style="color:slategrey; font-family:Palatino;">I collaborated with investigators to provide leadership, counsel and assistance in implementing, managing and sustaining research protocols. I developed, implemented and evaluated processes, practices, protocols and procedures to ensure the timely and accurate submission of IRB and grant applications, renewals, and correspondence. I provided expertise and counsel to investigators and other stakeholders to organize and lead the development, implementation and assessment of the department research program. I delivered lowest cost-per-unit of service while balancing impact on quality. I provided coaching and mentoring and other training and development activities to build staff competencies. I developed and implemented evaluation criteria that define highly competent, high-performing individuals and teams.</span>   
 
@@ -42,7 +44,8 @@ title: Research positions
 <a href="https://www.umass.edu">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGmZZ0wcNKTuQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=0k-_Z39N3fBJ-T1n9LXiK68fQurVjInhD087cbXExec" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>         
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research, University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research</span>      
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>             
 
   * <span style="color:slategrey; font-family:Palatino;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research. ISSR served faculty and students across campus, including those from the College of Social and Behavioral Sciences, College of Natural Sciences, College of Education, College of Public Health and Health Sciences, Isenberg School of Management, College of Humanities and Fine Arts, and College of Nursing. I managed the development of the Institute's methodology training and consulting services and Inst. for Social Science Research's team of graduate student research methodology and statistics consultants.</span>   
 
