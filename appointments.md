@@ -64,7 +64,7 @@ title: Research positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQGjZPHyW5gNxw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=7PrUUniOcAYe2gjgdTwkQfFTZCbRl1qFxe2HT7-Two0" loading="lazy" alt="Johns Hopkins Bloomberg School of Public Health" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>        
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
