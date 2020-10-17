@@ -54,7 +54,7 @@ title: Research positions
 <br/>
 
 <a href="https://www.kennedykrieger.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="Institute for Social Science Research"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="KKI"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
@@ -64,7 +64,7 @@ title: Research positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQGjZPHyW5gNxw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=7PrUUniOcAYe2gjgdTwkQfFTZCbRl1qFxe2HT7-Two0" loading="lazy" alt="Johns Hopkins Bloomberg School of Public Health" alt="Johns Hopkins"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQGjZPHyW5gNxw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=7PrUUniOcAYe2gjgdTwkQfFTZCbRl1qFxe2HT7-Two0" loading="lazy" alt="Johns Hopkins Bloomberg School of Public Health" alt="Bloomberg"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>        
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -80,7 +80,7 @@ title: Research positions
 <br/>
 
 <a href="http://beadcore.jhu.edu/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Institute for Social Science Research"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQFdwR1hw5xO_Q/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=zuyR_Ny4YBwLKdi6G6ax2fk8l9a2IO7k7DVuesQcL18" alt="BEAD Core"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Biostatistics, Epidemiology and Data Management Core</span>                  
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
