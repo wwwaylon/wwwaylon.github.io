@@ -44,7 +44,7 @@ title: Research positions
 <br/>
 
 <a href="https://www.umass.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGmZZ0wcNKTuQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=0k-_Z39N3fBJ-T1n9LXiK68fQurVjInhD087cbXExec" alt="Institute for Social Science Research"> </a>
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHlmqHddSrqGA/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=tPGYJG6ist4hvgHHfhMwDeTIemJ1A4uSpWJCOqMZXnM" alt="UMASS Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>             
