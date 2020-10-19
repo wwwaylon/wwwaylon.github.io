@@ -20,6 +20,6 @@ While *patterns* describe where data are missing, *causes* describe why data are
 
 The literature describes 3 basic types of missing data mechanisms and they are MCAR, MAR and MNAR. This is a diagram of the missing data mechanisms that illustrates each can contribute to the missing data you have on your dataset. 
 
-![TDLittle](/assets/img/mechanisms.png)
-
-
+<p align="center">
+  <img width="700" height="600" src="/assets/img/mechanisms.png">
+</p>
