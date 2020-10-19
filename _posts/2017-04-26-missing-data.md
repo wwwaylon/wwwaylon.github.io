@@ -20,19 +20,15 @@ While patterns describe *where* data are missing, causes describe *why* data are
 
 The literature describes 3 basic types of missing data mechanisms and they are MCAR, MAR and MNAR. This is a diagram of the missing data mechanisms that illustrates each can contribute to the missing data you have on your dataset. 
 
-<p align="center">
-  <img width="300" height="300" src="/assets/img/mechanisms.png">
-</p>
-
-The first mechanism is called Missing Completely at Random (MCAR). This means that the data are missing due to a random process. All missing data procedures assume at least this level of missing data. So, if you do traditional techniques like: pairwise deletion, listwise deletion, and so on – which are often the software defaults - you assume that the data were MCAR. This is not a great assumption.     
+<a href="https://www.google.com/">
+<img align="left" width="300" height="300" src="/assets/img/mechanisms.png" alt="missingness"> </a> 
+<span style="color:black; font-family:Palatino;">The first mechanism is called Missing Completely at Random (MCAR). This means that the data are missing due to a random process. All missing data procedures assume at least this level of missing data. So, if you do traditional techniques like: pairwise deletion, listwise deletion, and so on – which are often the software defaults - you assume that the data were MCAR. This is not a great assumption.     
 
 Now where modern missing data handling tools come in handy is when the data are missing at random (MAR). This means the data are missing for a reason and we have a variable that  is assoicated with the missing data.      
 
 > Suppose that data are missing because of low socioeconomic status (SES) and I happened to measure SES in my dataset. If so I can do a good job of recovering the missing information. The reason this works is because I know what a low SES person would look like on the missing scores because I had some that stayed in and I also know what the relationships are among all the other variables.      
 
-The third mechanism is the Missing Not At Random (MNAR). What this one means is that there is a reason for the missing data and unfortunately we don’t have a measure of it. This is the drawback of any missing data. If there is a reason and we don’t have a measure of it – then our ability to recover that information is severely limited. That’s why this is referred to as *non-ignorable* missing data.    
+The third mechanism is the Missing Not At Random (MNAR). What this one means is that there is a reason for the missing data and unfortunately we don’t have a measure of it. This is the drawback of any missing data. If there is a reason and we don’t have a measure of it – then our ability to recover that information is severely limited. That’s why this is referred to as *non-ignorable* missing data.</span>      
+<br clear="left"/>          
 
-
-
-
-
+QQQQ
