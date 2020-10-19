@@ -16,10 +16,10 @@ For those of you interested in further reading on the topics discussed today, I 
 
 ### Missing Data Mechanisms
 
-While *patterns* describe where data are missing, *causes* describe why data are missing. Discussion now turns to what causes missing data because it is helpful to know what kind of missing data introduces error into your analyses.   
+While patterns describe *where* data are missing, causes describe *why* data are missing. Discussion now turns to what causes missing data because it is helpful to know what kind of missing data introduces error into your analyses.   
 
 The literature describes 3 basic types of missing data mechanisms and they are MCAR, MAR and MNAR. This is a diagram of the missing data mechanisms that illustrates each can contribute to the missing data you have on your dataset. 
 
 <p align="center">
-  <img width="700" height="600" src="/assets/img/mechanisms.png">
+  <img width="300" height="300" src="/assets/img/mechanisms.png">
 </p>
