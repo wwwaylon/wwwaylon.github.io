@@ -22,7 +22,7 @@ The literature describes 3 basic types of missing data mechanisms and they are M
 
 <a href="https://www.google.com/">
 <img align="left" width="300" height="300" src="/assets/img/mechanisms.png" alt="missingness"> </a> 
-<span style="color:black; font-family:Palatino;">The first mechanism is called Missing Completely at Random (MCAR). This means that the data are missing due to a random process. All missing data procedures assume at least this level of missing data. So, if you do traditional techniques like: pairwise deletion, listwise deletion, and so on – which are often the software defaults - you assume that the data were MCAR. This is not a great assumption.     
+<span style="color:black; font-family:Palatino;">The first mechanism is called Missing Completely at Random (MCAR). This means that the data are missing due to a random process. All missing data procedures assume at least this level of missing data. So, if you do traditional techniques like: pairwise deletion, listwise deletion, and so on – which are often the software defaults - you assume that the data were MCAR. This is not a great assumption.         
 
 Now where modern missing data handling tools come in handy is when the data are missing at random (MAR). This means the data are missing for a reason and we have a variable that  is assoicated with the missing data.      
 
