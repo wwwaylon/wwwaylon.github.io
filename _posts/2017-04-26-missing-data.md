@@ -36,12 +36,12 @@ Consider example data to illustrate basic missing data handling techniques.
 &nbsp; &nbsp; &nbsp; &nbsp; <img width="150" height="375" src="/assets/img/data1.png" alt="completedata"> 
 <br clear="right"/>  
 
-This is the scatter plot of the correlation between the HRQOL1 and HRQOL2 variables without any missing values. As you can see these variables are positively correlated at **.85**. 
+This is the scatter plot of the correlation between the HRQOL1 and HRQOL2 variables without any missing values. 
 
 Now lets impose the missing data and estimate the correlation using listwise deletion. 
 
-<img align="right" width="485" height="385" src="/assets/img/simdata2.png" alt="completedata2 plot">    
-&nbsp; &nbsp; &nbsp; &nbsp; <img width="150" height="375" src="/assets/img/data2.png" alt="completedata2"> 
+<img align="right" width="485" height="385" src="/assets/img/simdata2.png" alt="missing plot">    
+&nbsp; &nbsp; &nbsp; &nbsp; <img width="150" height="375" src="/assets/img/data2.png" alt="missing data"> 
 <br clear="right"/>    
 
 To demonstrate the bias that results from complete cases analysis I deleted scores on HRQOL2 if HRQOL1 was > = 50. Using *listwise deletion* the last 9 participants would be deleted. 
