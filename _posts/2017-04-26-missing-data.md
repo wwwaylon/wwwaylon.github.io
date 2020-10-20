@@ -31,7 +31,25 @@ Now where modern missing data handling tools come in handy is when the data are 
 The third mechanism is the Missing Not At Random (MNAR). What this one means is that there is a reason for the missing data and unfortunately we don’t have a measure of it. This is the drawback of any missing data. If there is a reason and we don’t have a measure of it – then our ability to recover that information is severely limited. That’s why this is referred to as *non-ignorable* missing data.      
 <br clear="left"/>          
 
-Consider simulated data to illustrate these missing data mechanisms. 
+Consider example data to illustrate basic missing data handling techniques. 
 
-Assume that these three variables are measured on a continuous scale. 
+<a href="https://www.google.com/">
+<img align="left" width="300" height="300" src="/assets/img/simdata1.png" alt="completedata"> </a> 
+    
+| ID | Anxiety1 | Anxiety2 |
+| --- | --- | --- |
+| 1 | 36.6 | 40.0 |
+| 2 | 41.8 | 40.0 |
+
+
+
+
+
+
+<br clear="left"/>   
+
+This is the scatter plot of the correlation between the anxiety 1 and 2 variables without any missing values. As you can see these variables are positively correlated at .852 so that the higher the anxiety 1 score the higher the anxiety 2 score. 
+
+Now lets impose the missing data and estimate the correlation using listwise deletion. 
+
 
