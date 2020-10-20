@@ -37,9 +37,7 @@ Consider example data to illustrate basic missing data handling techniques.
 <img width="150" height="400" src="/assets/img/data1.png" alt="completedata"> 
 <br clear="right"/>  
 
-
-
-This is the scatter plot of the correlation between the anxiety 1 and 2 variables without any missing values. As you can see these variables are positively correlated at .852 so that the higher the anxiety 1 score the higher the anxiety 2 score. 
+This is the scatter plot of the correlation between the anxiety1 and anxiety2 variables without any missing values. As you can see these variables are positively correlated at **.852**. 
 
 Now lets impose the missing data and estimate the correlation using listwise deletion. 
 
