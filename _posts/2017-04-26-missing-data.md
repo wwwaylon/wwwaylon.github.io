@@ -33,8 +33,8 @@ The third mechanism is the Missing Not At Random (MNAR). What this one means is 
 
 Consider example data to illustrate basic missing data handling techniques. 
 
-<img align="right" width="600" height="500" src="/assets/img/simdata1.png" alt="completedata plot">    
-<img width="200" height="500" src="/assets/img/data1.png" alt="completedata"> 
+<img align="right" width="500" height="400" src="/assets/img/simdata1.png" alt="completedata plot">    
+<img width="150" height="400" src="/assets/img/data1.png" alt="completedata"> 
 <br clear="right"/>  
 
 
