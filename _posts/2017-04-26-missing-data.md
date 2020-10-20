@@ -30,7 +30,6 @@ Now where modern missing data handling tools come in handy is when the data are 
 
 The third mechanism is the Missing Not At Random (MNAR). What this one means is that there is a reason for the missing data and unfortunately we don’t have a measure of it. This is the drawback of any missing data. If there is a reason and we don’t have a measure of it – then our ability to recover that information is severely limited. That’s why this is referred to as *non-ignorable* missing data.      
 <br clear="left"/>          
-
 Consider example data to illustrate basic missing data handling techniques. 
 
 <img align="right" width="485" height="385" src="/assets/img/simdata1.png" alt="completedata plot">    
@@ -40,5 +39,13 @@ Consider example data to illustrate basic missing data handling techniques.
 This is the scatter plot of the correlation between the anxiety1 and anxiety2 variables without any missing values. As you can see these variables are positively correlated at **.852**. 
 
 Now lets impose the missing data and estimate the correlation using listwise deletion. 
+
+<img align="right" width="485" height="385" src="/assets/img/simdata2.png" alt="completedata2 plot">    
+&nbsp; &nbsp; &nbsp; &nbsp; <img width="150" height="360" src="/assets/img/data2.png" alt="completedata2"> 
+<br clear="right"/>    
+
+To demonstrate the bias that results from complete cases analysis I deleted scores on Anxiety2 if Anxiety1 was > 50. Using listwise deletion the last 9 participants would be deleted. 
+
+As you can see, this scatter plot looks very different than the original. Here, half the data were deleted and the estimation is incorrect – or as we say, biased. As we will see shortly, it is actually possible to get back the lost information when the correct approach is used to properly account for the missing data. Remember that the Anxiety1 variable was responsible for creating the missing data.
 
 
