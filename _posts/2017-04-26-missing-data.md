@@ -34,7 +34,7 @@ The third mechanism is the Missing Not At Random (MNAR). What this one means is 
 Consider example data to illustrate basic missing data handling techniques. 
 
 <img align="right" width="500" height="400" src="/assets/img/simdata1.png" alt="completedata plot">    
-<img width="150" height="400" src="/assets/img/data1.png" alt="completedata"> 
+&nbsp; &nbsp; &nbsp; &nbsp; <img width="150" height="360" src="/assets/img/data1.png" alt="completedata"> 
 <br clear="right"/>  
 
 This is the scatter plot of the correlation between the anxiety1 and anxiety2 variables without any missing values. As you can see these variables are positively correlated at **.852**. 
