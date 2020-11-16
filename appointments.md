@@ -7,7 +7,7 @@ title: Research positions
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> </a> 
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
-    
+  
 > <span style="color:Indigo; font-family:Palatino;"> **Outcomes**. ● Direct 10-person global analytics team across more than 40% annual growth to support more than $12 million revenue target while simultaneously adding new data sources and processes while bolstering more than 15 standard operating procedures, guidance documents, and work instructions in collaboration with 3 internal departments. ● Created and implemented a streamlined and robust global on-boarding process that resulted in a 40% reduction in training time. ● Developed automated procedures for project management using R, R-Markdown, and Shiny, leading to better communication and workflow. ● Developed internal data science tools for time and resource estimates and the creation, examination and integration of databases.</span>   
 
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
@@ -59,8 +59,6 @@ title: Research positions
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
 
-<br/>
-
 > <span style="color:slategrey; font-family:Palatino;"> **Outcomes**. The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training. ● Published 5 papers, presented 3 posters and 2 invited talks, and provided 6 guest lectures. ● Served as an Ad hoc reviewer across 6 journals. ● Served as statistician or consultant on 3 funded program evaluation grants. ● Served as an internal expert and consultant on research methodology, applied statistics and measurement. </span>  
 
 <br/>
@@ -95,8 +93,6 @@ title: Research positions
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis</span>           
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>    
 
-<br/>
-
 > <span style="color:slategrey; font-family:Palatino;"> **Outcomes**. The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. ● Provided statistical consultation across 9 departments at the University of Kansas and 6 external universities that included 6 dissertations. ● Led and taught an advanced statistical software training seminar (LISREL, PRELIS, and HLM) with 26 graduate students across 3 courses. ● Developed 5 statistical methodology technical guides for applied researchers. </span>  
   
 <br/>
@@ -106,8 +102,6 @@ title: Research positions
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Kansas City, KS (2008 - 2012)</span> <br clear="left"/>    
-
-<br/>
 
 > <span style="color:slategrey; font-family:Palatino;"> **Outcomes**. Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. ● Published 4 papers, presented 6 posters, and submitted 6 technical reports. ● Contributed statistical analysis plans and power analyses for grant submissions. ● Provided mentorship to 5 faculty and 2 junior statistical analysts. $\bullet$ Developed new statistical procedures for handling complex missing data problems using R and SAS leading to estimation improvements.</span>  
  
