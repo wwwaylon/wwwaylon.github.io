@@ -82,15 +82,14 @@ title: Research Positions
 <a href="http://beadcore.jhu.edu/">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQFdwR1hw5xO_Q/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=zuyR_Ny4YBwLKdi6G6ax2fk8l9a2IO7k7DVuesQcL18" alt="BEAD Core"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>                  
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>             <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
 <br/>
 
 <a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Ctr. for Research Methods and Data Analysis"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Ctr. for Research Methods and Data Analysis</span>           
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Ctr. for Research Methods and Data Analysis](http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis)</span>           
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>    
 
 > <span style="color:slategrey; font-family:Palatino;"> **Outcomes**. The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU. ● Provided statistical consultation across 9 departments at the University of Kansas and 6 external universities that included 6 dissertations. ● Led and taught an advanced statistical software training seminar (LISREL, PRELIS, and HLM) with 26 graduate students across 3 courses. ● Developed 5 statistical methodology technical guides for applied researchers. </span>  
@@ -100,7 +99,7 @@ title: Research Positions
 <a href="https://juniper.ku.edu/">
 <img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Juniper Gardens Childrens Project</span>      
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Juniper Gardens Childrens Project](https://juniper.ku.edu/)</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Kansas City, KS (2008 - 2012)</span> <br clear="left"/>    
 
 > <span style="color:slategrey; font-family:Palatino;"> **Outcomes**. Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting children’s social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice. ● Published 4 papers, presented 6 posters, and submitted 6 technical reports. ● Contributed statistical analysis plans and power analyses for grant submissions. ● Provided mentorship to 5 faculty and 2 junior statistical analysts. $\bullet$ Developed new statistical procedures for handling complex missing data problems using R and SAS leading to estimation improvements.</span>  
