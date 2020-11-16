@@ -18,7 +18,8 @@ navbar-links:
   About Me: "aboutme"
   My Research: 
     - Appointments: "appointments"
-    - Overview: "research"
+    - Leadership Building: "research"
+    - Technical: "research"
     - Publications: "publications"
     - Presentations: "presentations"
   R Shiny Apps:
