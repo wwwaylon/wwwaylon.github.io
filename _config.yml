@@ -18,7 +18,7 @@ navbar-links:
   About Me: "aboutme"
   My Research: 
     - Appointments: "appointments"
-    - Leadership Building: "research"
+    - Leadership Building: "leadership"
     - Technical: "research"
     - Publications: "publications"
     - Presentations: "presentations"
