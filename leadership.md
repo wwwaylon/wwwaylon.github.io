@@ -8,10 +8,12 @@ title: Leadership Building
 
 ### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">LEADERSHIP MISSION.</span> 
 
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships. I believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making. Toward these ends, I have focused on a number of critical leadership effectiveness efforts including: strategic planning, productivity and planning, funding and partnerships, reflection, and mentoring. </span> 
+<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships.   
+   
+I believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making. I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and planning, funding and partnerships, reflection, and mentoring. </span> 
 
 <p align="center">
-  <img width="450" height="250" src="/assets/img/leadershipmission2.png">
+  <img width="450" height="240" src="/assets/img/leadershipmission2.png">
 </p>
   
 #### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">STRATEGIC PLANNING.</span>   
