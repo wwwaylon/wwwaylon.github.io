@@ -24,4 +24,5 @@ title: About me
 ## <span style="color:lightsteelblue4; font-family:Palatino;">Education</span> 
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">**Ph.D., Quantitative Psychology**             
 University of Kansas (2012); Advisor: [Todd D. Little](https://scholar.google.com/citations?user=T-dKKGkAAAAJ&hl=en)</span> 
-* <span style="color:lightsteelblue4; font-family:Palatino;">**Sample Coursework**: Research Design, Factor Analysis, Nonparametric Methods, Test Theory, Multivariate Analysis, Multilevel Modeling, Categorical Data Analysis, Structural Equation Modeling, Longitudinal Structural Equation Modeling, Item Response Theory, Advanced Quantitative Methods, Simulation & Monte Carlo Studies, Dynamical Systems & Intraindividual Change </span>   
+
+<span style="color:lightsteelblue4; font-family:Palatino;">**Sample Coursework**: Research Design, Factor Analysis, Nonparametric Methods, Test Theory, Multivariate Analysis, Multilevel Modeling, Categorical Data Analysis, Structural Equation Modeling, Longitudinal Structural Equation Modeling, Item Response Theory, Advanced Quantitative Methods, Simulation & Monte Carlo Studies, Dynamical Systems & Intraindividual Change </span>   
