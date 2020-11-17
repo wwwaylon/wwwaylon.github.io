@@ -23,7 +23,7 @@ To acomplish this, I focus on a number of critical leadership effectiveness effo
    
 * **Proportion of staff involved in grant submissions**
 * **Number of projects per staff** and associated **weight** (workload) of each project
-* **Number of grants, publications, submitted manuscripts, talks, posters,** and other forms of dissemination
+* **Number of grants, publications, talks, posters,** and other forms of dissemination
 * **Proportion of billable time** per staff relative to the position
 
 These indicies are calculated at the group-level to evaluate overall group progress and at the individual-level to allow for individual progress assessments in comparison with previous results and with the anonymous results of other staff members. I am interested in influence and visability metrics within the orgainzation, the dicipline, and healthcare system more broadly and use automated procedures for indicators of productivity and impact (e.g., citation metrics, journal impact factor, etc.) using R, Google Scholar and other tools.  
