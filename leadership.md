@@ -10,7 +10,7 @@ title: Leadership Building
 
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships.</span>   
    
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and quality, funding and partnerships, reflection, and mentoring.</span> 
+To acomplish this, I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and quality, funding and partnerships, reflection, and mentoring.
 
 <p align="center">
   <img width="450" height="240" src="/assets/img/leadershipmission2.png">
