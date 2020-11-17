@@ -16,8 +16,6 @@ title: Leadership Building
   <img width="450" height="240" src="/assets/img/leadershipmission2.png">
 </p>
   
-#### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">STRATEGIC PLANNING.</span>   
-
 #### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">PRODUCTIVITY AND QUALITY.</span>    
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My **persional service mission** is to provide *responsive*, *efficient*, and *high-quality* analytical support. To accomplish this, I regularly collect detailed information about research activities. Analysis of these data typically invole the calculation of indicies that are helpful for assessment, for example:</span>   
    
@@ -38,9 +36,3 @@ title: Leadership Building
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">Published manuscripts also increased with staff co-authorship from **5** in 2014-2015 to **31** publications in 2016-2017 (see Figure 1). Many of these publications were in top tier journals (some with an impact factor > 5). During the last year, team-authored publications were cited a total of **783** times, with a median of **16.125** citations per staff member.</span>  
    
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">Overall, Figure 1 illustrates **the coalescence of a new vision for team leadership within the organization** that resulted in new funding, partnerships, and additional value offered by the team.</span> 
-
-#### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">FUNDING AND PARTNERSHIPS.</span>   
-
-#### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">REFLECTION.</span> 
-
-#### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">MENTORING.</span> 
