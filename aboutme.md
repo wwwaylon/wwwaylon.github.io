@@ -13,13 +13,13 @@ title: About me
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My technical work includes multivariate approaches to measurement and analysis of substantive problems where I have led simulation-based research and contributed to recommendations for applied researchers. In addition, I have conducted substantive research using structural equation modeling techniques as a general data analytic approach to studying individual, developmental, and socio-contextual differences within the social, behavioral, and health sciences. I also have extensive grant experience in relation to study design, statistical analytic plans and power analyses. Typical software: **R** (Rstudio, Rshiny, Rmarkdown, etc.), **SAS**, **M*plus***, **SPSS**, **Stata**, **LISREL**, SciPy - **Python** (statsmodels). Specific areas of interest include: </span>    
 
 * Design and measurement issues in longitudinal research 
-* [panel designs](https://www.quantpsy.org/pubs/little_preacher_selig_card_2007.pdf)
-* [latent growth curve analysis](https://quantpsy.org/pubs/preacher_2010.pdf)
-* [latent class and finite mixture modeling](https://www.statmodel.com/download/Masyn_2013.pdf)
-* [multi-level SEM with longitudinal data](https://www.guilford.com/books/Longitudinal-Structural-Equation-Modeling/Todd-Little/9781462510160)
-* [moderation and mediation](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
-* [missing data analysis and power](http://www.appliedmissingdata.com/)
-* [measurement invariance testing](http://www.joophox.net/publist/CecklistMeasInv.pdf)
+* [Panel designs](https://www.quantpsy.org/pubs/little_preacher_selig_card_2007.pdf)
+* [Latent growth curve analysis](https://quantpsy.org/pubs/preacher_2010.pdf)
+* [Latent class and finite mixture modeling](https://www.statmodel.com/download/Masyn_2013.pdf)
+* [Multi-level SEM with longitudinal data](https://www.guilford.com/books/Longitudinal-Structural-Equation-Modeling/Todd-Little/9781462510160)
+* [Moderation and mediation](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
+* [Missing data analysis and power](http://www.appliedmissingdata.com/)
+* [Measurement invariance testing](http://www.joophox.net/publist/CecklistMeasInv.pdf)
   
 ## <span style="color:lightsteelblue4; font-family:Palatino;">Education</span> 
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">**Ph.D., Quantitative Psychology**             
