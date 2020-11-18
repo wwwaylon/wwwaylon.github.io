@@ -20,7 +20,7 @@ title: About me
 </p>
   
 #### <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">PRODUCTIVITY AND QUALITY.</span>    
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My</span>  <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">****persional service mission**</span> <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;"> is to provide *responsive*, *efficient*, and *high-quality* analytical support. To accomplish this, I regularly collect detailed information about research activities. Analysis of these data typically invole the calculation of indicies that are helpful for assessment, for example:</span>   
+<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My</span>  <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**personal service mission**</span> <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;"> is to provide *responsive*, *efficient*, and *high-quality* analytical support. To accomplish this, I regularly collect detailed information about research activities. Analysis of these data typically invole the calculation of indicies that are helpful for assessment, for example:</span>   
    
 * **Proportion of staff involved in grant submissions**
 * **Number of projects per staff** and associated **weight** (workload) of each project
