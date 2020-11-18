@@ -3,10 +3,7 @@ layout: page
 title: About me 
 ---
 
-
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making.</span> 
-
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;"> I also believe a researcher's vision should not be constrained by how they think about and use data. Too often researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. But *how* do researchers stay current with advances in methodology and data analysis?</span> 
+<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;"> A researcher's vision should not be constrained by how they think about and use data. Too often researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. But *how* do researchers stay current with advances in methodology and data analysis?</span> 
   
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;">My </span> <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**personal service mission** </span><span style="color:lightsteelblue4; font-family:Palatino; font-size:1.25em;"> is to provide research teams with *responsive*, *efficient*, and *high-quality* analytical support to allow for more sophisticated questions. I develop applied statistics and methodology leaders and teams that dig into all phases of research projects from planning to publication to identify over simplified data analytic practices and explain available alternatives to elevate the level of research conducted.</span> 
   
