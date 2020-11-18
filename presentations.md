@@ -9,7 +9,7 @@ title: Presentations
 
 * **Howard, W. J.** (2017, April). Missing Data in Applied Research. Invited talk at University of Washington, Dept. of Epidemiology, Seattle, WA.  ([outline](https://drive.google.com/file/d/1K2K-h-IPL_KCQyTdWn4t1w4qBrJw5ZMI/view?usp=sharing))
 
-* **Howard, W. J.** (2015, October). Planned Missing Data in Pediatric Research. Invited talk at Seattle Childrenâs Research Institute, Center for Child Health Behavior and Development, Seattle, WA.  ([outline](https://drive.google.com/file/d/1M-BYMZL1ykEidCh4QL6LigBWE0VUtFCb/view?usp=sharing))  
+* **Howard, W. J.** (2015, October). Planned Missing Data in Pediatric Research. Invited talk at Seattle Childrens Research Institute, Center for Child Health Behavior and Development, Seattle, WA.  ([outline](https://drive.google.com/file/d/1M-BYMZL1ykEidCh4QL6LigBWE0VUtFCb/view?usp=sharing))  
 
 * **Howard, W. J.**, Johnston, H., & Misra, C., (2015, May). Research Computing for Social Scientists. Invited panel at University of Massachusetts, Amherst, MA.  ([outline](https://drive.google.com/file/d/1Rysd5DoAhZ6FutDIzqbEEecgWmFqvVZB/view?usp=sharing),  [link](https://www.umass.edu/issr/research-computing-social-scientists-panel-discussion-campus-resources-and-opportunities))  
 
