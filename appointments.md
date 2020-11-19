@@ -23,7 +23,7 @@ title: Research Positions
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
 
 * <span style="color:slategrey; font-family:Palatino;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases.</span>  
-* <span style="color:slategrey; font-family:Palatino;">Managed a</span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">**6-person team of statistical research associates**.</span> 
+* <span style="color:slategrey; font-family:Palatino;">Managed a </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">**6-person team**</span> <span style="color:slategrey; font-family:Palatino;"> of statistical research associates**.</span> 
 * <span style="color:slategrey; font-family:Palatino;">Provided statistical support and contributed to the development of policies and procedures while overseeing statistical workflow and priorities for the HPTN network.</span>   
 
 <br/>
@@ -34,9 +34,9 @@ title: Research Positions
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>            
 
-* <span style="color:slategrey; font-family:Palatino;">Directed 6-person biostatistics team and a 4-person data management team to support real-world evidence that advances the delivery of high-quality, patient-centered care.</span>  
-* <span style="color:slategrey; font-family:Palatino;">The team achieved 37% growth in accepted publications from 19 to 26 and 10% growth in accepted presentations from 41 to 45.</span>  
-* <span style="color:slategrey; font-family:Palatino;">Expanded both informal and structured educational offerings for faculty and residents including a 6-course methodology training series that included more than 150 attendees.</span> 
+* <span style="color:slategrey; font-family:Palatino;">Directed </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">**6-person** </span><span style="color:slategrey; font-family:Palatino;">biostatistics team and a </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">4-person</span><span style="color:slategrey; font-family:Palatino;"> data management team to support real-world evidence that advances the delivery of high-quality, patient-centered care.</span>  
+* <span style="color:slategrey; font-family:Palatino;">The team achieved </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">37% growth</span><span style="color:slategrey; font-family:Palatino;"> in accepted publications from 19 to 26 and </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">10% growth</span><span style="color:slategrey; font-family:Palatino;"> in accepted presentations from 41 to 45.</span>  
+* <span style="color:slategrey; font-family:Palatino;">Expanded both informal and structured educational offerings for faculty and residents including a 6-course methodology training series that included more than </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">150</span><span style="color:slategrey; font-family:Palatino;"> attendees.</span> 
 
 <br/>
 
