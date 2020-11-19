@@ -9,13 +9,9 @@ title: Research Positions
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
   
 * <span style="color:lightsteelblue4; font-family:Palatino;"> Directed a </span> <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**10-person global analytics team**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> across more than </span>  <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**50%**</span> <span style="color:lightsteelblue4; font-family:Palatino;">annual growth to support multi-million dollar revenue target 
-
 * <span style="color:lightsteelblue4; font-family:Palatino;">Added new data sources and processes while bolstering </span> <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**more than 15**</span> <span style="color:lightsteelblue4; font-family:Palatino;">standard operating procedures, guidance documents, and work instructions in collaboration with </span> <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**3-5**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> internal departments.</span>
-
 * <span style="color:lightsteelblue4; font-family:Palatino;">Created and implemented a streamlined and robust global on-boarding process that resulted in a </span> <span style="color:firebrick; font-family:Palatino; font-size:1.25em;">**40% reduction**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> in training time.</span>
-
 * <span style="color:lightsteelblue4; font-family:Palatino;">Developed automated procedures for project management using R, R-Markdown, and Shiny, leading to better communication and workflow.</span> 
-
 * <span style="color:lightsteelblue4; font-family:Palatino;">Created internal data science tools for time and resource estimates and delegated tasks among staff to create, examine and integrate databases.</span>   
 
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
