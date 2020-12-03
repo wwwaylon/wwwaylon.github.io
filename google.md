@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Describe an interesting applied statistics problem that you have worked on.
-subtitle: Early Language Development
+title: Early Language Development
+subtitle: Describe an interesting applied statistics problem that you have worked on.
 ---
 
 
