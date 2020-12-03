@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: page
 title: Describe an interesting applied statistics problem that you have worked on.
 subtitle: Early Language Development
-thumbnail-img: /assets/img/napkin.jpg
-tags: [modern methods, statistics]
 ---
+
 
 A researcher’s vision can be constrained by how they think about and use data. It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. Advanced statistical techniques allow us to ask more sophisticated questions.
 
