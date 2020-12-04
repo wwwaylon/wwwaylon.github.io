@@ -6,7 +6,7 @@ subtitle: Describe an interesting applied statistics problem that you have worke
 
 Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and deveopmental psychology theory into effective interventions to enhance social and academic outcomes.  
 
-My primary area of research was the development and applicaion of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see Howard, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that the application of advanced statistical methods, particularly within the structural equation modeling framework, were really interesting in this context and very challenging.  
+My primary area of research was the development and applicaion of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see **Howard**, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that the application of advanced statistical methods, particularly within the structural equation modeling framework, were really interesting in this context and very challenging.  
 
 One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions. 
 
@@ -18,7 +18,7 @@ As a statistical consultant, I worked closely with the reseach team to focus on 
 
 I often get diagrams like this and I <span style="color:red">love</span> to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
 
-This is a plot<sup>[1](#greenwood)</sup> of some data collected for this project. 
+This is a plot of some data collected for this project. 
 
 <p align="center">
   <img width="460" height="300" src="/assets/img/eciplot.png">
@@ -26,9 +26,9 @@ This is a plot<sup>[1](#greenwood)</sup> of some data collected for this project
 
 Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seems to peak around 18 months than declines – at that peak notice how single words is accelerating – the idea here is that children transition from one communication strategy to another and this tool seems to capture it. 
 
-The question is how to get from data collection with this tool to evalauting the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score<sup>[2](#sumscore)</sup>) that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggragate of all communication scores misses the point.    
+The question is how to get from data collection with this tool to evalauting the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggragate of all communication scores misses the point.    
 
-We wanted to identify inter-individual differences in intra-individual change in language development.<sup>[3](#nesselroade)</sup><sup>[,]()</sup><sup>[4](#preacher)</sup> Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model.<sup>[4](#preacher)</sup> This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships. 
+We wanted to identify inter-individual differences in intra-individual change in language development. Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model. This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships. 
 
 <p align="center">
   <img width="300" height="300" src="/assets/img/lgm.png">
@@ -48,9 +48,9 @@ This basic framework provides a great opportunity for us to think carefully abou
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model.<sup>[1](#greenwood)</sup> The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. 
+This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. 
 
-Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. We often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time.  
+Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. This requires strong communcation with stakeholders who often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time.  
 
 **For further reading:** 
 
