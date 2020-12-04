@@ -4,12 +4,15 @@ title: Early Language Development
 subtitle: Describe an interesting applied statistics problem that you have worked on.
 ---
 
+Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. We often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time. 
 
-A researcher’s vision can be constrained by how they think about and use data. It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. Advanced statistical techniques allow us to ask more sophisticated questions.
+Several years ago I worked as a quantitative methodologist for a large research center focused on developmental interventions to improve social and academic outcomes. 
 
-### Example 1. Parallel change processes
+My primary area of research was the development of novel statistical methods to better translate the kind of benefits that we can understand from an experimental simulation setting into real-world settings where the application is often not so good. We have to solve all kinds of technical challenges and limitations.
 
-This is a handwritten path diagram that demonstrates a lot of deep thinking about a topic. 
+One of these projects focused on the progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the applied statistical methodology used in this space (e.g., t-tests, ANOVA) and the research questions of interest. 
+
+I worked closely with the reseach team to focus on the questions. This is a handwritten path diagram from one of those meetings that demonstrates a complex theory of language development. 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
@@ -48,6 +51,59 @@ This basic framework provides a great opportunity for us to think carefully abou
 </p>
 
 This diagram illustrates our final model.<sup>[1](#greenwood)</sup> We examined the pattern of growth within and between the four communication skills and found support for a unique pattern of growth and change within each skill trajectory in terms of age at skill onset and peaks in each trajectory defining an inflection point or change from acceleration to deceleration. While this path diagram represents the assessment of a complex contextual theory of change, there is not a single correct model here. The responsibility is on the scientist.  
+
+
+
+* Greenwood, C. R., Buzhardt, J., Walker, D., McCune, L., & **Howard, W. J.** (2013). Advancing the construct validity of the Early Communication Indicator (ECI) for infants and toddlers: Equivalence of growth trajectories across two early head start samples. *Early Childhood Research Quarterly*. *28*(4), 743-758. [Impact Factor [2.364](https://www.journals.elsevier.com/early-childhood-research-quarterly)]  ([PDF](https://www.researchgate.net/publication/259133266_Advancing_the_construct_validity_of_the_Early_Communication_Indicator_ECI_for_infants_and_toddlers_Equivalence_of_growth_trajectories_across_two_early_head_start_samples),  [Cite](https://www.sciencedirect.com/science/article/pii/S0885200613000598), [Source Document](https://www.sciencedirect.com/science/article/pii/S0885200613000598))
+
+* Greenwood, C. R., Walker, D., Buzhardt, J., **Howard, W. J.**, McCune, L., & Anderson, R. A., (2013). Evidence of a continuum in foundational expressive communication skills. *Early Childhood Research Quarterly*, 28, 540-554. [Impact Factor [2.364](https://www.journals.elsevier.com/early-childhood-research-quarterly)]  ([PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4036115/pdf/nihms570538.pdf),  [Cite](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4036115/#), [Source Document](https://www.sciencedirect.com/science/article/pii/S0885200613000276))
+
+using a novel composite total communication score ()
+
+Progress monitoring is used to assess performance, quantify rates of development, and determine how individuals respond to intervention.
+
+
+
+What I saw very early in this role was the world of both quantitative research and applied work around developmental indicators and effective interventions is dominated by, as you would expect, large datasets with lots of missing data. As I discovered when applying state of the art missing data techniques, sometimes large datasets really have trouble getting in the way of best practice, and sometimes they prevent these techniques from working at all. 
+
+I came face to face with an enormous gap that continues to get larger between academic research on missing data on the one hand and our ability to use popular readily available software programs that are responsible for delivering these advanced techniques to researchers. 
+
+If we don’t close that gap we really are exactly where we are today. We are honestly unable to realize the full potential of missing data theory in our work. And that’s what I want to focus on. Today, I am presenting a novel approach to handing missing data that I think is actually going to allow us to realize the potential, the promise, of decades of research on missing data using existing software. 
+
+
+
+
+The purpose of this investigation was to strengthen the validity of the ECI through a detailed examination of growth and change in its four key skills in a large sample during the 6 to 36 month age span. We sought to improve our knowledge of the dynamic patterns of change occurring within and across ECI skills that in composite comprise the ECI total communication score. We also sought evidence of temporal ordering among adjacent skills or a continuum of growth in communication proficiency that might be used in future research as a basis for improving the predictive utility of the ECI in intervention decision making.
+
+I developed a greater understanding of the ECI key skills (i.e., gestures, vocalizations, single- and multiple-word utterances) could lead to further improvements in the sensitivity and utility of the decisions made compared to ECIs composite total communication score.
+
+The Early Communication Indicator (ECI) is such a measure for infants and toddlers, 6 to 42 months of age. Thus,
+
+
+
+
+
+Advanced statistical techniques allow us to ask more sophisticated questions.
+
+
+
+
+
+
+
+I sought to improve our knowledge of the dynamic patterns of change occurring within and across the underlying communcation skills (i.e., gestures, vocalizations, single- and multiple-word utterances) rather than focusing on the composite score
+
+
+that in composite comprise the ECI total communication score. We also sought evidence of temporal ordering among adjacent skills or a continuum of growth in communication proficiency that might be used in future research as a basis for improving the predictive utility of the ECI in intervention decision making.
+
+
+I developed a greater understanding of the ECI key skills (i.e., gestures, vocalizations, single- and multiple-word utterances) could lead to further improvements in the sensitivity and utility of the decisions made compared to ECIs composite total communication score.
+
+The purpose of this investigation was to strengthen the validity of the ECI through a detailed examination of growth and change in its four key skills in a large sample during the 6 to 36 month age span.
+
+
+
+
 
 
 **References**   
