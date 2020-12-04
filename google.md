@@ -10,9 +10,9 @@ Several years ago I worked as a quantitative methodologist for a large research 
 
 My primary area of research was the development and applicaion of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see Howard, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that advanced statistical techniques, particularly within the structural equation modeling framework, were really interesting and very challenging.  
 
-One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the applied statistical methodology and the research questions. 
+One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions. 
 
-As a statistical consultant, I worked closely with the reseach team to focus on the theory. This is a handwritten path diagram from one of those meetings that demonstrates a continuum of temporally ordered foundational language development skills. 
+As a statistical consultant, I worked closely with the reseach team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development in this context and the many contextual factors that may influence these relations. 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
