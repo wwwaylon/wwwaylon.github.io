@@ -10,7 +10,7 @@ My primary area of research was the development and applicaion of novel statisti
 
 One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions. 
 
-As a statistical consultant, I worked closely with the reseach team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development in this context and the many contextual factors that may influence these relations. 
+As a statistical consultant, I worked closely with the reseach team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development. 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
