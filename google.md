@@ -12,7 +12,7 @@ My primary area of research was the development and applicaion of novel statisti
 
 One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the applied statistical methodology and the research questions. 
 
-I worked closely with the reseach team to focus on the theory. This is a handwritten path diagram from one of those meetings that demonstrates a continuum of temporally ordered foundational language development skills (i.e., gestures, vocalizations, single- and multiple-word utterances). 
+As a statistical consultant, I worked closely with the reseach team to focus on the theory. This is a handwritten path diagram from one of those meetings that demonstrates a continuum of temporally ordered foundational language development skills (i.e., gestures, vocalizations, single- and multiple-word utterances). 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
