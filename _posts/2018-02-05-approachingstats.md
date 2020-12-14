@@ -8,11 +8,13 @@ thumbnail-img: /assets/img/napkin.jpg
 tags: [modern methods, statistics]
 ---
 
-A researcher’s vision can be constrained by how they think about and use data. It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. Advanced statistical techniques allow us to ask more sophisticated questions.
+Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes.  
 
-### Example 1. Parallel change processes
+My primary area of research was the development and application of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see **Howard**, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that the application of advanced statistical methods, particularly within the structural equation modeling framework, were really interesting in this context and very challenging.  
 
-This is a handwritten path diagram that demonstrates a lot of deep thinking about a topic. 
+One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions. 
+
+As a statistical consultant, I worked closely with the research team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development. 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
@@ -20,68 +22,44 @@ This is a handwritten path diagram that demonstrates a lot of deep thinking abou
 
 I often get diagrams like this and I <span style="color:red">love</span> to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees – which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model. 
 
-This is a plot<sup>[1](#greenwood)</sup> of some data collected for this project. 
+This is a plot of some data collected for this project. 
 
 <p align="center">
   <img width="460" height="300" src="/assets/img/eciplot.png">
 </p>
 
-Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seems to peak around 18 months than declines – at that peak notice how single words is accelerating – the idea here is that children transition from one communication strategy to another and this tool seems to capture it. 
+Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seem to peak around 18 months then decline – also referencing this peak notice how the use of single words is accelerating. The idea here is that children transition from one communication strategy to another and this tool seems to capture it. 
 
-The question is how to get from data collection with this tool to evalauting the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score<sup>[2](#sumscore)</sup>) that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above. Consider how focusing on one communication measure at a time or an aggragate of all communication scores misses the point.    
+The question is how to get from data collection with this tool to evaluating the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggregate of all communication scores misses the point.    
 
-In this case we want to identify inter-individual differences in intra-individual change in language development.<sup>[3](#nesselroade)</sup><sup>[,]()</sup><sup>[4](#preacher)</sup> Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model.<sup>[4](#preacher)</sup> This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships. 
+We wanted to identify inter-individual differences in intra-individual change in language development. Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model. This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships. 
 
 <p align="center">
   <img width="300" height="300" src="/assets/img/lgm.png">
 </p>
 
-This figure illustrates an exemplary LGM model. Here circles represent latent variables, squares are measured variables, trianges are constants, double headed arrows indicate vairances or covariances, and single headed arrows are regression weights. The key growth parameters of interest are mean intercept (α<sub>1</sub>), slope (α<sub>2</sub>), and the associated variances (ψ<sub>1,1</sub>, ψ<sub>2,2</sub>) and covariance (ψ<sub>2,1</sub>). These models allow us to explore the functional form of change over time, specify a spline model or other novel features to better approximate our theory of change. 
+This figure illustrates an exemplary LGM model. Here circles represent latent variables, squares are measured variables, triangles are constants, double headed arrows indicate variances or covariances, and single headed arrows are regression weights. The key growth parameters of interest are mean intercept (α<sub>1</sub>), slope (α<sub>2</sub>), and the associated variances (ψ<sub>1,1</sub>, ψ<sub>2,2</sub>) and covariance (ψ<sub>2,1</sub>). These models allow us to explore the functional form of change over time, specify spline parallel process models or other novel features to better approximate our theory of change. 
 
 <p align="center">
   <img width="600" height="300" src="/assets/img/LGMfigure.png">
 </p>
 
-In this simple diagram<sup>[5](#todd)</sup>, notice that each black line represents an individual person that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point (or mid-point or endpoint, etc.; α<sub>1</sub>) – denoted with a **<span style="color:green">green dot</span>** here and also capture the variability around that average intercept (ψ<sub>1,1</sub>; the **<span style="color:purple">purple line</span>**). Similarly, we can estimate an average slope (α<sub>2</sub>; the **<span style="color:red">red line</span>**) and variability around that slope (ψ<sub>2,2</sub>; the **<span style="color:orange">orange line</span>**). 
+In this simple diagram, notice that each black line represents an individual that can have their own intercept and slope. Some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point (or midpoint or endpoint, etc.; α<sub>1</sub>) – denoted with a **<span style="color:green">green dot</span>** here and also capture the variability around that average intercept (ψ<sub>1,1</sub>; the **<span style="color:purple">purple line</span>**). Similarly, we can estimate an average slope (α<sub>2</sub>; the **<span style="color:red">red line</span>**) and variability around that slope (ψ<sub>2,2</sub>; the **<span style="color:orange">orange line</span>**). 
 
-This basic framework provides a great opportunity for us to think carefully about the model and our measurement of the change process while considering important factors such as: partially missing data, unequally spaced time points, non-normally distributed or discretely scaled repeated measures, complex nonlinear or compound-shaped trajectories, time-varying covariates, and multivariate growth processes among other features.
+This basic framework provides a great opportunity for us to think carefully about the model and our measurement of the change process while considering important factors such as: missing data, unequally spaced time points, non-normally distributed or discretely scaled repeated measures, complex nonlinear or compound-shaped trajectories, time-varying covariates, and multivariate growth processes among other features.
 
 <p align="center">
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model.<sup>[1](#greenwood)</sup> We examined the pattern of growth within and between the four communication skills and found support for a unique pattern of growth and change within each skill trajectory in terms of age at skill onset and peaks in each trajectory defining an inflection point or change from acceleration to deceleration. While this path diagram represents the assessment of a complex contextual theory of change, there is not a single correct model here. The responsibility is on the scientist.  
+This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. 
 
-### Example 2. Psychometric measurement properties 
+Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. This requires strong communication with stakeholders who often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time.  
 
-While traditional methods (e.g., ANOVA, regression) assume all variables are free of measurement error (i.e., perfectly measured) and are unable to determine whether group or time-based change in an outcome measure is due to true change or changes in the structure or measurement of the test instrument over time, the CFA framework corrects for measurement error, provides estimates of the latent structure, and allows for a straightforward examination of measurement invariance. This is key because we need to determine that we are measuring the same constructs across groups of interest and that the construct meaning does not change as a function of time, otherwise we are not sure if differences or change are true or are just changes in the measurement tool. 
+**For further reading:** 
 
-<p align="center">
-  <img width="600" height="200" src="/assets/img/cfa.png">
-</p>
+* Greenwood, C. R., Walker, D., Buzhardt, J., **Howard, W. J.**, McCune, L., & Anderson, R. A., (2013). Evidence of a continuum in foundational expressive communication skills. *Early Childhood Research Quarterly*, 28, 540-554. [Impact Factor [2.364](https://www.journals.elsevier.com/early-childhood-research-quarterly)]  ([PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4036115/pdf/nihms570538.pdf),  [Cite](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4036115/#), [Source Document](https://www.sciencedirect.com/science/article/pii/S0885200613000276))
 
-This figure illustrates an exemplary CFA model with an 18-item scale with questions organized into three constructs: social impairment, emotional impairment, and risky/impulsive internet use. As before circles represent latent variables, squares are measured variables, single headed arrows are path coefficients (regression weights) related to the factor loadings. Additionally, double headed arrows are the residual item-specific variances or latent variances or covariances.
+* Greenwood, C. R., Buzhardt, J., Walker, D., McCune, L., & **Howard, W. J.** (2013). Advancing the construct validity of the Early Communication Indicator (ECI) for infants and toddlers: Equivalence of growth trajectories across two early head start samples. *Early Childhood Research Quarterly*. *28*(4), 743-758. [Impact Factor [2.364](https://www.journals.elsevier.com/early-childhood-research-quarterly)]  ([PDF](https://www.researchgate.net/publication/259133266_Advancing_the_construct_validity_of_the_Early_Communication_Indicator_ECI_for_infants_and_toddlers_Equivalence_of_growth_trajectories_across_two_early_head_start_samples),  [Cite](https://www.sciencedirect.com/science/article/pii/S0885200613000598), [Source Document](https://www.sciencedirect.com/science/article/pii/S0885200613000598))
 
-Before evaluating means or associations across time and groups, the goal was to determine the degree to which the scale assessed the same constructs across groups (sites in this case) and over time (four years). To evaluate the measurement characteristics we relied on a two-group longitudinal confirmatory factor analysis (CFA) model to concurrently test invariance across groups and years. The CFA model permits the investigation of model adequacy and a strong analytic framework for evaluating measurement invariance. To acomplish this we followed the standard approach outlined by Little<sup>[5](#todd)</sup> for evaluating measurement equivalence within a multiple group longitudinal CFA model. Beginning with the least restricted configural model, subsequent nested model constraints were tested using the RMSEA and CFI model tests. 
-
-The longitudinal model looked something like this: 
-
-<p align="center">
-  <img width="600" height="400" src="/assets/img/cfalong.png">
-</p>
-
-Results suggest that neither the time frame investigated nor the different groups of participants investigated had a moderating effect on the measurement properties of the scale. Given this we proceeded to compare means and associations over time and across groups. 
-
-### Example 3. Intensive Longitudinal Data
-
-By measuring an individual repeatedly, we can construct a more complete picture of his or her behavior with reference to previous life experiences (temporal context), environment and surrounding circumstances (spatial context), and interactions with others (person context). 
-
-
-**References**   
-      <a name="greenwood">1</a>. Greenwood, C. R., Walker, D., Buzhardt, J., J Howard, W., McCune, L., & Anderson, R. (2013). Evidence of a Continuum in Foundational Expressive Communication Skills. Early childhood research quarterly, 28(3), 540–554.         
-      <a name="sumscore">2</a>. McNeish, D., & Wolf, M. G. (2020). Thinking twice about sum scores. Behavior Research Methods, 1-19.    
-      <a name="nesselroade">3</a>. Nesselroade, J. R., & Baltes, P. B. (1979). Longitudinal research in the study of behavior and development. New York: Academic Press.        
-      <a name="preacher">4</a>. Preacher, K. J., Wichman, A. L., MacCallum, R. C., & Briggs, N. E. (2008). Latent growth curve modeling (No. 157). Sage.               
-      <a name="todd">5</a>. Little, T. D. (2013). Longitudinal structural equation modeling. Guilford press.    
-
-
+* **Howard, W. J.**, Rhemtulla, M., & Little, T. D. (2015). Using principal component analysis (PCA) to obtain auxiliary variables for missing data in large data sets. *Multivariate Behavioral Research*, *50*(3), 285-299. [Impact Factor [3.691](https://www.tandfonline.com/toc/hmbr20/current)]  ([PDF](https://www.researchgate.net/profile/Todd_Little/publication/277974497/inline/jsViewer/558b095308aee99ca9ca3dc1),  [Cite](https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F00273171.2014.999267), [Source Document](https://www.tandfonline.com/doi/abs/10.1080/00273171.2014.999267))   
