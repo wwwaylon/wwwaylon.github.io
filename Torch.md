@@ -1,16 +1,20 @@
 ---
 layout: page
 title: Applied Statistics
-subtitle: Describe an interesting applied statistics problem that you have worked on.
+subtitle: Keegan follow-up.
 ---
 
-Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes.  
+It was great talking with you today. 
+
+I wanted to follow-up with an interesting applied statistics problem that I have worked on where I had limited knowledge of the substantive area. This example highlights how I think about and approach statistics.   
+
+A few years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes. 
 
 My primary area of research was the development and application of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see **Howard**, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that the application of advanced statistical methods, particularly within the structural equation modeling framework, were really interesting in this context and very challenging.  
 
 One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions. 
 
-As a statistical consultant, I worked closely with the research team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development. 
+As a statistical consultant, I worked closely with the research team and other stakeholders to focus on the questions. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development. 
 
 <p align="center">
   <img width="700" height="600" src="/assets/img/napkin.jpg">
@@ -26,7 +30,7 @@ This is a plot of some data collected for this project.
 
 Notice that each line represents a different form of communication – so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seem to peak around 18 months then decline – also referencing this peak notice how the use of single words is accelerating. The idea here is that children transition from one communication strategy to another and this tool seems to capture it. 
 
-The question is how to get from data collection with this tool to evaluating the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggregate of all communication scores misses the point.    
+The question is how to get from data collection with this tool to evaluating the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggregate of all communication scores misses the point.  
 
 We wanted to identify inter-individual differences in intra-individual change in language development. Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model. This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships. 
 
