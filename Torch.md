@@ -52,7 +52,7 @@ This basic framework provides a great opportunity for us to think carefully abou
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. Our vision is constrained by how we think about and use data. Too often we develop or apply intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures or graphics that fail to realize the value of the measured construct. We often want to know how (mediation) and when (moderation) predictive effects hold or are strong versus weak or want more flexibility in understanding change processes over time.   
+This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. Our vision is constrained by how we think about and use data. Too often we develop or apply intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures or graphics that fail to realize the value of the measured construct. We may want to know how (mediation) and when (moderation) leadership trainings are effective or the conditions in which they are strong versus weak or want more flexibility in understanding change processes over time.       
 
 **For further reading:** 
 
