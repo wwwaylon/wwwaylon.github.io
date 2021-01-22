@@ -4,9 +4,9 @@ title: Applied Statistics
 subtitle: Keegan follow-up.
 ---
 
-It was great talking with you today. 
+Hey Keegan, it was great talking with you today. 
 
-I wanted to follow-up with an interesting applied statistics problem that I have worked on where I had limited knowledge of the substantive area. This example highlights how I think about and approach statistics.   
+I wanted to follow-up with an interesting applied statistics problem that I have worked on where I had limited to no knowledge of the substantive area. This example highlights how I think about and approach statistics and illustrates some of the points we discussed.  
 
 A few years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes. 
 
@@ -52,9 +52,7 @@ This basic framework provides a great opportunity for us to think carefully abou
   <img width="450" height="500" src="/assets/img/ecimodel.png">
 </p>
 
-This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. 
-
-Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. This requires strong communication with stakeholders who often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time.  
+This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories. Our vision is constrained by how we think about and use data. Too often we develop or apply intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures or graphics that fail to realize the value of the measured construct. We often want to know how (mediation) and when (moderation) predictive effects hold or are strong versus weak or want more flexibility in understanding change processes over time.   
 
 **For further reading:** 
 
