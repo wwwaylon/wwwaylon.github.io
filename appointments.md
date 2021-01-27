@@ -4,9 +4,9 @@ title: Research Positions
 ---
 
 <a href="https://www.concertai.com/">
-<img align="left" width="250" height="50" src="https://www.symphonyai.com/wp-content/uploads/2019/12/ConcertAI-logo-RGB-full-color.png" alt="ConcertAI"> </a> 
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
+<img align="left" width="100" height="100" src="https://cdn.theorg.com/3743d4b3-634e-4c82-a1e6-6c7fa35e4972_medium.jpg" alt="ConcertAI"> </a> 
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
+<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
   
 * <span style="color:lightsteelblue4; font-family:Palatino;"> Directed a </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**10-person global analytics team**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> across more than </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**50%**</span> <span style="color:lightsteelblue4; font-family:Palatino;">annual growth to support multi-million dollar revenue target. 
 * <span style="color:lightsteelblue4; font-family:Palatino;">Added new data sources and processes while bolstering </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**more than 15**</span> <span style="color:lightsteelblue4; font-family:Palatino;">standard operating procedures, guidance documents, and work instructions with </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**3-5**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> internal departments.</span>
@@ -17,7 +17,7 @@ title: Research Positions
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="http://www.fredhutch.org">
-<img align="left" width="250" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fred_Hutch_logo.svg/1200px-Fred_Hutch_logo.svg.png" alt="Fred Hutch"> </a>
+<img align="left" width="100" height="100" src="https://pbs.twimg.com/profile_images/509056962743382016/jOKr-9bc_400x400.png" alt="Fred Hutch"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
@@ -29,7 +29,7 @@ title: Research Positions
 <br/>
 
 <a href="https://atriumhealth.org">
-<img align="left" width="250" height="50" src="https://atriumhealth.org/-/media/chs/images/about-us/newsroom/media-resources/atrium-logo-teal.png" alt="Atrium Health"> </a>
+<img align="left" width="100" height="100" src="https://yt3.ggpht.com/ytc/AAUvwngOV79SQ6mhAOH0wGGz2HGZc-R4C-9FTgeocd_B1Q=s900-c-k-c0x00ffffff-no-rj" alt="Atrium Health"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>            
@@ -41,7 +41,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.seattlechildrens.org/research">
-<img align="left" width="260" height="50" src="https://www.seattlechildrens.org/globalassets/images/__global-icons--images/seattle-childrens-logo-header-hires.png" alt="Seattle Children's"> </a>
+<img align="left" width="100" height="100" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_200_200/0?e=2159024400&v=beta&t=V4FEBFyR9dWfUUX-e3LfaLsGIXtCPN4ECJDgqMTkpdY" alt="Seattle Children's"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology,**</span>        
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Econometrics, and Programming Core**</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development</span>       
@@ -56,7 +56,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.umass.edu">
-<img align="left" width="150" height="50" src="https://atasavvynewcomer.files.wordpress.com/2014/07/umass-logo.jpg" alt="UMASS Institute for Social Science Research"> </a>
+<img align="left" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/University_of_Massachusetts_Amherst_seal.svg/1200px-University_of_Massachusetts_Amherst_seal.svg.png" alt="UMASS Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>             
