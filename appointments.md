@@ -5,8 +5,8 @@ title: Research Positions
 
 <a href="https://www.concertai.com/">
 <img align="left" width="250" height="50" src="https://www.symphonyai.com/wp-content/uploads/2019/12/ConcertAI-logo-RGB-full-color.png" alt="ConcertAI"> </a> 
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
-<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
+<span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
   
 * <span style="color:lightsteelblue4; font-family:Palatino;"> Directed a </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**10-person global analytics team**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> across more than </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**50%**</span> <span style="color:lightsteelblue4; font-family:Palatino;">annual growth to support multi-million dollar revenue target. 
 * <span style="color:lightsteelblue4; font-family:Palatino;">Added new data sources and processes while bolstering </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**more than 15**</span> <span style="color:lightsteelblue4; font-family:Palatino;">standard operating procedures, guidance documents, and work instructions with </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**3-5**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> internal departments.</span>
