@@ -5,7 +5,7 @@ title: Research Positions
 
 <a href="https://www.concertai.com/">
 <img align="left" width="100" height="100" src="https://cdn.theorg.com/3743d4b3-634e-4c82-a1e6-6c7fa35e4972_medium.jpg" alt="ConcertAI"> </a> 
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
+<span style="color:black; font-family:Palatino; font-size:1.5em;">**Global Director of Biostatistics and Data Analytics**</span>      
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
   
 * <span style="color:lightsteelblue4; font-family:Palatino;"> Direct a </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**10-person global analytics team**</span> <span style="color:lightsteelblue4; font-family:Palatino;"> across more than </span> <span style="color:firebrick; font-family:Palatino; font-size:1.20em;">**50%**</span> <span style="color:lightsteelblue4; font-family:Palatino;">annual growth to support multi-million dollar revenue target. 
