@@ -71,7 +71,7 @@ title: Research Positions
 <a href="https://www.kennedykrieger.org">
 <img align="left" width="150" height="60" src="https://4.bp.blogspot.com/-_vDbLc2ii9k/UyjaOIbXBKI/AAAAAAAAE_s/8Z6nsgADqM4/s1600/KKI+Logo.png" alt="KKI"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
 
 * <span style="color:slategrey; font-family:Palatino;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training.</span>
@@ -84,24 +84,24 @@ title: Research Positions
 
 <a href="https://www.jhu.edu">
 <img align="left" width="100" height="60" src="https://www.jhsph.edu/sebin/z/s/bloomberg.logo.small.vertical.blue.png" alt="Johns Hopkins"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>        
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Visiting Assistant Professor**</span>        
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
 
 <a href="https://www.jhu.edu">
 <img align="left" width="100" height="60" src="https://www.jhsph.edu/sebin/z/s/bloomberg.logo.small.vertical.blue.png" alt="Johns Hopkins"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>      
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Affiliated Faculty Member**</span>      
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 
 <br/>
 
 <a href="http://beadcore.jhu.edu/">
 <img align="left" width="120" height="60" src="https://lh3.googleusercontent.com/proxy/ftn128P_jccfXZY_KnTWJmhjbBVRvsNsn4EMvKbPcrH3Bh3UmjYX7ZfazZuxnOjcW3uvvWduHwPfBLG79dD3y9CmDHs0N0v_x9JotplyHxsd3sRW4yjeTHYU3_ghZa_IwN_QtB9WTg" alt="BEAD Core"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>             <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Senior Research Data Analyst**</span>         
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>             <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
 <br/>
 
