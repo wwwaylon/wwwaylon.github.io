@@ -100,7 +100,7 @@ title: Research Positions
 
 <a href="http://beadcore.jhu.edu/">
 <img align="left" width="120" height="60" src="https://lh3.googleusercontent.com/proxy/ftn128P_jccfXZY_KnTWJmhjbBVRvsNsn4EMvKbPcrH3Bh3UmjYX7ZfazZuxnOjcW3uvvWduHwPfBLG79dD3y9CmDHs0N0v_x9JotplyHxsd3sRW4yjeTHYU3_ghZa_IwN_QtB9WTg" alt="BEAD Core"> </a>
-<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Senior Research Data Analyst**</span>         
+<span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>             <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
 <br/>
