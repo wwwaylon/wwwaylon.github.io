@@ -20,11 +20,13 @@ navbar-links:
     - Appointments: "appointments"
     - Publications: "publications"
     - Presentations: "presentations"
+    - Academic genealogy: "https://drive.google.com/file/d/14RMarAnh6LyWAeS6ChgqwR7XHiiEX7Vr/view?usp=sharing"
   R Shiny Apps:
     - Estimating stats time: "https://mybinder.org/v2/gh/wwwaylon/estimate/main?urlpath=shiny/estimate/"
-    - Tracking assignments: "https://www.google.com"
-    - Effect size: "https://www.google.com"
-    - Model difference testing: "https://www.google.com"
+    - Tracking assignments (updating...): "https://www.google.com"
+    - Effect size (updating...): "https://www.google.com"
+    - Model difference testing (updating...): "https://www.google.com"
+    - Randomization Tool (updating...): "https://www.google.com"
 
 # --- Logo --- #
 
