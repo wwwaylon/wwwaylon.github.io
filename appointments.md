@@ -4,7 +4,7 @@ title: Research Positions
 ---
 
 <a href="https://www.concertai.com/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5X2Aib9GOhw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=WJ3NPnSAClnLeWcdCpRkslxn75PArCMGvWyKvugcl30" alt="ConcertAI"> </a> 
+<img align="left" width="350" height="75" src="https://www.symphonyai.com/wp-content/uploads/2019/12/ConcertAI-logo-RGB-full-color.png" alt="ConcertAI"> </a> 
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Global Director of Biostatistics and Data Analytics**</span>      
 <span style="color:lightsteelblue4; font-family:Palatino; font-size:1.20em;">&nbsp;Health Economics and Outcomes Research, ConcertAI, Boston, MA (2019 - present)</span> <br clear="left"/>          
   
@@ -17,7 +17,7 @@ title: Research Positions
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="http://www.fredhutch.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWyiowk3H8hQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=Q0Kq-SWFAEfHvBKOwr3f-McznOypsMO7Y7lWfs911qk" alt="Fred Hutch"> </a>
+<img align="left" width="350" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fred_Hutch_logo.svg/1200px-Fred_Hutch_logo.svg.png" alt="Fred Hutch"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
@@ -29,7 +29,7 @@ title: Research Positions
 <br/>
 
 <a href="https://atriumhealth.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C510BAQGQL7fTUGOWgQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=cw8MeJ_IMCJYcTux1ypV4Y8OnxKHqEEBmnOCj-QxnSs" alt="Atrium Health"> </a>
+<img align="left" width="400" height="75" src="https://atriumhealth.org/-/media/chs/images/about-us/newsroom/media-resources/atrium-logo-teal.png" alt="Atrium Health"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics and Data Management**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Outcomes Research and Evaluation</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Atrium Health, Charlotte, NC (2018 - 2019)</span> <br clear="left"/>            
@@ -41,7 +41,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.seattlechildrens.org/research">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=-OTbhUgAVwCkQzmzTNMfC1-BWYnx6GYpdYVV9gH08aY" alt="Seattle Children's"> </a>
+<img align="left" width="400" height="75" src="https://www.seattlechildrens.org/globalassets/images/__global-icons--images/seattle-childrens-logo-header-hires.png" alt="Seattle Children's"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology,**</span>        
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Econometrics, and Programming Core**</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development</span>       
@@ -56,7 +56,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.umass.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHlmqHddSrqGA/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=tPGYJG6ist4hvgHHfhMwDeTIemJ1A4uSpWJCOqMZXnM" alt="UMASS Institute for Social Science Research"> </a>
+<img align="left" width="250" height="80" src="https://atasavvynewcomer.files.wordpress.com/2014/07/umass-logo.jpg" alt="UMASS Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Inst. for Social Science Research</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>             
@@ -69,7 +69,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.kennedykrieger.org">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGP79V2w9qMWQ/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=w8Mv0Nb6mpSyznV2kG4Yx5X0vcFzTxnJ9cghahPvxWo" alt="KKI"> </a>
+<img align="left" width="200" height="80" src="https://4.bp.blogspot.com/-_vDbLc2ii9k/UyjaOIbXBKI/AAAAAAAAE_s/8Z6nsgADqM4/s1600/KKI+Logo.png" alt="KKI"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Research and Evaluation**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
@@ -83,7 +83,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQGjZPHyW5gNxw/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=7PrUUniOcAYe2gjgdTwkQfFTZCbRl1qFxe2HT7-Two0" loading="lazy" alt="Johns Hopkins Bloomberg School of Public Health" alt="Bloomberg"> </a>
+<img align="left" width="200" height="75" src="https://www.healthandagingpolicy.org/hapf/wp-content/uploads/2018/08/johns-hopkins-bloomberg-school-of-public-health-1.png" loading="lazy" alt="Johns Hopkins Bloomberg School of Public Health" alt="Bloomberg"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Visiting Assistant Professor**</span>        
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -91,7 +91,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQHPOfV7Wl0x-A/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=XpYHO_KVvdjUs9_akZ4VqTYGO37KQE5Vz8VbRHc42uk" alt="Johns Hopkins"> </a>
+<img align="left" width="200" height="75" src="https://www.healthandagingpolicy.org/hapf/wp-content/uploads/2018/08/johns-hopkins-bloomberg-school-of-public-health-1.png" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -99,14 +99,14 @@ title: Research Positions
 <br/>
 
 <a href="http://beadcore.jhu.edu/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQFdwR1hw5xO_Q/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=zuyR_Ny4YBwLKdi6G6ax2fk8l9a2IO7k7DVuesQcL18" alt="BEAD Core"> </a>
+<img align="left" width="250" height="90" src="https://lh3.googleusercontent.com/proxy/ftn128P_jccfXZY_KnTWJmhjbBVRvsNsn4EMvKbPcrH3Bh3UmjYX7ZfazZuxnOjcW3uvvWduHwPfBLG79dD3y9CmDHs0N0v_x9JotplyHxsd3sRW4yjeTHYU3_ghZa_IwN_QtB9WTg" alt="BEAD Core"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Senior Research Data Analyst**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>             <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
 
 <br/>
 
 <a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Ctr. for Research Methods and Data Analysis"> </a>
+<img align="left" width="200" height="80" src="https://brand.ku.edu/sites/default/files/images/guidelines/KU_sig_2color.png" alt="Ctr. for Research Methods and Data Analysis"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Ctr. for Research Methods and Data Analysis](http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis)</span>           
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>    
@@ -119,7 +119,7 @@ title: Research Positions
 <br/>
 
 <a href="https://juniper.ku.edu/">
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C560BAQElz1V5OAq2Ug/company-logo_100_100/0?e=1611187200&amp;v=beta&amp;t=CDR8AI8xc-5UUiHeT7kIcDaIajOtgQ0Ay2fb-WXmFjs" alt="Institute for Social Science Research"> </a>
+<img align="left" width="200" height="80" src="https://childrenscampusofkansascity.org/wp-content/uploads/sites/41/2018/08/juniper-gardens-childrens-project-logo.jpg" alt="Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;[Juniper Gardens Childrens Project](https://juniper.ku.edu/)</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Kansas, Kansas City, KS (2008 - 2012)</span> <br clear="left"/>    
