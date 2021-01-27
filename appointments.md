@@ -44,7 +44,7 @@ title: Research Positions
 <img align="left" width="100" height="100" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHdiK6X4_K2bg/company-logo_200_200/0?e=2159024400&v=beta&t=V4FEBFyR9dWfUUX-e3LfaLsGIXtCPN4ECJDgqMTkpdY" alt="Seattle Children's"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Director of Biostatistics, Epidemiology,**</span>        
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Econometrics, and Programming Core**</span>            
-<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Center for Child Health, Behavior and Development</span>       
+<span style="color:slategrey; font-family:Palatino; font-size:1.20em;">Center for Child Health, Behavior and Development</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Seattle Children's Research Inst., Seattle, WA (2015 - 2018)</span> <br clear="left"/>             
 
 * <span style="color:slategrey; font-family:Palatino;">Directed </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">**5-person** </span><span style="color:slategrey; font-family:Palatino;">analytics team with an operating budget of </span><span style="color:slategrey; font-family:Palatino; font-size:1.20em;">**600k**.</span> 
