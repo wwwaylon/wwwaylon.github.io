@@ -25,7 +25,7 @@ navbar-links:
     - Estimating stats time: "https://mybinder.org/v2/gh/wwwaylon/estimate/main?urlpath=shiny/estimate/"
     - Tracking assignments (updating...): "https://www.google.com"
     - Effect size (updating...): "https://www.google.com"
-    - Model difference testing (updating...): "https://www.google.com"
+    - Model difference testing: "https://whowar.shinyapps.io/NestedModels/"
     - Randomization Tool (updating...): "https://www.google.com"
 
 # --- Logo --- #
