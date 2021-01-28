@@ -20,7 +20,7 @@ navbar-links:
     - Appointments: "appointments"
     - Publications: "publications"
     - Presentations: "presentations"
-    - Academic genealogy: "https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/view?usp=sharing"
+    - Academic genealogy: "academicgenology.html"
   R Shiny Apps:
     - Estimating stats time: "https://mybinder.org/v2/gh/wwwaylon/estimate/main?urlpath=shiny/estimate/"
     - Tracking assignments (updating...): "https://www.google.com"
