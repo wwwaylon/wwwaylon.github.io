@@ -8,9 +8,9 @@ QQQ
 <a href="img/tree_draft_rotate.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 
 QQQ2
-<object data="https://github.com/wwwaylon/wwwaylon.github.io/tree/master/assets/img/tree_draft_rotate.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/wwwaylon/wwwaylon.github.io/tree/master/assets/img/tree_draft_rotate.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/wwwaylon/wwwaylon.github.io/tree/master/assets/img/tree_draft_rotate.pdf">Download PDF</a>.</p>
+<object data="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
@@ -18,4 +18,4 @@ QQQ3
 https://docs.google.com/viewer?url=https://github.com/wwwaylon/wwwaylon.github.io/tree/master/assets/img/tree_draft_rotate.pdf
 
 QQQ4
-<iframe src="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/view?usp=sharing" frameborder="0"></iframe>
+<iframe src="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf" frameborder="0"></iframe>
