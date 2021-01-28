@@ -8,14 +8,11 @@ QQQ
 <iframe src="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/preview" width="640" height="480"></iframe>
 
 QQQ2
-<object data="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf">Download PDF</a>.</p>
+<object data="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/preview" type="application/pdf" width="700px" height="700px">
+    <embed src="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/preview">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/preview">Download PDF</a>.</p>
     </embed>
 </object>
 
-QQQ3
-https://docs.google.com/viewer?url=https://github.com/wwwaylon/wwwaylon.github.io/tree/master/assets/img/tree_draft_rotate.pdf
-
 QQQ4
-<iframe src="https://github.com/wwwaylon/wwwaylon.github.io/raw/master/assets/img/tree_draft_rotate.pdf" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1ghV5aA5DwPnp63f9YVowlaqbpjjkufoB/preview" frameborder="0"></iframe>
