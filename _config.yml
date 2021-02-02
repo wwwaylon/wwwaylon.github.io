@@ -22,7 +22,7 @@ navbar-links:
     - Presentations: "presentations"
     - Academic genealogy: "academicgenology.html"
   R Shiny Apps:
-    - Estimating stats time: "https://mybinder.org/v2/gh/wwwaylon/estimate/main?urlpath=shiny/estimate/"
+    - Estimating stats time: "https://whowar.shinyapps.io/Proj_est2021/"
     - Tracking assignments: "https://whowar.shinyapps.io/Projects/"
     - Effect size (updating...): "https://www.google.com"
     - Model difference testing: "https://whowar.shinyapps.io/NestedModels/"
