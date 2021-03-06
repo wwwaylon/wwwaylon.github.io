@@ -2,6 +2,7 @@
 layout: page
 title: Applied Statistics
 subtitle: Describe an interesting applied statistics problem that you have worked on.
+thumbnail-img: /assets/img/napkin.jpg
 ---
 
 Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes.  
