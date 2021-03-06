@@ -1,11 +1,7 @@
 ---
-layout: post
-title: Thinking about and approaching statistics
-subtitle: beyond classical methods
-#cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/napkin.jpg
-#share-img: /assets/img/path.jpg  
-tags: [modern methods, statistics]
+layout: page
+title: Applied Statistics
+subtitle: Describe an interesting applied statistics problem that you have worked on.
 ---
 
 Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes.  
@@ -63,3 +59,4 @@ Our vision is constrained by how we think about and use data. Too often we devel
 * Greenwood, C. R., Buzhardt, J., Walker, D., McCune, L., & **Howard, W. J.** (2013). Advancing the construct validity of the Early Communication Indicator (ECI) for infants and toddlers: Equivalence of growth trajectories across two early head start samples. *Early Childhood Research Quarterly*. *28*(4), 743-758. [Impact Factor [2.364](https://www.journals.elsevier.com/early-childhood-research-quarterly)]  ([PDF](https://www.researchgate.net/publication/259133266_Advancing_the_construct_validity_of_the_Early_Communication_Indicator_ECI_for_infants_and_toddlers_Equivalence_of_growth_trajectories_across_two_early_head_start_samples),  [Cite](https://www.sciencedirect.com/science/article/pii/S0885200613000598), [Source Document](https://www.sciencedirect.com/science/article/pii/S0885200613000598))
 
 * **Howard, W. J.**, Rhemtulla, M., & Little, T. D. (2015). Using principal component analysis (PCA) to obtain auxiliary variables for missing data in large data sets. *Multivariate Behavioral Research*, *50*(3), 285-299. [Impact Factor [3.691](https://www.tandfonline.com/toc/hmbr20/current)]  ([PDF](https://www.researchgate.net/profile/Todd_Little/publication/277974497/inline/jsViewer/558b095308aee99ca9ca3dc1),  [Cite](https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F00273171.2014.999267), [Source Document](https://www.tandfonline.com/doi/abs/10.1080/00273171.2014.999267))   
+
