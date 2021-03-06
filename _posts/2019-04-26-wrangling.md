@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Statistical Software Wrangling (SAS, R, Mplus)
-subtitle: Some examples of calling one program from another
+title: Statistical Software Wrangling
+subtitle: Some examples of calling one program from another (SAS, R, Mplus)
 thumbnail-img: /assets/img/simpleMed_square.png
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
 tags: [SAS Mplus R]
 ---
+
+Often we run statistical code within one program. However, statistical programs may excel at some tasks but not others (e.g., like running complex models but not producing nice plots and tables). We may find situations where we want to take advantage of the best features of a set of programs. Alternatively, we may have staff with expertise in one program but need to use features in another. The following is a brief set of simple examples that illustrate ways to generate code, run code, and collect results in one program from another.  
 
 ## Executing Mplus via SAS 
 
