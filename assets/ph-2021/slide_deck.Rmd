@@ -98,9 +98,9 @@ class: middle, center
 
 `r knitr::include_graphics("images/openhealth.png", dpi = 275)`
 
-### Slides available at <http://bit.ly/csp-tidy-slides> 
+### Slides available at <http://tinyurl.com/pharmerit-slides> 
 
-### PDF slides at <http://bit.ly/csp-tidy-pdf>
+### PDF slides at <http://tinyurl.com/pharmerit-pdf>
 
 ???
 
@@ -180,7 +180,7 @@ The first part of the presentation is focused on General overview of experience 
 
 layout: true
 
-<div class="my-footer"><span>Slides at https://bit.ly/csp-tidy-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
+<div class="my-footer"><span>Slides at http://tinyurl.com/pharmerit-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
 
 ---
 
@@ -623,7 +623,7 @@ class: center, middle
 
 .pull-right[
 ### Monte Carlo power simulations
-<img src="images/medpowercuves_square.png" width="100%" height="100%">   
+<img src="images/medpowercuves_square.png" width="100%" height="100%">
 <small>Software wrangling</small>     
 <small>Statistical library and templates</small>
 

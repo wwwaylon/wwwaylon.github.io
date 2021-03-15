@@ -1,5 +1,5 @@
 #' ---
-#' title: "Tidyverse Tools in R for Data Science and Statistical Inference"
+#' title: "Thinking About and Approaching Statistics"
 #' output: 
 #'   xaringan::moon_reader:
 #'     seal: false
@@ -17,7 +17,7 @@
 #' ---
 #' 
 #' 
-## ----include=FALSE, purl=TRUE------------------------------------------------------------
+## ----include=FALSE, purl=TRUE------------------------------------------------------------------------------------------------------
 # specify the packages of interest
 pkgs <- c(
   "tidyverse", "moderndive", "dslabs",
@@ -50,68 +50,73 @@ if (!require("countdown")) {
 #' 
 #' class: middle, center
 #' 
-#' # Tidyverse Tools in R for <br> Data Science and Statistical Inference
+#' # Thinking About and Approaching Statistics
 #' 
-#' ## Dr. Jessica Minnier and Dr. Chester Ismay 
+#' ## Waylon Howard, PhD
 #' 
-#' `r knitr::include_graphics("images/csp-logo-virtual.png", dpi = 200)`
+#' `r knitr::include_graphics("images/openhealth.png", dpi = 275)`
 #' 
-#' ### Slides available at <http://bit.ly/csp-tidy-slides> 
+#' ### Slides available at <http://tinyurl.com/pharmerit-slides> 
 #' 
-#' ### PDF slides at <http://bit.ly/csp-tidy-pdf>
+#' ### PDF slides at <http://tinyurl.com/pharmerit-pdf>
 #' 
 #' ???
 #' 
-#' Welcome to our course! You can find the link to the HTML version of our slides
-#' as well as the PDF version here. We'll give you a few minutes to get these
-#' loaded and then start with introductions of your presenters.
+#' Welcome to our session! My name is Waylon Howard. Before we begin please note that you can find the link to the HTML version of my slides as well as the PDF version here. I'd like to start with an introduction.
 #' 
 #' ---
 #' 
-#' name: our-info
+#' name: my-info
 #' class: middle
 #' 
 #' <h5></h5>
 #' 
 #' .pull-left[
-#'   <img class="circle" src="https://github.com/jminnier.png" width="200px"/>
+#'   <img class="circle" src="images/avatar-icon.png" width="200px"/>
 #'   
-#'   <small>Associate Professor of Biostatistics</small>
-#'   
-#'   <img src="images/ohsu_logo.jpg" width="80px"/>
+#'   <small>Global Director of Biostatistics </small> <br>
+#'   <small>and Data Analytics</small> <br>
+#'   <br>
+#'   <img src="images/ConcertAI-logo.png" width="250px"/>
 #' 
 #'   <br>
 #' 
-#'   [`r fa(name = "twitter")` @datapointier](http://twitter.com/datapointier)  
-#'   [`r fa(name = "github")` @jminnier](http://github.com/jminnier)  
-#'   [`r fa(name = "link")` jessicaminnier.com](https:/jessicaminnier.com)  
-#' <!--  [`r fa(name = "paper-plane")` `minnier [at] ohsu [dot] edu`](mailto:minnier@ohsu.edu) -->
+#'   [`r fa(name = "linkedin")` @waylon-howard](https://www.linkedin.com/in/waylon-howard/)  
+#'   [`r fa(name = "github")` @wwwaylon](https://github.com/wwwaylon)  
+#'   [`r fa(name = "link")` wwwaylon.github.io](https://wwwaylon.github.io/)  
+#' <!--  [`r fa(name = "paper-plane")` `wwwaylon [at] gmail [dot] com`](mailto:wwwaylon@gmail.com) -->
 #' ]
 #' 
 #' .pull-right[
-#'   <img class="circle" src="https://github.com/ismayc.png" width="200px"/>
-#'   
-#'   <small>Data Science Evangelist</small>
-#'   
+#' 
+#'   <medium>Education</medium>
 #'   <br>
-#'   
-#'   <img src="images/datarobot_logo.png" width="150px"/>
-#'   
+#'     <small>Ph.D., Quantitative Psychology</small>
+#'   <small>University of Kansas (2012); Advisor: [Todd D. Little](https://scholar.google.com/citations?user=T-dKKGkAAAAJ&hl=en)</small>
 #'   <br><br>
-#'   
-#'   [`r fa(name = "twitter")` @old_man_chester](http://twitter.com/old_man_chester)  
-#'   [`r fa(name = "github")` @ismayc](http://github.com/ismayc)  
-#'   [`r fa(name = "link")` chester.rbind.io](https://chester.rbind.io)  
-#' <!--  [`r fa(name = "paper-plane")` `chester [dot] ismay [at] datarobot [dot] com`](mailto:chester.ismay@datarobot.com) -->
+#' 
+#'   <medium>Currently</medium>
+#'   <br>
+#' <small>Lead a [10-person](https://www.concertai.com/) team</small>    
+#' <small>Oncology focused RWE analytics</small>     
+#' - <small>[Clinical: EMR curation](https://www.concertai.com/)</small>     
+#' - <small>[Humanistic: PRO data]()</small>     
+#' - <small>[Economic: claims]()</small>      
+#' 
+#' <small>[SymphonyAI](https://www.prweb.com/releases/2018/06/prweb15527516.htm) acquisition</small>     
+#' - <small>[More than 60%](https://www.concertai.com/) growth</small>   
+#' - <small>Developed [15+ SOP, WI, GD]()</small>   
+#' 
 #' ]
 #' 
 #' ???
+#' Originally trained as a Quantitative Psychologist, I have studied applied statistics and research methodology for over 10 years, and gone on to develop advanced expertise in the application and advancement of quantitative measurement and analysis practices within the social, behavioral, and health sciences. My research interests include modeling individual, group, and developmental differences, general structural equations modeling techniques, construct validation, measurement, and missing data analysis. 
 #' 
-#' Hello. My name is Chester and I lead data science and machine learning courses
-#' for DataRobot. I'm based in Portland, Oregon. I'm next going to give you an
-#' overview of the content of this course and review R prerequisites to follow
-#' along with us before I turn it back over to Jessica
-#' to lead you through the first part of the course.
+#' Currently, I lead biostatistics for ConcertAI. I'm based in Seattle, WA and have staff of 10 MS-level analysts across the US and in India. 
+#' 
+#' Our mission is to provide ConcertAI with responsive, efficient, and high quality analytical support. We assume a leadership role as we collaborate with investigators and clients across all phases of their research. 
+#' 
+#' QQQ about data
 #' 
 #' ---
 #' 
@@ -119,1387 +124,111 @@ if (!require("countdown")) {
 #'   
 #' # Table of Contents
 #' 
-#' Part 1
-#' - [Introduction and Setup](#getting-started)
-#' - [Data Wrangling](#wrangling)
-#' - [Data Visualization Basics](#viz)
-#' 
-#' Part 2
-#' - [Sampling](#sampling)
-#' - [Inference](#inference)
+#' - [Research and Leadership](#my-work)    
+#' <br>
+#' - [Motivating example](#mot-exa)    
+#' <br>
+#' - [Modern modeling highlights](#high)    
+#' <br>
+#' - [Summary](#value)
 #' 
 #' ???
-#' The first part of the course is focused on exploratory data analysis in
-#' the tidyverse and the second part is about statistical inference using
-#' data science principles you'll learn about in the first part.
+#' The first part of the presentation is focused on General overview of experience in quantitative statistical analysis and interests including a recent experience with a challenging or innovative data and the second part is about add value as part of PCO and RWE teams based on the experience highlighted in the first part.
 #' ---
 #' 
 #' layout: true
 #' 
-#' <div class="my-footer"><span>Slides at https://bit.ly/csp-tidy-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
+#' <div class="my-footer"><span>Slides at http://tinyurl.com/pharmerit-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
 #' 
 #' ---
 #' 
-#' name:getting-started
+#' name:my-work
 #' 
-#' ## Prior Installation
+#' ## Interdisciplinary-oriented collaborator
 #' 
-#' Make sure you have the current R, RStudio, & R packages
-#' - [Novice's Guide](https://moderndive.com/1-getting-started.html) on ModernDive.com
+#' <img src="images/papers.png" style="width: 650px;"/>
+#'  
+#' --
+#' 
+#' ***
+#' <br>
+#' My work has appeared in [**`r njournals`**](https://scholar.google.com/citations?user=wUACzXkAAAAJ&hl=en) different peer-reviewed journals garnering [**`r ncites`**](https://scholar.google.com/citations?user=wUACzXkAAAAJ&hl=en) citations, with an h-index of [**`r nhindex`**](https://scholar.google.com/citations?user=wUACzXkAAAAJ&hl=en) and an i-10 index of [**`r i10index`**](https://scholar.google.com/citations?user=wUACzXkAAAAJ&hl=en). <br><br>
 #' 
 #' ???
-#' We recommend that you have the following versions of R, RStudio, and some R
-#' packages downloaded. If you are having issues getting these things going right
-#' now, we recommend you just follow along with the slides and work to get the
-#' installations working during exercises and our break about halfway through.
+#' A researcher's vision is often constrained by how they think about and use data.
+#' It is tough to watch researchers develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with.
+#' Methodological advances allow us to ask more sophisticated questions. But how do researchers stay current with advances in methodology and data analysis?
+#' 
+#' I love to dig into all phases of research projects - from planning to publication. I work to identify and outline investment to build and maintain research capacity by providing responsive, efficient, and high-quality analytical support.
+#' My work includes multivariate approaches to measurement and analysis of substantive problems where I have led simulation-based research and contributed to recommendations for applied researchers. In addition, I have conducted substantive research using structural equation modeling techniques as a general data analytic approach to studying individual, developmental, and socio-contextual differences within the social, behavioral, and health sciences. I also have extensive grant experience in relation to study design, statistical analytic plans and power analyses. 
+#' 
+#' I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making.
+#' I look forward to discussing 
+#'  
+#' 
+#' ---
+#' 
+#' name:my-work
+#' 
+#' ## Grants and contracts
+#' 
+#' I have directly collaborated with researchers to attain [**more than $5 million**](https://orcid.org/0000-0002-0355-2244) in new research funding and developed considerable experience applying diverse best-practice methods to complex problems in new areas.
+#' 
+#' ???
 #' 
 #' --
 #' 
 #' ***
 #' 
-#' - [R (version 4.0.2 or greater)](https://cloud.r-project.org/)
-#' - [RStudio (version 1.4 or greater)](https://www.rstudio.com/products/rstudio/download3/)
+#' ## Training
 #' 
-#' ***
+#' Organized, managed, and taught an 8-course advanced methodology workshop for faculty and graduate students (N = 60) and a 6-course basic methodology training series for residents (N = 150).
 #' 
 #' <!--
 #' These slides were built using
 #' 
-## ----------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------------------------------------------------
 R.version.string
 
 #' 
-## ----------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------------------------------------------------
 rstudioapi::versionInfo()$version
 
 #' -->
 #' 
 #' <br>
 #' 
-#' - Run this in the RStudio Console
-#' 
 
 #' 
 #' ???
-#' If you already downloaded the course materials and already ran the prereqs.R,
-#' you can skip running this code again. After you've run these commands to get the packages installed, please follow
-#' the steps on the next slide. I'll leave this up for a little bit to make sure
-#' those following along can copy the code into RStudio and run it.
+#' I have created and taught in training conferences. 
 #' 
 #' ---
 #' 
+#' ## Mentoring
 #' 
-#' 
-#' # Getting started
-#' 
-#' **1.** Open HTML slides: <https://bit.ly/csp-tidy-slides>
-#' 
-#' **2.** Open RStudio  
-#' 
-#' **3.** Download course materials to your preferred location by copying this
-#' and running it in the RStudio Console: 
-#'    
-## ----eval=FALSE--------------------------------------------------------------------------
-## usethis::use_course("https://csp2021.netlify.app/materials.zip")
-
-#' 
-#' **4.** Edit Google Doc to ask and answer questions:
-#' [https://bit.ly/csp-tidy-doc](https://docs.google.com/document/d/1Qsf1-GNMkjkP7lQAdiuhuu-gEP2reS2vkxRwfdXdYUI/edit)
+#' The coalescence of a new vision for team leadership within the organization that resulted in new funding, partnerships, and additional value offered by the team. 
 #' 
 #' ???
-#' - Just a reminder here on the HTML slides link if you missed it at the beginning.
-#' It will also be available at the bottom of the slides as you can see here
-#' throughout the presentation.
-#' 
-#' - Please follow steps 2 and 3 next including copying the code in step 3 and
-#' running in RStudio. This will start up a new RStudio project and make sure
-#' you have the code available that we will go over.
-#' 
-#' - Lastly please open up the Google Doc linked here. You can add your questions
-#' and any issues you are having here. We'll be keeping an eye on it. Help out
-#' your fellow participants as well if you are able to answer questions before
-#' Jessica or I can. 
-#' 
-#' - I'm going to turn it over to Jessica now to get us going
-#' on the content.
-#' ---
-#' 
-#' class: inverse, center, middle
-#' 
-#' # R Data Types
-#' 
-#' 
-#' ???
-#' 
-#' Great, so we are assuming you have some experience with R, and so hopefully you are familiar with the various data types in R. 
-#' 
-#' ---
-#' 
-#' ## Data types review
-#' 
-#' Vector/variable
-#'   - Type of vector (`int`, `num` or `dbl`, `chr`, `lgl`, `date`)
-#' 
-#' ???
-#' 
-#' - But just as a refresher, the main components we work with are called vectors, which store a certain variable type, either from our data, or for other computational uses. So we have integer and numeric, also called double, which store numbers, as well as character for letters or words etc, as well as logical for true/false or boolean data, and date. You will probably encounter numeric and character most often, and date is useful for timestamp tor dates.
-#' - Usually our data is basically a set of vectors or variables, and often of different types. In R, we store those in a data frame, which is essentially a rectangular data table or matrix, with information about different kinds of variables. We think of data frames as having observations usually by row, and so each vector in a data frame must have the same number of rows.
-#' --
-#' 
-#' Data frame
-#'   - Vectors of (potentially) different types
-#'   - Each vector has the same number of rows
-#' 
-#' 
-#' ---
-#' 
-#' ## Data types review
-#' 
-
-#' 
-#' ???
-#' 
-#' - So if you have worked in R, you should have worked with data frames, and when you made a new data frame by hand you likely used the function data.frame. In the tidyverse, we use a different flavor of data frame called a tibble. Basically, it is a  data frame with some extra information and features. We can use the function tibble to create it. 
-#' - Then, when we print out the new tibble, or fancy data frame, we can see the output tells us it is a tibble, it tells us the number of rows and columns, and we also see the variable or vector types at the top of the data frame. We don’t get this information automatically from a regular data frame. For all intents and purposes this acts like a data frame when doing analyses or data wrangling. The most noticable differences are usually in just how it is printed. Something you can’t see here is that if we had three thousand rows in this tibble, it would only print the top 10 or so. If you’ve ever accidentally printed a giant data frame in R, you know that the default way is to print all the rows, which is a bit annoying. So tibbles fix annoying things like that.
-#' - We show you this, because when using the tidyverse functions, the output is going to be a tibble. Also, when you use tidyverse functions to read in data, such as read underscore excel, or read underscore table, the resulting data frame is actually a tibble. So just something to be aware of.
-#' --
-#' 
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-library(tibble) # tibble is the tidyverse data.frame
-library(lubridate)
-ex1 <- tibble(
-  vec1 = c(1980, 1990, 2000, 2010),
-  vec2 = c(1L, 2L, 3L, 4L),
-  vec3 = c("low", "low", "high", "high"),
-  vec4 = c(TRUE, FALSE, FALSE, FALSE),
-  vec5 = ymd(c("2017-05-23", "1776/7/04", "1983-5/31", "1908/04-1"))
-)
-ex1
-
-#'   
-#' ---
-#' 
-#' ## Learning objectives
-#' 
-#' ### Part 1
-#' 
-#' - Distinguish between different {tidyverse} packages
-#' - Assess different {dplyr} functions for wrangling data
-#' - Discuss the power of "tidy data"
-#' - Develop an intuition behind {ggplot2} plotting syntax
-#' 
-#' ???
-#' 
-#' Ok, so just a note about going forward and our goals for this super short introduction to tidyverse in the first hour. We want to talk about the differences between different tidyverse packages and look at different functions in the dplyr package for wrangling data. We will talk a bit about tidy data, and an extremely short intro to ggplot, really just a taste to get you interested in finding out more.
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' 
-#' ### Shameless plug
-#' 
-#' <img src="images/flowchart.png" style="width: 720px"/>
-#' 
-#' ???
-#' 
-#' Ok this is Chester’s shameless plug in that most of what we are talking about today is in this awesome book that Chester and his colleagues wrote, called Modern Dive. It’s available freely online at this websote, and was also recently published in book form as well. So if you want to learn more through reading and exercises, I definitely recommend it, and I can say that because I had nothing to do with it.
-#' 
-#' 
-#' ---
-#' 
-#' class: center, middle, inverse
-#' 
-#' # Getting started with {dplyr}
-#' 
-#' .pull-left[
-#' <img src="images/dplyr_wrangling.png" width="85%" height="55%">
-#' 
-#' <br>
-#' 
-#' [Alison Horst](https://github.com/allisonhorst/stats-illustrations) 
-#' ]
-#' 
-#' .pull-right[
-#' <img src="images/dplyr_hex.png" width="70%" height="55%">
-#' 
-#' <!-- New hex is fine here too -->
-#' 
-#' [dplyr package](https://dplyr.tidyverse.org)
-#' ]
-#' 
-#' ???
-#' Now, the first main tidyverse package we will talk about is dplyr, which is mainly for what we call data wrangling. 
-#' ---
-#' 
-#' class: center, middle  
-#'   
-#' ## Welcome to the [tidyverse](https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/)!
-#'   
-#' The {tidyverse} is a collection of R packages that share common philosophies 
-#' and are designed to work together. <br><br> 
-#'   
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://tidyverse.tidyverse.org",
-  file = "images/tidyverse_hex.png",
-  size = 200
-)
-
-#' 
-#' ???
-#' 
-#' We keep mentioning the tidyverse, but we haven’t actually defined that. So in general, the tidyverse refers to a collection of R packages that share common philosophies, mainly related to what we call tidy data and how functions are written, and they are designed to work together. The tidyverse became its own package somewhat recently, so that when you install the tidyverse package, it installs a small collection of packages. But there are many other packages that fit into the tidyverse universe, they just aren’t automatically installed with the tidyverse package. 
-#' ---
-#' 
-#' ## First motivating example for today
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "http://gitsense.github.io/images/wealth.gif",
-  file = "images/wealth.gif",
-  size = 700
-)
-
-#' 
-#' 
-#' - Inspired by the late, great [Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
-#' 
-#' ???
-#' 
-#' 
-#' - So before we talk about code, we want to motivate you with what we are trying to achieve with our data wrangling and visualization tools in the tidyverse. We won’t be able to get into detail on how to create a plot like this in an hour or two, but just know that once you have the foundation that we talk about today, it’s not too much more work to get to a pretty amazing visual like this. Here we have an animated visualization of income per capita vs life expectancy over the years from the gapminder data set which we will use today. This plot specifically is inspired by a talk the swedish physician Hans Rosling gave, and we recommend you spend some time watching his talks because he was a really great orator and conveyer of information with data and statistics.
-#' - So the ultimate goal is really to convey information with our data, in an intuitive way.
-#' 
-#' ---
-#' 
-#' ## The `gapminder` data set in {dslabs}
-#' 
-## ---- purl=TRUE--------------------------------------------------------------------------
-library(dslabs)
-library(dplyr)
-gapminder <- tibble(gapminder)
-glimpse(gapminder)
-
-#' 
-#' 
-#' - Also check out [the {gapminder} package](https://github.com/jennybc/gapminder)
-#' 
-#' ???
-#' 
-#' - So that visualization was from the gapminder data, which is a free public data set from the world bank. It’s very large and all of it is available on the gapminder website, but some of it has been packaged up into an R data set. Here we are using a relatively small subset of the data found in dslabs package, but more data can be found in the gapminder package. In this data, we have about 10 thousand rows where each row or observation is for a country for one year, and we have information about those countries’ population size, infant mortality and life expectancy, and fertility rates, as well as gdp and where in the world that country is located.
-#' - We are going to use this data for some exercises, so if you all could open an R script or R markdown or whatever you use in R and copy this code and run it right now, that will help for later.
-#' ---
-#' 
-#' name: wrangling
-#' 
-#' ## What is data wrangling?
-#' 
-#' .pull-left[
-#' - "data janitor work"
-#' - importing data
-#' - cleaning data
-#' - changing shape of data
-#' ]
-#' .pull-right[
-#' - fixing errors and poorly formatted data elements
-#' - transforming columns and rows
-#' - filtering, subsetting
-#' ]
-#' 
-#' <br>
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://r4ds.had.co.nz/introduction.html",
-  file = "images/r4ds_tidyverse.png",
-  size = 600
-)
-
-#' 
-#' ???
-#' 
-#' - In this first hour we are mostly talking about data wrangling. By data wrangling, we mean anything we do to manipulate data to get it ready for analyses or visualization, whether that’s what we think of as data cleaning, or changing the shape or filtering of the data, or transforming or fixing up the data in some way. 
-#' - In this diagram we can see that data wrangling includes the import, tidying, and transformation of the data before the downstream visualize and model steps.  But we also might wrangle data that has been output from model steps, so it’s actually an integral step that happens throughout the entire data analysis process, and not just at the beginning.
-#' 
-#' ---
-#' 
-#' ## Base R versus the {tidyverse}
-#' 
-#' - The mean life expectancy across all years for Asia
-#' 
-#' ???
-#' 
-#' - Now, how does working in the tidyverse differ from working in base R.
-#' - CLICK: First let’s look at this simple example where we want to calculate the mean life expectancy across all years for the continent of Asia. In regular base R, we need to subset the data to get only rows where continent is equal to Asia, and the common way to do this is by putting a true false statement inside the bracket. Of course there are lots of ways to do this, maybe using the subset function, but I think this is probably the most common way we are taught. Since we are subsetting rows this goes in the first slot of the bracket, and we put a comma after and then a blank to get all the columns. Then, we need to calculate the mean of the column life expectancy. This works well.
-#' - However, we have to admit this is hard to read, and confusing for beginners because the bracket, comma thing is not so intuitive.
-#' - CLICK: In the tidy verse, using the dplyr package, we use what is called a pipe function, which is thisfunny symbol with percent greater than percent, to essentially chain together functions. We will explain this code in more detail, but this is what we’d do in the tidyverse, where we’d run this code to perform functions in order: first filtering rows where continent equals Asia, then summarizing to get the mean life expectancy. We end up with the same answer, though note the output is a tibble.
-#' --
-#' 
-## ---- purl=TRUE--------------------------------------------------------------------------
-# Base R
-asia <- gapminder[gapminder$continent == "Asia", ]
-mean(asia$life_expectancy)
-
-#' --
-#'  
-
-#' 
-#' ---
-#' 
-#' ## The pipe `%>%`
-#' 
-#' <img src="images/pipe.png" style="width: 240px;"/> &emsp; &emsp; &emsp; <img src="images/MagrittePipe.jpg" style="width: 300px;"/>
-#' 
-#' 
-#' ???
-#' 
-#' - let’s go through that code more in detail. first, what is this pipe? Like i mentioned, this is a way to chain together commands. In R, when running multiple functions, we often end up with a web of nested parantheses, or many rows where we save the output of one function and run a new function on it, and again and again. This is a way to do that just with one symbol, the pipe. When looking at code we read it as “and then”. 
-#' - CLICK So for this example, we use the gapminder data, and then we filter by continent, and then we summarize with mean life expectancy. So here we are able to separate out our steps using the pipe, in the order that we perform these wrangling steps.
-#' - If you’re in rstudio there’s also a keyboard shortcut, which is cmd-shift-m on a mac, or ctrl-shift-m on windows.
+#' I have enjoyed many leadership positions throughout my career and believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making. My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships. To accomplish this, I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and quality, funding and partnerships, reflection, and mentoring.
 #' 
 #' --
 #' 
-#' - A way to chain together commands
-#' - Can be read as "and then" when reading over code
-#' --
-#' 
-
-#' 
-#' ---
-#' 
-#' class: inverse
-#' 
-#' ## `filter()` rows that satisfy specified conditions
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://github.com/allisonhorst/stats-illustrations",
-  file = "images/dplyr_filter.jpg",
-  size = 1100
-)
-
-#' 
-#' ???
-#' 
-#' Digging deeper into that code, the first function we use (besides the pipe, which is technically a function in the same way the plus sign or bracket are functions), but the first data wrangling function we use is the filter function, which filters rows that satisfy specified conditions. We can have multiple conditions, strung together with logical operators like the & symbol, or or symbol, or other ways you might create a true false statement. This is similar to what you might put in the brackets using the base R way we showed earlier. We will talk a bit about these logical operators in the next slides.
-#' 
-#' ---
-#' 
-#' name: filter
-#' 
-#' ## `dplyr::filter()`
-#' 
-#' - Arguments are "filters" that you'd like to apply.
-#' 
-#' ???
-#' 
-#' - Here is an example where we want to filter on year. The arguments are going to be the filters that we want to apply.
-#' - CLICK  Note that we have to use the double equal sign to tell R we want a true/false statement. We can also see the output of the filter statement is again a tibble, this time with fewer rows because we’ve only taken the subset with year equal to 2014. Using the pipe however lets us easily keep going with our functions and we don’t really need to save this subset data to do our next step.
-#' 
-#' 
-#' --
-#' 
-## ---- purl=TRUE--------------------------------------------------------------------------
-gap_2014 <- gapminder %>% filter(year == 2014)
-gap_2014
-
-#' 
-#' - Use `==` to compare a variable to a value
-#' 
-#' ---
-#' 
-#' ## Logical operators
-#' 
-#' - Use `|` to check for any in multiple filters being true:
-#' 
-#' ???
-#' 
-#' - We had an example using the & logical operator to string two logical statements together, but there is also the or operator which is this vertical line. 
-#' - CLICK: So we would check here whether life expectancy is less than 50 OR fertility is greater than 4, one or the other or both.
-#' - CLICK: And again we can see the tibble output, where some rows for instance the first one, does not meet the life expectancy criteria but it does meet the fertility >4 criteria.
-#' 
-#' --
-#' 
-
-#' --
-#' 
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-set.seed(2018)
-gapminder %>%
-  filter(life_expectancy < 50 | fertility > 4) %>%
-  slice_sample(n = 8)
-
-#' 
-#' 
-#' 
-#' ---
-#' 
-#' ## Logical operators
-#' 
-#' - Use `,` to check for all of multiple filters being true:
-#' 
-#' ???
-#' 
-#' - Instead of using &, we can also use commas in the filter function to check that all filters are true. 
-#' - CLICK So here the comma is like an and, so that we need life expectancy to be less than 50 AND fertility to be greater than 4.
-#' 
-#' 
-#' --
-#' 
-
-#' 
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-gapminder %>%
-  filter(life_expectancy < 50, fertility > 4) %>%
-  head(8)
-
-#' 
-#' ---
-#' 
-#' ## Logical operators
-#' 
-#' - Use `%in%` to check for any being true <br> (shortcut to using `|` repeatedly with `==`)
-#' 
-#' ???
-#' 
-#' - Another useful operator is the in operator, which checks whether one thing is in a vector of things. 
-#' - CLICK: So here we want country to be in one of these countries, and year in one of these years. Note I said AND year in this set of years, because we have a comma. So we can have country equal to argentina but then we also need year to be either 2012 or 2015.
-#' - CLICK: And we can see the output is a pretty small tibble, with just 6 rows.
-#' 
-#' 
-#' --
-#' 
-
-#' --
-#' 
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-gapminder %>%
-  filter(
-    country %in% c("Argentina", "Belgium", "Mexico"),
-    year %in% c(2012, 2015)
-  )
-
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' background-color: coral
-#' 
-#' # Your Turn
-#' ---
-#' 
-#' name: yourturnA
-#' 
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-counter <- 1
-
-#' 
-#' ## Exercise `r LETTERS[counter]` - 5 minutes
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-counter <- counter + 1
-
-#' 1. Filter observations from either Europe or Africa using the `|`.
-#' 2. Filter observations from either Africa or Asia using `%in%`.
-#' 3. How many countries had life expectancy greater than 80 years in 1996?
-#' 
-## ----soln1, include = FALSE--------------------------------------------------------------
-gapminder %>% filter(continent == "Europe" | continent == "Africa")
-gapminder %>% filter(continent %in% c("Africa", "Asia"))
-gapminder %>% filter(life_expectancy > 80, year == 1996)
-
-## ----include=FALSE-----------------------------------------------------------------------
-# This code generates the HTML code that follows
-# to get a timer
-countdown::countdown(minutes = 5, 
-          left = 0, right = 0,
-          padding = "30px",
-          margin = "10%",
-          font_size = "5em")
-
-#' <div class="countdown blink-colon" id="timer1" style="right:0;bottom:0;left:0;margin:10%;padding:5px;font-size:5em;" data-warnwhen="0">
-#' <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-#' </div>
-#' 
-#' ???
-#' 
-#' Exercise 1,
-#' Ok so with that information about filtering, let’s have a bit of practice. We’ll just give you 5 minutes to work on this so don’t worry if you don’t get very far. We just want you to get into the data a bit if possible. If you don’t want to practice, feel free to take a break. If you haven’t been following along with your R code, it might take a bit to get the data up in Rstudio and everything (go back to slide 17 if you  need the code for the data), so at least try doing that so that for the next practice you’ll be ready. I’ll go over the answers when the timer is done.
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' background-color: turquoise
-#' 
-#' # Walk through exercise in RStudio
-#' 
-#' ---
-#' 
-#' name: summarize
-#' 
-#' ## `summarize()`
-#' 
-#' - Any numerical summary that you want to apply to a column of a data frame is specified within `summarize()`.
-#' 
-#' 
-
-#' 
-#' 
-#' ???
-#' 
-#' - Ok the second useful tidyverse function we will talk about today is summarize. If you remember when we were using base R, we saved the subset of data, and then we used the mean function to calculate the mean of a vector, which we selected using the dollar sign operator. 
-#' - CLICK Here, we will use the pipe to chain together the filter and summarize functions. And summarize is a lot more powerful than just using individual functions like mean or sd or median. We can calculate the summary of several vectors of with multiple different summarization functions all at once. Here, we’ve filtered just for year 2015, and then we use summarize to output the max and standard deviation of life expectancy. 
-#' - What we get is another tibble, with two columns, one for each summary. We also named them, which is what this part on the left side of the equals sign is doing. You can imagine we can really go wild with this function, and could add in mean, median, min, whatever you like, and even use your own functions or calculations within summarize. It’s very flexible. We also could have used multiple variables in the same summarize function.
-#' 
-#' --
-#' 
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-stats_2015 <- gapminder %>%
-  filter(year == 2015) %>%
-  summarize(
-    max_exp = max(life_expectancy),
-    sd_exp = sd(life_expectancy)
-  )
-stats_2015
-
-#' 
-#' ---
-#' 
-#' name: groupby
-#' 
-#' ### Combining `summarize()` with `group_by()`
-#' 
-#' - When you'd like to determine a numerical summary for all
-#' levels of a different categorical variable
-#' 
-
-#' 
-#' ???
-#' 
-#' - A very powerful way to use summarize is in conjunction with the group_by() function. This is a common task in data summarization where we want to know for example the mean of a variable stratified by another factor. In this case, we have continent as a grouping variable, so it’s a categorical factor where we have a finite number of continents, and we want to know the max and standard deviation of life expectancy within each continent. So all we need to do is add this one line, group_by(continent).
-#' - CLICK: Now we see the output is still a tibble, but instead of just one row with the summairzation for the whole data set, we have 5 rows for each of the five continents in the data. This makes it easy to compare across continents. We also see that the continent has been kept as a column in this tibble. This really helps with downstream visualizations and so on. I think this is one of those things that is super annoying to do in base R, but extremely easy to do in tidyverse. The group_by() function is used in a lot of different ways to do things in parallel essentially across different categorical variables.
-#' 
-#' --
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-max_exp_2015_by_cont <- gapminder %>%
-  filter(year == 2015) %>%
-  group_by(continent) %>%
-  summarize(max_exp = max(life_expectancy),
-            sd_exp = sd(life_expectancy))
-max_exp_2015_by_cont
-
-#' 
-#' ---
-#' 
-#' class: inverse
-#' 
-#' ## `mutate()` changes the data
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://github.com/allisonhorst/stats-illustrations",
-  file = "images/dplyr_mutate.png",
-  size = 600
-)
-
-#' 
-#' ???
-#' 
-#' Ok, so moving a bit away from summarization and filtering, and now we want to talk about adding variables or changing them in some way. This is where the mutate function comes in. 
-#' 
-#' ---
-#' 
-#' name: mutate
-#' 
-#' ## `mutate()`
-#' 
-#' - Most importantly, allows you to create a new variable based on other variables
-#' 
-#' ???
-#' 
-#' - In base R, we could add or change variables in a data frame using the $ operator, where we save each new variable individually. With mutate, we can make that code a bit more intutive and readable.
-#' - CLICK So for adding a new variable based on existing variables, like in this example, we we want to have gdp per capita, so we want gdp which is already a column, divided by the population column, we just have mutate with gdp_per_capita the name of the new varaible on the left of hte equal sign, and on the right of the equal sign we have hte code to create it, using existing variable names. We don’t need to use dollar signs or anything here. We can see the a random subset of 4 rows of the output tibble with this slice_sample function here. 
-#' - Since we can’t see the column though, the slide is too small, I’ll go into R really quick just to show you what it looks like. I’m going to use a function View which shows us the tibble nicely in Rstudio. SHOW R CODE.
-#' 
-#' --
-#' 
-## ---- purl=TRUE--------------------------------------------------------------------------
-gapminder_plus <- gapminder %>% 
-  mutate(gdp_per_capita = gdp / population)
-slice_sample(gapminder_plus, n = 4)
-
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' 
-#' <h5></h5>
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://github.com/allisonhorst/stats-illustrations",
-  file = "images/tidydata_1.jpg",
-  size = 1200
-)
-
-#' 
-#' ???
-#' 
-#' - Ok, so we have been using the tidyverse package and functions, and I mentioned that all of these packages follow the same principles, and that mainly is to create and use what we call tidy data. Tidy data is just data that is built in a standard way that is easy to analyze and visualize. 
-#' - In tidy data, we want each variable to form a column, and essentially have no combined information within a column that you need to do data gymnastics to extract. For example, if we have a medication in a column, we don’t want to to be something like the string advil 400 mg, because that is actually two pieces of information, the name of the medication and the dose. We’d want that to be two separate columns. 
-#' - Second, we want each observation to form a row. That nuance can be seen most when using longitudinal data, so if we have multiple observations on one person, we want each of their observation to be a row, not in multiple columns. This is what we might call “long” data, as opposed to wide data. When you start working with ggplot, you’ll see why this format is especially useful, because we can plot each observation more easily with a column that specifies were all that information is, and a categorical visit number or time variable.
-#' - Lastly, we want each cell to be a single measurement. This goes back to my advil mg example, because that is two pieces of information. So if every cell is just one piece of information it’s much easier to analyze and plot. 
-#' - So that is the foundation of the tidyverse, in that we want all of our data to be tidy and ready for analysis. Often it takes a bit of wrangling and cleaning to get it there.
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' 
-#' <h5></h5>
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://github.com/allisonhorst/stats-illustrations",
-  file = "images/tidydata_2.jpg",
-  size = 1200
-)
-
-#' 
-#' ???
-#' 
-#' 
-#' The other benefit of tidy data is that tidy datasets are all alike. We don’t need to think too hard about the structure of the data when we are modeling with it. Though this is easier said than done sometimes, and I’m sure you’ve all had to deal with some absurdly messy or strangely formatted data sets. But hopefully these tidyverse functions will help you get your data in a tidy data format more easily.
-#' 
-#' ---
-#' 
-#' name: arrange
-#' 
-#' ## `arrange()`
-#' 
-#' - Reorders the rows in a data frame based on the values of one or more variables
-#' 
-#' ???
-#' 
-#' - All of the functions so far have significantly changed the data in some way, through subsetting or summarizing, or mutating. But sometimes you just want to sort your data. Rather than opening it in excel, an easy way in the tidyverse is just using the arrange function. We can arrange or sort based on one or multiple variables, or even functions of variables.
-#' - CLICK: Here’s a simple example where we sort first on year and then within the same year we sort on country. The default is to use an ascending sort .
-#' 
-#' --
-#' 
-## ---- purl=TRUE--------------------------------------------------------------------------
-gapminder_plus %>%
-  arrange(year, country)
-
-#' 
-#' ---
-#' 
-#' ## `arrange()`
-#' 
-#' - Can also put into descending order
-#' 
-#' ???
-#' 
-#' If we want descending arrangement, we can use this desc function. Pretty simple.
-#' 
-#' --
-#' 
-## ----desc, purl=TRUE---------------------------------------------------------------------
-gapminder_plus %>%
-  filter(year > 2000) %>%
-  arrange(desc(life_expectancy))
-
-#' 
-#' ---
-#' 
-#' ## Don't mix up `arrange()` and `group_by()`
-#' 
-#' - `group_by()` is used (mostly) with `summarize()` to calculate summaries 
-#' over groups
-#' 
-#' - `arrange()` is used for sorting
-#' 
-#' ???
-#' 
-#' Ok just an aside, that arrange can sort the data for you, and you can save the output so now your data has been changed in the sense that the order of the rows is now different. However, this is not the same thing as group_by. Group_by is mostly a helper function that can be used with summarize to compute data summaries by a factor. If you use group_by() on a data set, the attributes actually change behind the scenes, but you won’t see any difference in the order it is printed. 
-#' 
-#' ---
-#' 
-#' ## Don't mix up `arrange()` and `group_by()`
-#' 
-#' This doesn't really do anything useful by itself
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-gapminder %>% group_by(country)
-
-#' 
-#' ???
-#' 
-#' 
-#' You can try it by using group_by() instead of arrange and printing the resulting tibble. It won’t look any different, but R will tell you that it has been grouped.
-#' 
-#' ---
-#' 
-#' ## Don't mix up `arrange()` and `group_by()`
-#' 
-#' But this does
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-gapminder %>% arrange(country)
-
-#' 
-#' ???
-#' 
-#' Here, we use arrange instead, and we can see the output has changed.
-#' 
-#' 
-#' ---
-#' 
-#' name: select
-#' 
-#' ## `select()`
-#' 
-#' - Chooses a subset of _columns_ (don't mix up with `filter()`)
-#' 
-## ----------------------------------------------------------------------------------------
-gapminder_plus %>% 
-  select(country, region, gdp_per_capita)
-
-#' 
-#' ???
-#' 
-#' - This is our last function we want to talk about, which is select. This essentially replaces the bracket and dollar sign game completely when we just want to subset or remove some columns. Just remember that filter which we learned earlier is for subsetting rows, and now we have select which is for subsetting columns. In this example, we are selecting country, region, and gdp per capita. The output is a tibble with just those 3 columns. 
-#' - The select function is a lot more flexible than this, and we recommend reading about it more in Modern Dive or in the help documents to see all the ways you can use it. You can select by a condition like, contains the string gdp, for example, or select all numeric columns, or use the negative sign to remove columns, and so on. It’s super handy.
-#' 
-#' ---
-#' 
-#' 
-#' 
-#' class: center, middle
-#' background-color: coral
-#' 
-#' # Your Turn
-#' ---
-#' 
-#' name: yourturnB
-#' 
-#' ## Exercise `r LETTERS[counter]` - 5 minutes
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-counter <- counter + 1
-
-#' 1. Create a data frame that has the median life expectancy by year.
-#' 2. Use `arrange()` on this data frame to see the top years with the highest median life expectancy. What about the year with the lowest median life expectancy?
-#' 3. Create a new column that is median life expectancy rounded to the nearest integer, and remove the original un-rounded column with `select()`.
-#' 
-## ----soln2, include=FALSE----------------------------------------------------------------
-lifeyear <- gapminder %>%
-  group_by(year) %>%
-  summarize(med_exp = median(life_expectancy))
-
-lifeyear %>% arrange(desc(med_exp))
-lifeyear %>% arrange(med_exp)
-lifeyear %>% mutate(med_exp_round = round(med_exp)) %>% select(-med_exp)
-
-#' 
-## ----include=FALSE-----------------------------------------------------------------------
-# This code generates the HTML code that follows
-# to get a timer
-countdown::countdown(minutes = 5, 
-          left = 0, right = 0,
-          padding = "30px",
-          margin = "10%",
-          font_size = "5em")
-
-#' <div class="countdown blink-colon" id="timer1" style="right:0;bottom:0;left:0;margin:10%;padding:5px;font-size:5em;" data-warnwhen="0">
-#' <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-#' </div>
-#' 
-#' ???
-#' 
-#' Ok one more exercise now, before we get to our ggplot intro and then inference section. We will give you five minutes to work on these and then come back to the solutions together. Don’t worry if you don’t get through it all, or don’t know some of the helper functions, though as a hint, one of them for question 3 is the function round().
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' background-color: turquoise
-#' 
-#' # Walk through exercise in RStudio
-#' 
-#' ---
-#' 
-#' name: viz
-#' class: center, middle, inverse
-#' 
-#' ##  Basics of {ggplot2}
-#' 
-#' 
-#' .pull-left[
-#' <img src="images/ggplot2_exploratory.png" width="105%" height="55%">
-#' 
-#' <br>
-#' 
-#' [Alison Horst](https://github.com/allisonhorst/stats-illustrations) 
-#' ]
-#' 
-#' .pull-right[
-#' <img src="images/ggplot2_hex.png" width="85%" height="55%">
-#' 
-#' <br>
-#' 
-#' [ggplot2 package](https://ggplot2.tidyverse.org)
-#' ]
-#' 
-#' ???
-#' 
-#' Alright, with this being a tutorial, we really don’t have much time to get into details of the tidyverse, and ggplot really takes probably a couple hours to learn the fundamentals of ggplot. So we just want to basically show you that it fits in to the tidyverse universe, and there are a lot of resources out there to learn more. I know ggplot can be really intimidating if you haven’t used it before, but I’ll just say that once you get over the initial hump it really isn’t hard to use. 
-#' 
-#' ---
-#' 
-#' class: center, middle
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-img_link(
-  link = "https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf",
-  file = "images/ggplot_basics_from_ppt.png",
-  size = 1000
-)
-
-#' 
-#' 
-#' ???
-#' 
-#' 
-#' - This is our one slide on ggplot. Ggplot has three main components, at least that’s the bare minimum you need to make a plot. Here we see we use the ggplot function which  names the data set we are using, in this case gapminder filtered to have just data from 2011, and then the aesthetic, which maps variables to plot elements. Here we map food supply to the x axis, life expectancy to the y axis, the four region categorical variable to the color, and the population number to the size of the point. 
-#' - We lastly need to tell ggplot what kind of plot we want ot make, which is the geometry component. Here we use geom_point to say we want the point or scatterplot geometry. All ggplots are variations on this format, we might have geom_boxplot or histogram or all the other common types of plots. But we always need to specify the data, and the aesthetic with the geometry. We also need the data to be tidy, so that each row and column denote separate observations and variables that we want to plot. 
-#' - I wish we had more time to get into the details here, but really there are a ton of resources out there so if you don’t use ggplot, it’s worth giving it a try.
-#' 
-#' 
-#' ---
-#' 
-#' ## Learning objectives
-#' 
-#' ### Part 2
-#' 
-#' - Build a sampling distribution by repeatedly sampling from a population using the {moderndive} package
-#' - Compose a visualization of a sampling distribution
-#' - Construct a bootstrap distribution for a basic confidence interval of a statistic
-#' - Perform tidy hypothesis testing using the {infer} package
-#' 
-#' ???
-#' - Alright before we get to part 2, we will take a short break to have a bit of a rest or whatever you need. 
-#' Feel free to ask questions in the google doc or in chat during break. We will come back at XXXX.
-#' - Welcome to Part 2 of the class. Here I'll introduce some statistical ideas
-#' but we'll take a computational approach using the tidyverse framework you've
-#' seen so far.
-#' - We'll finish Part 2 by using the infer package for tidy statistical inference.
-#' 
-#' ---
-#' 
-#' name: sampling
-#' 
-#' ## Extending this {tidyverse} knowledge to something new
-#' 
-#' - How can we now learn about <u>sampling distributions</u>?
-#' 
-#' --
-#' 
-#' `r img_link("https://moderndive.com/7-sampling.html", "images/sampling_bowl.jpeg", 380)`
-#' 
-#' ???
-#' Let's say we were interested in the proportion of balls in this bin that were
-#' red. Instead of taking all the balls out of the hopper, we could take a sample
-#' using a shovel to get an estimate as to that proportion.
-#' 
-#' ---
-#' 
-#' class: middle
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(moderndive)
-bowl %>% slice_head(n = 15)
-
-#' 
-#' ???
-#' The moderndive package includes a tibble called bowl that represents
-#' all of the balls in this hopper. The first 15 rows of this tibble are shown.
-#' 
-#' ---
-#' 
-#' ## One virtual scoop of 50 balls (one sample)
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-set.seed(8675309)
-(jennys_sample <- bowl %>% slice_sample(n = 50))
-
-#' 
-#' ???
-#' Let's say our friend Jenny wants to take a sample of the entries in bowl.
-#' We can do that programmatically using the slice_sample function from dplyr
-#' after setting Jenny's seed value.
-#' 
-#' ---
-#' 
-#' ## Proportion that are red
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-jennys_sample %>%
-  summarize(prop_red = mean(color == "red")) %>%
-  pull()
-
-#' 
-## ----echo=FALSE--------------------------------------------------------------------------
-jenny_prop <- jennys_sample %>%
-  summarize(prop_red = mean(color == "red")) %>%
-  pull()
-
-#' 
-#' 
-#' ???
-#' - In this particular sample, we can see that Jenny had `r jenny_prop * 100`%
-#' red balls.
-#' 
-#' --
-#' 
-#' ## Is this how many are in the full bowl?
-#' 
-#' ???
-#' - Are we guaranteed that is the same proportion that are in the full bowl?
-#' - No, different samples will lead to different proportions of red balls.
-#' - If we repeated the process of sampling many times, we could then
-#' get a sense for the variation in the proportion of red balls across samples.
-#' 
-#' ---
-#' 
-#' ## Sampling variability
-#' 
-#' ### What does `rep_bowl_samples` look like?
-#' 
-## ----purl=TRUE, cache=TRUE---------------------------------------------------------------
-library(moderndive)
-library(infer)
-rep_bowl_samples <- bowl %>%
-  rep_slice_sample(n = 50, reps = 10000)
-
-#' 
-#' ???
-#' - That's exactly what is done here. The rep_slice_sample function repeatedly
-#' samples from a data frame and then stacks the resulting rows on top of each
-#' other.
-#' 
-#' --
-#' 
-#' ### How about `bowl_props`?
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-bowl_props <- rep_bowl_samples %>%
-  group_by(replicate) %>%
-  summarize(prop_red = mean(color == "red"))
-
-#' 
-#' ???
-#' - The last step here is to group based on each of the ten thousand replicates
-#' to get the proportion of red balls in each sample.
-#' ---
-#' 
-#' ## The sampling distribution
-#' 
-## ----fig.height=4.7, purl=TRUE-----------------------------------------------------------
-ggplot(data = bowl_props, mapping = aes(x = prop_red)) +
-  geom_histogram(binwidth = 0.02, color = "white")
-
-#' 
-#' ???
-#' If we visualize the proportion of red variable, we can see how the
-#' sample statistic varies from one sample to another for samples of size 50.
-#' ---
-#' 
-#' ## Shifting focus
-#' 
-#' ### What about if all we had was the one sample of balls (not the whole bowl)?
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-jennys_sample %>% count(color)
-
-#' 
-#' ???
-#' - In reality, we don't usually have the population of interest like we did here
-#' with the `bowl` tibble.
-#' - Rather we have only one sample and would like to understand the variability
-#' we might expect from one sample to another.
-#' --
-#' 
-#' ### How could we use this sample to make a guess about the sampling variability from other samples?
-#' 
-#' ???
-#' - So how can we do this?
-#' ---
-#' 
-#' ## Building up to statistical inference!
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(infer)
-jennys_sample %>%
-  specify(formula = color ~ NULL, success = "red")
-
-#' 
-#' ???
-#' - The infer package provides a way for us to do just this.
-#' - We'll formalize the different functions in a bit but I want to first walk
-#' through our example to help you get a feel for the syntax.
-#' - First we specify that we are interested in looking for red balls with
-#' a response variable set to color.
-#' 
-#' ---
-#' 
-#' ## Bootstrapping?
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(infer)
-(bootstrap_samples <- jennys_sample %>%
-  specify(formula = color ~ NULL, success = "red") %>%
-  generate(reps = 5, type = "bootstrap"))
-
-#' 
-#' ???
-#' - We can use sampling with replacement from the color variable to create
-#' bootstrap samples from our original sample of Jenny's.
-#' - Five is chosen for the number of reps here just to help you see what is
-#' going on initially.
-#' 
-#' ---
-#' 
-#' ## What does `bootstrap_samples` represent?
-#' 
-#' - Remember we assumed that all we had was the original sample of 19 red and 31 white to start.
-#' --
-#' 
-#' - Hope each of the five sample selections in `bootstrap_samples` is similar to:
-#' 
-#' `r img_link("http://moderndive.netlify.com/images/sampling_bowl.jpeg", "images/big_sampling_bowl.jpeg", 500)`
-#' 
-#' ???
-#' One way I like to think about bootstrap sampling is that each bootstrap sample
-#' is an attempt to guess at what the population might look like, using the 
-#' original single sample as a guide.
-#' 
-#' ---
-#' 
-#' ## Bootstrap statistics
-#' 
-## ----purl=TRUE, cache=TRUE---------------------------------------------------------------
-jennys_sample %>%
-  specify(formula = color ~ NULL, success = "red") %>%
-  generate(reps = 5, type = "bootstrap") %>%
-  calculate(stat = "prop")
-
-#' 
-#' ???
-#' After collecting the samples, we last calculate the proportion of red balls
-#' in each bootstrap sample to obtain five different bootstrap statistics.
-#' 
-#' ---
-#' 
-#' ## Do 10,000 reps to get a better sense for variability
-#' 
-#' ### Just as we did with the sampling distribution
-#' 
-## ----purl=TRUE, cache=TRUE---------------------------------------------------------------
-bootstrap_stats <- jennys_sample %>%
-  specify(formula = color ~ NULL, success = "red") %>%
-  generate(reps = 10000, type = "bootstrap") %>%
-  calculate(stat = "prop")
-
-#' 
-#' ???
-#' - Lastly, we can go a step further and repeat this bootstrapping process many
-#' times, say ten thousand.
-#' - And then visualize it which we'll see next.
-#' 
-#' ---
-#' 
-#' ### The bootstrap distribution
-#' 
-## ----fig.height=2.7, echo=FALSE, purl=TRUE-----------------------------------------------
-ggplot(data = bootstrap_stats, mapping = aes(x = stat)) +
-  geom_histogram(binwidth = 0.02, color = "white") +
-  geom_vline(
-    xintercept = mean(bootstrap_stats$stat), color = "red",
-    size = 2
-  ) +
-  xlim(0.15, 0.55) +
-  geom_vline(
-    xintercept = c(mean(bootstrap_stats$stat) - sd(bootstrap_stats$stat),
-                   mean(bootstrap_stats$stat) + sd(bootstrap_stats$stat)), 
-    color = "red", size = 1.5)
-
-#' 
-#' ???
-#' - I've added in some bars here corresponding to the mean of the distribution
-#' as well as one standard deviation in both directions.
-#' - This can provide a way to get a sense for sampling variability using
-#' only a single sample.
-#' --
-#' 
-#' ### The sampling distribution
-#' 
-## ----fig.height=2.7, echo=FALSE, purl=TRUE-----------------------------------------------
-ggplot(data = bowl_props, mapping = aes(x = prop_red)) +
-  geom_histogram(binwidth = 0.02, color = "white") +
-  geom_vline(
-    xintercept = mean(bowl_props$prop_red), color = "red",
-    size = 2
-  ) +
-  xlim(0.15, 0.55) +
-  geom_vline(xintercept = c(mean(bowl_props$prop_red) - sd(bowl_props$prop_red), mean(bowl_props$prop_red) + sd(bowl_props$prop_red)), color = "red", size = 1.5)
-
-#' 
-#' ???
-#' - If you compare this to the actual sampling distribution we calculated before,
-#' you can see that the variation in the two plots is similar.
-#' - Thus, assuming you have a random sample from the population to start (and it
-#' is of reasonable size---whatever that may mean for your problem), bootstrapping
-#' can be a nice way to estimate the variability from one sample to another based
-#' on your statistic of interest.
-#' 
-#' ---
-#' 
-#' ## Get a confidence interval
-#' 
-## ----------------------------------------------------------------------------------------
-get_ci(bootstrap_stats, level = 0.95)
-
-#' 
-#' - We are 95% "confident" the true proportion of red balls in the hopper/bowl is
-#' between `r get_ci(bootstrap_stats, level = 0.95)[1]` and `r get_ci(bootstrap_stats, level = 0.95)[2]`.
-#' 
-#' ???
-#' - The infer package also includes a get_ci function, which you can use
-#' to return the appropriate percentiles of the bootstrap distribution
-#' corresponding to the level given.
-#' 
-#' --
 #' ***
-#' 
-#' - In the population:
-#' 
-## ----------------------------------------------------------------------------------------
-mean(bowl$color == "red")
-
+#' <img src="images/scholarly.png" style="width: 725px;"/>
 #' 
 #' ???
-#' - In this case, we expect about 95 confidence intervals out of 100 to include
-#' the true value from the population and that's why we put confident in quotes.
-#' - As a check since we know the population, we can calculate this proportion.
-#' - Here we see that Jenny's sample would be one of the 95% of intervals that
-#' includes the true population parameter of red balls.
-#' ---
-#' 
-#' ## {infer} verbs
-#' 
-#' `r img_link("https://infer.tidymodels.org", "images/infer_ci.jpg", 650)`
-#' 
-#' 
-#' ???
-#' - You've seen these verbs now via example but I'd like to walk through them
-#' again now with a diagram.
-#' - First, you specify which columns you'd like to work with. You've seen so far
-#' only choosing one variable but you'll see soon that you can select a response
-#' variable and an explanatory variable.
-#' - Then, you can generate bootstrap samples.
-#' - And calculate the appropriate statistic of interest from each sample.
-#' - Looking at the standard deviation of these statistics provides as estimate
-#' for the standard error denoted as SE here.
 #' 
 #' ---
+#' layout: true
 #' 
-#' ## {infer} verbs
+#' <div class="my-footer"><span>Slides at https://bit.ly/csp-tidy-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
 #' 
-#' `r img_link("https://infer.tidymodels.org", "images/infer_ht.jpg", 650)`
-#' 
-#' ???
-#' - The infer package was designed to also help with hypothesis testing.
-#' - There is only one additional function there with `hypothesize()`.
-#' - That allows you to denote what type of hypothesis test you are wanting to
-#' perform as well as any other null values as needed.
-#' - The `visualize()` function is a wrapper around ggplot2 to provide a quick
-#' way to look at the statistics that have been produced.
-#' - We'll see this further in our next example.
-#' 
-#' 
-#' ---
-#' 
-#' class: middle, center
-#' 
-#' # Statistical Inference
-#' 
-#' `r img_link("https://infer-dev.netlify.com", "images/infer_gnome.png", 400)`
-#' 
-#' <br>
-#' 
-#' .footnote[{infer} hex sticker designs kindly created by [Thomas Mock](https://www.linkedin.com/in/jthomasmock/)]
-#' 
-#' ???
-#' Thomas Mock was kind enough to produce a few different options for the
-#' {infer} package hex sticker. My personal favorite is here with the gnome
-#' learning about the unknown mu parameter from being in the fir tree.
-#' 
-#' ---
-#' 
-#' 
-#' # Research Question
-#' 
-#' If you see someone else yawn, are you more likely to yawn?
-#' 
-#' In an episode of the show *Mythbusters*, they tested the myth that yawning is contagious. 
-#' 
-#' --
-#' - 50 adults who thought they were being considered for an appearance on the show. 
-#' 
-#' --
-#' 
-#' - Each participant was interviewed individually by a show recruiter ("confederate") who either yawned or did not.
-#' 
-#' --
-#' 
-#' - Participants then sat by themselves in a large van and were asked to wait. 
-#' 
-#' --
-#' 
-#' - While in the van, the Mythbusters watched to see if the unaware participants yawned.
-#' 
-#' ???
-#' - Next, I'd walk through another example that lends itself nicely to a hypothesis
-#' testing framework.
-#' - The TV show Mythbusters wanted to test if yawning is contagious.
-#' - They selected 50 adults and split them into two groups.
-#' - Some were shown a yawn and some weren't.
-#' - They they observed whether each participant also yawned.
-#' 
-#' ---
-#' 
-#' ### Data
-#' 
-#' - `group`
-#'   - 34 saw the confederate yawn (`seed`)
-#'   - 16 did not see the confederate yawn (`control`)
-#' - `yawn`
-#'   - `yes` - participant yawned
-#'   - `no` - participant did not yawn
-#' 
-#' --
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(moderndive)
-mythbusters_yawn %>% slice(c(1, 3, 6, 19))
-
-#' 
-#' ???
-#' In the moderndive package, we've included a tibble based on the data presented.
-#' Here are what a few rows of that data looks like.
-#' 
-#' ---
-#' 
-#' # Results
-#' 
-#' `r img_link("https://github.com/sfirke/janitor", "images/janitor_hex.png", 150)`
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(janitor)
-mythbusters_yawn %>%
-  tabyl(group, yawn) %>%
-  adorn_percentages() %>%
-  adorn_pct_formatting() %>%
-  adorn_ns()
-
-#' 
-#' ???
-#' - The janitor package provides some tools for looking at the table of yawn versus
-#' group.
-#' - We can see that those who were shown a yawn tended to also yawn more than
-#' those that weren't shown a yawn.
-#' ---
-#' 
-#' ## *Finding: CONFIRMED*
-#' 
-#' > "Though that's not an enormous increase, since they tested 50 people in the field, the gap was still wide enough for the MythBusters to confirm that yawning is indeed contagious." <sup>1</sup>
-#' 
-#' <br><br>
-#' 
-#' .footnote[
-#' [1] http://www.discovery.com/tv-shows/mythbusters/mythbusters-database/yawning-contagious/]
-#' 
-#' ???
-#' Mythbusters said this statement on the show. Do you think they did the 
-#' hypothesis test needed to check to see if that claim is appropriate?
-#' ---
-#' 
-#' ## Really? Let's formally check this
-#' 
-#' - State the hypotheses
-#' 
-#' --
-#' 
-#' <br>
-#' 
-#' Null hypothesis:  
-#' 
-#' > There is no difference between the seed and control groups in the proportion of people who yawned.
-#' 
-#' --
-#' 
-#' Alternative hypothesis (directional): 
-#' 
-#' > More people (relatively) yawned in the seed group than in the control group.
-#' 
-#' ---
-#' 
-#' ## Test the hypothesis
-#' 
-#' **QUIZ**: Which type of hypothesis test would you conduct here?
-#' 
-#' - A. Independent samples t-test  
-#' - B. Two proportion test  
-#' - C. Chi-square Goodness of Fit  
-#' - D. Analysis of Variance
-#' 
-#' <!--
-#' ## Answer: <br> &nbsp;&nbsp;&nbsp; B. Two proportion test
-#' -->
-#' 
-#' ---
-#' 
-#' ## Two proportion test
-#' 
-#' $$H_0: p_{seed} - p_{control} = 0$$
-#' 
-#' --
-#' 
-#' $$H_A: p_{seed} - p_{control} > 0$$
-#' 
-#' ---
-#' 
-#' ## The observed difference
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-library(infer)
-obs_diff <- mythbusters_yawn %>% 
-  specify(yawn ~ group, success = "yes") %>%
-  calculate(
-    stat = "diff in props",
-    order = c("seed", "control")
-  )
-obs_diff
-
-#' 
-#' ???
-#' We've added a shortcut into infer for calculating the observed statistic using
-#' just specify and calculate. We'll add more verbs to this when we get to doing
-#' the hypothesis test with infer.
 #' 
 #' ---
 #' class: middle, center
 #' 
-#' ## Is this difference *meaningful*?
+#' ## Is this change *significant*?
 #' 
 #' --
 #' 
@@ -1507,377 +236,376 @@ obs_diff
 #' 
 #' --
 #' 
-#' ## Is this difference *significant*?
+#' ## Is this change *sustainable*?
+#' 
 #' 
 #' ---
 #' 
-#' # Modeling the null hypothesis
+#' ### Remaining sustainable   
 #' 
-#' If... 
+#' <img src="images/deficit.png" style="width: 750px;"/> 
+#' <br><br>
 #' 
-#' <br>
-#' 
-#' &emsp;&emsp; $H_0: p_{seed} = p_{control}$ &emsp;&emsp;
-#' 
-#' <br>
-#' 
-#' is true, then whether or not the participant saw someone else yawn does not matter.
-#' 
-#' --
-#' 
-#' <br>
-#' 
-#' In other words, there is no association between exposure and yawning.
+#' - Services billed increased by [38.6%]()    
+#' - Team averaged [78.3%]() billable time    
+#' - Compound annual growth rate [+9.2%]()
 #' 
 #' ???
-#' We can test for independence between the group and yawn variables.
 #' 
 #' ---
+#' 
+#' name:mot-exa
+#' 
+#' class: inverse, center, middle
+#' 
+#' # Motivating example
+#' 
+#' 
+#' ???
+#' 
+#' ---
+#' 
+#' <img src="images/napkin.jpg" style="width: 720px"/>
+#'     
+#' ???
+#'     Several years ago I worked as a quantitative methodologist for a large research center focused on how children develop and learn. One of the main ideas of this group was to translate social and developmental psychology theory into effective interventions to enhance social and academic outcomes.
+#'   
+#'   My primary area of research was the development and application of novel statistical methods to better translate the kind of benefits that we can get from a conceptual simulation study into real-world settings where the application is often not so good. We had to solve all kinds of methodological problems and technical limitations (e.g., missing data; see Howard, Rhemtulla & Little, 2015) in a research space where over-simplified data analytic practices persist for decades. I found that the application of advanced statistical methods, particularly within the structural equation modeling framework, were really interesting in this context and very challenging.
+#'   
+#'   One of our projects focused on progress monitoring of a new composite communication score to assess early language performance, quantify rates of development, and determine how individuals respond to intervention. What struck me was the enormous gap between the proposed statistical methods and the research questions.
+#'   
+#'   As a statistical consultant, I worked closely with the research team to focus on the theory. This is a path diagram drawn by the primary investigator from one of those meetings that demonstrates a deep theoretical vision for language development.
+#'   
+#'   I often get diagrams like this and I love to see them. What I want you to notice is that there is a lot going on here, we have multiple processes interacting in some really interesting ways. In this diagram you see the forest rather than the trees - which is to say that we are not focusing on one regression path or mean comparison here, rather we are looking into a complex system and all the effects are within the context of all the other pieces of the model.
+#'   
+#' ---
+#' 
 #' class: center, middle
 #' 
-#' ![](http://directorsnotes.com/wp-content/uploads/2011/11/another_earth_03.jpg)
+#' ## First motivating example for today
+#' 
+## ----eci, echo=FALSE---------------------------------------------------------------------------------------------------------------
+library(ggplot2)
+library(gridExtra)
+library(tidyverse)
+library(gganimate)
+library(directlabels)
+library(png)
+library(transformr)
+library(grid)
+library(magick)
+
+eci <- read.csv(file = "images/eci_long.csv")
+eci$Type <- factor(eci$Type, levels = c("Gestures", "Vocalizations", "Single Words", "Multiple Words"))
+
+theme_Publication <- function(base_size=24, base_family="sans") {
+  library(grid)
+  library(ggthemes)
+  (theme_foundation(base_size=base_size, base_family=base_family)
+    + theme(plot.title = element_text(face = "bold",
+                                      size = rel(1.2), hjust = 0.5),
+            text = element_text(),
+            panel.background = element_rect(colour = NA),
+            plot.background = element_rect(colour = NA),
+            panel.border = element_rect(colour = NA),
+            axis.title = element_text(face = "bold",size = rel(1)),
+            axis.title.y = element_text(angle=90,vjust =2),
+            axis.title.x = element_text(vjust = -0.2),
+            axis.text = element_text(), 
+            axis.line = element_line(colour="black"),
+            axis.ticks = element_line(),
+            panel.grid.major = element_line(colour="#f0f0f0"),
+            panel.grid.minor = element_blank(),
+            legend.key = element_rect(colour = NA),
+            legend.position = "none",
+            legend.direction = "horizontal",
+            legend.key.size= unit(0.2, "cm"),
+            legend.margin = unit(0, "cm"),
+            legend.title = element_text(face="italic"),
+            plot.margin=unit(c(10,30,5,5),"mm"),
+            strip.background=element_rect(colour="#f0f0f0",fill="#f0f0f0"),
+            strip.text = element_text(face="bold")
+    ))
+  
+}
+
+p <-  
+  ggplot(data = eci, aes(x= time, y=Rate, group=Type, colour=Type)) +
+  geom_line(size=3.5, show.legend = FALSE) +
+  ylab("Rate per Minute") + xlab("Time (in months)") + 
+  scale_x_continuous(breaks = round(seq(min(eci$time), 54, by = 6), 1)) + 
+  scale_y_continuous(breaks = round(seq(0, 6, by = 1), 2)) +
+  theme_Publication() +
+  geom_dl(aes(label=Type), method = list("last.points", cex = 2)) + 
+  labs(title = 'ECI key skills at {frame_along} months') +
+  coord_cartesian(clip = 'off') + 
+  transition_reveal(time) +
+  ease_aes('quadratic-in-out')
+
+# Run animation  
+animate(p, nframes=60, fps=5, width = 1200, height = 720, end_pause = 10, renderer = magick_renderer())
+
+# Save animation
+#anim_save("C:/Users/waylon/Desktop/csp-2021/images/eci.gif", animation = last_animation())
+
+
+#' 
 #' ???
-#' One way to think about this framework of hypothesis testing is by
-#' creating parallel universes where the null hypothesis is true and then
-#' see where what we observed falls in relation to that.
+#' 
+#' This is a plot of some data collected for this project.
+#' 
+#' Notice that each line represents a different form of communication - so the flat line is gesturing, the line above that is vocalizations, we also have single words and then multiple words. Look at how vocalizations seem to peak around 18 months then decline - also referencing this peak notice how the use of single words is accelerating. The idea here is that children transition from one communication strategy to another and this tool seems to capture it.
+#' 
+#' The question is how to get from data collection with this tool to evaluating the theory of change illustrated above. Traditional approaches might include the creation of multiple-item scale scores (e.g., sum all the communication scales into a total score that are tested using ANCOVA or multilevel modeling - but where is this indicated in the theoretical diagram above? Consider how focusing on one communication measure at a time (i.e., gestures, vocalizations, single- and multiple-word utterances) or an aggregate of all communication scores misses the point.
+#' 
+#' We wanted to identify inter-individual differences in intra-individual change in language development. Unlike traditional approaches latent growth curve modeling allowed for a more accurate and flexible approach to analyzing repeated measures data by simultaneously modeling change in the means (variable-centered) and in the variance and covariance of level and change (person-centered) across all forms of communication shown in the plot above - within the same model. This model allowed for testing of precursors and consequences of change and multiple group differences in these trajectories and predictive relationships.
+#' 
+#' Total communication is the weighted combination of the child's gestures (1 X each event), vocalizations (1 X each event), single-word (2 X each event) and multiple-word utterances (3 X each event). 
+#' 
 #' 
 #' ---
 #' 
+#' class: center, middle
 #' 
+#' # Exemplary LGM model
 #' 
 #' .pull-left[
-#' ### Original universe
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-mythbusters_yawn  %>%
-  slice(c(1:6, 15:20)) %>% 
-  knitr::kable()
-mythbusters_yawn %>%
-  tabyl(group, yawn) %>%
-  adorn_totals(where = c("row", "col"))
-
-#' ]
-#' 
-#' ???
-#' Our original universe looks like this.
-#' 
-#' --
-#' 
-#' .pull-right[
-#' ### Parallel universe
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-set.seed(201)
-perm1 <- mythbusters_yawn %>%
-  specify(
-    formula = yawn ~ group,
-    success = "yes"
-  ) %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1, type = "permute") %>%
-  ungroup() %>%
-  mutate(subj = seq(1, 50)) %>%
-  select(subj, group, alt_yawn = yawn)
-perm1 %>%
-  slice(c(1:6, 15:20)) %>% 
-  knitr::kable()
-perm1 %>%
-  tabyl(group, alt_yawn) %>%
-  adorn_totals(where = c("row", "col"))
-
-#' ]
-#' 
-#' ???
-#' One parallel universe looks like this. Notice that the overall Totals in the 
-#' table at the bottom stays the same, but the values of the response variable have
-#' been shuffled.
-#' 
-#' ---
-#' 
-#' # 1000 parallel universes
-#' 
-#' .pull-left[
-## ----echo=FALSE, purl=TRUE, cache=TRUE---------------------------------------------------
-yawn_universes <- mythbusters_yawn %>%
-  specify(yawn ~ group, success = "yes") %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1000, type = "permute") %>%
-  calculate(
-    stat = "diff in props",
-    order = c("seed", "control")
-  )
-yawn_universes %>%
-  slice(1:15) %>% 
-  knitr::kable()
-
-#' ]
-#' 
-#' .pull-right[
-## ----echo=FALSE, purl=TRUE---------------------------------------------------------------
-yawn_universes %>%
-  slice(986:1000) %>% 
-  knitr::kable()
-
-#' ]
-#' 
-#' ???
-#' We can next think about 1000 such parallel universes as well as the difference
-#' in proportions for each of those replicates.
-#' 
-#' ---
-#' ## The parallel universe distribution
-#' 
-## ----echo=FALSE, purl=TRUE, cache=TRUE---------------------------------------------------
-set.seed(8)
-null_distn <- mythbusters_yawn %>%
-  specify(
-    formula = yawn ~ group,
-    success = "yes"
-  ) %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1000, type = "permute") %>%
-  calculate(
-    stat = "diff in props",
-    order = c("seed", "control")
-  )
-null_plot <- null_distn %>%
-  visualize(bins = 8) +
-  shade_p_value(obs_stat = obs_diff, direction = "right") +
-  labs(x = "Difference in proportions")
-null_plot
-
-#' 
-#' 
-#' The distribution of 1000 differences in proportions, if the null hypothesis were *true* and yawning was not contagious. 
-#' 
-#' ???
-#' It's always a little weird shading a histogram but you can see that around
-#' 40-50% of the values in this null distribution are greater than what we 
-#' observed.
-#' 
-#' ---
-#' ## Calculating the p-value
-#' 
-#' <!--
-#' In how many of our "parallel universes" is the difference as big or bigger than the one we observed (`obs_diff`)?
-#' -->
-#' 
-#' --
-#' 
+#' <img src="images/lgm.png" width="85%" height="55%">
 #' <br>
 #' 
-#' The shaded proportion is the p-value!
+#' [Path diagram](https://www.google.com) 
+#' ]
 #' 
-## ----purl=TRUE---------------------------------------------------------------------------
-null_distn %>% 
-  get_p_value(obs_stat = obs_diff, direction = "right")
-
+#' .pull-right[
+#' <br><br>
 #' 
-#' ???
-#' - We can calculate this value directly using the get_p_value function from infer.
-#' - This determines the proportion of statistics that are as extreme or more
-#' extreme than what was observed in our sample.
+#' <img src="images/lgmfigure.png" width="425%" height="250%">
+#' <br><br>
+#' <!-- New hex is fine here too -->
 #' 
-#' ---
-#' class: middle, center
-#' layout: false
-#' 
-#' ## There is Only One Test!
-#' 
-#' [![Only One Test](images/downey.png)](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
+#' [Parameter illustration](https://www.statscamp.org/)
+#' ]
 #' 
 #' ???
-#' This framework for thinking about hypothesis testing was inspired by
-#' Allen Downey and his "There is Only One Test!" blogpost. If you click on the
-#' diagram here it will send you to this webpage.
+#' To address this challenge I used the Latent Growth Curve Modeling approach within the Structural Equation Modeling Framework.  
+#' 
+#' But Why did I go with the LGM over other possible approaches such as a repeated measures ANOVA, or even a multilevel model? 
+#' 
+#' LGM allowed for enormous flexibility in the specification of change over time which allowed for a better correspondence between the statistical model and the theory. 
+#' 
+#' RM-ANOVA and other variations of it model a group mean and treat variation as error - this was inconsistent with our goals because we wanted to actually model the individual differences. Both MLM and LGM allow us to examine intra-individual (within person) change over time AND inter-individual (between person) variability in intra-individual change because these are random effects models.
+#' 
+#' Notice the diagram on the bottom - each black line represents an individual person that can have their own intercept and slope. As you can see- some start higher, some lower, some increase, some decrease, some are flat. Well, we can determine the average starting point - denoted with a green dot here and also capture the variability around that average intercept. Similarly, we can estimate an average slope and variability around that slope. 
+#' 
+#' In the MLM approach, latent growth curve models are limited to a single growth curve, and the intercept and slope of a latent growth curve cannot predict other variables. This would again require that we change our theory to suit the statistical method - so this is not appropriate. 
+#' 
+#' With LGM we can fit a parallel process model and simultaneously estimate all these relationships.   
+#' 
 #' 
 #' ---
 #' 
-#' ![](images/infer.073.jpeg)
+#' class: center, middle
 #' 
-#' ---
-#' 
-#' ![](images/infer.074.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.075.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.076.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.077.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.078.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.079.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.080.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.081.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.082.jpeg)
-#' 
-#' ---
-#' 
-#' ![](images/infer.084.jpeg)
-#' 
-#' ---
-#' 
-#' 
-#' ## {infer}
-#' 
-#' Five main functions:
-#' 
-#' - `specify()`
-#' - `hypothesize()`
-#' - `generate()`
-#' - `calculate()`
-#' - `visualize()`
-#' 
-#' ---
-#' 
-#' ## {infer}
-#' <small>
-#' - `specify()` the response and explanatory variables (`y ~ x`)
-#' - `hypothesize()` what the null hypothesis is (here, `independence` of `y` and `x`)
-#' - `generate()` new samples from parallel universes under the null hypothesis model:
-#'     - <small>Resample from our original data <u>without replacement</u>, each time shuffling the `group` (`type = "permute"`)</small>
-#'     - <small>Do this <u>a ton of times</u> (`reps = 1000`)</small>
-#' - `calculate()` the statistic (`stat = "diff in props"`) for each of the `reps`
-#' </small>
+#' <img src="images/ecimodel.png" style="width: 540px;"/> 
 #' 
 #' ???
-#' This slide gives you more details on what each step in the process looks like
-#' for this example.
+#' This diagram illustrates our final model. The interesting applied statistics problem here was the application of advanced statistical techniques to ask more sophisticated questions and tell more compelling stories.
+#' 
+#' Our vision is constrained by how we think about and use data. Too often we develop intricate theories about how the world works, which represent a lot of deep thinking about a topic, only to cut them up into smaller chunks that are then crammed into canned statistical procedures that were never designed to address the original question to begin with. I am committed to identifying such practices, providing modern demonstrations of their disadvantages, and explaining available alternatives, to discourage their further use. This requires strong communication with stakeholders who often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak or want more flexibility in examining change processes over time.
+#' 
 #' 
 #' ---
 #' 
-#' ## {infer} example
+#' name: high
+#' class: inverse, center, middle
 #' 
-
+#' # Highlights: Measurement invariance
+#' <br><br><br>
+#' ## [Why?]()     
+#' 
+#' ### [To ensure we are measuring the same constructs across groups and time - allows for structural invariance testing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7920600/)
 #' 
 #' ???
-#' The infer pipeline is verbose but it is designed to help beginners understand
-#' simulation-based inference via the code written. It helps remind them of how
-#' the problem is set up as well as the steps in Allen Downey's framework.
-#' 
+#' For example, measurement invariance can be used to study whether a given measure is interpreted in a conceptually similar manner by respondents representing different genders or cultural backgrounds
 #' ---
 #' 
-#' ## Visualize the null distribution
+#' class: center, middle
 #' 
-#' - `visualize()` the distribution of the `stat` <br> (here, `diff in props`)
+#' ### 1. Configural invariance
 #' 
-## ----include=FALSE, purl=TRUE------------------------------------------------------------
-set.seed(8)
-null_distn <- mythbusters_yawn %>%
-  specify(formula = yawn ~ group, success = "yes") %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1000, type = "permute") %>%
-  calculate(stat = "diff in props", order = c("seed", "control"))
-
+#' <img src="images/david1.png" width="60%" height="60%">
 #' 
-#' 
-## ----purl=TRUE---------------------------------------------------------------------------
-null_distn %>%
-  visualize(bins = 8) +
-  shade_p_value(obs_stat = obs_diff, direction = "right")
-
 #' 
 #' ???
-#' Lastly, we can visualize and shade in the p-value to get a sense for its value
-#' as well as a conceptual understanding of what it represents for this problem.
 #' 
 #' ---
 #' 
-#' ## Classical inference
+#' class: center, middle
 #' 
-#' Rely on theory to tell us what the null distribution looks like.
+#' .pull-left[
+#' ### 2. Weak invariance
+#' <img src="images/david2.png" width="100%" height="100%">
+#' ]
 #' 
-
+#' .pull-right[
+#' ### 3. Strong invariance
+#' <img src="images/david3.png" width="100%" height="100%"> 
 #' 
-
+#' ]
 #' 
 #' ???
-#' - infer also works for many of the common traditional classical inference
-#' techniques like performing a z test here.
-#' - The syntax is much the same except now we are calculating a z statistic
-#' and we don't need to use generate since the normal distribution will be
-#' used directly.
 #' 
 #' ---
 #' 
-#' ## Classical inference
+#' class: center, middle
+#' # Structural invariance
 #' 
-## ----echo=FALSE, purl=TRUE, warning=TRUE, fig.height=4.5---------------------------------
-obs_z <- mythbusters_yawn %>%
-  specify(yawn ~ group, success = "yes") %>%
-  calculate(stat = "z", order = c("seed", "control"))
-mythbusters_yawn %>%
-  specify(yawn ~ group, success = "yes") %>%
-  hypothesize(null = "independence") %>%
-  # generate() is not needed since we are not doing simulation
-  calculate(stat = "z", order = c("seed", "control")) %>%
-  visualize(method = "theoretical") +
-  shade_p_value(obs_stat = obs_z, direction = "right")
-
+#' .pull-left[
+#' ### Latent correlations
+#' <img src="images/david4.png" width="100%" height="100%">
+#' ]
+#' 
+#' .pull-right[
+#' ### Phantom variables
+#' <img src="images/david5.png" width="100%" height="100%">     
+#' ]
 #' 
 #' ???
-#' infer also gives a warning here that the assumptions behind a traditional
-#' hypothesis test such as sample size and independence of observations have
-#' not been checked.
 #' 
 #' ---
 #' 
-#' # Simulation-based vs Classical (`stat = "z"`) 
+#' class: center, middle
 #' 
-## ----warning=FALSE, purl=TRUE, cache=TRUE------------------------------------------------
-mythbusters_yawn %>%
-  specify(yawn ~ group, success = "yes") %>%
-  hypothesize(null = "independence") %>%
-  generate(reps = 1000, type = "permute") %>%
-  calculate(stat = "z", order = c("seed", "control")) %>%
-  visualize(method = "both", bins = 8) + 
-  shade_p_value(obs_stat = obs_z, direction = "right")
-
+#' # A note about efficiency tools
+#' 
+#' .pull-left[
+#' <img src="images/manyfiles.png" width="85%" height="55%">
+#' Numerous [Mplus](https://www.statscamp.org/) output files
+#' ]
+#' 
+#' .pull-right[
+#' <br>
+#' <img src="images/table.gif">
+#' <!-- New hex is fine here too -->
+#' 
+#' Example model fit table [automation](https://www.statscamp.org/)
+#' ] 
 #' 
 #' ???
-#' Lastly, you can do both simulation and classical types of inference at the same
-#' time using `visualize(method = "both)`.
+#' This figure illustrate
 #' 
 #' ---
 #' 
-#' ## More info and resources
+#' # A note about organizational tools
 #' 
-#' - https://infer.tidymodels.org/
-#'   - Many examples under Articles
-#'   - Discussed in [www.ModernDive.com](https://www.ModernDive.com)
-#'       - [Sign up](http://eepurl.com/cBkItf) to the mailing list for updates
-#' - [Learn the tidyverse](https://www.tidyverse.org/learn/)
+#' .pull-left[
+#' <img src="images/gmm.png" width="100%" height="100%">
+#' <br><br>
+#' a complex, iterative process
+#' ]
 #' 
+#' .pull-right[
+#' <br>
+#' <img src="images/excel.png" width="100%" height="100%">
+#' <!-- New hex is fine here too -->
+#' <br><br>
+#' a clear summary
+#' ]
+#'  
+#' 
+#' ???
+#' ---
+#' 
+#' class: inverse, center, middle
+#' 
+#' # Highlights: moderated mediation
+#' <br><br><br>
+#' ## [Why?]()     
+#' 
+#' ### [We often want to know how (mediation) and when (moderation) predictive relations hold or are strong versus weak](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7920600/)
+#' 
+#' ???
+#' 
+#' ---
+#' 
+#' class: center, middle
+#' 
+#' .pull-left[
+#' ### Conceptual diagram
+#' <img src="images/modmed1.png" width="100%" height="100%">    
+#' <br><br>
+#' <small>See [Full-text available](https://www.researchgate.net/publication/326480880_Social_Support_Dysfunctional_Coping_and_Community_Reintegration_as_Predictors_of_PTSD_Among_Human_Trafficking_Survivors)</small>
+#' 
+#' ]
+#' 
+#' .pull-right[
+#' ### Statistical diagram
+#' <img src="images/modmed2.png" width="100%" height="100%"> 
+#' 
+#' ]
+#' 
+#' ???
+#' 
+#' 
+#' ---
+#' 
+#' class: inverse, center, middle
+#' 
+#' # Highlights: Missing data and power
+#' 
+#' ???
+#' 
+#' So, missing data is really an incredible area of research. It occurs in most areas of the applied sciences and knowledge of missing data can function as a sort of repair kit, to help you can get back lost information in your datasets. We can actually use missing data theory when designing studies to decrease participant burden and research expense. 
+#' 
+#' But that's not what I want to talk with you about because today I want to focus on why this matters and what we should consider when handling missing data.   
+#' 
+#' My primary area of research is the development of novel statistical methods to better translate the kind of benefits that you can understand from an experimental simulation setting into real-world settings where the application is often not so good. We have to solve all kinds of limitations. One of my main areas of interest has been missing data where I have led simulation-based research and contributed to best practice recommendations for applied researchers. 
+#' 
+#' ---
+#' 
+#' class: center, middle
+#' 
+#' .pull-left[
+#' ### Missing Data Analysis
+#' <img src="images/mechanisms.png" width="100%" height="100%">
+#' <small>Simulation in MBR [Full-text](https://www.tandfonline.com/doi/abs/10.1080/00273171.2014.999267)</small>    
+#' <small>Reporting practices [Full-text](https://journals.sagepub.com/doi/abs/10.1177/0165025415618275)</small>
+#' 
+#' ]
+#' 
+#' .pull-right[
+#' ### Monte Carlo power simulations
+#' <img src="images/medpowercuves_square.png" width="100%" height="100%">
+#' <small>Software wrangling</small>     
+#' <small>Statistical library and templates</small>
+#' 
+#' ]
+#' 
+#' ???
+#' 
+#' ---
+#' 
+#' name: value
+#' 
+#' # Summary
+#' 
+#' **1.** Leading technical experts for the past 10 years    
+#' <br>
+#' **2.** Extensive real-world experience applying diverse best-practice methods to complex problems in new areas   
+#' <br>
+#' **3.** Readily pivot from the strategic to hands on    
+#' <br>
+#' **4.** Thrive in fast-paced, changing work environment 
+#' 
+#' ???
+#' As a Quantitative Psychologist, I've been leading technical experts in applied statistics and data management for the past 10 years acorss academic, industry, and non-profit spaces. I've provided responsive, efficient, and high-quality analytical support to organizations while building technical teams, improving profitability and workflow, and advancing the quality of research. I've attained more than 500 citations for peer-reviewed scientific publications and directly collaborated with researchers to garner more than $5 million in new research funding. I have extensive experience applying diverse best-practice methods to complex problems in new areas. I'm a global director in a startup oncology research space currently but my real passion is research methods, statistics, and measurement within the social and behavioral sciences.
 #' ---
 #' 
 #' layout: false
 #' class: middle
 #' 
-#' <center>
-#' <a href="https://www.tidyverse.org">
-#' <img src="https://github.com/rstudio/hex-stickers/blob/master/PNG/tidyverse.png?raw=true" style="width: 200px;"/>
-#' </a>&emsp;&emsp;<a href="https://moderndive.netlify.com"> 
-#' <img src="https://github.com/moderndive/moderndive/blob/master/images/hex_blue_text.png?raw=true" style="width: 200px;"/></a>&emsp;&emsp;<a href="https://infer.tidymodels.org"> 
-#' <img src="images/infer_oregon3.png" style="width: 200px;"/></a></center>
-#' 
+#' #Thanks!
+#' <br>
 #' ## Any further questions?
 #' 
 #' <!-- - Special thanks to -->
@@ -1886,105 +614,89 @@ mythbusters_yawn %>%
 #' - Slides' source code at <https://github.com/ismayc/talks/>
 #' - R code from throughout the slides as an R script as [slide_code.R](https://raw.githubusercontent.com/ismayc/talks/master/csp-2021/slide_code.R)
 #' 
-#' ---
-#' 
-#' class: middle, center
-#' 
-#' # Thanks!
-#' 
-#' <img src="images/jessica_chester.jpg" width="600">
-#' 
-#' .pull-left[
-#'   [`r fa(name = "twitter")` @datapointier](http://twitter.com/datapointier)  
-#'   [`r fa(name = "github")` @jminnier](http://github.com/jminnier)  
-#'   [`r fa(name = "link")` jessicaminnier.com](https:/jessicaminnier.com)  
-#' <!--  [`r fa(name = "paper-plane")` `minnier [at] ohsu [dot] edu`](mailto:minnier@ohsu.edu) -->
-#' ]
-#' 
-#' .pull-right[
-#'   [`r fa(name = "twitter")` @old_man_chester](http://twitter.com/old_man_chester)  
-#'   [`r fa(name = "github")` @ismayc](http://github.com/ismayc)  
-#'   [`r fa(name = "link")` chester.rbind.io](https://chester.rbind.io)  
-#' <!--  [`r fa(name = "paper-plane")` `chester [dot] ismay [at] datarobot [dot] com`](mailto:chester.ismay@datarobot.com) -->
-#' ]
-#' 
 #' ???
-#' We've also included some tips in the Appendix that follows.
 #' 
 #' ---
 #' class: inverse, center, middle
 #' 
 #' # Appendix
 #' 
+#' 
+#' ---
+#' 
+#' ## Previous research appointments
+#' 
+#'   <img class="circle" src="images/hutch.png" width="35px"/> <small>Biostatistics Manager</small> <br>
+#'   <img class="circle" src="images/atrium.jpg" width="35px"/> <small>Dir. of Biostatistics</small> <br>
+#'   <img class="circle" src="images/seachildrens.jpg" width="35px"/> <small>Dir. of Biostatistics Core</small> <br>
+#'   <img class="circle" src="images/umass.png" width="35px"/> <small>Faculty Res. Methodologist</small> <br>
+#'   <img class="square" src="images/kki.png" width="35px"/> <small>Dir. of Res. & Evaluation</small> <br> 
+#'   <img class="circle" src="images/hopkins.png" width="35px"/> <small>Senior Res. Data Analyst</small> <br> 
+#'   <img class="square" src="images/ku.png" width="35px"/> <small>Quantitative Analyst</small>    
+#' <br>
+#' - Position details [here](https://wwwaylon.github.io/appointments/)  
+#' 
+#' ???
+#' 
+#' 
+#' ---
+#' 
+#' ## Full-text research content
+#' 
+#' - [Peer-reviewed research articles](https://wwwaylon.github.io/publications/)    
+#' <br>
+#' - [Talks, workshops, posters](https://wwwaylon.github.io/presentations/)
+#' 
+#' ???
+#' 
+#' 
 #' ---
 #' 
 #' name: plug
 #' 
-#' ## Freely available information
+#' ## Exemplar research tools
 #' 
-#' `r img_link("https://moderndive.com", "images/wide_format.png", 650)`
+#' * Consultant-based [effort estimator](https://whowar.shinyapps.io/Proj_est2021/)   
+#' <br>
+#' * Timeline visualizations for [project management and communication](https://whowar.shinyapps.io/Projects/)     
+#' <br>
+#' * Rmarkdown automation of CV, NIH biosketch, NSF biosketch, etc.
 #' 
-#' <center><h2>Statistical Inference via Data Science <br> A ModernDive into R and the Tidyverse</h2></center>
-#' 
-#' * Webpage: <https://moderndive.com>
-#' * Developmental version: <https://moderndive.netlify.app>
-#' * [GitHub Repo](https://github.com/moderndive/ModernDive_book)
-#' * Please [signup](http://eepurl.com/cBkItf) for our mailing list!
-#' 
-#' ---
-#' 
-#' ## Good practices in RStudio
-#' 
-#' __Use projects__ ([read this](https://r4ds.had.co.nz/workflow-projects.html))
-#' - Create an RStudio project for each data analysis project
-#' - A project is associated with a directory folder
-#'     + Keep data files there
-#'     + Keep scripts there; edit them, run them in bits or as a whole
-#'     + Save your outputs (plots and cleaned data) there
-#' 
-#' - Only use relative paths, never absolute paths
-#'     + relative (good): `read_csv("data/mydata.csv")`
-#'     + absolute (bad): 
-#'     
-#'     <code><small>read_csv("/home/yourname/Documents/stuff/mydata.csv")</small></code>
-#'     
-#' ---
-#' 
-#' ## Advantages of using RStudio projects
-#' 
-#' - standardize file paths
-#' - keep everything together
-#' - a whole folder can be shared and run on another computer
+#' ???
 #' 
 #' ---
 #' 
-#' # Useful keyboard shortcuts
+#' ## Standard process development
 #' 
-#' .pull-left[
-#' 
-#' action | mac | windows/linux
-#' ---| ---| ---
-#' run code in script | cmd + enter | ctrl + enter 
-#' `<-`| option + - | alt + -
-#' `%>%` | cmd + shift + m | ctrl + shift + m
-#' ]
-#' 
-#' .pull-right[
-#' Try typing (with shortcut) and running
-## ---- eval=FALSE-------------------------------------------------------------------------
-## y <- 5
-## y
-
-#' Now, in the console, press the up arrow.
-#' ]
+#' | Training | Document ID | Document Title |
+#' |:-----------|:---------|:------------------------------------------|
+#' | [Course-015]() | [GD-OSS015-R01](#gd-oss015-r01) | Statistical Programming Best Practices |
+#' | [Course-016]() | [GD-OSS016-R01](#gd-oss016-r01) | Analysis Datasets Results Verification |
+#' | [Course-017]() | [GD-OSS017-R01](#gd-oss017-r01) | Reusable Code Validation |
+#' | [Course-020]() | [GD-OSS020-R01](#gd-oss020-r01) | Procedures for Annotation and QC of TLFs |
+#' | [Course-001]() | [CHKLST-OSS001](#chklst-oss001) | Source Code Version Control |
+#' | [Course-002]() | [CHKLST-OSS002](#chklst-oss002) | Programming Quality Control Checklist |
+#' | [Course-003]() | [CHKLST-OSS003](#chklst-oss003) | Disk Space Management Checklist |
+#' | [Course-004]() | [CHKLST-OSS004](#chklst-oss004) | AWS Import/export Checklist |
+#' | [Course-005]() | [CHKLST-OSS005](#chklst-oss005) | Data Delivery Checklist |
+#' | [Course-006]() | [CHKLST-OSS006](#chklst-oss006) | Chemo Master List |
+#' | [Course-006]() | [WI-OSS001](#wi-oss001) | De-identification and Data Transfer |
 #' 
 #' ---
 #' 
-#' ## Other keyboard shortcuts: ([see full list](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts))
+#' ## Software summary (not all-inclusive)
 #' 
-#' action | mac | windows/linux
-#' ---| ---| ---
-#' interrupt currently executing command | esc | esc
-#' in console, go to previously run code | up/down | up/down
-#' keyboard shortcut help | option + shift + k | alt + shift + k
+#' - [SAS 9.4](https://www.sas.com/en_us/home.html) (STAT, IML)    
+#' <br>
+#' - [Mplus 8.4](https://www.statmodel.com/) (base, mixture, multilevel)    
+#' <br>
+#' - [IBM SPSS statistics 25](https://www.ibm.com/products/spss-statistics) (base, missing values, AMOS)    
+#' <br>
+#' - [R](https://www.r-project.org/) (data manipulation: dplyr, tidyr, stringr, RMySQL, RSQLite; data visualization: ggplot2, htmlwidgets; reporting: shiny, rmarkdown; analysis: lavaan, psych, lme4/nlme, survival)
+#' 
+#' ---
+#' 
+#' # Methodology interest summary
+#' 
+#' - Design and measurement issues in longitudinal research, panel designs, latent growth curve analysis, latent class and finite mixture modeling, multi-level SEM with longitudinal data, moderation and mediation, missing data analysis and power, and measurement invariance testing.
 #' 
