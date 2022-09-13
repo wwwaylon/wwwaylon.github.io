@@ -17,7 +17,7 @@
 #' ---
 #' 
 #' 
-## ----include=FALSE, purl=TRUE------------------------------------------------------------------------------------------------------
+## ----include=FALSE, purl=TRUE----
 # specify the packages of interest
 pkgs <- c(
   "tidyverse", "moderndive", "dslabs",
@@ -187,11 +187,11 @@ if (!require("countdown")) {
 #' <!--
 #' These slides were built using
 #' 
-## ----------------------------------------------------------------------------------------------------------------------------------
+## ----------------------------
 R.version.string
 
 #' 
-## ----------------------------------------------------------------------------------------------------------------------------------
+## ----------------------------
 rstudioapi::versionInfo()$version
 
 #' -->
@@ -218,11 +218,6 @@ rstudioapi::versionInfo()$version
 #' <img src="images/scholarly.png" style="width: 725px;"/>
 #' 
 #' ???
-#' 
-#' ---
-#' layout: true
-#' 
-#' <div class="my-footer"><span>Slides at https://bit.ly/csp-tidy-slides &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Return to <u><a style="color:White;" href="slide_deck.html#toc">Table of Contents</a></u></span></div>
 #' 
 #' 
 #' ---
@@ -284,7 +279,7 @@ rstudioapi::versionInfo()$version
 #' 
 #' ## First motivating example for today
 #' 
-## ----eci, echo=FALSE---------------------------------------------------------------------------------------------------------------
+## ----eci, echo=FALSE---------
 library(ggplot2)
 library(gridExtra)
 library(tidyverse)
@@ -501,7 +496,7 @@ animate(p, nframes=60, fps=5, width = 1200, height = 720, end_pause = 10, render
 #' .pull-left[
 #' <img src="images/gmm.png" width="100%" height="100%">
 #' <br><br>
-#' a complex, iterative process
+#' a complex, iterative process...
 #' ]
 #' 
 #' .pull-right[
@@ -509,7 +504,7 @@ animate(p, nframes=60, fps=5, width = 1200, height = 720, end_pause = 10, render
 #' <img src="images/excel.png" width="100%" height="100%">
 #' <!-- New hex is fine here too -->
 #' <br><br>
-#' a clear summary
+#' a transparent, traceable tool
 #' ]
 #'  
 #' 
@@ -611,8 +606,8 @@ animate(p, nframes=60, fps=5, width = 1200, height = 720, end_pause = 10, render
 #' <!-- - Special thanks to -->
 #' 
 #' - Slides created via the R package [xaringan](https://github.com/yihui/xaringan) by Yihui Xie
-#' - Slides' source code at <https://github.com/ismayc/talks/>
-#' - R code from throughout the slides as an R script as [slide_code.R](https://raw.githubusercontent.com/ismayc/talks/master/csp-2021/slide_code.R)
+#' - Slides' source code at <https://wwwaylon.github.io/assets/ph-2021/>
+#' - R code from throughout the slides as an R script as [slide_code.R](https://raw.githubusercontent.com/wwwaylon/wwwaylon.github.io/master/assets/ph-2021/slide_code.R)
 #' 
 #' ???
 #' 
@@ -666,7 +661,7 @@ animate(p, nframes=60, fps=5, width = 1200, height = 720, end_pause = 10, render
 #' 
 #' ---
 #' 
-#' ## Standard process development
+#' ## Example standard process development
 #' 
 #' | Training | Document ID | Document Title |
 #' |:-----------|:---------|:------------------------------------------|
