@@ -44,6 +44,25 @@ if (!require("countdown")) {
   remotes::install_github("gadenbuie/countdown")
 }
 
+library(dplyr)
+#remotes::install_github("tysonstanley/biosketchr")
+library(biosketchr)
+library(scholar)
+#remotes::install_github("mitchelloharawild/icons")
+# download_fontawesome()
+#library(icons)
+
+library(ggplot2)
+library(gridExtra)
+library(tidyverse)
+library(gganimate)
+library(directlabels)
+library(png)
+library(transformr)
+library(grid)
+library(magick)
+library(ggthemes)
+
 ```
 
 ```{r echo=FALSE, purl=FALSE}
@@ -72,24 +91,7 @@ img_link <- function(link, file, size) {
   )
 }
 
-library(dplyr)
-#remotes::install_github("tysonstanley/biosketchr")
-library(biosketchr)
-library(scholar)
-#remotes::install_github("mitchelloharawild/icons")
-# download_fontawesome()
-#library(icons)
 
-library(ggplot2)
-library(gridExtra)
-library(tidyverse)
-library(gganimate)
-library(directlabels)
-library(png)
-library(transformr)
-library(grid)
-library(magick)
-library(ggthemes)
 
 #myid <- "wUACzXkAAAAJ&hl"
 #cites<-get_citation_history(myid)
@@ -252,19 +254,19 @@ theme_Publication <- function(base_size=24, base_family="sans") {
 
 p <-  
   ggplot(data = eci, aes(x= time, y=Rate, group=Type, colour=Type)) +
-  geom_line(size=3.5, show.legend = FALSE) +
+  geom_line(size=9, show.legend = FALSE) +
   ylab("Rate per Minute") + xlab("Time (in months)") + 
   scale_x_continuous(breaks = round(seq(min(eci$time), 54, by = 6), 1)) + 
   scale_y_continuous(breaks = round(seq(0, 6, by = 1), 2)) +
   theme_Publication() +
-  geom_dl(aes(label=Type), method = list("last.points", cex = 2)) + 
+  geom_dl(aes(label=paste0(" ", Type)), method = list("last.points", cex = 3)) + 
   labs(title = 'ECI key skills at {frame_along} months') +
   coord_cartesian(clip = 'off') + 
   transition_reveal(time) #+
   #ease_aes('quadratic-in-out')
 
 # Run animation  
-animate(p, nframes=150, fps=10, width = 1200, height = 720, end_pause = 10, renderer = magick_renderer())
+animate(p, nframes=150, fps=10, width = 1200, height = 720, end_pause = 6, renderer = magick_renderer())
 
 # Save animation
 #anim_save("C:/Users/waylon/Desktop/csp-2021/images/eci.gif", animation = last_animation())
