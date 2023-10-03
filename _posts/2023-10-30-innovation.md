@@ -8,7 +8,7 @@ thumbnail-img: /assets/img/emailme.png
 tags: [Leadership Challenges Innovation]
 ---
 
-## The Desire for Innovation
+# The Desire for Innovation
 
 Innovation serves as the driving force behind progress, particularly in the ever-evolving landscape of biostatistics. Teams of biostatisticians are often comprised of brilliant minds eager to explore fresh methodologies, tools, and approaches capable of revolutionizing the analysis and interpretation of data within the realms of healthcare and life sciences. However, the pursuit of innovation is frequently met with resistance.
 
