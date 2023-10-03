@@ -3,8 +3,8 @@ layout: post
 title: Challenges of Fostering Innovation in Applied Statistics
 subtitle: Innovation serves as the driving force behind progress, particularly in the ever-evolving landscape of applied statistics.
 thumbnail-img: /assets/img/emailme.png
-gh-repo: wwwaylon/beautiful-jekyll
-gh-badge: [star, fork, follow]
+#gh-repo: wwwaylon/beautiful-jekyll
+#gh-badge: [star, fork, follow]
 tags: [Leadership Challenges Innovation]
 ---
 
