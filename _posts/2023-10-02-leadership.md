@@ -8,8 +8,6 @@ thumbnail-img: /assets/img/blog1.png
 tags: [Leadership Biostatistics Interdisciplinary]
 ---
 
-# Trends and Insights
-
 The field of biostatistics is at the forefront of cutting-edge research, driving innovation and advancements in healthcare and life sciences. Within this dynamic landscape, biostatistics research support groups play a pivotal role in providing the statistical expertise necessary for impactful studies. As I reflect upon my own journey, I have experienced the ever-evolving landscape of leadership roles within these organizations and the industry trends that are currently shaping and will continue to shape the future of biostatistics research support.
 
 ## The Shifting Landscape of Biostatistics Research
