@@ -8,8 +8,6 @@ thumbnail-img: /assets/img/leadershipmission2.png
 tags: [Leadership Biostatistics Interdisciplinary]
 ---
 
-**Leadership Mission.** I believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making. My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships. To accomplish this, I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and quality, funding and partnerships, reflection, and mentoring.
-
 # Trends and Insights
 
 The field of biostatistics is at the forefront of cutting-edge research, driving innovation and advancements in healthcare and life sciences. Within this dynamic landscape, biostatistics research support groups play a pivotal role in providing the statistical expertise necessary for impactful studies. As I reflect upon my own journey, I have experienced the ever-evolving landscape of leadership roles within these organizations and the industry trends that are currently shaping and will continue to shape the future of biostatistics research support.
@@ -67,4 +65,3 @@ Leaders in biostatistics research support groups must possess a unique set of sk
 Leadership roles within biostatistics research support groups are rapidly evolving to meet the dynamic demands of the industry. To excel in this transformative landscape, leaders must embrace interdisciplinary collaboration, the integration of advanced modeling techniques and data science, and the adept management of remote teams. These are now indispensable facets of effective leadership in biostatistics.
 
 As industry trends continue to shape the field, these leaders become essential intermediaries. They skillfully blend the wealth of knowledge and experience derived from traditional statistics with the emerging paradigms of data science and advanced modeling. This synthesis marks the dawn of a new era in healthcare research, where the strengths of both domains are seamlessly united. This harmonious partnership fosters an optimal synergy, significantly enhancing the depth and precision of healthcare research outcomes.
-
