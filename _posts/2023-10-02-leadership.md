@@ -2,7 +2,7 @@
 layout: post
 title: Leadership Roles in Biostatistics
 subtitle: Navigating Leadership Roles in Biostatistics Research Support Groups
-thumbnail-img: /assets/img/leadershipmission2.png
+thumbnail-img: /assets/img/leadershipmission3.png
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
 tags: [Leadership Biostatistics Interdisciplinary]
