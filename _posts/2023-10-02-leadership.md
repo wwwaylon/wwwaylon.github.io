@@ -8,6 +8,8 @@ thumbnail-img: /assets/img/leadershipmission2.png
 tags: [Leadership Biostatistics Interdisciplinary]
 ---
 
+**Leadership Mission.** I believe that personal and professional relationships form the backbone of all sustainability and growth, and that a reflective focus on continuous improvement data informs good decision making. My mission as a leader is to support staff and systems to achieve sustainable growth in services, funding, staff/faculty satisfaction, and strategic partnerships. To accomplish this, I focus on a number of critical leadership effectiveness efforts including: strategic planning, productivity and quality, funding and partnerships, reflection, and mentoring.
+
 # Trends and Insights
 
 The field of biostatistics is at the forefront of cutting-edge research, driving innovation and advancements in healthcare and life sciences. Within this dynamic landscape, biostatistics research support groups play a pivotal role in providing the statistical expertise necessary for impactful studies. As I reflect upon my own journey, I have experienced the ever-evolving landscape of leadership roles within these organizations and the industry trends that are currently shaping and will continue to shape the future of biostatistics research support.
