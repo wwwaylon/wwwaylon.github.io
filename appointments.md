@@ -3,6 +3,9 @@ layout: page
 title: Research Positions 
 ---
 
+
+## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
+
 <a href="https://www.concertai.com/">
 <img align="left" width="100" height="100" src="https://cdn.theorg.com/3743d4b3-634e-4c82-a1e6-6c7fa35e4972_medium.jpg" alt="ConcertAI"> </a> 
 <span style="color:black; font-family:Palatino; font-size:1.5em;">**Global Director of Biostatistics and Data Analytics**</span>      
@@ -14,10 +17,8 @@ title: Research Positions
 * <span style="color:lightsteelblue4; font-family:Palatino;">Developed automated procedures for project management using R, R-Markdown, and Shiny, leading to better communication and workflow.</span> 
 * <span style="color:lightsteelblue4; font-family:Palatino;">Created internal data science tools for time and resource estimates and delegated tasks among staff to create, examine and integrate databases (e.g., AWS big data technologies such as Redshift, S3 etc.).</span>   
 
-## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
-
 <a href="http://www.fredhutch.org">
-<img align="left" width="100" height="100" src="https://pbs.twimg.com/profile_images/509056962743382016/jOKr-9bc_400x400.png" alt="Fred Hutch"> </a>
+<img align="left" width="100" height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojNWaBCERuwuiVmcpDByZq0SDPATDBzdkxdABz2tZ8F_ODe8WhaAiPVftasTiy4i9xTw&usqp=CAU" alt="Fred Hutch"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Statistical Manager**</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention (SCHARP)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
@@ -56,7 +57,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.umass.edu">
-<img align="left" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/University_of_Massachusetts_Amherst_seal.svg/1200px-University_of_Massachusetts_Amherst_seal.svg.png" alt="UMASS Institute for Social Science Research"> </a>
+<img align="left" width="100" height="100" src="https://www.umass.edu/issr/sites/default/files/styles/apply_crop/public/field/image/ISSR%20Full%20Logo%20CMYK_1.jpg?itok=jX312TVx&sc=94250dc16e1ef60129f33e91a48cb3b1" alt="UMASS Institute for Social Science Research"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;**Faculty Research Methodologist**</span>         
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;Inst. for Social Science Research</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>             
@@ -83,7 +84,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="100" height="60" src="https://www.jhsph.edu/sebin/z/s/bloomberg.logo.small.vertical.blue.png" alt="Johns Hopkins"> </a>
+<img align="left" width="100" height="60" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvO07ej64iYBsLbXfHiMwlpryKkYHkGIysC7bMZTLtYQRAsBf0ZYVQlrlC_W1ASBvAESI&usqp=CAU" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Visiting Assistant Professor**</span>        
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -91,7 +92,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="100" height="60" src="https://www.jhsph.edu/sebin/z/s/bloomberg.logo.small.vertical.blue.png" alt="Johns Hopkins"> </a>
+<img align="left" width="100" height="60" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
 <span style="color:black; font-family:Palatino; font-size:1.5em;">&nbsp;&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
 <span style="color:slategrey; font-family:Palatino; font-size:1.20em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       

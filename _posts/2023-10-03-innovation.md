@@ -24,7 +24,7 @@ Understanding the delicate equilibrium between innovation and adherence to estab
 
 So, how do we navigate this challenging terrain and foster innovation within our team of biostatisticians? Here are some strategies:
 
-1. Advocate for a Culture of Innovation: Leaders should play a pivotal role in advocating for a culture that not only values innovation but also rewards it. Encouraging open dialogues about novel ideas and providing resources for experimentation can be transformative.
+1. **Advocate for a Culture of Innovation**: Leaders should play a pivotal role in advocating for a culture that not only values innovation but also rewards it. Encouraging open dialogues about novel ideas and providing resources for experimentation can be transformative.
 
 1. **Build Alliances**: Collaborating with like-minded colleagues and other departments can be invaluable. Seeking partnerships with research teams or organizations that are more receptive to innovation can create a fertile ground for testing new statistical approaches.
 
