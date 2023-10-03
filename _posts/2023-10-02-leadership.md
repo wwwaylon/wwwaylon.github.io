@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Navigating Leadership Roles in Biostatistics
-subtitle: Some examples of calling one program from another (SAS, R, Mplus)
-thumbnail-img: /assets/img/simpleMed_square.png
+title: Leadership Roles in Biostatistics
+subtitle: Navigating Leadership Roles in Biostatistics Research Support Groups
+thumbnail-img: /assets/img/leadershipmission2.png
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
 tags: [SAS Mplus R]
