@@ -93,9 +93,10 @@ title: Research Positions
 <img align="left" width="100" height="100" src="https://www.umass.edu/issr/sites/default/files/styles/apply_crop/public/field/image/ISSR%20Full%20Logo%20CMYK_1.jpg?itok=jX312TVx&sc=94250dc16e1ef60129f33e91a48cb3b1" alt="UMASS Institute for Social Science Research"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Faculty Research Methodologist**</span>         
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Inst. for Social Science Research</span>      
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>            
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
+
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research.</span> 
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Managed the development of the Institute’s methodology training and consulting services across 7 colleges and schools within the university.</span> 
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Managed the development of the Institutes methodology training and consulting services across 7 colleges and schools within the university.</span> 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Directed a team of 5 graduate student research methodology and statistics consultants.</span>
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Organized, led, and taught an advanced methodology training conference with 124 participants across 12 courses.</span>   
 
