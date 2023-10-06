@@ -124,7 +124,7 @@ title: Research Positions
 <br>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="100" height="60" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
+<img align="left" width="60" height="60" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
