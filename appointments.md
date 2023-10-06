@@ -11,20 +11,20 @@ title: Research Positions
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Biostatistics Epidemiology and Analytics in Research</span><br>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Seattle Children's Research Inst., Seattle, WA (2022 - present)</span> <br clear="left"/>             
 
-* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Serving as an internal methodology expert.</span> 
-* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Initiating and writing manuscripts and grant analysis sections.</span>
-* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Investigating and customizing novel approaches for intricate analyses or research design.</span>
-* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Offering guidance and training to fellow members of the SCRI research community and the biostatistical group, which includes mentoring junior statisticians/programmers, as well as students and research assistants.</span>
+* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Acting as an in-house methodology expert.</span> 
+* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Initiating and composing research manuscripts and grant analysis sections.</span>
+* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Exploring and tailoring innovative methods for complex analyses and research design.</span>
+* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Providing support and mentorship to colleagues in the SCRI research community and biostatistical group, including guiding junior statisticians/programmers, students, and research assistants.</span>
 
 <br>
 
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="https://www.openhealthgroup.com/">
-<img align="left" width="100" height="75" src="https://www.evidencebaseonline.com/wp-content/uploads/2022/10/OPEN-Health-logo-300x247.png" alt="ConcertAI"> </a> 
+<img align="left" width="115" height="95" src="https://www.evidencebaseonline.com/wp-content/uploads/2022/10/OPEN-Health-logo-300x247.png" alt="ConcertAI"> </a> 
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Director of Research**</span>      
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Patient Centered Research</span> <br> 
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">Open Health, Bethesda, MD (2021 - 2022)</span> <br clear="left"/>          
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Patient Centered Research</span> <br> 
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Open Health, Bethesda, MD (2021 - 2022)</span> <br clear="left"/>          
   
 * <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Served as internal methodology expert. 
 * <span style="color:#272424; font-family:Palatino; font-size:1.25em;">Lead distribution of pharmaceutical client facing deliverables.</span>
@@ -52,9 +52,9 @@ title: Research Positions
 <br>
 
 <a href="http://www.fredhutch.org">
-<img align="left" width="100" height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojNWaBCERuwuiVmcpDByZq0SDPATDBzdkxdABz2tZ8F_ODe8WhaAiPVftasTiy4i9xTw&usqp=CAU" alt="Fred Hutch"> </a>
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Statistical Manager**</span>       
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Statistical Center for HIV/AIDS Research and Prevention</span>  
+<img align="left" width="100" height="90" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojNWaBCERuwuiVmcpDByZq0SDPATDBzdkxdABz2tZ8F_ODe8WhaAiPVftasTiy4i9xTw&usqp=CAU" alt="Fred Hutch"> </a>
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Statistical Manager**</span>       
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Statistical Center for HIV/AIDS Research and Prevention</span>  
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Fred Hutchinson Cancer Research Center, Seattle, WA (2019)</span> <br clear="left"/>         
 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">SCHARP provides statistical support and data management services to researchers worldwide in the fight against HIV/AIDS, cancer, and other infectious diseases.</span>  
@@ -91,9 +91,9 @@ title: Research Positions
 
 <a href="https://www.umass.edu">
 <img align="left" width="100" height="100" src="https://www.umass.edu/issr/sites/default/files/styles/apply_crop/public/field/image/ISSR%20Full%20Logo%20CMYK_1.jpg?itok=jX312TVx&sc=94250dc16e1ef60129f33e91a48cb3b1" alt="UMASS Institute for Social Science Research"> </a>
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Faculty Research Methodologist**</span>         
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Inst. for Social Science Research</span>      
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Faculty Research Methodologist**</span>         
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Inst. for Social Science Research</span>      
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;University of Massachusetts, Amherst, MA (2014 - 2015)</span> <br clear="left"/>       
 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">The Institute for Social Science Research provides resources and support for researchers using social science methods, seeking to take part in collaborative and interdisciplinary research, doing publicly engaged research, and seeking external funding for research.</span> 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Managed the development of the Institutes methodology training and consulting services across 7 colleges and schools within the university.</span> 
@@ -105,8 +105,8 @@ title: Research Positions
 <a href="https://www.kennedykrieger.org">
 <img align="left" width="150" height="60" src="https://4.bp.blogspot.com/-_vDbLc2ii9k/UyjaOIbXBKI/AAAAAAAAE_s/8Z6nsgADqM4/s1600/KKI+Logo.png" alt="KKI"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Director of Research and Evaluation**</span>     
-<span style="color:#272424; font-family:Palatino;">&nbsp;&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
-<span style="color:#272424; font-family:Palatino;">&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
+<span style="color:#272424; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;&nbsp;Maryland Ctr. for Developmental Disabilities</span>      
+<span style="color:#272424; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Kennedy Krieger Institute, Baltimore, MD (2012 - 2014)</span> <br clear="left"/>       
 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">The Kennedy Krieger Institute is dedicated to improving the lives of children and young adults with pediatric developmental disabilities and disorders of the brain, spinal cord and musculoskeletal system, through patient care, special education, research, and professional training.</span>
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Published 5 papers, presented 3 posters and 2 invited talks, and provided 6 guest lectures.</span> 
@@ -117,21 +117,21 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="60" height="60" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvO07ej64iYBsLbXfHiMwlpryKkYHkGIysC7bMZTLtYQRAsBf0ZYVQlrlC_W1ASBvAESI&usqp=CAU" alt="Johns Hopkins"> </a>
+<img align="left" width="150" height="100" src="https://tukuz.com/wp-content/uploads/2020/04/johns-hopkins-bloomberg-school-of-public-health-logo-vector.png" alt="Johns Hopkins"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Visiting Assistant Professor**</span>        
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 <br>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="60" height="60" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Affiliated Faculty Member**</span>      
+<img align="left" width="80" height="80" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
 <br>
 
 <a href="http://beadcore.jhu.edu/">
-<img align="left" width="100" height="90" src="https://www.hopkinsmedicare.com/wp-content/uploads/icon_hopkins_glyph.png" alt="BEAD Core"> </a>
+<img align="left" width="100" height="100" src="https://www.hopkinsmedicare.com/wp-content/uploads/icon_hopkins_glyph.png" alt="BEAD Core"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Senior Research Data Analyst**</span>         
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;[Biostatistics, Epidemiology and Data Management Core](http://beadcore.jhu.edu/)</span>            
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Johns Hopkins University, Bayview, MD (2013 - 2015)</span> <br clear="left"/>     
@@ -139,14 +139,14 @@ title: Research Positions
 <br>
 
 <a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
-<img align="left" width="200" height="100" src="https://brand.ku.edu/sites/brand/files/images/2020/KULogo.png" alt="Ctr. for Research Methods and Data Analysis"> </a>
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;[Ctr. for Research Methods and Data Analysis](http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis)</span>           
-<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>             
+<img align="left" width="180" height="80" src="https://brand.ku.edu/sites/brand/files/images/2020/KULogo.png" alt="Ctr. for Research Methods and Data Analysis"> </a>
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Quantitative Psychology Research Assistant**</span>     
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">[Ctr. for Research Methods and Data Analysis](http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis)</span>           
+<span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>             
 
-* <span style="color:#272424; font-family:Palatino; font-size:1.25em;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU.</span> 
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU.</span> 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided statistical consultation across 9 departments at the University of Kansas and 6 external universities that included 6 dissertations.</span>  
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Led and taught an advanced statistical software training seminar (LISREL, PRELIS, and HLM) with 26 graduate students across 3 courses.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Led and taught an advanced statistical software training seminar with 26 graduate students across 3 courses.</span>  
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Developed 5 statistical methodology technical guides for applied researchers.</span>  
   
 <br/>
