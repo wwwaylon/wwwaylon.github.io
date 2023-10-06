@@ -145,9 +145,9 @@ title: Research Positions
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>             
 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">The CRMDA is a centralized assembly of expert methodologists, statisticians and applied researchers from across KU.</span> 
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided statistical consultation across 9 departments at the University of Kansas and 6 external universities that included 6 dissertations.</span>  
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Led and taught an advanced statistical software training seminar with 26 graduate students across 3 courses.</span>  
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Developed 5 statistical methodology technical guides for applied researchers.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided statistical consultation across **9** departments at KU and **6** external universities that included **6** dissertations.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Presented advanced statistical software training seminars with **26** graduate students across **3** courses.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Developed **5** statistical methodology technical guides for applied researchers.</span>  
   
 <br/>
 
@@ -158,8 +158,8 @@ title: Research Positions
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;University of Kansas, Kansas City, KS (2008 - 2012)</span> <br clear="left"/>    
 
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Juniper Gardens Childrens Research Program is a University of Kansas affiliated research center dedicated to promoting childrens social well-being and academic achievement by improving the quality of their care and educational experiences through the use of evidence-based practice.</span> 
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Published 4 papers, presented 6 posters, and submitted 6 technical reports.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Published **4** papers, presented **6** posters, and submitted **6** technical reports.</span>  
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Contributed statistical analysis plans and power analyses for grant submissions.</span>  
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided mentorship to 5 faculty and 2 junior statistical analysts.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided mentorship to **5** faculty and **2** junior statistical analysts.</span>  
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Designed innovative statistical methods for addressing complex missing data challenges.</span>  
  
