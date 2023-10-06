@@ -124,7 +124,7 @@ title: Research Positions
 <br>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="80" height="80" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
+<img align="left" width="70" height="70" src="https://yt3.googleusercontent.com/o6wfUDhrL5Kuy8zlTXFF6eE-Cfce2iwHo2KISRWgwT8gGlGhqGrjKOewdpF37En10EIAXHFxF2I=s900-c-k-c0x00ffffff-no-rj" alt="Johns Hopkins"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;**Affiliated Faculty Member**</span>      
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;[Wendy Klag Center for Autism and Developmental Disabilities](https://www.jhsph.edu/research/centers-and-institutes/wendy-klag-center-for-autism-and-developmental-disabilities/)</span>            
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -139,7 +139,7 @@ title: Research Positions
 <br>
 
 <a href="http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis">
-<img align="left" width="180" height="80" src="https://brand.ku.edu/sites/brand/files/images/2020/KULogo.png" alt="Ctr. for Research Methods and Data Analysis"> </a>
+<img align="left" width="200" height="100" src="https://brand.ku.edu/sites/brand/files/images/2020/KULogo.png" alt="Ctr. for Research Methods and Data Analysis"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Quantitative Psychology Research Assistant**</span>     
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">[Ctr. for Research Methods and Data Analysis](http://crmdaclone.drupal.ku.edu/center-research-methods-and-data-analysis)</span>           
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">University of Kansas, Lawrence, KS (2010 - 2011)</span> <br clear="left"/>             
@@ -161,5 +161,5 @@ title: Research Positions
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Published 4 papers, presented 6 posters, and submitted 6 technical reports.</span>  
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Contributed statistical analysis plans and power analyses for grant submissions.</span>  
 * <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Provided mentorship to 5 faculty and 2 junior statistical analysts.</span>  
-* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Developed new statistical procedures for handling complex missing data problems using R and SAS leading to estimation improvements.</span>  
+* <span style="color:#585A56; font-family:Palatino; font-size:1.25em;">Designed innovative statistical methods for addressing complex missing data challenges.</span>  
  
