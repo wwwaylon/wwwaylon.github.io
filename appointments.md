@@ -21,7 +21,7 @@ title: Research Positions
 ## <span style="color:Grey; font-family:Palatino; font-size:1.50em;">Previous</span> 
 
 <a href="https://www.openhealthgroup.com/">
-<img align="left" width="100" height="100" src="https://www.evidencebaseonline.com/wp-content/uploads/2022/10/OPEN-Health-logo-300x247.png" alt="ConcertAI"> </a> 
+<img align="left" width="100" height="75" src="https://www.evidencebaseonline.com/wp-content/uploads/2022/10/OPEN-Health-logo-300x247.png" alt="ConcertAI"> </a> 
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Director of Research**</span>      
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Patient Centered Research</span> <br> 
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">Open Health, Bethesda, MD (2021 - 2022)</span> <br clear="left"/>          
@@ -117,7 +117,7 @@ title: Research Positions
 <br/>
 
 <a href="https://www.jhu.edu">
-<img align="left" width="100" height="60" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvO07ej64iYBsLbXfHiMwlpryKkYHkGIysC7bMZTLtYQRAsBf0ZYVQlrlC_W1ASBvAESI&usqp=CAU" alt="Johns Hopkins"> </a>
+<img align="left" width="60" height="60" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvO07ej64iYBsLbXfHiMwlpryKkYHkGIysC7bMZTLtYQRAsBf0ZYVQlrlC_W1ASBvAESI&usqp=CAU" alt="Johns Hopkins"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">**Visiting Assistant Professor**</span>        
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Dept. of Public Health, [Bloomberg School of Public Health](https://www.jhsph.edu/)</span>       
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;Johns Hopkins University, Baltimore, MD (2014)</span> <br clear="left"/>       
@@ -152,7 +152,7 @@ title: Research Positions
 <br/>
 
 <a href="https://juniper.ku.edu/">
-<img align="left" width="200" height="100" src="https://childrenscampusofkansascity.org/wp-content/uploads/sites/41/2018/08/juniper-gardens-childrens-project-logo.jpg" alt="Institute for Social Science Research"> </a>
+<img align="left" width="250" height="100" src="https://childrenscampusofkansascity.org/wp-content/uploads/sites/41/2018/08/juniper-gardens-childrens-project-logo.jpg" alt="Institute for Social Science Research"> </a>
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;**Quantitative Psychology Research Assistant**</span>     
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;[Juniper Gardens Childrens Project](https://juniper.ku.edu/)</span>      
 <span style="color:#585A56; font-family:Palatino; font-size:1.50em;">&nbsp;University of Kansas, Kansas City, KS (2008 - 2012)</span> <br clear="left"/>    
