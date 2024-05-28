@@ -22,11 +22,10 @@ navbar-links:
     - Presentations: "presentations"
     - Academic genealogy: "academicgenology.html"
   Projects:
-    - BioBuilder
-      - NIH: "nihbio"
-      - IES 
-      - NSF 
-      - PCORI 
+    - BioBuilder NIH: "nihbio"
+    - BioBuilder IES 
+    - BioBuilder NSF 
+    - BioBuilder PCORI 
     - Estimating stats time: "https://whowar.shinyapps.io/Proj_est2021/"
     - Tracking assignments: "https://whowar.shinyapps.io/Projects/"
     - Effect size (updating...): "https://www.google.com"
