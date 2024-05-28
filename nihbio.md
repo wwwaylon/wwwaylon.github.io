@@ -54,9 +54,7 @@ The idea of `BioBuilder` is to let you create and share your NIH/IES/NSF/PCORI f
 
 > Follow Google Scholar???s instructions for obtaining an ID: A primer on creating and modifying your Google Scholar account can be found at: https://scholar.google.com/intl/en/scholar/citations.html.
 
-
 `C:/Users/mydata.xlsx #------ Update the location of the supporting files`
-
 
 That's all the changes you need. Now you can update data in the supporting files and generate your biosketch by simply selecting the blue 'Knit' button at the top left of the console pane. 
 
