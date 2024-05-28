@@ -24,7 +24,7 @@ The idea of `BioBuilder` is to let you create and share your NIH formatted biosk
 ---
 
 <div style="text-align: center; margin-top: 20px;">
-  <img src="/assets/img/nihbio.gif" alt="Exciting GIF" style="width: 300px; height: auto; border-radius: 8px;">
+  <img src="/assets/img/nihbio.gif" alt="Biosketch GIF" style="width: 600px; height: auto; border-radius: 8px;">
 </div>
 
 
