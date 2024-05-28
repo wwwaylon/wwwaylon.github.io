@@ -135,21 +135,19 @@ This R code showcases a straightforward approach to perform a mediation analysis
 
 ## Full code
 
-```{r}
+
+
+```r
+
 library(MASS)      # for the sampling
 library(tidyverse) # for the plot
 library(lavaan)    # for the R2
 library(plyr)
 
-#citation("lme4")
-#citation()
-
-# Add the font you need if it isn't listed. This is a temporary change and
-# needs to be done for each new R session:
-windowsFonts(`Segoe UI` = windowsFont('Segoe UI'))
 myfiles <- dirname(rstudioapi::getSourceEditorContext()$path)
+#windowsFonts(`Segoe UI` = windowsFont('Segoe UI'))
 
-###------------------------------ simple mediation --------------------------------------
+# Simple mediation --------------------------------------
 w = NULL # We want to store results in here
 
 mcmcReps <- 10000
@@ -323,10 +321,7 @@ urlplot  <- paste0(myfiles, "/", format(Sys.time(), '%Y %B %d'), " mediation pow
 
 ## Pipe in resutls 
 
-`r ftext("Power.", ft)` Our sample size ensures sufficient power to detect mediation effects that are both reasonably expected and practically meaningful. To evaluate power a series of Monte Carlo simulations with the bootstrap method to test mediation effects were specified for a 1-1-1 mediation model using the *wp.mc.sem.boot* function from the WebPower, version [0.8.7] [@webpower] package in R [@Rprogram]. Specifically, we conducted power for a longitudinal mediation model with 2,000 replications and 500 bootstrap samples. In this context statistical power was defined as the proportion of replications for which the estimated confidence intervals for the mediating effect did not contain 0 when a true mediating effect existed. We considered three values of $a$ and $b$: 0.26, 0.39, and 0.59 corresponding to a medium, medium-large, and large effect, respectively (Cohen???s $f^2$, where $f^2$ = $R^2$ / (1-$R^2$); see [@RN2363, p. 413-414]. The ICC (within-person correlation) was set to .60 and the number of repeated measures was set to 4. Results indicate power of 80% (1 - $\beta$ err prob) to reject the null hypothesis of no mediation effect given $\alpha$ = .05, an effect size of 0.39 or greater, and a sample size as low as *N* = 70. These findings replicate previous research that suggests power for 1-1-1 mediation models may be $\geq$ 80% given a sample size as small as *N* = 50 [@zhang2014monte] and research that indicates an ICC of .60 with 2, 3, and 4 observations will require *N* = 70, 53, 48, respectively,  for a medium effect [@pan2018sample, see Table 4]. 
-
-$\Delta \chi^{2}$ test was used to determine the power of detecting a significant correlation between latent growth parameters. The focus of this power analysis was the slope covariance. As shown in  Figure 5, power curves were generated based on effect size ($r$) ranging from $r$ = `r min(corr_list)` to $d$ = `r max(corr_list)` and sample size ranging from `r min(simdf$n)` to `r max(simdf$n)`. Results indicate a model with $r$ as low as `r min(simdf$r[which(diff(simdf$Power > .7999)!=0)])` would achieve power of 80% (1 - $\beta$ err prob) to reject the null hypothesis of no association between slopes given a sample size of $N$ = `r round(min(simdf$n[which(diff(simdf$Power > .7999)!=0 & simdf$r == min(simdf$r[which(diff(simdf$Power > .7999)!=0)]))]),0)`. Given a medium effect of $r \ge$ .30, the proposed parallel process LGMs are sufficiently powered to detect significant change patterns over time between outcome measures. 
-
+**Power.** Our sample size ensures sufficient power to detect mediation effects that are both reasonably expected and practically meaningful. To evaluate power a series of Monte Carlo simulations with the bootstrap method to test mediation effects were specified for a 1-1-1 mediation model using the *wp.mc.sem.boot* function from the WebPower, version [0.8.7] [@webpower] package in R [@Rprogram]. Specifically, we conducted power for a longitudinal mediation model with 2,000 replications and 500 bootstrap samples. In this context statistical power was defined as the proportion of replications for which the estimated confidence intervals for the mediating effect did not contain 0 when a true mediating effect existed. We considered three values of $a$ and $b$: 0.26, 0.39, and 0.59 corresponding to a medium, medium-large, and large effect, respectively (Cohens $f^2$, where $f^2$ = $R^2$ / (1-$R^2$); see [@RN2363, p. 413-414]. The ICC (within-person correlation) was set to .60 and the number of repeated measures was set to 4. Results indicate power of 80% (1 - $\beta$ err prob) to reject the null hypothesis of no mediation effect given $\alpha$ = .05, an effect size of 0.39 or greater, and a sample size as low as *N* = 70. These findings replicate previous research that suggests power for 1-1-1 mediation models may be $\geq$ 80% given a sample size as small as *N* = 50 [@zhang2014monte] and research that indicates an ICC of .60 with 2, 3, and 4 observations will require *N* = 70, 53, 48, respectively,  for a medium effect [@pan2018sample, see Table 4]. 
 
 <br>
 

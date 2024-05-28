@@ -143,7 +143,7 @@ if (PSIE > 1) {
 
 ## Results.
 
-Results indicate `r X_lab` indirectly influenced `r Y_lab` through its effect on `r M_lab`. Specifically, there was a `r a_pos` effect of `r X_lab` on `r M_lab` (X???M; a = `r a`), and a `r b_pos` effect of `r M_lab` on `r Y_lab` (M???Y; b = `r b`). A 95% bootstrap confidence interval for the indirect effect (*ab*=`r round(a*b, 2)` ) based on `r rep` bootstrap samples did not include zero (`r round(LL, 2)` to `r round(UL, 2)`). There was no evidence that `r X_lab` influenced `r Y_lab` independent of its effect on `r M_lab` (c'= `r c_prime`, p > .05). 
+Results indicate `r X_lab` indirectly influenced `r Y_lab` through its effect on `r M_lab`. Specifically, there was a `r a_pos` effect of `r X_lab` on `r M_lab` (X->M; a = `r a`), and a `r b_pos` effect of `r M_lab` on `r Y_lab` (M->Y; b = `r b`). A 95% bootstrap confidence interval for the indirect effect (*ab*=`r round(a*b, 2)` ) based on `r rep` bootstrap samples did not include zero (`r round(LL, 2)` to `r round(UL, 2)`). There was no evidence that `r X_lab` influenced `r Y_lab` independent of its effect on `r M_lab` (c'= `r c_prime`, p > .05). 
 
 ```r
 
