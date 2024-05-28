@@ -44,7 +44,7 @@ The idea of `BioBuilder` is to let you create and share your NIH/IES/NSF/PCORI f
 
 1. **Open in RStudio**:
    - Open the template file in [RStudio](https://www.rstudio.com/).
-   - Load the required libraries: `library(scholar) library(tidyverse) library(flextable) library(officer)`
+   - Load the required libraries: `library(scholar, tidyverse, flextable, officer)`
 
 ---
 
@@ -52,7 +52,7 @@ The idea of `BioBuilder` is to let you create and share your NIH/IES/NSF/PCORI f
 
 `myid <- "insert your Google Scholar ID" #------- Update with your Google Scholar ID`
 
-> Follow Google Scholar’s instructions for obtaining an ID: A primer on creating and modifying your Google Scholar account can be found at: https://scholar.google.com/intl/en/scholar/citations.html.
+> Follow Google Scholar???s instructions for obtaining an ID: A primer on creating and modifying your Google Scholar account can be found at: https://scholar.google.com/intl/en/scholar/citations.html.
 
 
 `C:/Users/mydata.xlsx #------ Update the location of the supporting files`
