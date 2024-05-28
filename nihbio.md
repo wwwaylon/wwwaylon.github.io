@@ -1,15 +1,15 @@
 ---
 layout: page
-title: NIH Biosketch 
+title: BioBuilder NIH/IES/NSF/PCORI 
 ---
 
 <ul style="color: #585A56; font-family: Aptos; font-size: 1.50em; line-height: 1.2; padding: 0;">
 
-# RmdNIHbio - Easily create your biosketch
+# BioBuilder - Easily create your biosketch
 
 ### This RMD file specializes in generating NIH biosketches, streamlining the process for researchers 
 
-- [What does RmdNIHbio do?](#what-does-RmdNIHbio-do)
+- [What does BioBuilder do?](#what-does-biobuilder-do)
 - [But, why?](#buy-why)
 - [How do I use this?](#how-do-i-use-this)
 - [Current features](#current-features)
@@ -17,9 +17,9 @@ title: NIH Biosketch
 
 ---
 
-### What does `RmdNIHbio` do?
+### What does `BioBuilder` do?
 
-The idea of `RmdNIHbio` is to let you create and share your NIH formatted biosketch as a Word document, *formatted* and populated easily within R Markdown.    
+The idea of `BioBuilder` is to let you create and share your NIH formatted biosketch as a Word document, *formatted* and populated easily within R Markdown.    
 
 ---
 
@@ -31,17 +31,13 @@ Efficientcy. A biographical sketch (also referred to as biosketch) documents an 
 
 ### How do I use this?
 
-1. **Clone the Templates**:
-   - Clone `nih_template.docx` and `nih_template.Rmd` into your working directory.
+1. **Clone the desired template from the link below**:
+   - E.g., clone `nih_template.docx` and `nih_template.Rmd` into your working directory.
    - Clone the supporting file (`mydata.xlsx`).
 
 1. **Open in RStudio**:
    - Open the template file in [RStudio](https://www.rstudio.com/).
-   - Load the required libraries: `library(scholar)
-library(tidyverse)
-library(flextable)
-library(officer)`
-
+   - Load the required libraries: `library(scholar) library(tidyverse) library(flextable) library(officer)`
 
 ---
 
@@ -78,5 +74,8 @@ New features may include reading the supporting files from a remote API (such as
 </ul>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/wwwaylon/NIHbiosketch" target="_blank" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">Source Code on GitHub</a>
+  <a href="https://github.com/wwwaylon/NIHbiosketch" target="_blank" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">NIH Source Code</a>
+  <a href="https://www.google.com" target="_blank" style="background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">IES Source Code</a>
+  <a href="https://scholar.google.com" target="_blank" style="background-color: #2196F3; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">NSF Source Code</a>
+  <a href="https://www.rstudio.com" target="_blank" style="background-color: #FF9800; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">PCORI Source Code</a>
 </div>
