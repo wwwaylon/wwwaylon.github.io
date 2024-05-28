@@ -21,7 +21,12 @@ navbar-links:
     - Publications: "publications"
     - Presentations: "presentations"
     - Academic genealogy: "academicgenology.html"
-  R Shiny Apps:
+  Projects:
+    - BioBuilder:
+      - NIH: "nihbio"
+      - IES: 
+      - NSF: 
+      - PCORI: 
     - Estimating stats time: "https://whowar.shinyapps.io/Proj_est2021/"
     - Tracking assignments: "https://whowar.shinyapps.io/Projects/"
     - Effect size (updating...): "https://www.google.com"
@@ -50,11 +55,11 @@ social-network-links:
   email: "wwwaylon@gmail.com"
   facebook: wwwaylon
   github: wwwaylon
-#  twitter: daattali
+#  twitter: wwwaylon
 #  reddit: yourname
   linkedin: waylon-howard
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+#  stackoverflow: "3943160/wwwaylon"
 #  snapchat: yourname
 #  instagram: yourname
 #  youtube: user/yourname
@@ -233,6 +238,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
 

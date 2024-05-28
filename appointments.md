@@ -286,7 +286,7 @@ title: Research Positions
 
 <!-- Logo with hyperlink -->
 <a href="https://www.jhu.edu/">
-  <img align="left" width="125" height="110" src="https://tukuz.com/wp-content/uploads/2020/04/johns-hopkins-bloomberg-school-of-public-health-logo-vector.png" alt="johnshopkins">
+  <img align="left" width="125" height="100" src="https://tukuz.com/wp-content/uploads/2020/04/johns-hopkins-bloomberg-school-of-public-health-logo-vector.png" alt="johnshopkins">
 </a>
 
 <!-- Job Title and Department -->
