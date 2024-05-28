@@ -11,7 +11,7 @@
 
 
 
-<title>BioBuilder NIH/IES/NSF/PCORI</title>
+<title>Auxiliary variables</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,118 +348,89 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">BioBuilder NIH/IES/NSF/PCORI</h1>
+<h1 class="title toc-ignore">Auxiliary variables</h1>
+<h3 class="subtitle">basics</h3>
 
 </div>
 
 
-<ul style="color: #585A56; font-family: Aptos; font-size: 1.50em; line-height: 1.2; padding: 0;">
-<div id="biobuilder---easily-create-your-biosketch" class="section level1">
-<h1>BioBuilder - Easily create your biosketch</h1>
-<div id="this-rmd-file-specializes-in-generating-nih-biosketches-streamlining-the-process-for-researchers" class="section level3">
-<h3>This RMD file specializes in generating NIH biosketches,
-streamlining the process for researchers</h3>
-<ul>
-<li><a href="#what-does-biobuilder-do">What does BioBuilder do?</a></li>
-<li><a href="#buy-why">But, why?</a></li>
-<li><a href="#how-do-i-use-this">How do I use this?</a></li>
-<li><a href="#current-features">Current features</a></li>
-<li><a href="#future-features">Future features</a></li>
-</ul>
-<hr />
-</div>
-<div id="what-does-biobuilder-do" class="section level3">
-<h3>What does <code>BioBuilder</code> do?</h3>
-<p>The idea of <code>BioBuilder</code> is to let you create and share
-your NIH formatted biosketch as a Word document, <em>formatted</em> and
-populated easily within R Markdown.</p>
-<hr />
-<div style="text-align: center; margin-top: 20px;">
-<p><img src="/assets/img/nihbio.gif" alt="Exciting GIF" style="width: 300px; height: auto; border-radius: 8px;"></p>
-</div>
-<hr />
-</div>
-<div id="but-why" class="section level3">
-<h3>But, why?</h3>
-<p>Efficientcy. A biographical sketch (also referred to as biosketch)
-documents an individual’s qualifications and experience for a specific
-role in a project. NIH requires submission of a biosketch for each
-proposed senior/key personnel and other significant contributor on a
-grant application. I’ve genrated numerous biosketches for grant
-submissions and used lots of time searching for a template, updating a
-previous version (hoping I’ve located the most recent version) and just
-needed a <em>free</em> solution that could easily update.</p>
-<hr />
-</div>
-<div id="how-do-i-use-this" class="section level3">
-<h3>How do I use this?</h3>
-<ol style="list-style-type: decimal">
-<li><strong>Clone the desired template from the link below</strong>:
-<ul>
-<li>E.g., clone <code>nih_template.docx</code> and
-<code>nih_template.Rmd</code> into your working directory.</li>
-<li>Clone the supporting file (<code>mydata.xlsx</code>).</li>
-</ul></li>
-<li><strong>Open in RStudio</strong>:
-<ul>
-<li>Open the template file in <a href="https://www.rstudio.com/">RStudio</a>.</li>
-<li>Load the required libraries:
-<code>library(scholar) library(tidyverse) library(flextable) library(officer)</code></li>
-</ul></li>
-</ol>
-<hr />
-<p><strong>After confirming the libraries update the file
-directory.</strong></p>
-<p><code>myid &lt;- &quot;insert your Google Scholar ID&quot; #------- Update with your Google Scholar ID</code></p>
+<p>Missing data is really an incredible area of research. It occurs in
+most areas of the applied sciences and knowledge of missing data can
+function sort of as a repair kit - so that you can avoid losing
+additional information when handling missingness. We can actually use
+missing data theory when designing studies to decrease participant
+burden and research costs.</p>
+<p>But that’s not what I want to mention here, because right now most
+statistical software programs have defaults that do not properly deal
+with missing data. So let’s review one of these often neglected missing
+data handling concepts and look at some examples - all of which are
+available for download so that you can test out these ideas for
+yourself.</p>
+<p>For those of you interested in further reading on the topics
+discussed today, I recommend John Graham’s article <a href="https://pdfs.semanticscholar.org/5d13/841cf55efbab48663ca29ef8d8ffb3bb087f.pdf?_ga=2.59084654.296295912.1603138962-192597268.1603138962">“missing
+data analysis: making it work in the real world”</a> – as the title
+suggests this is written with applied researchers in mind and I love
+that it covers a wide range of important issues.</p>
+<div id="missing-data-mechanisms" class="section level3">
+<h3>Missing Data Mechanisms</h3>
+<p>While patterns describe <em>where</em> data are missing, causes
+describe <em>why</em> data are missing. Discussion now turns to what
+causes missing data because it is helpful to know what kind of missing
+data introduces error into your analyses.</p>
+<p>The literature describes 3 basic types of missing data mechanisms and
+they are MCAR, MAR and MNAR. This is a diagram of the missing data
+mechanisms that illustrates each can contribute to the missing data you
+have on your dataset.</p>
+<p><a href="https://www.google.com/">
+<img align="left" width="300" height="300" src="/assets/img/mechanisms.png" alt="missingness">
+</a> The first mechanism is called Missing Completely at Random (MCAR).
+This means that the data are missing due to a random process. All
+missing data procedures assume at least this level of missing data. So,
+if you do traditional techniques like: pairwise deletion, listwise
+deletion, and so on – which are often the software defaults - you assume
+that the data were MCAR. This is not a great assumption.</p>
+<p>Now where modern missing data handling tools come in handy is when
+the data are missing at random (MAR). This means the data are missing
+for a reason and we have a variable that is assoicated with the missing
+data.</p>
 <blockquote>
-<p>Follow Google Scholar’s instructions for obtaining an ID: A primer on
-creating and modifying your Google Scholar account can be found at: <a href="https://scholar.google.com/intl/en/scholar/citations.html" class="uri">https://scholar.google.com/intl/en/scholar/citations.html</a>.</p>
+<p>Suppose that data are missing because of low socioeconomic status
+(SES) and I happened to measure SES in my dataset. If so I can do a good
+job of recovering the missing information. The reason this works is
+because I know what a low SES person would look like on the missing
+scores because I had some that stayed in and I also know what the
+relationships are among all the other variables.</p>
 </blockquote>
-<p><code>C:/Users/mydata.xlsx #------ Update the location of the supporting files</code></p>
-<p>That’s all the changes you need. Now you can update data in the
-supporting files and generate your biosketch by simply selecting the
-blue ‘Knit’ button at the top left of the console pane.</p>
-<p>Of course you could put more stuff in the R Markdown template or
-improve the design, but this is the beauty of it, the data and tables
-are all modifyable.</p>
-<hr />
-</div>
-<div id="current-features" class="section level3">
-<h3>Current features</h3>
-<ul>
-<li>Reads data from a local file (i.e.,
-<strong>mydata.xlsx</strong>)</li>
-<li>Can add additional data from Google Scholar</li>
-<li>Includes automated NIH-biosketch formatting<br />
-</li>
-<li>Can customize tables and data</li>
-<li>Exports as a Word document (fully editable)</li>
-</ul>
-<hr />
-</div>
-<div id="future-features" class="section level3">
-<h3>Future features</h3>
-<p>New features may include reading the supporting files from a remote
-API (such as from orcid.org), streamlining code for efficiency, and
-other ideas that you come up with.</p>
-</ul>
-<hr />
-<div style="text-align: center; margin-top: 20px;">
-<p><a href="https://github.com/wwwaylon/NIHbiosketch" target="_blank" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">NIH
-Source Code</a>
-<a href="https://www.google.com" target="_blank" style="background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">IES
-Source Code</a>
-<a href="https://scholar.google.com" target="_blank" style="background-color: #2196F3; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">NSF
-Source Code</a>
-<a href="https://www.rstudio.com" target="_blank" style="background-color: #FF9800; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">PCORI
-Source Code</a></p>
-</div>
-<style>
-a:hover {
-background-color: #555 !important;
-}
-</style>
-</div>
+<p>The third mechanism is the Missing Not At Random (MNAR). What this
+one means is that there is a reason for the missing data and
+unfortunately we don’t have a measure of it. This is the drawback of any
+missing data. If there is a reason and we don’t have a measure of it –
+then our ability to recover that information is severely limited. That’s
+why this is referred to as <em>non-ignorable</em> missing data.<br />
+<br clear="left" /><br />
+Consider example data to illustrate basic missing data handling
+techniques.</p>
+<p><img align="right" width="485" height="385" src="/assets/img/simdata1.png" alt="completedata plot"><br />
+       
+<img width="150" height="375" src="/assets/img/data1.png" alt="completedata">
+<br clear="right" /></p>
+<p>This is the scatter plot of the correlation between the HRQOL1 and
+HRQOL2 variables without any missing values.</p>
+<p>Now lets impose the missing data and estimate the correlation using
+listwise deletion.</p>
+<p><img align="right" width="485" height="385" src="/assets/img/simdata2.png" alt="missing plot"><br />
+       
+<img width="150" height="375" src="/assets/img/data2.png" alt="missing data">
+<br clear="right" /></p>
+<p>To demonstrate the bias that results from complete cases analysis I
+deleted scores on HRQOL2 if HRQOL1 was &gt; = 50. Using <em>listwise
+deletion</em> the last 9 participants would be deleted.</p>
+<p>As you can see, this scatter plot looks very different than the
+original. Here, half the data were deleted and the estimation is
+incorrect. As we will see shortly, it is actually possible to get back
+the lost information when the correct approach is used to properly
+account for the missing data. Remember that the HRQOL1 variable was
+responsible for creating the missing data.</p>
 </div>
 
 
