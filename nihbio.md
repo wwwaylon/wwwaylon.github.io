@@ -73,9 +73,17 @@ New features may include reading the supporting files from a remote API (such as
 
 </ul>
 
+---
+
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/wwwaylon/NIHbiosketch" target="_blank" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">NIH Source Code</a>
-  <a href="https://www.google.com" target="_blank" style="background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">IES Source Code</a>
-  <a href="https://scholar.google.com" target="_blank" style="background-color: #2196F3; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">NSF Source Code</a>
-  <a href="https://www.rstudio.com" target="_blank" style="background-color: #FF9800; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px;">PCORI Source Code</a>
+  <a href="https://github.com/wwwaylon/NIHbiosketch" target="_blank" style="background-color: #4CAF50; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">NIH Source Code</a>
+  <a href="https://www.google.com" target="_blank" style="background-color: #f44336; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">IES Source Code</a>
+  <a href="https://scholar.google.com" target="_blank" style="background-color: #2196F3; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">NSF Source Code</a>
+  <a href="https://www.rstudio.com" target="_blank" style="background-color: #FF9800; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 1.25em; border-radius: 4px; transition: background-color 0.3s;">PCORI Source Code</a>
 </div>
+
+<style>
+a:hover {
+  background-color: #555 !important;
+}
+</style>
