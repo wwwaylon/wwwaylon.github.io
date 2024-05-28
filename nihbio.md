@@ -1,11 +1,11 @@
 ---
 layout: page
-title: BioBuilder NIH/IES/NSF/PCORI 
+title: BioBuilder 
 ---
 
 <ul style="color: #585A56; font-family: Aptos; font-size: 1.50em; line-height: 1.2; padding: 0;">
 
-# BioBuilder - Easily create your biosketch
+# BioBuilder - Easily create your NIH/IES/NSF/PCORI biosketch
 
 ### This RMD file specializes in generating NIH biosketches, streamlining the process for researchers 
 
