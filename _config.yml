@@ -15,7 +15,7 @@ author: Waylon J. Howard, PhD
 
 navbar-links:
   CV: "https://drive.google.com/file/d/1EjEuqFe7S8WQpgFRezrYjJWePMfsEpoO/view?usp=sharing"
-  About: "aboutme"
+  About: "aboutme2"
   Research: 
     - Appointments: "appointments"
     - Publications: "publications"
@@ -26,6 +26,7 @@ navbar-links:
     - Estimating stats time: "https://whowar.shinyapps.io/Proj_est2021/"
     - Tracking projects: "https://whowar.shinyapps.io/Projects/"
     - Model difference testing: "https://whowar.shinyapps.io/NestedModels/"
+  Consulting: "consulting"  
 
 # --- Logo --- #
 
