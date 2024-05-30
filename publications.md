@@ -4,7 +4,7 @@ title: Publications
 ---
 
 ### peer-reviewed articles 
-According to Google Scholar, my work has been cited **900** times, and my h-index is **15**. 
+According to Google Scholar, my work has been cited **981** times, and my h-index is **16**. 
 
 * Law, E. F., Tham, S. W., **Howard, W. J.**, Ward, T. M., & Palermo, T. M. (2023). Executive Functioning and Self-Management Processes Mediate the Relationship between Insomnia and Pain-Related Disability. *The Journal of Pain*. [Impact Factor [5.559](https://journals.lww.com/pain/pages/default.aspx)]  ([PDF](https://www.sciencedirect.com/science/article/pii/S1526590023005138/pdfft?md5=1f35803a2564fe4c0bdf06f75d5ac096&pid=1-s2.0-S1526590023005138-main.pdf), [Cite](https://scholar.googleusercontent.com/scholar.enw?q=info:4gsjZ6CKE6MJ:scholar.google.com/&output=citation&scisdr=ClH5CMyXEK3_0-xO5Hs:AFWwaeYAAAAAZR5L_HsOo8gmIMFDXJRjMq7lWpw&scisig=AFWwaeYAAAAAZR5L_Gb-d83v-yVCM6TIpNyBo94&scisf=3&ct=citation&cd=-1&hl=en), [Source Document](https://www.sciencedirect.com/science/article/pii/S1526590023005138))
 
