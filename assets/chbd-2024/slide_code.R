@@ -108,7 +108,8 @@ if (!require("countdown")) {
 #' - [Estimators.](#ml)    
 #' - [Model Fit.](#fit)    
 #' - [Statistical Code.](#software)
-#' - [Annotated Results.](#results)
+#' - [Example SEM Models.](#results)
+#' - [Power.](#results)
 #' 
 #' ---
 #' 
