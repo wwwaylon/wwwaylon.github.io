@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>SEM, Revealed.</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="css/xaringan.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+class: middle, center
+
+# SEM, Revealed.
+
+## Modeling connections with latent variables and regression pathways.
+
+&lt;img src="images/seachildrens.jpg" width="167" /&gt;
+
+### 
+
+&lt;span style="font-size: 80%;"&gt;Slides available at &lt;https://tinyurl.com/CHBD-slides24&gt;&lt;/span&gt;
+ 
+&lt;span style="font-size: 80%;"&gt;PDF slides at &lt;https://tinyurl.com/CHBD-pdf24&gt;&lt;/span&gt;
+
+---
+
+name: my-info
+class: middle, center
+
+## Waylon Howard | Biostatistician @ BEAR/CHBD
+
+---
+
+name: bear
+class: middle, left
+
+&lt;img src="images/BEARlogo.png" width="300px"/&gt;
+
+&lt;br&gt;    
+
+&lt;small&gt;was founded with a collaborative spirit and lofty objective: to deliver comprehensive data management, advanced analytics, and expert statistical, epidemiologic, and qualitative support…&lt;/small&gt; 
+
+&lt;br&gt;
+
+&lt;small&gt;By alleviating external consultants, designing studies in-house, and engaging investigators directly, we’re able to provide responsive, efficient, and high-quality data support at a fraction of the going cost.&lt;/small&gt;
+
+???
+Notes here
+
+---
+
+name: biostats
+class: middle, left
+
+## Biostatistics @ BEAR
+
+&lt;small&gt;Supports stakeholders throughout SCRI by helping them make better decisions using data&lt;/small&gt; 
+
+---
+
+name: toc
+  
+# Topics
+
+- [How to measure it?](#measure)    
+- [Fitting a CFA model.](#cfa)    
+- [Estimators.](#ml)    
+- [Model Fit.](#fit)    
+- [Statistical Code.](#software)
+- [Annotated Results.](#results)
+
+---
+
+layout: true
+
+&lt;div class="my-footer"&gt;&lt;span&gt;Slides at &lt;u&gt;tinyurl.com/CHBD-slides24&lt;/u&gt; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; Return to &lt;u&gt;&lt;a style="color:White;" href="slide_deck.html#toc"&gt;Topic List&lt;/a&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+name: measure
+
+class: inverse, center, middle
+
+# Perceived Social Support
+## &lt;span style="color:#FFCC66;"&gt;How to measure it?&lt;/span&gt;
+
+---
+
+## Self-report questions
+
+***
+
+1. &lt;span style="font-size: 80%;"&gt;My friends really try to help me.&lt;/span&gt;
+1. &lt;span style="font-size: 80%;"&gt;I can count on my friends when things go wrong.&lt;/span&gt;
+1. &lt;span style="font-size: 80%;"&gt;I can talk about my problems with my friends.&lt;/span&gt;
+
+***
+
+&lt;br&gt;
+
+
+
+&lt;table class="table" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; Very Strongly Disagree &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Strongly Disagree &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Mildly Disagree &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Neutral &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Mildly Agree &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Strongly Agree &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Very Strongly Agree &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 7 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;br&gt;
+
+&lt;center&gt;&lt;medium&gt; Higher scores = More Perceived Social Support &lt;/medium&gt;&lt;/center&gt;
+
+---
+
+class: middle, left
+
+1. My friends really try to help me.
+
+***
+
+&lt;img class="rectangle" src="images/circleditem.png" width="800px"/&gt;
+
+&lt;br&gt;
+
+.pull-left[
+
+&lt;span style="color:#3F4A13;"&gt; `\(X_i\)` &lt;/span&gt; = &lt;span style="color:#052147;"&gt; `\(T_i\)` &lt;/span&gt; + (&lt;span style="color:#BD8C00;"&gt; `\(S_i\)` &lt;/span&gt; + &lt;span style="color:black;"&gt; `\(e_i\)` &lt;/span&gt;)
+
+&lt;br&gt;
+
+&lt;span style="font-size: 70%;"&gt;&lt;span style="color:#052147;"&gt; `\(T_i\)` &lt;/span&gt; is the 'true' score&lt;/span&gt;&lt;br&gt;
+
+&lt;span style="font-size: 70%;"&gt;&lt;span style="color:#BD8C00;"&gt; `\(S_i\)` &lt;/span&gt; is item-specific, yet reliable&lt;/span&gt;&lt;br&gt;
+
+&lt;span style="font-size: 70%;"&gt;&lt;span style="color:black;"&gt; `\(e_i\)` &lt;/span&gt; is random error, or noise&lt;/span&gt;
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 60%;"&gt;**Use the scoring procedure**: No measurement error (*always perfectly measured*), uniform effectiveness of items (*equal items*), invariance across groups and time.&lt;/span&gt;
+ 
+]
+
+---
+
+class: middle, center
+
+&lt;img class="rectangle" src="images/cfa1.png" width="800px"/&gt;
+
+---
+
+class: middle, center
+
+&lt;span style="color:#3F4A13;"&gt; `\(X_i\)` &lt;/span&gt; = &lt;span style="color:#052147;"&gt; `\(T_i\)` &lt;/span&gt; + (&lt;span style="color:#BD8C00;"&gt; `\(S_i\)` &lt;/span&gt; + &lt;span style="color:black;"&gt; `\(e_i\)` &lt;/span&gt;)
+
+&lt;br&gt;
+
+&lt;img class="rectangle" src="images/cfa23.png" width="800px"/&gt;
+
+---
+
+name: cfa
+
+class: inverse, center, middle
+
+# How do we get the true score?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Fitting a CFA model.&lt;/span&gt;
+
+---
+
+
+
+
+class: middle, center
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/cfa4.png" width="300px"/&gt;
+
+&lt;span style="font-size: 65%;"&gt;
+Estimated Parameters: **7** Observed Information: **6**&lt;br&gt;
+&lt;/span&gt;
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 80%;"&gt;
+**Matrix Formula:** &lt;span style="color:#187EA1;"&gt; `\(\Sigma = \Lambda \Psi \Lambda'+ \Theta\)` &lt;/span&gt; 
+&lt;/span&gt;
+
+&lt;span style="font-size: 50%;"&gt; Σ = **Variance/Covariance Matrix**&lt;/span&gt; &lt;br&gt; 
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.66 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.90 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.50 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.33 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.38 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt; 5.63 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;span style="font-size: 50%;"&gt; **Implied Variance/Covariance Matrix** &lt;/span&gt; &lt;br&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;11&lt;/sub&gt; + θ&lt;sub&gt;11&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; + θ&lt;sub&gt;22&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt; λ&lt;sub&gt;31&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; + θ&lt;sub&gt;33&lt;/sub&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+ 
+]
+
+&lt;span style="font-size: 60%;"&gt; *Underidentified*: `\(X + Y = 20\)` &lt;/span&gt;
+
+---
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 50%;"&gt;
+Variance /Covariance Matrix&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.66 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.90 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.50 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.33 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.38 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt; 5.63 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;span style="font-size: 50%;"&gt;
+**Just Identified.**&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;11&lt;/sub&gt; + θ&lt;sub&gt;11&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; + θ&lt;sub&gt;22&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt; λ&lt;sub&gt;31&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; + θ&lt;sub&gt;33&lt;/sub&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 60%;"&gt;Fix the latent variance to 1.0&lt;/span&gt;
+
+&lt;img class="rectangle" src="images/setscale1.png" width="275px"/&gt;
+ 
+]
+
+---
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 50%;"&gt;
+Variance /Covariance Matrix&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.66 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.90 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.50 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.33 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.38 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt; 5.63 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;span style="font-size: 50%;"&gt;
+**Just Identified.**&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; ψ&lt;sub&gt;11&lt;/sub&gt; + θ&lt;sub&gt;11&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; + θ&lt;sub&gt;22&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt; λ&lt;sub&gt;31&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; + θ&lt;sub&gt;33&lt;/sub&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 60%;"&gt;Fix the loading to 1.0&lt;/span&gt;
+
+&lt;img class="rectangle" src="images/setscale2.png" width="275px"/&gt;
+ 
+]
+
+---
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 50%;"&gt;
+Variance /Covariance Matrix&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.66 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.90 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 5.50 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 80px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.33 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; border-right:1px solid;"&gt; 4.38 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 125px; "&gt; 5.63 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;span style="font-size: 50%;"&gt;
+**Just Identified.**&lt;br&gt;
+&lt;/span&gt;
+
+&lt;table class="table table-striped table-hover" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;font-weight: bold;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X1 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X2 &lt;/th&gt;
+   &lt;th style="text-align:center;font-weight: bold;"&gt; X3 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X1 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; (3-λ&lt;sub&gt;21&lt;/sub&gt;-λ&lt;sub&gt;31&lt;/sub&gt;) ψ&lt;sub&gt;11&lt;/sub&gt; (3-λ&lt;sub&gt;21&lt;/sub&gt;-λ&lt;sub&gt;31&lt;/sub&gt;) + θ&lt;sub&gt;11&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; (3-λ&lt;sub&gt;21&lt;/sub&gt;-λ&lt;sub&gt;31&lt;/sub&gt;) ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;21&lt;/sub&gt; + θ&lt;sub&gt;22&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 40px; font-weight: bold;border-right:1px solid;"&gt; X3 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; (3-λ&lt;sub&gt;21&lt;/sub&gt;-λ&lt;sub&gt;31&lt;/sub&gt;)ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; border-right:1px solid;"&gt; λ&lt;sub&gt;21&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; &lt;/td&gt;
+   &lt;td style="text-align:center;width: 150px; "&gt; λ&lt;sub&gt;31&lt;/sub&gt; ψ&lt;sub&gt;11&lt;/sub&gt; λ&lt;sub&gt;31&lt;/sub&gt; + θ&lt;sub&gt;33&lt;/sub&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 60%;"&gt;Constrain loading to average 1.0&lt;/span&gt;
+
+&lt;img class="rectangle" src="images/setscale3.png" width="325px"/&gt;
+ 
+]
+
+---
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 50%;"&gt;
+Variance /Covariance Matrix&lt;br&gt;
+&lt;/span&gt;
+
+&lt;img class="rectangle" src="images/cfa5.png" width="400px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/cfa6.png" width="275px"/&gt;
+ 
+]
+
+---
+
+name: ml
+
+class: inverse, center, middle
+
+# How do we get the numbers?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Estimators.&lt;/span&gt;
+
+---
+
+class: middle, center
+
+## Maximum Likelihood
+
+&lt;span style="font-size: 80%;"&gt;
+`\(L_i\)` = &lt;span style="color:#C8C5CD;"&gt; `\(\frac {1}{\sqrt{2\pi\sigma^2}}\)` e[-.5 &lt;/span&gt; `\(\frac{(Y_i - \mu)^2}{\sigma^2}\)`  &lt;span style="color:#C8C5CD;"&gt;]&lt;/span&gt;
+
+&lt;br&gt;
+
+&gt; &lt;span style="font-size: 80%;"&gt;ML identifies the population parameters that are most likely given the observed data&lt;/span&gt;&lt;br&gt;
+&gt; &lt;span style="font-size: 80%;"&gt;A likelihood (or log likelihood) function quantifies the fit of the data to the parameters&lt;/span&gt;&lt;br&gt;
+&gt; &lt;span style="font-size: 80%;"&gt;ML requires a population distribution (normal)&lt;/span&gt;
+
+---
+
+
+
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 50%;"&gt;
+`\(L_i\)` = &lt;span style="color:#C8C5CD;"&gt; `\(\frac {1}{\sqrt{2\pi\sigma^2}}\)` e[-.5 &lt;/span&gt; `\(\frac{(Y_i - \mu)^2}{\sigma^2}\)`  &lt;span style="color:#C8C5CD;"&gt;]&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 70%;"&gt;Applying the density function gives the relative probability `\((L_i)\)` of each score from this normal distribution. &lt;/span&gt; &lt;br&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 60%;"&gt;Score `\((\mu\)` = 50.44, `\(\sigma\)` = 58.68 `\()\)` &lt;/span&gt;
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 80%;"&gt;&lt;table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; Person ID &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Score &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Likelihood &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 36.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.00661212 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 41.8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006725313 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 42.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006738201 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 43.1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006745631 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 43.4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006749858 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 44.2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006760279 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 44.9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006768379 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 46.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006781711 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 48.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006795269 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 49.0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006796563 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 50.0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006798419 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 12 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 51.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006797282 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 54.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006781547 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 54.8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.00677987 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 55.7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006771351 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 16 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 57.2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006753646 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 57.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006748188 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 18 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 60.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006703308 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 19 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 60.9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006691451 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 65.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006584073 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/span&gt;
+ 
+]
+
+&lt;br&gt;
+
+&lt;center&gt;&lt;medium&gt; Largest relative probability is for ID 11 &lt;/medium&gt;&lt;/center&gt;
+
+---
+
+class: inverse, center, middle
+
+&lt;img class="rectangle" src="images/likelihood.png" width="800px"/&gt;
+
+---
+
+
+
+
+class: middle, center
+
+.pull-left[
+
+&lt;span style="font-size: 70%;"&gt;Multiply each `\(L_i\)` to get sample likelihood. &lt;/span&gt; &lt;br&gt;
+&lt;span style="font-size: 40%;"&gt;0.0000000000000000000000000000000000000000000378615&lt;/span&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 70%;"&gt;To avoid small numbers, we add the log of the likelihood. &lt;/span&gt; &lt;br&gt;
+&lt;span style="font-size: 70%;"&gt;-99.9824&lt;/span&gt;
+]
+
+.pull-right[
+
+&lt;span style="font-size: 80%;"&gt;&lt;table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; Person ID &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; HRQoL &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Likelihood &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; LogLikelihood &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 36.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.00661212 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0189 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 41.8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006725313 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 42.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006738201 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 43.1 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006745631 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9989 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 43.4 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006749858 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9982 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 44.2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006760279 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9967 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 44.9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006768379 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9955 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 46.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006781711 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9935 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 48.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006795269 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9915 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 49.0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006796563 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9913 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 50.0 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006798419 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9911 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 12 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 51.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006797282 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9912 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 54.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006781547 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9935 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 54.8 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.00677987 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9938 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 55.7 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006771351 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9951 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 16 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 57.2 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006753646 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9977 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 57.6 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006748188 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -4.9985 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 18 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 60.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006703308 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0052 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 19 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 60.9 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006691451 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0069 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 65.3 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; 0.006584073 &lt;/td&gt;
+   &lt;td style="text-align:center;"&gt; -5.0231 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/span&gt;
+ 
+]
+
+&lt;br&gt;
+
+&lt;center&gt;&lt;medium&gt; Largest relative probability is for ID 11 &lt;/medium&gt;&lt;/center&gt;
+
+---
+
+class: inverse, center, middle
+
+&lt;img class="rectangle" src="images/loglikelihood.png" width="800px"/&gt;
+
+---
+
+
+
+
+name: fit
+class: middle, center
+
+## Model Fit
+
+&lt;img class="rectangle" src="images/fit.png" width="800px"/&gt;
+
+&lt;br&gt;
+
+&lt;medium&gt; Your data = Model-implied? &lt;/medium&gt;&lt;br&gt;
+&lt;span style="font-size: 50%;"&gt;
+Chi-square `\((\chi^2)\)` = -2 * (Null Loglikelihood - Alternative Loglikelihood)
+&lt;/span&gt;
+
+
+---
+
+class: middle, left
+
+&lt;img class="rectangle" src="images/modelfitlineRMSEA.png" width="700px"/&gt;
+
+.pull-left[
+
+## &lt;span style="font-size: 80%;"&gt;Absolute Model Fit: &lt;/span&gt;   
+&lt;span style="font-size: 70%;"&gt;*How far from perfect*: &lt;/span&gt; &lt;br&gt; 
+
+&lt;span style="font-size: 70%;"&gt; **RMSEA**, **SRMR** &lt;/span&gt;
+
+]
+
+.pull-right[
+
+&gt; &lt;span style="font-size: 60%;"&gt; `\(&gt;\)` **.10** poor fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.08 - .10** mediocre fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.05 - .08** acceptable fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.01 - .05** close fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.00** exact fit&lt;/span&gt;
+
+]
+
+---
+
+class: middle, left
+
+&lt;img class="rectangle" src="images/modelfitlineCFI.png" width="700px"/&gt;
+
+.pull-left[
+
+## &lt;span style="font-size: 80%;"&gt;Relative Model Fit: &lt;/span&gt;   
+&lt;span style="font-size: 70%;"&gt;*How far from worst*: &lt;/span&gt; &lt;br&gt; 
+
+&lt;span style="font-size: 70%;"&gt; **TLI (NNFI)**, **CFI**... &lt;/span&gt;
+
+]
+
+.pull-right[
+
+&gt; &lt;span style="font-size: 60%;"&gt; `\(&lt;\)` **.85** poor fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.85-.90** mediocre fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.90-.95**	acceptable fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **.95-.99** close fit&lt;/span&gt; &lt;br&gt;
+&gt; &lt;span style="font-size: 60%;"&gt; **1.00** exact fit&lt;/span&gt;
+
+]
+
+&lt;span style="font-size: 50%;"&gt;Also: Modification indices, Fitted residual matrix, Parameter estimates… &lt;/span&gt;
+
+---
+
+class: middle, left
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/modelfit.png" width="800px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;span style="font-size: 40%;"&gt;Chi-Square = -2[(-1365.848) - (-1351.359)] = &lt;span style="color:#4CAF50;"&gt;**28.978**&lt;/span&gt;&lt;br&gt;
+DF = `\(\frac{v(v+1)}{2}-p\)` = `\(\frac{6(6+1)}{2}-13\)` = &lt;span style="color:#4CAF50;"&gt;**8** &lt;/span&gt;&lt;/span&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 40%;"&gt;RMSEA = `\(\sqrt{\frac{\frac{\chi^2_T - df_T}{N}}{df_T}}\)` = `\(\sqrt{\frac{\frac{28.978 - 8}{379}}{8}}\)` = &lt;span style="color:#f44336;"&gt;**0.083**&lt;/span&gt;&lt;br&gt;&lt;/span&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 40%;"&gt;CFI = `\(\frac{(\chi^2_0 - df_0)-(\chi^2_T - df_T)}{(\chi^2_0 - df_0)}\)`&lt;br&gt; 
+= `\(\frac{(1939.234 - 15)-(28.978 - 8)}{(1939.234 - 15)}\)` = &lt;span style="color:#2196F3;"&gt;**0.989**&lt;/span&gt;&lt;br&gt;&lt;/span&gt;
+
+&lt;br&gt;
+
+&lt;span style="font-size: 40%;"&gt;TLI = `\(\frac{(\frac{\chi^2_0} {df_0})-(\frac{\chi^2_T} {df_T})}{(\frac{\chi^2_0} {df_0})-1}\)` = `\(\frac{(\frac{1939.234} {15})-(\frac{28.978} {8})}{(\frac{1939.234} {15})-1}\)` = &lt;span style="color:#FF9800;"&gt;**0.980**&lt;/span&gt;&lt;br&gt;&lt;/span&gt;
+
+]
+
+---
+
+name: software
+class: inverse, center, middle
+
+# How do we estimate a model?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Statistical software (Mplus, R, SAS).&lt;/span&gt;
+
+---
+
+name: mplus
+class: middle, left
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA Mplus Code &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;span style="font-size: 60%;"&gt;
+&lt;span style="color:#0004FF;"&gt;DATA:&lt;/span&gt; FILE = mydata.dat;&lt;/span&gt;
+
+&lt;span style="font-size: 60%;"&gt;
+&lt;span style="color:#0004FF;"&gt;VARIABLE:&lt;/span&gt;  
+NAMES = SUP1 SUP2 SUP3;&lt;br&gt;
+&lt;/span&gt;
+
+&lt;span style="font-size: 60%;"&gt;
+&lt;span style="color:#0004FF;"&gt;MODEL:&lt;/span&gt;  
+SUP by SUP1\* &lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; SUP2&lt;br&gt; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; SUP3;&lt;br&gt; 
+SUP@1;
+&lt;/span&gt;
+
+&lt;span style="font-size: 60%;"&gt;
+&lt;span style="color:#0004FF;"&gt;OUTPUT:&lt;/span&gt; TECH1;&lt;/span&gt;
+
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/sup1.png" width="800px"/&gt;
+ 
+]
+
+---
+
+
+
+class: middle, left
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA Mplus Estimates &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+&lt;img class="rectangle" src="images/mplusresult.png" width="800px"/&gt;
+
+---
+
+class: middle, left
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA Mplus Estimates &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;span style="font-size: 60%;"&gt;MODEL RESULTS&lt;/span&gt;&lt;br&gt;
+
+&lt;span style="font-size: 80%;"&gt;&lt;table class="table" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Estimate &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; S.E. &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Est./S.E. &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; P-Value &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP BY &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.202 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.155 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 14.246 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.226 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.150 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 14.879 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.966 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.164 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11.990 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Intercepts &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.287 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.199 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 16.522 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.990 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.196 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 15.239 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.322 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.198 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 16.739 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Variances &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 999.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 999.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Resid Var &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.812 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.183 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4.429 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.543 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.171 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.176 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.001 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.768 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.243 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 7.265 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/span&gt;
+
+]
+
+.pull-right[
+
+
+&lt;img class="rectangle" src="images/sup2.png" width="800px"/&gt;
+ 
+]
+
+---
+
+
+
+
+class: middle, left
+
+.pull-left[
+
+&lt;span style="font-size: 60%;"&gt;STDYX Standardization&lt;/span&gt;&lt;br&gt;
+
+&lt;span style="font-size: 80%;"&gt;&lt;table class="table" style="font-size: 16px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Estimate &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; S.E. &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Est./S.E. &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; P-Value &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP BY &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.925 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.019 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 48.366 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.949 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.017 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 54.928 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.828 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.029 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 28.129 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Intercepts &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.382 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.117 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11.818 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.275 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.113 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11.318 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.400 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.118 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11.897 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Variances &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 999.000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 999.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Resid Var &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.143 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.035 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4.050 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.099 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.033 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.011 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.003 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SUP3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.314 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.049 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 6.435 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/span&gt;
+
+]
+
+.pull-right[
+
+
+&lt;img class="rectangle" src="images/sup3.png" width="800px"/&gt;
+ 
+]
+
+&lt;span style="font-size: 60%;"&gt;Perceived Social Support (latent SUP) accounts for **85.6%**&lt;/span&gt; &lt;span style="font-size: 45%;"&gt; `\((0.925^2 = 0.856)\)` &lt;/span&gt; &lt;span style="font-size: 60%;"&gt;of the variance in the indicator SUP1. Also, 0.856 + 0.143 = 1.0&lt;/span&gt;
+
+---
+
+name: r
+class: middle, left
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA R (Lavaan) Code &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;span style="font-size: 55%;"&gt;&lt;span style="color:#0004FF;"&gt;library&lt;/span&gt;(lavaan)&lt;br&gt;
+m1 &amp;larr; '&lt;br&gt; 
+SUP =~ NA\*SUP1 + SUP2 + SUP3&lt;br&gt;
+SUP ~~ 1*SUP&lt;br&gt;
+'&lt;br&gt;
+fit1 &amp;larr; cfa(m1, data=mydata, std.lv=&lt;span style="color:#0004FF;"&gt;T&lt;/span&gt;)&lt;br&gt;
+summary(fit1, standardized=&lt;span style="color:#0004FF;"&gt;T&lt;/span&gt;, fit.measures=&lt;span style="color:#0004FF;"&gt;T&lt;/span&gt;, rsquare=&lt;span style="color:#0004FF;"&gt;T&lt;/span&gt;)&lt;/span&gt;
+
+]
+
+.pull-right[
+
+
+&lt;img class="rectangle" src="images/sup1.png" width="800px"/&gt;
+ 
+]
+
+---
+
+class: center, middle
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA R (Lavaan) Estimates &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+&lt;img class="rectangle" src="images/laavanresult.png" width="800px"/&gt;
+
+---
+
+name: sas
+class: middle, left
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA SAS (Proc Calis) Code &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;span style="font-size: 60%;"&gt;&lt;span style="color:#0004FF;"&gt;proc calis&lt;/span&gt; &lt;span style="color:#0004FF;"&gt;data&lt;/span&gt;=mydata method=ml;&lt;br&gt;
+  &lt;span style="color:#0004FF;"&gt;path&lt;/span&gt; SUP &amp;rarr; SUP1 SUP2 SUP3 = ly1 - ly3;&lt;br&gt; 
+  &lt;span style="color:#0004FF;"&gt;pvar&lt;/span&gt; SUP = 1,&lt;br&gt;
+       SUP1 SUP2 SUP3 = te1 - te3;&lt;br&gt;
+&lt;span style="color:#0004FF;"&gt;run;&lt;/span&gt;
+&lt;/span&gt;
+
+]
+
+.pull-right[
+
+
+&lt;img class="rectangle" src="images/sup1.png" width="800px"/&gt;
+ 
+]
+
+
+---
+
+class: center, middle
+
+&lt;center&gt;&lt;span style="font-size: 120%;"&gt; Sample CFA SAS (Proc Calis) Estimates &lt;/span&gt;&lt;/center&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/calisresult1.png" width="400px"/&gt;
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/calisresult2.png" width="400px"/&gt;
+ 
+]
+
+---
+
+name: sem
+class: inverse, center, middle
+
+# Advantages of CFA?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;observed vs. latent correlations.&lt;/span&gt;
+
+---
+
+class: center, middle
+
+&lt;img class="rectangle" src="images/CFAcorr2.png" width="800px"/&gt;
+
+---
+
+
+class: middle, center
+
+&lt;img class="rectangle" src="images/CFAcorrEST.png" width="600px"/&gt;
+
+&lt;img class="rectangle" src="images/corrEST.png" width="450px"/&gt;
+
+&lt;span style="font-size: 45%;"&gt;CFA reveals subtle relationships between constructs that may be obscured by scale scores.&lt;/span&gt;
+
+---
+
+class: center, middle
+
+&lt;img class="rectangle" src="images/scales1.png" width="400px"/&gt;
+
+&lt;img class="rectangle" src="images/scalesCFA1.png" width="400px"/&gt;
+ 
+---
+
+class: center, middle
+
+&lt;img class="rectangle" src="images/scalescorr1.png" width="300px"/&gt;
+
+&lt;img class="rectangle" src="images/scalesCFAcorr1.png" width="450px"/&gt;
+
+&lt;span style="font-size: 50%;"&gt;Disattenuated correlation (controlling for measurement error and specific variance)&lt;/span&gt;
+
+---
+
+
+
+class: inverse, center, middle
+
+# How about latent regression?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Structural Equation Modeling.&lt;/span&gt;
+
+---
+
+class: middle, center
+
+&lt;img class="rectangle" src="images/sem.png" width="800px"/&gt;
+
+&lt;span style="font-size: 45%;"&gt;CFA reveals subtle relationships between constructs that may be obscured by scale scores.&lt;/span&gt;
+
+---
+
+class: center, middle
+
+&lt;span style="font-size: 120%;"&gt; Latent vs. Manifest/Observed &lt;/span&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/regression_demo.png" width="400px"/&gt;
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/SEMest.png" width="400px"/&gt;
+ 
+]
+
+&lt;span style="font-size: 48%;"&gt;Measurement error in the observed variables can reduce the accuracy of the regression model.&lt;/span&gt;&lt;br&gt;
+
+&lt;span style="font-size: 45%;"&gt; Model Fit: χ2(24, n=144) = 36.14; RMSEA = .059(.000;.097) ; CFI = .980; TLI/NNFI = .970&lt;/span&gt;
+&lt;br&gt;
+
+---
+
+
+class: inverse, center, middle
+
+# Does the relationship between X and Y depend on Z?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Moderation.&lt;/span&gt;
+
+---
+
+name: sas
+class: middle, left
+
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/modmplus.png" width="500px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/moderation.png" width="500px"/&gt;
+
+]
+
+&lt;span style="font-size: 50%;"&gt;Mplus code using the Latent Moderated Structural Equations (LMS) Method.&lt;/span&gt;
+
+---
+
+class: center, middle
+
+.pull-left[
+
+&lt;center&gt;&lt;medium&gt; Regular Moderation &lt;/medium&gt;&lt;/center&gt;
+
+&lt;img class="rectangle" src="images/moderation_manifest.png" width="250px"/&gt;
+
+&lt;span style="font-size: 48%;"&gt; `\(R^2 = 0.11\)` &lt;/span&gt;
+
+]
+
+.pull-right[
+
+&lt;center&gt;&lt;medium&gt; Latent Moderation &lt;/medium&gt;&lt;/center&gt;
+
+&lt;img class="rectangle" src="images/moderation__latent.png" width="700px"/&gt;
+
+&lt;span style="font-size: 48%;"&gt; `\(R^2 = 0.46\)` &lt;/span&gt;
+
+]
+
+&lt;span style="font-size: 50%"&gt; **Model differences**: In *regular moderation*, measurement error can inflate predictive effects (i.e., making them seem larger). *Latent moderation* provides more accurate estimates.&lt;/span&gt;
+
+---
+
+class: inverse, center, middle
+
+# Does the effect of X on Y operate through M?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;Mediation.&lt;/span&gt;
+
+---
+
+class: middle, left
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/medmplus.png" width="800px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;center&gt;&lt;medium&gt; Latent Mediation &lt;/medium&gt;&lt;/center&gt;
+
+&lt;img class="rectangle" src="images/latentmediation.png" width="800px"/&gt;
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Do I have enough power for this?&lt;br&gt;
+## &lt;span style="color:#FFCC66;"&gt;SEM Power Analysis.&lt;/span&gt;
+
+---
+
+name: power
+class: middle, center
+
+&lt;span style="font-size: 80%;"&gt; Parameter Power &lt;/span&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/montecarlo.png" width="300px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/montecarlo3.png" width="800px"/&gt;
+ 
+]
+
+&lt;span style="font-size: 60%;"&gt; 80% power for a correlation of at least -0.30 given *N* = 150. &lt;/span&gt;
+
+---
+
+name: 
+class: middle, center
+
+&lt;span style="font-size: 80%;"&gt; Model Power &lt;/span&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+.pull-left[
+
+&lt;img class="rectangle" src="images/rmseapower.png" width="300px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;img class="rectangle" src="images/rmseapower2.png" width="800px"/&gt;
+ 
+]
+
+&lt;span style="font-size: 60%;"&gt; 80% power for a CFA with at least 60 df given *N* = 85. &lt;/span&gt;
+
+---
+
+
+
+class: inverse, center, middle
+
+#Thanks!
+&lt;br&gt;
+## Any further questions?
+
+## &lt;span style="color:#FFCC66;"&gt;Feel free to join the coding session.&lt;/span&gt;
+
+---
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightLanguage": "r",
+"includePresenterNotes": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
