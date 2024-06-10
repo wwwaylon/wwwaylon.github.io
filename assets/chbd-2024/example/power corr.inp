@@ -1,0 +1,31 @@
+TITLE: Monte Carlo Simulation for Power;
+
+MONTECARLO:
+  NAMES ARE sup1 sup2 sup3 cope1 cope2 cope3;
+  NOBSERVATIONS = 150;      
+  NREPS = 2000;             
+  SEED = 461981;              
+  !save = mypower.dat;
+
+MODEL POPULATION:
+    SUP BY sup1*0.924 sup2*0.953 sup3*0.832;         
+    COPE BY cope1*0.532 cope2*0.505 cope3*0.675;        
+    !SUP WITH COPE*-0.234;  
+    SUP WITH COPE*-0.300;         
+    sup1*0.146 sup2*0.093 sup3*0.308;             
+    cope1*0.717 cope2*0.745 cope3*0.545;             
+    SUP@1; COPE@1;                   
+
+MODEL:
+    SUP BY sup1*0.924 sup2*0.953 sup3*0.832;         
+    COPE BY cope1*0.532 cope2*0.505 cope3*0.675;        
+    !SUP WITH COPE*-0.234;  
+    SUP WITH COPE*-0.300;         
+    sup1*0.146 sup2*0.093 sup3*0.308;             
+    cope1*0.717 cope2*0.745 cope3*0.545;             
+    SUP@1; COPE@1;    
+              
+ANALYSIS: ESTIMATOR = ML; 
+OUTPUT: TECH9;                    
+
+
