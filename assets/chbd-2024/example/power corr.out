@@ -1,0 +1,789 @@
+Mplus VERSION 8.10
+MUTHEN & MUTHEN
+06/09/2024  11:42 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE: Monte Carlo Simulation for Power;
+
+  MONTECARLO:
+    NAMES ARE sup1 sup2 sup3 cope1 cope2 cope3;
+    NOBSERVATIONS = 150;
+    NREPS = 2000;
+    SEED = 461981;
+    !save = mypower.dat;
+
+  MODEL POPULATION:
+      SUP BY sup1*0.924 sup2*0.953 sup3*0.832;
+      COPE BY cope1*0.532 cope2*0.505 cope3*0.675;
+      !SUP WITH COPE*-0.234;
+      SUP WITH COPE*-0.300;
+      sup1*0.146 sup2*0.093 sup3*0.308;
+      cope1*0.717 cope2*0.745 cope3*0.545;
+      SUP@1; COPE@1;
+
+  MODEL:
+      SUP BY sup1*0.924 sup2*0.953 sup3*0.832;
+      COPE BY cope1*0.532 cope2*0.505 cope3*0.675;
+      !SUP WITH COPE*-0.234;
+      SUP WITH COPE*-0.300;
+      sup1*0.146 sup2*0.093 sup3*0.308;
+      cope1*0.717 cope2*0.745 cope3*0.545;
+      SUP@1; COPE@1;
+
+  ANALYSIS: ESTIMATOR = ML;
+  OUTPUT: TECH9;
+
+
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+Monte Carlo Simulation for Power;
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                         150
+
+Number of replications
+    Requested                                                 2000
+    Completed                                                 2000
+Value of seed                                               461981
+
+Number of dependent variables                                    6
+Number of independent variables                                  0
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   SUP1        SUP2        SUP3        COPE1       COPE2       COPE3
+
+Continuous latent variables
+   SUP         COPE
+
+
+Estimator                                                       ML
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+
+
+
+SAMPLE STATISTICS FOR THE FIRST REPLICATION
+
+
+     SAMPLE STATISTICS
+
+
+           Means
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+               -0.008        -0.033        -0.040         0.038        -0.015
+
+
+           Means
+              COPE3
+              ________
+                0.116
+
+
+           Covariances
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+ SUP1           1.055
+ SUP2           0.902         1.055
+ SUP3           0.759         0.796         1.010
+ COPE1         -0.171        -0.089        -0.100         0.833
+ COPE2         -0.246        -0.183        -0.104         0.328         1.012
+ COPE3         -0.291        -0.287        -0.210         0.295         0.444
+
+
+           Covariances
+              COPE3
+              ________
+ COPE3          0.934
+
+
+           Correlations
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+ SUP1           1.000
+ SUP2           0.855         1.000
+ SUP3           0.735         0.771         1.000
+ COPE1         -0.182        -0.095        -0.109         1.000
+ COPE2         -0.238        -0.177        -0.103         0.357         1.000
+ COPE3         -0.293        -0.289        -0.216         0.334         0.457
+
+
+           Correlations
+              COPE3
+              ________
+ COPE3          1.000
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       19
+
+Loglikelihood
+
+    H0 Value
+
+        Mean                             -1050.702
+        Std Dev                             21.170
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.991        -1099.950      -1099.315
+           0.980       0.983        -1094.179      -1093.364
+           0.950       0.951        -1085.525      -1085.519
+           0.900       0.906        -1077.834      -1077.083
+           0.800       0.804        -1068.519      -1068.273
+           0.700       0.698        -1061.804      -1061.990
+           0.500       0.486        -1050.702      -1051.300
+           0.300       0.296        -1039.600      -1039.952
+           0.200       0.200        -1032.885      -1032.892
+           0.100       0.105        -1023.570      -1022.695
+           0.050       0.053        -1015.879      -1015.515
+           0.020       0.021        -1007.224      -1006.752
+           0.010       0.012        -1001.453       -999.043
+
+    H1 Value
+
+        Mean                             -1046.547
+        Std Dev                             21.321
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.991        -1096.146      -1095.959
+           0.980       0.980        -1090.333      -1090.365
+           0.950       0.950        -1081.617      -1081.664
+           0.900       0.906        -1073.872      -1073.483
+           0.800       0.804        -1064.490      -1064.297
+           0.700       0.704        -1057.727      -1057.477
+           0.500       0.487        -1046.547      -1047.056
+           0.300       0.299        -1035.366      -1035.541
+           0.200       0.200        -1028.603      -1028.641
+           0.100       0.105        -1019.222      -1018.304
+           0.050       0.049        -1011.476      -1011.687
+           0.020       0.019        -1002.760      -1003.122
+           0.010       0.011         -996.948       -996.366
+
+Information Criteria
+
+    Akaike (AIC)
+
+        Mean                              2139.404
+        Std Dev                             42.341
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.988         2040.907       2035.600
+           0.980       0.979         2052.449       2051.441
+           0.950       0.947         2069.758       2068.986
+           0.900       0.895         2085.140       2083.382
+           0.800       0.800         2103.770       2103.693
+           0.700       0.704         2117.200       2117.811
+           0.500       0.513         2139.404       2140.593
+           0.300       0.302         2161.607       2161.908
+           0.200       0.196         2175.038       2174.388
+           0.100       0.093         2193.667       2192.081
+           0.050       0.050         2209.050       2208.986
+           0.020       0.017         2226.359       2224.690
+           0.010       0.009         2237.901       2235.310
+
+    Bayesian (BIC)
+
+        Mean                              2196.606
+        Std Dev                             42.341
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.988         2098.109       2092.802
+           0.980       0.979         2109.651       2108.643
+           0.950       0.947         2126.960       2126.188
+           0.900       0.895         2142.342       2140.584
+           0.800       0.800         2160.972       2160.896
+           0.700       0.704         2174.402       2175.013
+           0.500       0.513         2196.606       2197.795
+           0.300       0.302         2218.809       2219.110
+           0.200       0.196         2232.240       2231.590
+           0.100       0.093         2250.870       2249.283
+           0.050       0.050         2266.252       2266.188
+           0.020       0.017         2283.561       2281.892
+           0.010       0.009         2295.103       2292.512
+
+    Sample-Size Adjusted BIC (n* = (n + 2) / 24)
+
+        Mean                              2136.474
+        Std Dev                             42.341
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.988         2037.977       2032.671
+           0.980       0.979         2049.520       2048.512
+           0.950       0.947         2066.828       2066.056
+           0.900       0.895         2082.211       2080.452
+           0.800       0.800         2100.841       2100.764
+           0.700       0.704         2114.271       2114.881
+           0.500       0.513         2136.474       2137.664
+           0.300       0.302         2158.678       2158.978
+           0.200       0.196         2172.108       2171.459
+           0.100       0.093         2190.738       2189.151
+           0.050       0.050         2206.121       2206.057
+           0.020       0.017         2223.429       2221.760
+           0.010       0.009         2234.971       2232.381
+
+Chi-Square Test of Model Fit
+
+        Degrees of freedom                       8
+
+        Mean                                 8.310
+        Std Dev                              4.034
+        Number of successful computations     2000
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       0.991            1.646          1.683
+           0.980       0.982            2.032          2.159
+           0.950       0.957            2.733          2.871
+           0.900       0.914            3.490          3.667
+           0.800       0.815            4.594          4.764
+           0.700       0.728            5.527          5.843
+           0.500       0.538            7.344          7.713
+           0.300       0.332            9.524          9.964
+           0.200       0.226           11.030         11.473
+           0.100       0.109           13.362         13.730
+           0.050       0.059           15.507         16.073
+           0.020       0.024           18.168         18.579
+           0.010       0.009           20.090         19.921
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+        Mean                                 0.024
+        Std Dev                              0.030
+        Number of successful computations     2000
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       0.990
+           0.050       0.772
+           0.020       0.576
+           0.010       0.535
+
+CFI/TLI
+
+    CFI
+
+        Mean                                 0.996
+        Std Dev                              0.006
+        Number of successful computations     2000
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       0.160
+           0.980       0.038
+           0.950       0.000
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+    TLI
+
+        Mean                                 0.993
+        Std Dev                              0.012
+        Number of successful computations     2000
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       0.273
+           0.980       0.144
+           0.950       0.011
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+SRMR (Standardized Root Mean Square Residual)
+
+        Mean                                 0.030
+        Std Dev                              0.011
+        Number of successful computations     2000
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       1.000
+           0.050       0.946
+           0.020       0.184
+           0.010       0.006
+
+
+MODEL RESULTS
+
+                              ESTIMATES              S. E.     M. S. E.  95%  % Sig
+                 Population   Average   Std. Dev.   Average             Cover Coeff
+
+ SUP      BY
+  SUP1                0.924     0.9203     0.0614     0.0631     0.0038 0.955 1.000
+  SUP2                0.953     0.9491     0.0610     0.0617     0.0037 0.945 1.000
+  SUP3                0.832     0.8293     0.0653     0.0669     0.0043 0.957 1.000
+
+ COPE     BY
+  COPE1               0.532     0.5300     0.1105     0.1082     0.0122 0.944 0.995
+  COPE2               0.505     0.4991     0.1075     0.1061     0.0116 0.949 0.993
+  COPE3               0.675     0.6837     0.1250     0.1255     0.0157 0.952 0.997
+
+ SUP      WITH
+  COPE               -0.300    -0.2928     0.1039     0.1011     0.0108 0.940 0.797
+
+ Intercepts
+  SUP1                0.000     0.0029     0.0811     0.0813     0.0066 0.946 0.054
+  SUP2                0.000     0.0015     0.0816     0.0813     0.0067 0.946 0.054
+  SUP3                0.000     0.0017     0.0818     0.0813     0.0067 0.944 0.056
+  COPE1               0.000    -0.0007     0.0823     0.0812     0.0068 0.946 0.054
+  COPE2               0.000    -0.0023     0.0826     0.0811     0.0068 0.937 0.064
+  COPE3               0.000    -0.0006     0.0807     0.0813     0.0065 0.956 0.043
+
+ Variances
+  SUP                 1.000     1.0000     0.0000     0.0000     0.0000 1.000 0.000
+  COPE                1.000     1.0000     0.0000     0.0000     0.0000 1.000 0.000
+
+ Residual Variances
+  SUP1                0.146     0.1438     0.0306     0.0304     0.0009 0.943 0.999
+  SUP2                0.093     0.0905     0.0284     0.0290     0.0008 0.956 0.893
+  SUP3                0.308     0.3032     0.0404     0.0407     0.0017 0.942 1.000
+  COPE1               0.717     0.6987     0.1204     0.1177     0.0148 0.948 0.995
+  COPE2               0.745     0.7305     0.1145     0.1142     0.0133 0.948 0.998
+  COPE3               0.545     0.5117     0.1731     0.1623     0.0311 0.967 0.860
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Average Condition Number for the Information Matrix      0.856E-02
+       (ratio of smallest to largest eigenvalue)
+
+
+TECHNICAL OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+                  1             2             3             4             5
+
+
+           NU
+              COPE3
+              ________
+                  6
+
+
+           LAMBDA
+              SUP           COPE
+              ________      ________
+ SUP1               7             0
+ SUP2               8             0
+ SUP3               9             0
+ COPE1              0            10
+ COPE2              0            11
+ COPE3              0            12
+
+
+           THETA
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+ SUP1              13
+ SUP2               0            14
+ SUP3               0             0            15
+ COPE1              0             0             0            16
+ COPE2              0             0             0             0            17
+ COPE3              0             0             0             0             0
+
+
+           THETA
+              COPE3
+              ________
+ COPE3             18
+
+
+           ALPHA
+              SUP           COPE
+              ________      ________
+                  0             0
+
+
+           BETA
+              SUP           COPE
+              ________      ________
+ SUP                0             0
+ COPE               0             0
+
+
+           PSI
+              SUP           COPE
+              ________      ________
+ SUP                0
+ COPE              19             0
+
+
+     STARTING VALUES
+
+
+           NU
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COPE3
+              ________
+                0.000
+
+
+           LAMBDA
+              SUP           COPE
+              ________      ________
+ SUP1           0.924         0.000
+ SUP2           0.953         0.000
+ SUP3           0.832         0.000
+ COPE1          0.000         0.532
+ COPE2          0.000         0.505
+ COPE3          0.000         0.675
+
+
+           THETA
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+ SUP1           0.146
+ SUP2           0.000         0.093
+ SUP3           0.000         0.000         0.308
+ COPE1          0.000         0.000         0.000         0.717
+ COPE2          0.000         0.000         0.000         0.000         0.745
+ COPE3          0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              COPE3
+              ________
+ COPE3          0.545
+
+
+           ALPHA
+              SUP           COPE
+              ________      ________
+                0.000         0.000
+
+
+           BETA
+              SUP           COPE
+              ________      ________
+ SUP            0.000         0.000
+ COPE           0.000         0.000
+
+
+           PSI
+              SUP           COPE
+              ________      ________
+ SUP            1.000
+ COPE          -0.300         1.000
+
+
+     POPULATION VALUES
+
+
+           NU
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              COPE3
+              ________
+                0.000
+
+
+           LAMBDA
+              SUP           COPE
+              ________      ________
+ SUP1           0.924         0.000
+ SUP2           0.953         0.000
+ SUP3           0.832         0.000
+ COPE1          0.000         0.532
+ COPE2          0.000         0.505
+ COPE3          0.000         0.675
+
+
+           THETA
+              SUP1          SUP2          SUP3          COPE1         COPE2
+              ________      ________      ________      ________      ________
+ SUP1           0.146
+ SUP2           0.000         0.093
+ SUP3           0.000         0.000         0.308
+ COPE1          0.000         0.000         0.000         0.717
+ COPE2          0.000         0.000         0.000         0.000         0.745
+ COPE3          0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              COPE3
+              ________
+ COPE3          0.545
+
+
+           ALPHA
+              SUP           COPE
+              ________      ________
+                0.000         0.000
+
+
+           BETA
+              SUP           COPE
+              ________      ________
+ SUP            0.000         0.000
+ COPE           0.000         0.000
+
+
+           PSI
+              SUP           COPE
+              ________      ________
+ SUP            1.000
+ COPE          -0.300         1.000
+
+
+TECHNICAL 9 OUTPUT
+
+  Error messages for each replication (if any)
+
+
+     REPLICATION 84:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 225:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 285:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 553:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 617:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 949:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 979:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1131:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1232:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1312:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1335:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1364:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1375:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1455:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1496:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1502:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1540:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+     REPLICATION 1651:
+     WARNING:  THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE.
+     THIS COULD INDICATE A NEGATIVE VARIANCE/RESIDUAL VARIANCE FOR AN OBSERVED
+     VARIABLE, A CORRELATION GREATER OR EQUAL TO ONE BETWEEN TWO OBSERVED
+     VARIABLES, OR A LINEAR DEPENDENCY AMONG MORE THAN TWO OBSERVED VARIABLES.
+     CHECK THE RESULTS SECTION FOR MORE INFORMATION.
+     PROBLEM INVOLVING VARIABLE COPE3.
+
+
+
+DIAGRAM INFORMATION
+
+  Mplus diagrams are currently not available for Monte Carlo analysis.
+  No diagram output was produced.
+
+
+     Beginning Time:  23:42:06
+        Ending Time:  23:42:07
+       Elapsed Time:  00:00:01
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2023 Muthen & Muthen

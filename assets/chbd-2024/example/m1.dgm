@@ -1,0 +1,69 @@
+VERSION 1.1.0
+INPUT
+TITLE:
+ The present study uses data from trafficking
+survivors who received assistance from a residential
+facility in Ghana that rescues, rehabilitates, and
+reintegrates back into the community female victims
+of sex and labor trafficking.
+
+DATA:
+ FILE = mydata.dat;
+VARIABLE:
+NAMES = ID Age PTSD1 PTSD2 PTSD3 SUP1 SUP2 SUP3 Reint;
+USEVARIABLES = SUP1 SUP2 SUP3 ;
+MISSING = ALL (-999);
+ANALYSIS:
+ESTIMATOR = ML;
+OUTPUT:
+SAMPSTAT MODINDICES(3.84) STANDARDIZED RESIDUAL;
+MODEL:
+SUP by SUP1* SUP2 SUP3 ;
+SUP@1;
+INPUT_END
+2
+2
+2
+2
+ML
+1
+GENERAL
+0
+3
+1
+0
+sup1 sup2 sup3 sup
+1
+-1 -1 -1 0
+0
+1
+sup
+sup1 sup2 sup3
+1 1 sup sup1 2.202 0.155
+1 1 sup sup2 2.226 0.150
+1 1 sup sup3 1.966 0.164
+4 1 sup1 0.812 0.183
+4 1 sup2 0.543 0.171
+4 1 sup3 1.768 0.243
+5 1 sup 1.000 0.000
+11 1 sup sup1 0.925 0.019
+11 1 sup sup2 0.949 0.017
+11 1 sup sup3 0.828 0.029
+14 1 sup1 0.143 0.035
+14 1 sup2 0.099 0.033
+14 1 sup3 0.314 0.049
+15 1 sup 1.000 0.0000000001000
+21 1 sup sup1 0.925 0.019
+21 1 sup sup2 0.949 0.017
+21 1 sup sup3 0.828 0.029
+24 1 sup1 0.143 0.035
+24 1 sup2 0.099 0.033
+24 1 sup3 0.314 0.049
+25 1 sup 1.000 0.0000000001000
+31 1 sup sup1 2.202 0.155
+31 1 sup sup2 2.226 0.150
+31 1 sup sup3 1.966 0.164
+34 1 sup1 0.812 0.183
+34 1 sup2 0.543 0.171
+34 1 sup3 1.768 0.243
+35 1 sup 1.000 0.0000000001000

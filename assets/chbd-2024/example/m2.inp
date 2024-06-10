@@ -1,0 +1,27 @@
+TITLE: The present study uses data from trafficking 
+survivors who received assistance from a residential 
+facility in Ghana that rescues, rehabilitates, and 
+reintegrates back into the community female victims 
+of sex and labor trafficking.  
+
+DATA: FILE = mydata.dat;
+
+VARIABLE: 
+NAMES = ID Age PTSD1 PTSD2 PTSD3 SUP1 SUP2 SUP3 Reint; 
+USEVARIABLES = PTSD1 PTSD2 PTSD3 SUP1 SUP2 SUP3 ;
+MISSING = ALL (-999); 
+
+ANALYSIS:
+ESTIMATOR = ML;
+
+MODEL:
+PTSD by PTSD1* PTSD2 PTSD3 ;
+PTSD@1;
+
+SUP by SUP1* SUP2 SUP3 ;
+SUP@1;
+
+OUTPUT:
+STAND 
+modindices
+SAMP;
