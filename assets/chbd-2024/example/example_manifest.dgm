@@ -1,0 +1,78 @@
+VERSION 1.1.0
+INPUT
+TITLE:
+ The present study uses data from trafficking
+survivors who received assistance from a residential
+facility in Ghana that rescues, rehabilitates, and
+reintegrates back into the community female victims
+of sex and labor trafficking.
+DATA:
+ FILE IS DAVIDdata.txt;
+VARIABLE:
+ NAMES ARE
+ID Age Age_cat Edu Marital Tspend
+PTSD_1 PTSD_2 PTSD_3 PTSD_4 PTSD_5 PTSD_6 PTSD_7 PTSD_8 PTSD_9
+PTSD_10 PTSD_11 PTSD_12 PTSD_13 PTSD_14 PTSD_15 PTSD_16 PTSD_17
+BCOPE_1 BCOPE_2 BCOPE_3 BCOPE_4 BCOPE_5 BCOPE_6 BCOPE_7 BCOPE_8
+BCOPE_9 BCOPE_10 BCOPE_11 BCOPE_12 BCOPE_13 BCOPE_14 BCOPE_15
+BCOPE_16 BCOPE_17 BCOPE_18 BCOPE_19 BCOPE_20 BCOPE_21 BCOPE_22
+BCOPE_23 BCOPE_24 BCOPE_25 BCOPE_26 BCOPE_27 BCOPE_28
+SUP_1 SUP_2 SUP_3 SUP_4 SUP_5 SUP_6
+SUP_7 SUP_8 SUP_9 SUP_10 SUP_11 SUP_12
+Afterfin_1 Before_1 Rplace LReint
+FS_p1 FS_p2 FS_p3 BC_p1 BC_p2 BC_p3 PT_p1 PT_p2 PT_p3;
+USEVARIABLES = PTSD SUP COPE;
+MISSING = ALL (-999);
+DEFINE:
+PTSD = PTSD_1 + PTSD_2 + PTSD_3 / 3;
+COPE = BCOPE_1 + BCOPE_6 + BCOPE_13 / 3;
+SUP = SUP_12 + SUP_6 + SUP_7 / 3;
+ANALYSIS:
+ESTIMATOR = ML;
+OUTPUT:
+STAND
+SAMP;
+MODEL:
+PTSD WITH COPE SUP;
+COPE WITH SUP;
+INPUT_END
+2
+2
+2
+2
+ML
+1
+GENERAL
+0
+3
+0
+0
+ptsd sup cope
+1
+0 0 0
+0
+0
+2 1 ptsd cope 2.122 0.404
+2 1 ptsd sup -2.036 0.877
+2 1 cope sup -1.183 0.980
+5 1 ptsd 3.800 0.451
+5 1 sup 27.263 3.224
+5 1 cope 4.967 0.587
+12 1 ptsd cope 0.488 0.064
+12 1 ptsd sup -0.200 0.081
+12 1 cope sup -0.102 0.083
+15 1 ptsd 1.000 0.0000000001000
+15 1 sup 1.000 0.0000000001000
+15 1 cope 1.000 0.0000000001000
+22 1 ptsd cope 0.488 0.064
+22 1 ptsd sup -0.200 0.081
+22 1 cope sup -0.102 0.083
+25 1 ptsd 1.000 0.0000000001000
+25 1 sup 1.000 0.0000000001000
+25 1 cope 1.000 0.0000000001000
+32 1 ptsd cope 2.122 0.404
+32 1 ptsd sup -2.036 0.877
+32 1 cope sup -1.183 0.980
+35 1 ptsd 3.800 0.451
+35 1 sup 27.263 3.224
+35 1 cope 4.967 0.587

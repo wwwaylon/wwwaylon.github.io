@@ -1,0 +1,160 @@
+VERSION 1.1.0
+INPUT
+TITLE:
+ The present study uses data from trafficking
+survivors who received assistance from a residential
+facility in Ghana that rescues, rehabilitates, and
+reintegrates back into the community female victims
+of sex and labor trafficking.
+DATA:
+ FILE IS DAVIDdata.txt;
+VARIABLE:
+ NAMES ARE
+ID Age Age_cat Edu Marital Tspend
+PTSD_1 PTSD_2 PTSD_3 PTSD_4 PTSD_5 PTSD_6 PTSD_7 PTSD_8 PTSD_9
+PTSD_10 PTSD_11 PTSD_12 PTSD_13 PTSD_14 PTSD_15 PTSD_16 PTSD_17
+BCOPE_1 BCOPE_2 BCOPE_3 BCOPE_4 BCOPE_5 BCOPE_6 BCOPE_7 BCOPE_8
+BCOPE_9 BCOPE_10 BCOPE_11 BCOPE_12 BCOPE_13 BCOPE_14 BCOPE_15
+BCOPE_16 BCOPE_17 BCOPE_18 BCOPE_19 BCOPE_20 BCOPE_21 BCOPE_22
+BCOPE_23 BCOPE_24 BCOPE_25 BCOPE_26 BCOPE_27 BCOPE_28
+SUP_1 SUP_2 SUP_3 SUP_4 SUP_5 SUP_6
+SUP_7 SUP_8 SUP_9 SUP_10 SUP_11 SUP_12
+Afterfin_1 Before_1 Rplace LReint
+FS_p1 FS_p2 FS_p3 BC_p1 BC_p2 BC_p3 PT_p1 PT_p2 PT_p3;
+USEVARIABLES = PTSD_1 PTSD_2 PTSD_3
+               SUP_12 SUP_6 SUP_7
+               BCOPE_1 BCOPE_6 BCOPE_13
+               ;
+MISSING = ALL (-999);
+ANALYSIS:
+ESTIMATOR = ML;
+OUTPUT:
+STAND
+modindices
+SAMP;
+MODEL:
+PTSD by PTSD_1* PTSD_2 PTSD_3 ;
+PTSD@1;
+COPE by BCOPE_1* BCOPE_6 BCOPE_13 ;
+COPE@1;
+SUP by SUP_12* SUP_6 SUP_7 ;
+SUP@1;
+INPUT_END
+2
+2
+2
+2
+ML
+1
+GENERAL
+0
+9
+3
+0
+ptsd_1 ptsd_2 ptsd_3 sup_12 sup_6 sup_7 bcope_1 bcope_6 bcope_13 ptsd cope sup
+1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0
+0
+3
+ptsd
+ptsd_1 ptsd_2 ptsd_3
+cope
+bcope_1 bcope_6 bcope_13
+sup
+sup_12 sup_6 sup_7
+1 1 ptsd ptsd_1 0.986 0.085
+1 1 ptsd ptsd_2 0.639 0.070
+1 1 ptsd ptsd_3 0.608 0.068
+1 1 cope bcope_1 0.709 0.127
+1 1 cope bcope_6 0.577 0.110
+1 1 cope bcope_13 0.743 0.101
+1 1 sup sup_12 1.984 0.164
+1 1 sup sup_6 2.209 0.155
+1 1 sup sup_7 2.248 0.149
+2 1 cope ptsd 0.780 0.075
+2 1 sup ptsd -0.264 0.088
+2 1 sup cope -0.234 0.107
+4 1 ptsd_1 0.277 0.086
+4 1 ptsd_2 0.367 0.058
+4 1 ptsd_3 0.382 0.055
+4 1 sup_12 1.749 0.241
+4 1 sup_6 0.836 0.179
+4 1 sup_7 0.516 0.166
+4 1 bcope_1 1.276 0.184
+4 1 bcope_6 0.972 0.137
+4 1 bcope_13 0.661 0.120
+5 1 ptsd 1.000 0.000
+5 1 cope 1.000 0.000
+5 1 sup 1.000 0.000
+11 1 ptsd ptsd_1 0.882 0.041
+11 1 ptsd ptsd_2 0.725 0.052
+11 1 ptsd ptsd_3 0.701 0.052
+11 1 cope bcope_1 0.532 0.082
+11 1 cope bcope_6 0.505 0.084
+11 1 cope bcope_13 0.675 0.072
+11 1 sup sup_12 0.832 0.029
+11 1 sup sup_6 0.924 0.019
+11 1 sup sup_7 0.953 0.017
+12 1 cope ptsd 0.780 0.075
+12 1 sup ptsd -0.264 0.088
+12 1 sup cope -0.234 0.107
+14 1 ptsd_1 0.222 0.072
+14 1 ptsd_2 0.474 0.076
+14 1 ptsd_3 0.508 0.073
+14 1 sup_12 0.308 0.048
+14 1 sup_6 0.146 0.035
+14 1 sup_7 0.093 0.031
+14 1 bcope_1 0.717 0.087
+14 1 bcope_6 0.745 0.085
+14 1 bcope_13 0.545 0.097
+15 1 ptsd 1.000 0.0000000001000
+15 1 cope 1.000 0.0000000001000
+15 1 sup 1.000 0.0000000001000
+21 1 ptsd ptsd_1 0.882 0.041
+21 1 ptsd ptsd_2 0.725 0.052
+21 1 ptsd ptsd_3 0.701 0.052
+21 1 cope bcope_1 0.532 0.082
+21 1 cope bcope_6 0.505 0.084
+21 1 cope bcope_13 0.675 0.072
+21 1 sup sup_12 0.832 0.029
+21 1 sup sup_6 0.924 0.019
+21 1 sup sup_7 0.953 0.017
+22 1 cope ptsd 0.780 0.075
+22 1 sup ptsd -0.264 0.088
+22 1 sup cope -0.234 0.107
+24 1 ptsd_1 0.222 0.072
+24 1 ptsd_2 0.474 0.076
+24 1 ptsd_3 0.508 0.073
+24 1 sup_12 0.308 0.048
+24 1 sup_6 0.146 0.035
+24 1 sup_7 0.093 0.031
+24 1 bcope_1 0.717 0.087
+24 1 bcope_6 0.745 0.085
+24 1 bcope_13 0.545 0.097
+25 1 ptsd 1.000 0.0000000001000
+25 1 cope 1.000 0.0000000001000
+25 1 sup 1.000 0.0000000001000
+31 1 ptsd ptsd_1 0.986 0.085
+31 1 ptsd ptsd_2 0.639 0.070
+31 1 ptsd ptsd_3 0.608 0.068
+31 1 cope bcope_1 0.709 0.127
+31 1 cope bcope_6 0.577 0.110
+31 1 cope bcope_13 0.743 0.101
+31 1 sup sup_12 1.984 0.164
+31 1 sup sup_6 2.209 0.155
+31 1 sup sup_7 2.248 0.149
+32 1 cope ptsd 0.780 0.075
+32 1 sup ptsd -0.264 0.088
+32 1 sup cope -0.234 0.107
+34 1 ptsd_1 0.277 0.086
+34 1 ptsd_2 0.367 0.058
+34 1 ptsd_3 0.382 0.055
+34 1 sup_12 1.749 0.241
+34 1 sup_6 0.836 0.179
+34 1 sup_7 0.516 0.166
+34 1 bcope_1 1.276 0.184
+34 1 bcope_6 0.972 0.137
+34 1 bcope_13 0.661 0.120
+35 1 ptsd 1.000 0.0000000001000
+35 1 cope 1.000 0.0000000001000
+35 1 sup 1.000 0.0000000001000

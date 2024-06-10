@@ -1,0 +1,964 @@
+Mplus VERSION 8.10
+MUTHEN & MUTHEN
+06/03/2024  11:42 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE: The present study uses data from trafficking
+  survivors who received assistance from a residential
+  facility in Ghana that rescues, rehabilitates, and
+  reintegrates back into the community female victims
+  of sex and labor trafficking.
+  ! text file containing raw data in long format
+  DATA: FILE IS DAVIDdata.txt;
+  VARIABLE: NAMES ARE
+  ID Age Age_cat Edu Marital Tspend
+  PTSD_1 PTSD_2 PTSD_3 PTSD_4 PTSD_5 PTSD_6 PTSD_7 PTSD_8 PTSD_9
+  PTSD_10 PTSD_11 PTSD_12 PTSD_13 PTSD_14 PTSD_15 PTSD_16 PTSD_17
+  BCOPE_1 BCOPE_2 BCOPE_3 BCOPE_4 BCOPE_5 BCOPE_6 BCOPE_7 BCOPE_8
+  BCOPE_9 BCOPE_10 BCOPE_11 BCOPE_12 BCOPE_13 BCOPE_14 BCOPE_15
+  BCOPE_16 BCOPE_17 BCOPE_18 BCOPE_19 BCOPE_20 BCOPE_21 BCOPE_22
+  BCOPE_23 BCOPE_24 BCOPE_25 BCOPE_26 BCOPE_27 BCOPE_28
+  SUP_1 SUP_2 SUP_3 SUP_4 SUP_5 SUP_6
+  SUP_7 SUP_8 SUP_9 SUP_10 SUP_11 SUP_12
+  Afterfin_1 Before_1 Rplace LReint
+  FS_p1 FS_p2 FS_p3 BC_p1 BC_p2 BC_p3 PT_p1 PT_p2 PT_p3;
+
+  ! Perceived Social Support 1-7 LIKERT (SUP)
+  ! 1.  There is a special person who is around when I am in need
+  ! 2.  There is a special person with whom I can share my joys and sorrows
+  ! 3.  My family really tries to help me
+  ! 4.  I get the emotional help and support I need from my family
+  ! 5.  I have a special person who is a real source of comfort to me
+  ! 6.  My friends really try to help me.
+  ! 7.  I can count on my friends when things go wrong
+  ! 8.  I can talk about my problems with my family
+  ! 9.  I have friends with whom I can share my joys and sorrows.
+  ! 10. There is a special person in my life who cares about my feelings.
+  ! 11.  My family is willing to help me make decisions.
+  ! 12.  I can talk about my problems with my friends.
+
+  ! PTSD scale 0-3 LIKERT
+  ! 1. Having upsetting thoughts or images about the traumatic event that come into your hea
+  ! 2. Having bad dreams or nightmares about the traumatic event
+  ! 3. Reliving the traumatic event (acting as if it were happening again)
+  ! 4. Feeling emotionally upset when you are reminded of the traumatic event
+  ! 5. Experiencing physical reactions when reminded of the traumatic event (sweating, incre
+  ! 6. Trying not to think or talk about the traumatic event
+  ! 7. Trying to avoid activities or people that remind you of the traumatic event
+  ! 8. Not being able to remember an important part of the traumatic event
+  ! 9. Having much less interest or participating much less often in important activities
+  ! 10. Feeling distant or cut off from the people around you
+  ! 11. Feeling emotionally numb (unable to cry or have loving feelings)
+  ! 12. Feeling as if your future hopes or plans will not come true
+  ! 13. Having trouble falling or staying asleep
+  ! 14. Feeling irritable or having fits of anger
+  ! 15. Having trouble concentrating
+  ! 16. Being overly alert
+  ! 17. Being jumpy or easily startled
+
+  ! COPE 1-4 LIKERT
+  ! 1. I've been turning to work or other activities to take my mind off things.
+  ! 2. I've been concentrating my efforts on doing something about the situation I'm in.
+  ! 3. I've been saying to myself "this isn't real."
+  ! 4. I've been using alcohol or other drugs to make myself feel better.
+  ! 5. I've been getting emotional support from others.
+  ! 6. I've been giving up trying to deal with it.
+  ! 7. I've been taking action to try to make the situation better.
+  ! 8. I've been refusing to believe that it has happened.
+  ! 9. I've been saying things to let my unpleasant feelings escape
+  ! 10. I’ve been getting help and advice from other people.
+  ! 11. I've been using alcohol or other drugs to help me get through it
+  ! 12. I've been trying to see it in a different light, to make it seem more positive.
+  ! 13. I’ve been criticizing myself.
+  ! 14. I've been trying to come up with a strategy about what to do.
+  ! 15. I've been getting comfort and understanding from someone.
+  ! 16. I've been giving up the attempt to cope.
+  ! 17. I've been looking for something good in what is happening
+  ! 18. I've been making jokes about it.
+  ! 19. I've been doing something to think about it less, such as going to movies, watching
+  ! 20. I've been accepting the reality of the fact that it has happened.
+  ! 21. I've been expressing my negative feelings.
+  ! 22. I've been trying to find comfort in my religion or spiritual beliefs
+  ! 23. I’ve been trying to get advice or help from other people about what to do
+  ! 24. I've been learning to live with it.
+  ! 25. I've been thinking hard about what steps to take.
+  ! 26. I’ve been blaming myself for things that happened.
+  ! 27. I've been praying or meditating.
+  ! 28. I've been making fun of the situation.
+
+  ! LReint 1-5
+  ! How easy or difficult has it been to get back into the community
+  !1.	Extremely easy: 11%
+  !2.	Quite easy: 17%
+  !3.	Neither easy nor difficult: 10%
+  !4.	Quite difficult: 24%
+  !5.	Extremely difficult: 38%
+
+  USEVARIABLES = PTSD_1 PTSD_2 PTSD_3
+                 SUP_12 SUP_6 SUP_7
+                 BCOPE_1 BCOPE_6 BCOPE_13
+                 ;
+
+  MISSING = ALL (-999);
+
+  ANALYSIS:
+     TYPE = GENERAL;
+     ESTIMATOR = ML;
+     BOOTSTRAP = 10000;
+
+  MODEL:
+  X by PTSD_1* PTSD_2 PTSD_3 ;
+  X@1;
+
+  M by BCOPE_1* BCOPE_6 BCOPE_13 ;
+  M@1;
+
+  Y by SUP_12* SUP_6 SUP_7 ;
+  Y@1;
+
+     Y ON X M;
+     M ON X;
+
+  ! Use model constraint to calculate indirect and total effects
+
+     MODEL INDIRECT:
+     Y IND X;
+
+  OUTPUT:
+     STAND CINT(bcbootstrap);
+
+
+
+
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  ! 1. Having upsetting thoughts or images about the traumatic event that come into your head
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  ! 5. Experiencing physical reactions when reminded of the traumatic event (sweating, increa
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  ! 19. I've been doing something to think about it less, such as going to movies, watching T
+   3 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS
+
+
+
+The present study uses data from trafficking
+survivors who received assistance from a residential
+facility in Ghana that rescues, rehabilitates, and
+reintegrates back into the community female victims
+of sex and labor trafficking.
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                         144
+
+Number of dependent variables                                    9
+Number of independent variables                                  0
+Number of continuous latent variables                            3
+
+Observed dependent variables
+
+  Continuous
+   PTSD_1      PTSD_2      PTSD_3      SUP_12      SUP_6       SUP_7
+   BCOPE_1     BCOPE_6     BCOPE_13
+
+Continuous latent variables
+   X           M           Y
+
+
+Estimator                                                       ML
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+Number of bootstrap draws
+    Requested                                                10000
+    Completed                                                 9875
+
+Input data file(s)
+  DAVIDdata.txt
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns             4
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.100
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              PTSD_1        PTSD_2        PTSD_3        SUP_12        SUP_6
+              ________      ________      ________      ________      ________
+ PTSD_1         0.979
+ PTSD_2         0.979         1.000
+ PTSD_3         0.979         1.000         1.000
+ SUP_12         0.979         1.000         1.000         1.000
+ SUP_6          0.979         1.000         1.000         1.000         1.000
+ SUP_7          0.972         0.993         0.993         0.993         0.993
+ BCOPE_1        0.972         0.993         0.993         0.993         0.993
+ BCOPE_6        0.972         0.993         0.993         0.993         0.993
+ BCOPE_13       0.972         0.993         0.993         0.993         0.993
+
+
+           Covariance Coverage
+              SUP_7         BCOPE_1       BCOPE_6       BCOPE_13
+              ________      ________      ________      ________
+ SUP_7          0.993
+ BCOPE_1        0.986         0.993
+ BCOPE_6        0.986         0.993         0.993
+ BCOPE_13       0.986         0.993         0.993         0.993
+
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     PTSD_1                0.745       1.155       0.000   62.41%       0.000      0.000      0.000
+             141.000       1.211      -0.224       3.000   14.18%       0.000      2.000
+     PTSD_2                0.444       1.880       0.000   75.69%       0.000      0.000      0.000
+             144.000       0.775       2.253       3.000    6.25%       0.000      1.000
+     PTSD_3                0.389       2.231       0.000   79.17%       0.000      0.000      0.000
+             144.000       0.752       3.676       3.000    7.64%       0.000      1.000
+     SUP_12                3.347       0.351       1.000   42.36%       1.000      1.000      3.000
+             144.000       5.685      -1.515       7.000   15.97%       4.000      6.000
+     SUP_6                 3.312       0.428       1.000   40.97%       1.000      1.000      2.000
+             144.000       5.715      -1.449       7.000   18.06%       4.000      6.000
+     SUP_7                 3.021       0.675       1.000   46.15%       1.000      1.000      2.000
+             143.000       5.601      -1.222       7.000   16.08%       3.000      6.000
+     BCOPE_1               2.406       0.132       1.000   41.26%       1.000      1.000      2.000
+             143.000       1.780      -1.758       4.000   35.66%       3.000      4.000
+     BCOPE_6               1.825       0.936       1.000   60.84%       1.000      1.000      1.000
+             143.000       1.305      -0.749       4.000   14.69%       1.000      3.000
+     BCOPE_13              1.622       1.413       1.000   72.73%       1.000      1.000      1.000
+             143.000       1.214       0.278       4.000   13.99%       1.000      3.000
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       30
+
+Loglikelihood
+
+          H0 Value                       -1944.826
+          H1 Value                       -1926.755
+
+Information Criteria
+
+          Akaike (AIC)                    3949.652
+          Bayesian (BIC)                  4038.746
+          Sample-Size Adjusted BIC        3943.819
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                             36.141
+          Degrees of Freedom                    24
+          P-Value                           0.0532
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.059
+          90 Percent C.I.                    0.000  0.097
+          Probability RMSEA <= .05           0.323
+
+CFI/TLI
+
+          CFI                                0.980
+          TLI                                0.970
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                            649.525
+          Degrees of Freedom                    36
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.046
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ X        BY
+    PTSD_1             0.986      0.090     10.928      0.000
+    PTSD_2             0.639      0.110      5.819      0.000
+    PTSD_3             0.608      0.106      5.754      0.000
+
+ M        BY
+    BCOPE_1            0.444      0.142      3.114      0.002
+    BCOPE_6            0.361      0.131      2.759      0.006
+    BCOPE_13           0.465      0.115      4.049      0.000
+
+ Y        BY
+    SUP_12             1.912      0.135     14.189      0.000
+    SUP_6              2.128      0.127     16.711      0.000
+    SUP_7              2.166      0.130     16.724      0.000
+
+ Y        ON
+    X                 -0.215      0.542     -0.396      0.692
+    M                 -0.047      0.182     -0.259      0.795
+
+ M        ON
+    X                  1.248      0.634      1.969      0.049
+
+ Intercepts
+    PTSD_1             0.763      0.093      8.171      0.000
+    PTSD_2             0.444      0.073      6.119      0.000
+    PTSD_3             0.389      0.072      5.379      0.000
+    SUP_12             3.347      0.200     16.753      0.000
+    SUP_6              3.312      0.201     16.502      0.000
+    SUP_7              3.019      0.197     15.349      0.000
+    BCOPE_1            2.403      0.112     21.545      0.000
+    BCOPE_6            1.823      0.095     19.117      0.000
+    BCOPE_13           1.620      0.092     17.647      0.000
+
+ Variances
+    X                  1.000      0.000    999.000    999.000
+
+ Residual Variances
+    PTSD_1             0.277      0.128      2.169      0.030
+    PTSD_2             0.367      0.092      4.007      0.000
+    PTSD_3             0.382      0.075      5.109      0.000
+    SUP_12             1.749      0.402      4.353      0.000
+    SUP_6              0.836      0.301      2.781      0.005
+    SUP_7              0.516      0.249      2.070      0.038
+    BCOPE_1            1.275      0.192      6.656      0.000
+    BCOPE_6            0.972      0.167      5.819      0.000
+    BCOPE_13           0.661      0.149      4.434      0.000
+    M                  1.000      0.000    999.000    999.000
+    Y                  1.000      0.000    999.000    999.000
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ X        BY
+    PTSD_1             0.882      0.058     15.119      0.000
+    PTSD_2             0.725      0.088      8.241      0.000
+    PTSD_3             0.701      0.072      9.747      0.000
+
+ M        BY
+    BCOPE_1            0.532      0.100      5.330      0.000
+    BCOPE_6            0.505      0.110      4.586      0.000
+    BCOPE_13           0.675      0.092      7.362      0.000
+
+ Y        BY
+    SUP_12             0.832      0.043     19.157      0.000
+    SUP_6              0.924      0.029     31.322      0.000
+    SUP_7              0.953      0.024     39.039      0.000
+
+ Y        ON
+    X                 -0.207      0.357     -0.580      0.562
+    M                 -0.073      0.370     -0.197      0.844
+
+ M        ON
+    X                  0.780      0.097      8.033      0.000
+
+ Intercepts
+    PTSD_1             0.682      0.055     12.513      0.000
+    PTSD_2             0.505      0.047     10.656      0.000
+    PTSD_3             0.449      0.044     10.084      0.000
+    SUP_12             1.404      0.073     19.116      0.000
+    SUP_6              1.386      0.069     20.095      0.000
+    SUP_7              1.279      0.057     22.606      0.000
+    BCOPE_1            1.802      0.083     21.701      0.000
+    BCOPE_6            1.596      0.047     33.998      0.000
+    BCOPE_13           1.470      0.036     41.323      0.000
+
+ Variances
+    X                  1.000      0.000    999.000    999.000
+
+ Residual Variances
+    PTSD_1             0.222      0.103      2.159      0.031
+    PTSD_2             0.474      0.125      3.778      0.000
+    PTSD_3             0.508      0.099      5.123      0.000
+    SUP_12             0.308      0.072      4.296      0.000
+    SUP_6              0.146      0.054      2.709      0.007
+    SUP_7              0.093      0.046      2.001      0.045
+    BCOPE_1            0.717      0.107      6.722      0.000
+    BCOPE_6            0.745      0.112      6.635      0.000
+    BCOPE_13           0.545      0.121      4.497      0.000
+    M                  0.391      0.146      2.670      0.008
+    Y                  0.928      0.065     14.313      0.000
+
+
+STDY Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ X        BY
+    PTSD_1             0.882      0.058     15.119      0.000
+    PTSD_2             0.725      0.088      8.241      0.000
+    PTSD_3             0.701      0.072      9.747      0.000
+
+ M        BY
+    BCOPE_1            0.532      0.100      5.330      0.000
+    BCOPE_6            0.505      0.110      4.586      0.000
+    BCOPE_13           0.675      0.092      7.362      0.000
+
+ Y        BY
+    SUP_12             0.832      0.043     19.157      0.000
+    SUP_6              0.924      0.029     31.322      0.000
+    SUP_7              0.953      0.024     39.039      0.000
+
+ Y        ON
+    X                 -0.207      0.357     -0.580      0.562
+    M                 -0.073      0.370     -0.197      0.844
+
+ M        ON
+    X                  0.780      0.097      8.033      0.000
+
+ Intercepts
+    PTSD_1             0.682      0.055     12.513      0.000
+    PTSD_2             0.505      0.047     10.656      0.000
+    PTSD_3             0.449      0.044     10.084      0.000
+    SUP_12             1.404      0.073     19.116      0.000
+    SUP_6              1.386      0.069     20.095      0.000
+    SUP_7              1.279      0.057     22.606      0.000
+    BCOPE_1            1.802      0.083     21.701      0.000
+    BCOPE_6            1.596      0.047     33.998      0.000
+    BCOPE_13           1.470      0.036     41.323      0.000
+
+ Variances
+    X                  1.000      0.000    999.000    999.000
+
+ Residual Variances
+    PTSD_1             0.222      0.096      2.304      0.021
+    PTSD_2             0.474      0.125      3.778      0.000
+    PTSD_3             0.508      0.099      5.123      0.000
+    SUP_12             0.308      0.072      4.296      0.000
+    SUP_6              0.146      0.054      2.711      0.007
+    SUP_7              0.093      0.045      2.079      0.038
+    BCOPE_1            0.717      0.107      6.722      0.000
+    BCOPE_6            0.745      0.112      6.635      0.000
+    BCOPE_13           0.545      0.121      4.503      0.000
+    M                  0.391      0.146      2.670      0.008
+    Y                  0.928      0.065     14.313      0.000
+
+
+STD Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ X        BY
+    PTSD_1             0.986      0.090     10.928      0.000
+    PTSD_2             0.639      0.110      5.819      0.000
+    PTSD_3             0.608      0.106      5.754      0.000
+
+ M        BY
+    BCOPE_1            0.709      0.135      5.265      0.000
+    BCOPE_6            0.577      0.130      4.439      0.000
+    BCOPE_13           0.743      0.122      6.100      0.000
+
+ Y        BY
+    SUP_12             1.984      0.125     15.832      0.000
+    SUP_6              2.209      0.107     20.579      0.000
+    SUP_7              2.248      0.111     20.276      0.000
+
+ Y        ON
+    X                 -0.207      0.357     -0.580      0.562
+    M                 -0.073      0.370     -0.197      0.844
+
+ M        ON
+    X                  0.780      0.097      8.033      0.000
+
+ Intercepts
+    PTSD_1             0.763      0.093      8.171      0.000
+    PTSD_2             0.444      0.073      6.119      0.000
+    PTSD_3             0.389      0.072      5.379      0.000
+    SUP_12             3.347      0.200     16.753      0.000
+    SUP_6              3.312      0.201     16.502      0.000
+    SUP_7              3.019      0.197     15.349      0.000
+    BCOPE_1            2.403      0.112     21.545      0.000
+    BCOPE_6            1.823      0.095     19.117      0.000
+    BCOPE_13           1.620      0.092     17.647      0.000
+
+ Variances
+    X                  1.000      0.000    999.000    999.000
+
+ Residual Variances
+    PTSD_1             0.277      0.120      2.312      0.021
+    PTSD_2             0.367      0.092      4.007      0.000
+    PTSD_3             0.382      0.075      5.109      0.000
+    SUP_12             1.749      0.402      4.353      0.000
+    SUP_6              0.836      0.301      2.783      0.005
+    SUP_7              0.516      0.239      2.156      0.031
+    BCOPE_1            1.275      0.192      6.656      0.000
+    BCOPE_6            0.972      0.167      5.819      0.000
+    BCOPE_13           0.661      0.149      4.440      0.000
+    M                  0.391      0.146      2.670      0.008
+    Y                  0.928      0.065     14.313      0.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed
+    Variable        Estimate       S.E.  Est./S.E.    P-Value
+
+    PTSD_1             0.778      0.103      7.577      0.000
+    PTSD_2             0.526      0.125      4.197      0.000
+    PTSD_3             0.492      0.099      4.956      0.000
+    SUP_12             0.692      0.072      9.671      0.000
+    SUP_6              0.854      0.054     15.802      0.000
+    SUP_7              0.907      0.046     19.592      0.000
+    BCOPE_1            0.283      0.107      2.652      0.008
+    BCOPE_6            0.255      0.112      2.273      0.023
+    BCOPE_13           0.455      0.121      3.755      0.000
+
+     Latent                                         Two-Tailed
+    Variable        Estimate       S.E.  Est./S.E.    P-Value
+
+    M                  0.609      0.146      4.157      0.000
+    Y                  0.072      0.065      1.105      0.269
+
+
+TOTAL, TOTAL INDIRECT, SPECIFIC INDIRECT, AND DIRECT EFFECTS
+
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+Effects from X to Y
+
+  Total               -0.274      0.107     -2.553      0.011
+  Total indirect      -0.059      0.527     -0.112      0.911
+
+  Specific indirect 1
+    Y
+    M
+    X                 -0.059      0.527     -0.112      0.911
+
+  Direct
+    Y
+    X                 -0.215      0.542     -0.396      0.692
+
+
+
+STANDARDIZED TOTAL, TOTAL INDIRECT, SPECIFIC INDIRECT, AND DIRECT EFFECTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+Effects from X to Y
+
+  Total               -0.264      0.093     -2.836      0.005
+  Total indirect      -0.057      0.337     -0.169      0.866
+
+  Specific indirect 1
+    Y
+    M
+    X                 -0.057      0.337     -0.169      0.866
+
+  Direct
+    Y
+    X                 -0.207      0.357     -0.580      0.562
+
+
+
+STDY Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+Effects from X to Y
+
+  Total               -0.264      0.093     -2.836      0.005
+  Total indirect      -0.057      0.337     -0.169      0.866
+
+  Specific indirect 1
+    Y
+    M
+    X                 -0.057      0.337     -0.169      0.866
+
+  Direct
+    Y
+    X                 -0.207      0.357     -0.580      0.562
+
+
+
+STD Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+Effects from X to Y
+
+  Total               -0.264      0.093     -2.836      0.005
+  Total indirect      -0.057      0.337     -0.169      0.866
+
+  Specific indirect 1
+    Y
+    M
+    X                 -0.057      0.337     -0.169      0.866
+
+  Direct
+    Y
+    X                 -0.207      0.357     -0.580      0.562
+
+
+
+
+CONFIDENCE INTERVALS OF MODEL RESULTS
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ X        BY
+    PTSD_1           0.745       0.806       0.838       0.986       1.133       1.162       1.215
+    PTSD_2           0.349       0.411       0.451       0.639       0.810       0.842       0.902
+    PTSD_3           0.314       0.386       0.427       0.608       0.774       0.803       0.866
+
+ M        BY
+    BCOPE_1          0.120       0.198       0.235       0.444       0.712       0.761       0.865
+    BCOPE_6          0.076       0.128       0.161       0.361       0.591       0.638       0.728
+    BCOPE_13         0.152       0.241       0.280       0.465       0.658       0.703       0.788
+
+ Y        BY
+    SUP_12           1.589       1.688       1.734       1.912       2.142       2.174       2.249
+    SUP_6            1.839       1.932       1.973       2.128       2.342       2.377       2.419
+    SUP_7            1.873       1.962       2.004       2.166       2.386       2.415       2.453
+
+ Y        ON
+    X               -1.583      -0.810      -0.651      -0.215       0.239       0.390       1.089
+    M               -0.513      -0.356      -0.296      -0.047       0.237       0.309       0.502
+
+ M        ON
+    X                0.605       0.730       0.796       1.248       2.734       3.370       5.421
+
+ Intercepts
+    PTSD_1           0.536       0.586       0.614       0.763       0.922       0.953       1.014
+    PTSD_2           0.271       0.312       0.333       0.444       0.569       0.597       0.646
+    PTSD_3           0.208       0.257       0.278       0.389       0.514       0.542       0.597
+    SUP_12           2.833       2.958       3.021       3.347       3.667       3.736       3.875
+    SUP_6            2.806       2.917       2.986       3.312       3.639       3.701       3.833
+    SUP_7            2.525       2.639       2.701       3.019       3.345       3.410       3.542
+    BCOPE_1          2.111       2.188       2.221       2.403       2.585       2.625       2.694
+    BCOPE_6          1.586       1.639       1.667       1.823       1.979       2.010       2.069
+    BCOPE_13         1.397       1.448       1.474       1.620       1.778       1.806       1.873
+
+ Variances
+    X                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ Residual Variances
+    PTSD_1          -0.051       0.041       0.085       0.277       0.503       0.549       0.639
+    PTSD_2           0.150       0.203       0.231       0.367       0.536       0.565       0.623
+    PTSD_3           0.212       0.251       0.273       0.382       0.525       0.552       0.603
+    SUP_12           0.826       1.043       1.154       1.749       2.489       2.652       2.874
+    SUP_6            0.230       0.355       0.421       0.836       1.434       1.543       1.781
+    SUP_7           -0.064       0.071       0.143       0.516       0.959       1.051       1.220
+    BCOPE_1          0.720       0.871       0.948       1.275       1.558       1.601       1.680
+    BCOPE_6          0.546       0.644       0.702       0.972       1.246       1.289       1.384
+    BCOPE_13         0.307       0.400       0.447       0.661       0.939       0.992       1.108
+    M                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    Y                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+
+CONFIDENCE INTERVALS OF STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ X        BY
+    PTSD_1           0.703       0.754       0.775       0.882       0.967       0.986       1.022
+    PTSD_2           0.463       0.523       0.559       0.725       0.852       0.874       0.911
+    PTSD_3           0.473       0.536       0.566       0.701       0.805       0.824       0.854
+
+ M        BY
+    BCOPE_1          0.274       0.334       0.365       0.532       0.693       0.723       0.780
+    BCOPE_6          0.226       0.283       0.322       0.505       0.684       0.715       0.767
+    BCOPE_13         0.384       0.463       0.507       0.675       0.807       0.832       0.889
+
+ Y        BY
+    SUP_12           0.702       0.732       0.750       0.832       0.894       0.905       0.926
+    SUP_6            0.825       0.852       0.865       0.924       0.964       0.970       0.981
+    SUP_7            0.880       0.898       0.908       0.953       0.988       0.994       1.006
+
+ Y        ON
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+    M               -1.177      -0.608      -0.477      -0.073       0.394       0.554       1.221
+
+ M        ON
+    X                0.518       0.590       0.623       0.780       0.939       0.959       0.983
+
+ Intercepts
+    PTSD_1           0.550       0.581       0.597       0.682       0.776       0.796       0.836
+    PTSD_2           0.384       0.412       0.425       0.505       0.583       0.598       0.626
+    PTSD_3           0.331       0.362       0.375       0.449       0.521       0.535       0.565
+    SUP_12           1.235       1.274       1.292       1.404       1.529       1.556       1.620
+    SUP_6            1.227       1.259       1.278       1.386       1.503       1.529       1.580
+    SUP_7            1.148       1.174       1.189       1.279       1.372       1.394       1.437
+    BCOPE_1          1.609       1.651       1.672       1.802       1.941       1.973       2.047
+    BCOPE_6          1.488       1.507       1.519       1.596       1.670       1.687       1.721
+    BCOPE_13         1.391       1.406       1.414       1.470       1.524       1.537       1.569
+
+ Variances
+    X                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ Residual Variances
+    PTSD_1          -0.044       0.027       0.064       0.222       0.399       0.432       0.505
+    PTSD_2           0.170       0.236       0.274       0.474       0.687       0.726       0.785
+    PTSD_3           0.270       0.321       0.352       0.508       0.679       0.712       0.774
+    SUP_12           0.143       0.181       0.200       0.308       0.438       0.464       0.506
+    SUP_6            0.038       0.060       0.071       0.146       0.252       0.273       0.319
+    SUP_7           -0.013       0.012       0.024       0.093       0.176       0.194       0.225
+    BCOPE_1          0.392       0.478       0.519       0.717       0.867       0.888       0.925
+    BCOPE_6          0.411       0.489       0.533       0.745       0.897       0.920       0.949
+    BCOPE_13         0.210       0.308       0.349       0.545       0.743       0.785       0.851
+    M                0.032       0.081       0.118       0.391       0.612       0.652       0.732
+    Y                0.776       0.828       0.852       0.928       0.994       0.997       1.000
+
+
+STDY Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ X        BY
+    PTSD_1           0.703       0.754       0.775       0.882       0.967       0.986       1.022
+    PTSD_2           0.463       0.523       0.559       0.725       0.852       0.874       0.911
+    PTSD_3           0.473       0.536       0.566       0.701       0.805       0.824       0.854
+
+ M        BY
+    BCOPE_1          0.274       0.334       0.365       0.532       0.693       0.723       0.780
+    BCOPE_6          0.226       0.283       0.322       0.505       0.684       0.715       0.767
+    BCOPE_13         0.384       0.463       0.507       0.675       0.807       0.832       0.889
+
+ Y        BY
+    SUP_12           0.702       0.732       0.750       0.832       0.894       0.905       0.926
+    SUP_6            0.825       0.852       0.865       0.924       0.964       0.970       0.981
+    SUP_7            0.880       0.898       0.908       0.953       0.988       0.994       1.006
+
+ Y        ON
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+    M               -1.177      -0.608      -0.477      -0.073       0.394       0.554       1.221
+
+ M        ON
+    X                0.518       0.590       0.623       0.780       0.939       0.959       0.983
+
+ Intercepts
+    PTSD_1           0.550       0.581       0.597       0.682       0.776       0.796       0.836
+    PTSD_2           0.384       0.412       0.425       0.505       0.583       0.598       0.626
+    PTSD_3           0.331       0.362       0.375       0.449       0.521       0.535       0.565
+    SUP_12           1.235       1.274       1.292       1.404       1.529       1.556       1.620
+    SUP_6            1.227       1.259       1.278       1.386       1.503       1.529       1.580
+    SUP_7            1.148       1.174       1.189       1.279       1.372       1.394       1.437
+    BCOPE_1          1.609       1.651       1.672       1.802       1.941       1.973       2.047
+    BCOPE_6          1.488       1.507       1.519       1.596       1.670       1.687       1.721
+    BCOPE_13         1.391       1.406       1.414       1.470       1.524       1.537       1.569
+
+ Variances
+    X                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ Residual Variances
+    PTSD_1           0.014       0.049       0.074       0.222       0.395       0.428       0.500
+    PTSD_2           0.170       0.236       0.274       0.474       0.687       0.726       0.785
+    PTSD_3           0.270       0.321       0.352       0.508       0.679       0.712       0.774
+    SUP_12           0.143       0.181       0.200       0.308       0.438       0.464       0.506
+    SUP_6            0.038       0.060       0.071       0.146       0.252       0.273       0.319
+    SUP_7            0.005       0.017       0.027       0.093       0.174       0.192       0.223
+    BCOPE_1          0.392       0.478       0.519       0.717       0.867       0.888       0.925
+    BCOPE_6          0.411       0.489       0.533       0.745       0.897       0.920       0.949
+    BCOPE_13         0.210       0.308       0.349       0.545       0.743       0.785       0.851
+    M                0.032       0.081       0.118       0.391       0.612       0.652       0.732
+    Y                0.776       0.828       0.852       0.928       0.994       0.997       1.000
+
+
+STD Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ X        BY
+    PTSD_1           0.745       0.806       0.838       0.986       1.133       1.162       1.215
+    PTSD_2           0.349       0.411       0.451       0.639       0.810       0.842       0.902
+    PTSD_3           0.314       0.386       0.427       0.608       0.774       0.803       0.866
+
+ M        BY
+    BCOPE_1          0.366       0.447       0.490       0.709       0.931       0.972       1.051
+    BCOPE_6          0.253       0.329       0.368       0.577       0.796       0.835       0.904
+    BCOPE_13         0.407       0.500       0.543       0.743       0.939       0.981       1.065
+
+ Y        BY
+    SUP_12           1.628       1.720       1.769       1.984       2.177       2.210       2.272
+    SUP_6            1.903       1.988       2.028       2.209       2.377       2.408       2.464
+    SUP_7            1.943       2.013       2.055       2.248       2.418       2.448       2.496
+
+ Y        ON
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+    M               -1.177      -0.608      -0.477      -0.073       0.394       0.554       1.221
+
+ M        ON
+    X                0.518       0.590       0.623       0.780       0.939       0.959       0.983
+
+ Intercepts
+    PTSD_1           0.536       0.586       0.614       0.763       0.922       0.953       1.014
+    PTSD_2           0.271       0.312       0.333       0.444       0.569       0.597       0.646
+    PTSD_3           0.208       0.257       0.278       0.389       0.514       0.542       0.597
+    SUP_12           2.833       2.958       3.021       3.347       3.667       3.736       3.875
+    SUP_6            2.806       2.917       2.986       3.312       3.639       3.701       3.833
+    SUP_7            2.525       2.639       2.701       3.019       3.345       3.410       3.542
+    BCOPE_1          2.111       2.188       2.221       2.403       2.585       2.625       2.694
+    BCOPE_6          1.586       1.639       1.667       1.823       1.979       2.010       2.069
+    BCOPE_13         1.397       1.448       1.474       1.620       1.778       1.806       1.873
+
+ Variances
+    X                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ Residual Variances
+    PTSD_1           0.019       0.065       0.095       0.277       0.497       0.544       0.628
+    PTSD_2           0.150       0.203       0.231       0.367       0.536       0.565       0.623
+    PTSD_3           0.212       0.251       0.273       0.382       0.525       0.552       0.603
+    SUP_12           0.826       1.043       1.154       1.749       2.489       2.652       2.874
+    SUP_6            0.231       0.356       0.421       0.836       1.434       1.542       1.781
+    SUP_7            0.033       0.104       0.160       0.516       0.948       1.039       1.210
+    BCOPE_1          0.720       0.871       0.948       1.275       1.558       1.601       1.680
+    BCOPE_6          0.546       0.644       0.702       0.972       1.246       1.289       1.384
+    BCOPE_13         0.307       0.400       0.448       0.661       0.938       0.992       1.108
+    M                0.032       0.081       0.118       0.391       0.612       0.652       0.732
+    Y                0.776       0.828       0.852       0.928       0.994       0.997       1.000
+
+
+CONFIDENCE INTERVALS OF TOTAL, TOTAL INDIRECT, SPECIFIC INDIRECT, AND DIRECT EFFECTS
+
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+Effects from X to Y
+
+  Total             -0.545      -0.478      -0.446      -0.274      -0.096      -0.058       0.011
+  Total indirect    -1.320      -0.593      -0.437      -0.059       0.325       0.505       1.259
+
+  Specific indirect 1
+    Y
+    M
+    X               -1.320      -0.593      -0.437      -0.059       0.325       0.505       1.259
+
+  Direct
+    Y
+    X               -1.583      -0.810      -0.651      -0.215       0.239       0.390       1.089
+
+
+
+CONFIDENCE INTERVALS OF STANDARDIZED TOTAL, TOTAL INDIRECT, SPECIFIC INDIRECT, AND DIRECT EFFECTS
+
+
+STDYX Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+Effects from X to Y
+
+  Total             -0.475      -0.429      -0.406      -0.264      -0.100      -0.065       0.003
+  Total indirect    -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Specific indirect 1
+    Y
+    M
+    X               -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Direct
+    Y
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+
+
+
+STDY Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+Effects from X to Y
+
+  Total             -0.475      -0.429      -0.406      -0.264      -0.100      -0.065       0.003
+  Total indirect    -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Specific indirect 1
+    Y
+    M
+    X               -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Direct
+    Y
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+
+
+
+STD Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+Effects from X to Y
+
+  Total             -0.475      -0.429      -0.406      -0.264      -0.100      -0.065       0.003
+  Total indirect    -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Specific indirect 1
+    Y
+    M
+    X               -1.130      -0.544      -0.407      -0.057       0.300       0.454       1.114
+
+  Direct
+    Y
+    X               -1.372      -0.732      -0.599      -0.207       0.223       0.351       0.943
+
+
+
+
+DIAGRAM INFORMATION
+
+  Use View Diagram under the Diagram menu in the Mplus Editor to view the diagram.
+  If running Mplus from the Mplus Diagrammer, the diagram opens automatically.
+
+  Diagram output
+    c:\users\whowar\desktop\example\example_mediation.dgm
+
+     Beginning Time:  23:42:19
+        Ending Time:  23:42:39
+       Elapsed Time:  00:00:20
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2023 Muthen & Muthen
