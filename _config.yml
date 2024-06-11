@@ -19,7 +19,7 @@ navbar-links:
   Research: 
     - Positions: "appointments"
     - Articles: "publications"
-    - Presentation Sessions: "presentations"
+    - Talks and Posters: "presentations"
     - Academic Genealogy: "academicgenology.html"
   Projects:
     - BioBuilder: "nihbio"
