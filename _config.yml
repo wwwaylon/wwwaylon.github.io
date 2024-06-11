@@ -17,10 +17,10 @@ navbar-links:
   CV: "https://drive.google.com/file/d/1EjEuqFe7S8WQpgFRezrYjJWePMfsEpoO/view?usp=sharing"
   About: "aboutme2"
   Research: 
-    - Appointments: "appointments"
-    - Publications: "publications"
-    - Presentations: "presentations"
-    - Academic genealogy: "academicgenology.html"
+    - Positions: "appointments"
+    - Articles: "publications"
+    - Presentation Sessions: "presentations"
+    - Academic Genealogy: "academicgenology.html"
   Projects:
     - BioBuilder: "nihbio"
     - Estimating stats time: "https://whowar.shinyapps.io/Proj_est2021/"
