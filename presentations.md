@@ -5,6 +5,12 @@ title: Presentations
 
 ### talks and symposia
 
+* **Howard W. J.** (2024, June) SEM, Revealed. Modeling connections with latent variables and regression pathways. Invited talk at the Center for Child Health Behavior and Development, Seattle Childrens Research Institute, Seattle, WA.
+
+* McKinney, C., **Howard W. J.**, Bijlani, K., Evans, K., Kassuhn, M., Leavitt, D., Heike, C. (2023, May). Growth velocity in U.S. children with orofacial clefts in the first 6 months of life. 80th Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Raleigh, NC. ([link](https://acpacares.org/wp-content/uploads/2023/04/ACPA_PROGRAM_FINAL.pdf))  
+
+* McNulty, B., Salehi, P., Kim, L. Kim, S., **Howard W. J.**. (2023, September). Aberrant Behavior Checklist Scores in Youth with Prader-Willi Syndrome. Poster presented at the annual Foundation for Pradi-Willi Research Symposium and Family Conference, Atlanta, GA. ([link](https://www.fpwr.org/hubfs/Conference/2023%20Conference/Scientific%20Day%20Abstract%20Booklet_2023.pdf?hsCtaTracking=2277e48d-301f-4451-8f71-f11130da8c86%7Ce149335f-b033-4d8b-aa39-da74a29a1aab)) 
+
 * Okech D., **Howard, W. J.**, (2018, January). Predictors of Financial Capability among Female Survivors of Human Trafficking in Ghana, West Africa. Symposium Financial Capability across the Globe: Results from Canada, China, and Ghana, 22nd Annual Conference of the Society for Social Work and Research, Washington D.C. ([link](https://sswr.confex.com/sswr/2018/webprogram/Paper32290.html))  
 
 * **Howard, W. J.** (2017, April). Missing Data in Applied Research. Invited talk at University of Washington, Dept. of Epidemiology, Seattle, WA.  ([outline](https://drive.google.com/file/d/1K2K-h-IPL_KCQyTdWn4t1w4qBrJw5ZMI/view?usp=sharing))
@@ -41,15 +47,26 @@ title: Presentations
 
 ### Workshops Conducted
 
+* **Howard W. J.** (2023, November) An introduction to missing data analysis [Webinar]. Statistical Literacy for Biologists Training Session. Research Scientific Computing, Seattle Childrens Research Institute, Seattle, WA. 
+
 * **Howard, W. J.** (2015, June) Introduction to Confirmatory Factor Analysis, Summer Summit Research Methodology Conference, University of Massachusetts, Institute for Social Science Research, Amherst, MA.  ([outline](https://drive.google.com/file/d/1_UzEuzj4tUjIO5u4IL3FTtEAm3BJGWMk/view?usp=sharing), [link](https://www.umass.edu/issr/events/))
 
-* **Howard, W. J.** (2011, February). Multilevel modeling in MULTILEV. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
-
+* **Howard, W. J.** (2011, February). Multilevel modeling in MULTILEV. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS. 
 * **Howard, W. J.**, & McCune, L. A. (2011, October,). Latent variable modeling using LISREL notation. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
 
 * **Howard, W. J.** (2010, September). Latent variable modeling using LISREL notation. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
 
 ### Posters
+
+* Ittleman, B., Bhawna, A., **Howard, W. J.**, et al. (2024, November). Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution. Poster presented at the centennial American Heart Association Scientific Sessions, Chicago, IL.  ([link](https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24)) 
+
+* Lyle, A., **Howard, W. J.**, Weiss, E. (2024, May). Pediatric Residents’ Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Toronto, ON, CA.
+
+* McKinney, C., **Howard W. J.**, Bijlani, K., Rahman, A., Meehan, K. Evans, D. Leavitt, T. J. Sitzman, P. Amoako-Yirenkyi, C. L. Heike (2024, May). Growth in U.S. Infants with Orofacial Cleft. 31st Annual Meeting of the American Society of Craniofacial Surgeons, Denver, CO. ([link](https://acpacares.org/wp-content/uploads/2024/04/ACPA_AnnualMeeting24_ProgramGuide_Final.pdf))  
+
+* Chrisman, S., Tham, S., **Howard W. J.**, Zatzick, D. F., Rivara, F. P., McCarty.  C. M. (2023). Sleep and Concussion Recovery in a Pediatric Collaborative Care Intervention Trial: Do Concussion Symptoms Improve Because Teens are Sleeping Better? Poster presented at the annual Neurotrauma conference, Austin, TX.
+
+* McNulty, B., Kim, L. Kim, S., **Howard W. J.**, Salehi, P. (2023). Changes in hyperphagia behaviors correlate with both improvement in quality of life and worsening of maladaptive behaviors in children with Pradi-Willi Syndrome over time. Poster presented at the annual Pediatric Academic Societies (PAS), Washington, D.C.
 
 * Zhou, C., Gao, Y., **Howard, W. J.** (2017). Evaluation of combining bootstrap with multiple imputation using R on Knights Landing platform. Poster presented at the 4th International Conference on Cyber Security and Cloud Computing, New York, New York. ([PDF](https://www.researchgate.net/publication/318670029_Evaluation_of_Combining_Bootstrap_with_Multiple_Imputation_Using_R_on_Knights_Landing_Platform),  [link](https://ieeexplore.ieee.org/document/7987168)) 
 
