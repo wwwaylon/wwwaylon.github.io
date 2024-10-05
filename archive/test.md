@@ -1,4 +1,4 @@
-# **Opinion: Balancing HR Pay Equity and Valuing Exceptional Talent in Research** 
+# **Balancing HR Pay Equity and Valuing Exceptional Talent in Research** 
 
 Research organizations are often faced with a complex challenge: How do we retain and fairly compensate standout researchers while adhering to the pay equity guidelines set by Human Resources (HR)? 
 
