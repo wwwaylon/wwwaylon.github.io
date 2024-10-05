@@ -1,3 +1,10 @@
+layout	title	subtitle	thumbnail-img	tags
+post
+Statistical Software Wrangling
+Some examples of calling one program from another (SAS, R, Mplus)
+/assets/img/simpleMed_square.png
+SAS Mplus R
+
 # **Balancing HR Pay Equity and Valuing Exceptional Talent in Research** 
 
 Research organizations are often faced with a complex challenge: How do we retain and fairly compensate standout researchers while adhering to the pay equity guidelines set by Human Resources (HR)? 
