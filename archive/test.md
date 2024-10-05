@@ -1,9 +1,12 @@
-layout	title	subtitle	thumbnail-img	tags
-post
-Statistical Software Wrangling
-Some examples of calling one program from another (SAS, R, Mplus)
-/assets/img/simpleMed_square.png
-SAS Mplus R
+---
+layout: post
+title: Understanding Pay Equity and Value
+subtitle: retaining talent
+#thumbnail-img: /assets/img/atrisk.png
+#gh-repo: wwwaylon/beautiful-jekyll
+#gh-badge: [star, fork, follow]
+tags: [Power Mediation Simulation Markdown]
+---
 
 # **Balancing HR Pay Equity and Valuing Exceptional Talent in Research** 
 
