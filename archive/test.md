@@ -5,7 +5,7 @@ subtitle: retaining talent
 #thumbnail-img: /assets/img/atrisk.png
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
-tags: [Power Mediation Simulation Markdown]
+tags: [Pay Mediation Equity Value]
 ---
 
 # **Balancing HR Pay Equity and Valuing Exceptional Talent in Research** 
