@@ -8,16 +8,6 @@ subtitle: retaining talent
 tags: [Pay Mediation Equity Value]
 ---
 
-## Why AI Matters in Biostatistics 
-
-AI can significantly enhance traditional biostatistical methods by: 
-
-* Improving risk prediction models through advanced algorithms like random forests or gradient boosting. 
-
-* Handling large, complex datasets such as genomics data using techniques like regularization. 
-
-* Incorporating non-linear relationships into models, such as survival analysis, enabling more precise insights into clinical trials. 
-
 ## Why AI Matters in Biostatistics
 
 Artificial Intelligence (AI) is transforming many fields, and biostatistics is no exception. While traditional biostatistics methods have been powerful for analyzing health data, AI offers new ways to work with complex datasets, make better predictions, and uncover patterns that might not be obvious with standard techniques.
