@@ -196,15 +196,6 @@ Key Advantages of Random Survival Forests:
 
 * Automatic variable selection: RSF ranks the importance of each variable in predicting survival, which helps in identifying the most important predictors.
 
-Comparing Cox Proportional Hazards and Random Survival Forests
-
-Feature	Cox Model	Random Survival Forest (RSF)
-Proportional Hazards Assumption	Required	Not required
-Flexibility	Handles linear effects well	Captures complex, non-linear relationships
-Interpretability	Provides hazard ratios	Provides variable importance but less interpretable
-Handling of Complex Interactions	Limited	Automatically detects interactions
-Handling High-Dimensional Data	Not ideal	Performs well with high-dimensional data
-
 When to Use Each Method
 
 * Cox Model: Use when you have a moderate-sized dataset and the proportional hazards assumption holds, or if you need interpretable hazard ratios.
