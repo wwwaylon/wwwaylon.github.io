@@ -12,8 +12,6 @@ tags: [Pay Mediation Equity Value]
 
 Artificial Intelligence (AI) is transforming many fields, and biostatistics is no exception. While traditional biostatistics methods have been powerful for analyzing health data, AI offers new ways to work with complex datasets, make better predictions, and uncover patterns that might not be obvious with standard techniques.
 
-For an entry-level biostatistician, learning how AI can improve statistical methods can set you apart and give you new tools to analyze data. Don’t worry if AI or Machine Learning (ML) seems complicated—this post will introduce you to key ideas in simple terms.
-
 ### 1. AI-Enhanced Risk Prediction Models
 
 One of the main goals in healthcare is to predict which patients are at higher risk for diseases or complications. Typically, we use methods like logistic regression to do this. But AI methods, like *random forests*, can sometimes do a better job because they can detect more complicated patterns in the data.
