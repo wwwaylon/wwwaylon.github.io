@@ -65,6 +65,7 @@ Survival analysis deals with time-to-event data. For example, how long it takes 
 
 Here’s how you might run a basic Cox model in R:
 
+```r
 # Load necessary library 
 library(survival) 
 
@@ -84,12 +85,15 @@ cox_model <- coxph(Surv(time, status) ~ treatment + age, data = trial_data)
 # Print model summary 
 summary(cox_model) 
 
+```
+
 This model helps predict how treatment and age might affect the time until a specific event (e.g., disease progression). Adding AI to this kind of analysis can help improve predictions by modeling more complex relationships between variables.
 
 Visualizing Survival Curves
 
 Here’s how you can visualize survival curves based on your Cox model:
 
+```r
 # Load the survminer package for visualization 
 library(survminer) 
 
@@ -98,6 +102,8 @@ surv_fit <- survfit(cox_model, newdata = trial_data)
 
 # Plot survival curves by treatment group 
 ggsurvplot(surv_fit, data = trial_data, risk.table = TRUE, pval = TRUE, conf.int = TRUE, ggtheme = theme_minimal(), title = "Survival Curves by Treatment Group") 
+
+```
 
 This plot shows how different treatment groups compare over time in terms of event occurrence, such as how quickly patients progress in a disease. AI methods can enhance this analysis by adding more flexibility to the models.
 
@@ -111,6 +117,7 @@ Elastic net is a method that combines two regularization techniques (lasso and r
 
 Here’s how you can use elastic net in R:
 
+```r
 # Load necessary library 
 library(glmnet) 
 
@@ -130,6 +137,8 @@ plot(cv_fit)
 # Get the best lambda value 
 cv_fit$lambda.min 
 
+```
+
 Elastic net helps select the most relevant genes that are linked to disease status while avoiding overfitting. This is critical when working with large datasets like those found in genomic studies.
 
 Conclusion
@@ -140,10 +149,11 @@ As you move forward, learning these AI-powered methods will give you an edge in 
 
 For more information, here are some beginner-friendly resources:
 
-	•	James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. Springer.
+* James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. Springer.
 A great introductory book on data science methods, including AI techniques, with examples in R.
 https://www.statlearning.com/
-	•	Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer.
+
+* Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer.
 More advanced, but good for when you’re ready to dive deeper into machine learning methods.
 https://doi.org/10.1007/978-0-387-84858-7
 
