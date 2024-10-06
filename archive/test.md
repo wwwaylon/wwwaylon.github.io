@@ -87,8 +87,6 @@ summary(cox_model)
 
 ```
 
-This model helps predict how treatment and age might affect the time until a specific event (e.g., disease progression). Adding AI to this kind of analysis can help improve predictions by modeling more complex relationships between variables.
-
 Visualizing Survival Curves
 
 Here’s how you can visualize survival curves based on your Cox model:
@@ -140,10 +138,11 @@ surv_fit <- survfit(cox_model, newdata = trial_data)
 ggsurvplot(surv_fit, data = trial_data, risk.table = TRUE, pval = TRUE,
            conf.int = TRUE, ggtheme = theme_minimal(), 
            title = "Survival Curves by Treatment Group")
+```
 
 This model provides insights into how treatment, age, and gender impact survival, under the assumption that the effects are proportional over time. However, this method has limitations when dealing with complex interactions or non-proportional hazards.
 
-AI-Based Survival Analysis: Random Survival Forests (RSF)
+### AI-Based Survival Analysis: Random Survival Forests (RSF)
 
 Random Survival Forests (RSF) is a machine learning technique that extends random forests to handle censored data. It works well with high-dimensional data and automatically captures complex interactions between variables, making it a more flexible alternative to the Cox model. RSF doesn’t require the proportional hazards assumption, which makes it ideal for more complex data structures.
 
@@ -151,6 +150,7 @@ Implementing Random Survival Forests in R
 
 To demonstrate RSF, we’ll use the randomForestSRC package in R. Here’s how you can implement and visualize survival predictions using RSF.
 
+```r
 # Install and load necessary library
 install.packages("randomForestSRC")
 library(randomForestSRC)
@@ -186,12 +186,15 @@ ggplot(var_importance, aes(x = reorder(Variable, Importance), y = Importance)) +
 
 # Plot survival curves for different treatment groups using RSF
 plot.survival(rsf_model)
+```
 
 Key Advantages of Random Survival Forests:
 
-	•	Handles non-linear effects: RSF can model complex, non-linear relationships between the covariates and survival times.
-	•	No proportional hazards assumption: Unlike the Cox model, RSF does not assume that hazard ratios are constant over time, allowing for more flexible modeling.
-	•	Automatic variable selection: RSF ranks the importance of each variable in predicting survival, which helps in identifying the most important predictors.
+* Handles non-linear effects: RSF can model complex, non-linear relationships between the covariates and survival times.
+
+* No proportional hazards assumption: Unlike the Cox model, RSF does not assume that hazard ratios are constant over time, allowing for more flexible modeling.
+
+* Automatic variable selection: RSF ranks the importance of each variable in predicting survival, which helps in identifying the most important predictors.
 
 Comparing Cox Proportional Hazards and Random Survival Forests
 
@@ -204,22 +207,19 @@ Handling High-Dimensional Data	Not ideal	Performs well with high-dimensional dat
 
 When to Use Each Method
 
-	•	Cox Model: Use when you have a moderate-sized dataset and the proportional hazards assumption holds, or if you need interpretable hazard ratios.
-	•	Random Survival Forest: Use when dealing with complex datasets, high-dimensional data, or non-proportional hazards. RSF is particularly useful when you are interested in identifying important predictors without making strong assumptions about their relationships.
+* Cox Model: Use when you have a moderate-sized dataset and the proportional hazards assumption holds, or if you need interpretable hazard ratios.
 
-Conclusion
+* Random Survival Forest: Use when dealing with complex datasets, high-dimensional data, or non-proportional hazards. RSF is particularly useful when you are interested in identifying important predictors without making strong assumptions about their relationships.
 
 Both the Cox proportional hazards model and Random Survival Forests are powerful tools for survival analysis, each with its own strengths. While the Cox model is a staple in biostatistics for its simplicity and interpretability, RSF brings the flexibility and power of machine learning to the table, making it ideal for more complex survival data. As you progress in your biostatistics career, understanding both traditional methods and AI-enhanced techniques will give you the tools you need to tackle a wide range of survival analysis problems.
 
 Further Reading:
 
-	•	Random Survival Forests for High-Dimensional Data Analysis (Ishwaran et al., 2008):
+* Random Survival Forests for High-Dimensional Data Analysis (Ishwaran et al., 2008):
 https://link.springer.com/article/10.1007/s10985-007-0074-1
-	•	Introduction to Survival Analysis in R:
+
+* Introduction to Survival Analysis in R:
 https://cran.r-project.org/web/packages/survival/vignettes/survival.pdf
-
-
-
 
 3. AI in Genomics: Elastic Net Regularization
 
