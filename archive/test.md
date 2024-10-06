@@ -105,43 +105,6 @@ ggsurvplot(surv_fit, data = trial_data, risk.table = TRUE, pval = TRUE, conf.int
 
 This plot shows how different treatment groups compare over time in terms of event occurrence, such as how quickly patients progress in a disease. AI methods can enhance this analysis by adding more flexibility to the models.
 
-# Traditional Survival Analysis: Cox Proportional Hazards Model
-
-As discussed earlier, the **Cox proportional hazards model** is a commonly used tool for analyzing survival data. It estimates the hazard ratio associated with explanatory variables, assuming the ratio of hazards is constant over time (proportional hazards assumption).
-
-Here’s how to extend the basic Cox model with more explanatory variables and visualize the survival curves:
-
-```r
-# Load necessary libraries
-library(survival)
-library(survminer)
-
-# Simulate clinical trial data
-set.seed(123)
-n <- 200
-trial_data <- data.frame(
-  time = rexp(n, rate = 0.1),  # Event times
-  status = sample(0:1, n, replace = TRUE),  # Event occurred (1) or censored (0)
-  treatment = sample(c("A", "B"), n, replace = TRUE),  # Treatment group
-  age = rnorm(n, mean = 60, sd = 10),  # Age of patient
-  gender = sample(c("Male", "Female"), n, replace = TRUE)  # Gender
-)
-
-# Fit Cox proportional hazards model with additional covariates
-cox_model <- coxph(Surv(time, status) ~ treatment + age + gender, data = trial_data)
-
-# Print model summary
-summary(cox_model)
-
-# Visualize survival curves for different treatment groups
-surv_fit <- survfit(cox_model, newdata = trial_data)
-ggsurvplot(surv_fit, data = trial_data, risk.table = TRUE, pval = TRUE,
-           conf.int = TRUE, ggtheme = theme_minimal(), 
-           title = "Survival Curves by Treatment Group")
-```
-
-This model provides insights into how treatment, age, and gender impact survival, under the assumption that the effects are proportional over time. However, this method has limitations when dealing with complex interactions or non-proportional hazards.
-
 ### AI-Based Survival Analysis: Random Survival Forests (RSF)
 
 Random Survival Forests (RSF) is a machine learning technique that extends random forests to handle censored data. It works well with high-dimensional data and automatically captures complex interactions between variables, making it a more flexible alternative to the Cox model. RSF doesn’t require the proportional hazards assumption, which makes it ideal for more complex data structures.
