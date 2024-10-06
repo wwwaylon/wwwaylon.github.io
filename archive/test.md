@@ -209,13 +209,7 @@ cv_fit$lambda.min
 
 Elastic net helps select the most relevant genes that are linked to disease status while avoiding overfitting. This is critical when working with large datasets like those found in genomic studies.
 
-Conclusion
-
-AI might seem like a complicated field, but as a biostatistician, understanding its basic applications can greatly enhance your analysis toolkit. Techniques like random forests, survival analysis, and elastic net regularization can help you make better predictions and handle more complex data.
-
-As you move forward, learning these AI-powered methods will give you an edge in analyzing health data, whether you’re working on clinical trials, genomics, or risk prediction. Don’t hesitate to explore AI—it’s becoming an essential part of modern biostatistics, and mastering these tools will set you up for success in the future.
-
-For more information, here are some beginner-friendly resources:
+For more information, here are some resources:
 
 * James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. Springer.
 A great introductory book on data science methods, including AI techniques, with examples in R.
