@@ -51,6 +51,8 @@ rf_predictions <- predict(rf_model, testData)
 # Confusion Matrix to assess model performance 
 confusionMatrix(rf_predictions, testData$risk) 
 
+```
+
 This example shows how you can predict whether a patient is at high risk for a disease based on age, blood pressure, and cholesterol levels. The random forest model helps by capturing more complex relationships in the data than standard models might.
 
 2. Predictive Modeling in Clinical Trials
