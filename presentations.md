@@ -60,7 +60,7 @@ title: Presentations
 
 * Ittleman, B., Bhawna, A., **Howard, W. J.**, et al. (2024, November). Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution. Poster presented at the centennial American Heart Association Scientific Sessions, Chicago, IL.  ([link](https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24)) 
 
-* Lyle, A., **Howard, W. J.**, Weiss, E. (2024, May). Pediatric Residents’ Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Toronto, ON, CA.
+* Lyle, A., **Howard, W. J.**, Weiss, E. (2024, May). Pediatric Residents??? Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Toronto, ON, CA.
 
 * McKinney, C., **Howard W. J.**, Bijlani, K., Rahman, A., Meehan, K. Evans, D. Leavitt, T. J. Sitzman, P. Amoako-Yirenkyi, C. L. Heike (2024, May). Growth in U.S. Infants with Orofacial Cleft. 31st Annual Meeting of the American Society of Craniofacial Surgeons, Denver, CO. ([link](https://acpacares.org/wp-content/uploads/2024/04/ACPA_AnnualMeeting24_ProgramGuide_Final.pdf))  
 
@@ -76,9 +76,9 @@ title: Presentations
 
 * Matson, P., **Howard, W. J.**, Chung, S. (2014). Use of P-technique to examine the dynamic relationship among STD-associated feelings and perceptions in a cohort of adolescent females. Poster presented at the 47th Annual Meeting of the Society for Epidemiological Research, Seattle, Washington.  ([link](https://epiresearch.org/wp-content/uploads/2014/07/finalprogram.pdf)) 
 
-* Stone, J., **Howard, W. J.**, & DâAbundo M., L. (2013). A latent variable approach to attitudes and practices of health professionals serving persons with developmental disabilities. Poster presented at the 42nd annual meeting of the Association of University Centers on Disabilities, Washington, DC.
+* Stone, J., **Howard, W. J.**, & D??????Abundo M., L. (2013). A latent variable approach to attitudes and practices of health professionals serving persons with developmental disabilities. Poster presented at the 42nd annual meeting of the Association of University Centers on Disabilities, Washington, DC.
 
-* Greenwood, C. R., Carta, J. J., Atwater, J., **Howard, W. J.**, & McCune L. A. (2012). Program and ELL differences in the quantity and quality of preschool language and early literacy instruction and child Outcomes. Poster presented at Head Startâs 11th National Research Conference, Washington, DC.  ([link](https://www.acf.hhs.gov/sites/default/files/opre/hsrc_program_2012_final.pdf)) 
+* Greenwood, C. R., Carta, J. J., Atwater, J., **Howard, W. J.**, & McCune L. A. (2012). Program and ELL differences in the quantity and quality of preschool language and early literacy instruction and child Outcomes. Poster presented at Head Start??????s 11th National Research Conference, Washington, DC.  ([link](https://www.acf.hhs.gov/sites/default/files/opre/hsrc_program_2012_final.pdf)) 
 
 * Chan, C. S., Lowe, S. R., **Howard, W. J.**, Schwartz, S. E. O., & Rhodes, J. E. (2012). Pathways of influence in school-based mentoring: The mediating role of parent and teacher relationships. Poster presented at the 14th biennial meeting of the Society for Research on Adolescence (SRA), Vancouver, British Columbia, Canada.  ([link](http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2012%20Program%20Book%203-16-2012_Complete.pdf)) 
 
@@ -88,7 +88,7 @@ title: Presentations
 
 * Okech, D., & **Howard, W. J.** (2011). Down but not out: Resilience in poor households. Poster presented at the 15th annual meeting of the Society for Social Work and Research, Tampa, FL.  ([link](http://secure.sswr.org/past-conferences/2011-annual-conference/)) 
 
-* Carta, J. J., Greenwood, C. R., Pitchlyn, C., & **Howard, W. J.** (2010). Challenging behavior implications for childrenâs early communication and literacy development. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.  
+* Carta, J. J., Greenwood, C. R., Pitchlyn, C., & **Howard, W. J.** (2010). Challenging behavior implications for children??????s early communication and literacy development. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.  
 
 * Geldhof, G. J., Stump, K., **Howard, W. J.**, & Hawley P. H. (2010). Support for five distinct resource control types via a cluster analytic approach. Poster presented at the 12th biennial meeting of the Society for Research on Adolescence, Philadelphia, PA.  ([link](http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2010_printedprogram.pdf)) 
 

@@ -20,6 +20,7 @@ navbar-links:
     - Positions: "appointments"
     - Articles: "publications"
     - Talks and Posters: "presentations"
+    - Grants: "grants"    
     - Academic Genealogy: "academicgenology.html"
   Projects:
     - BioBuilder: "nihbio"
