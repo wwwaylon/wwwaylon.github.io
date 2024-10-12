@@ -1,4 +1,3 @@
-Here’s a comprehensive SOP (Standard Operating Procedure) for dealing with missing data based on the ICH E9 guidelines, formatted in markdown, and including sample R code:
 
 # Standard Operating Procedure (SOP) for Handling Missing Data
 
