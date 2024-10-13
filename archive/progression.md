@@ -53,7 +53,7 @@ To navigate these challenges, it’s important to strategically position yoursel
   
 - **Stay Open to New Opportunities**: Be willing to explore roles outside of your current organization if it becomes clear that upward mobility is limited.
 
-Several factors can disrupt a biostatistician’s career trajectory, including:
+## Several factors can disrupt a biostatistician’s career trajectory, including:
 
 1.	**Insufficient Professional Development Opportunities**: Without ongoing access to training, continuing education, or updated resources, biostatisticians may fall behind in mastering new statistical methods and tools, hindering their ability to keep pace with advancements in the field.
 2.	**Poor Work-Life Balance Policies**: A lack of institutional support for flexible schedules or manageable workloads can lead to burnout, especially in senior roles, which can significantly stall career progression.
