@@ -1,4 +1,4 @@
-### Navigating Biostatistics Career Progression: Why Climbing the Ladder May Not Be Possible Within One Company
+### Navigating Biostatistics Career Progression: Why Climbing the Ladder May Not Be Possible
 
 As a biostatistician, career advancement often follows a predictable hierarchy. The typical progression involves moving from an **Entry-Level Biostatistician** in your first couple of years to potentially becoming a **Senior Director of Biostatistics** after more than 25 years of experience. However, while this linear path might seem attainable in theory, progressing through all of these ranks is often challenging, and may not be possible within one organization.
 
