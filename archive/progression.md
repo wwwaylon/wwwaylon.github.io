@@ -1,4 +1,4 @@
-# Navigating Regulatory Requirements: What Directors of Biostatistics Need to Know
+# Navigating Regulatory Requirements: What You Need to Know
 
 In today’s pharmaceutical and clinical research environments, regulatory compliance is non-negotiable. Biostatistics leaders play a critical role in ensuring that their analyses meet the stringent guidelines set by regulatory authorities such as the U.S. Food and Drug Administration (FDA) and the European Medicines Agency (EMA). As a Director of Biostatistics, your leadership not only drives data integrity and analysis quality but also ensures that these outputs align with the regulatory standards necessary for drug or device approval.
 
