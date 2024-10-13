@@ -2,7 +2,7 @@
 
 Biostatistics leaders play a critical role in ensuring that their analyses meet the stringent guidelines set by regulatory authorities such as the U.S. Food and Drug Administration (FDA) and the European Medicines Agency (EMA). 
 
-Biostatistics is foundational in drug development, from study design through data submission. Regulatory bodies demand robust statistical evidence for the safety and efficacy of new treatments. To achieve successful submissions, biostatistics directors must ensure that all analyses comply with FDA and EMA expectations.
+Biostatistics is foundational in drug development, from study design through data submission. Regulatory bodies demand robust statistical evidence for the safety and efficacy of new treatments. To achieve successful submissions, biostatistics leaders must ensure that all analyses comply with FDA and EMA expectations.
 
 ### 1. Understanding FDA and EMA Guidelines
 
