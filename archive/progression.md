@@ -1,4 +1,4 @@
-# Navigating Regulatory Requirements: What You Need to Know
+# Navigating Regulatory Requirements
 
 Biostatistics leaders play a critical role in ensuring that their analyses meet the stringent guidelines set by regulatory authorities such as the U.S. Food and Drug Administration (FDA) and the European Medicines Agency (EMA). 
 
