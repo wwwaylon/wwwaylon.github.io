@@ -1,0 +1,77 @@
+---
+layout: post
+title: Rethinking Financial Models for Biostatistics Consulting
+subtitle: The Shift from Hourly to Full-Time Equivalent (FTE) Billing with Flextime
+#thumbnail-img: /assets/img/PD_Cube.png
+#gh-repo: wwwaylon/beautiful-jekyll
+#gh-badge: [star, fork, follow]
+tags: [Leadership Biostatistics Billing]
+---
+
+<p><h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#the-landscape-of-biostatistics-funding-models">The Landscape of Biostatistics Funding Models</a></li>
+<li><a href="#understanding-the-hourly-billing-model">Understanding the Hourly Billing Model</a></li>
+<li><a href="#the-case-for-flexible-funding">The Case for Flexible Funding</a>
+<ul>
+<li><a href="#extensive-involvement">Extensive Involvement</a></li>
+<li><a href="#jax">JAX</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</nav>
+
+<h2 id="introduction">Introduction</h2>
+
+In the evolving landscape of biostatistics consulting and collaboration within universities and academic medical centers, the financial models underpinning these units are diverse and multifaceted. As highlighted by Hanlon et al. (2022) and Perkins et al. (2016), the funding structures that support collaborative biostatisticians can significantly influence their roles, efficiency, and overall contribution to research projects.
+
+<h2 id="the-landscape-of-biostatistics-funding-models">The Landscape of Biostatistics Funding Models</h2>
+
+Collaborative biostatisticians often find themselves in positions funded through a variety of mechanisms. In some cases, these positions are entirely funded by institutional-level sources, allowing unrestricted access for researchers across the institution. More commonly, however, funding is project-based, tied to specific grants or contracts, which can create challenges for biostatisticians and their units.
+
+When collaborative biostatisticians have 100% of their time allocated to specific research projects, they face several hurdles. First, their responsibilities may include administrative tasks, performance evaluations, and professional development, which often go neglected due to time constraints. Moreover, opportunities for method development or personal research projects are limited, leading to potential career dissatisfaction and attrition as biostatisticians seek more flexible roles that afford them greater autonomy (Welty et al., 2013).
+
+The funding model not only affects individual biostatisticians but also impacts the collaborative unit as a whole. If all biostatisticians are fully funded through existing grants, the unit may struggle to initiate new projects due to a lack of available personnel. This situation necessitates a shift towards a more flexible funding approach that allows biostatisticians the time needed for professional growth, leadership, and process improvement.
+
+<h2 id="understanding-the-hourly-billing-model">Understanding the Hourly Billing Model</h2>
+
+In many consulting scenarios, the traditional hourly billing model prevails, wherein clients pay based on the number of hours spent on a project. While this model allows for straightforward billing, it can foster a transactional relationship, viewing biostatisticians as hired hands rather than integral team members. 
+
+### The Challenges of Hourly Billing
+
+1. **Transactional Nature:** Hourly billing emphasizes the hours worked rather than fostering a collaborative partnership, limiting the potential for strategic input from biostatisticians.
+
+2. **Lack of Incentives:** Biostatisticians may feel constrained to only fulfill immediate project requirements, which can stifle creativity and limit engagement in broader discussions or exploratory projects.
+
+3. **Scope Creep Concerns:** Clients may hesitate to engage in broader conversations or exploratory work due to fear of accruing additional charges, restricting innovative solutions.
+
+## The Emergence of FTE Billing
+
+In contrast, Full-Time Equivalent (FTE) billing represents a transformative shift in how biostatistics consulting services are perceived and structured. This approach entails clients paying for a dedicated biostatistician or team on a monthly or annual basis, leading to several key benefits:
+
+### 1. Enhanced Collaboration
+
+FTE billing encourages a partnership mentality between the biostatistics unit and its clients. When clients have access to dedicated biostatistical support, they are more likely to integrate biostatisticians into the research process as valuable collaborators rather than external service providers.
+
+### 2. Predictable Costs
+
+By moving away from the unpredictable nature of hourly billing, FTE billing allows for more accurate budget planning and financial management. Clients can allocate funds more effectively, knowing the costs associated with dedicated biostatistical support.
+
+### 3. Focus on Outcomes
+
+FTE billing shifts the focus from merely tracking hours to achieving project outcomes. Biostatisticians are incentivized to work efficiently and effectively, as their success is linked to the overall success of the research projects.
+
+<h2 id="the-case-for-flexible-funding">The Case for Flexible Funding</h2>
+
+Flexible funding is defined as any funding not directly linked to a specific research project. Allocating 10% to 20% of a biostatistician's time to flexible funding can mitigate the challenges associated with project-based funding. This reserved time can be utilized for essential tasks such as administrative duties, mentorship, and professional development. In certain cases, especially for new hires, allocating a full 100% of their time to flexible funding during onboarding may be beneficial. This approach not only facilitates their training but also helps maintain the operational capacity of the collaborative unit during staffing transitions.
+
+The graduated flexible funding allocation strategy enhances unit growth and stability, signaling when to hire new staff based on project-based funding levels. For instance, when a biostatistician’s project-based funding reaches 0.5 Full-Time Equivalent (FTE), it may be an appropriate time to initiate recruitment for a new position.
+
+## Conclusion
+
+The financial models underpinning biostatistics consulting and collaboration are critical to shaping the effectiveness and satisfaction of biostatisticians in academic settings. By transitioning from hourly billing to a more collaborative FTE model and incorporating flexible funding structures, institutions can enhance the collaboration, productivity, and innovation of their biostatistics units. This paradigm shift not only benefits individual biostatisticians by affording them time for professional development and leadership but also strengthens the overall research capacity of the institution, ultimately advancing scientific inquiry and improving health outcomes.
+
+
