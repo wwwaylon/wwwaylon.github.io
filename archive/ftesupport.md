@@ -2,6 +2,7 @@
 
 <p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
+<ul>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#qqq-involvement">QQQ Involvement</a></li>
 <li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
@@ -12,6 +13,7 @@
 </ul></li>
 <li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#references">References</a></li>
+</ul>
 </nav>
 
 ---
