@@ -9,7 +9,7 @@
 <li>
 <ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#tools-in-ml-research">Tools in ML Research</a></li>
+<li><a href="#extensive-involvement">Extensive Involvement</a></li>
 <li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
 <li><a href="#the-next-generation">The Next Generation</a>
 <ul>
@@ -26,6 +26,9 @@
 
 <h2 id="introduction">Introduction</h2>
 
+---
+
+<h2 id="extensive-involvement">Extensive Involvement</h2>
 **Extensive Involvement**  
 *More than 20% FTE*
 
