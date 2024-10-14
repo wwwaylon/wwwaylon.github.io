@@ -4,15 +4,10 @@
 <nav id="TableOfContents">
 <ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#qqq-involvement">QQQ Involvement</a></li>
-<li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
-<li><a href="#the-next-generation">The Next Generation</a>
-<ul>
 <li><a href="#extensive-involvement">Extensive Involvement</a></li>
-<li><a href="#jax">JAX</a></li>
-</ul></li>
-<li><a href="#conclusion">Conclusion</a></li>
-<li><a href="#references">References</a></li>
+<li><a href="#regular-involvement">Regular Involvement</a></li>
+<li><a href="#limited-involvement">Limited Involvement</a></li>
+<li><a href="#very-limited-involvement">Very Limited Involvement</a></li> 
 </ul>
 </nav>
 
@@ -47,7 +42,8 @@
 
 ---
 
-**Regular Involvement**  
+<h2 id="regular-involvement">Regular Involvement</h2>
+
 *15% FTE*
 
 - **Study Design**: Contributes to study design and implementation.
@@ -57,7 +53,8 @@
 
 ---
 
-**Limited Involvement**  
+<h2 id="limited-involvement">Limited Involvement</h2>
+
 *10% FTE*
 
 - **Consultation**: Provides consultation to the Principal Investigator (PI) on appropriate statistical methods.
@@ -68,7 +65,8 @@
 
 ---
 
-**Very Limited Involvement**  
+<h2 id="very-limited-involvement">Very Limited Involvement</h2>
+
 *5% FTE*
 
 - **Consultation**: Offers minimal consultation to the PI regarding statistical methods.
@@ -77,12 +75,3 @@
 - **Publications**: Does not contribute to publications or authorship.
 - **Meetings**: Does not regularly attend meetings.
 
-
-<h2 id="references">References</h2>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:flextime">Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative biostatistics units in universities and academic medical centres. Stat, 13(2), e679. <a class="footnote-return" href="#fnref:flextime">↑</a></li>
-<li id="fn:flextime">Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative biostatistics units in universities and academic medical centres. Stat, 13(2), e679. <a class="footnote-return" href="#fnref:flextime">↑</a></li>
