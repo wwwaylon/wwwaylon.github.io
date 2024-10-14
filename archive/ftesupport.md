@@ -48,8 +48,6 @@ In fact, Alex Krizhevsky&rsquo;s former colleagues recall that many meetings bef
 including (re-)emergence of many now promising approaches such as generative adversarial learning, deep reinforcement learning,
 meta-learning, self-supervised learning, federated learning, neural architecture search, neural differential equations, neural graph networks, and many more.</p>
 
-<p><img src="/assets/img/bar-support.png" alt="" />
-<span class="source">Adapted from <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/sta4.679" target="_blank">Slade, et al. (2024)</a></span> <sup class="footnote-ref" id="fnref:flextime"><a href="#fn:flextime">2</a></sup></p>
 
 
 <p>One could claim that this is just a natural outcome of the AI hype. However, I believe a significant factor was the emergence of the second generation of general-purpose
