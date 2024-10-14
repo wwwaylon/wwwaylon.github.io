@@ -26,7 +26,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
-QQQ This is a test <p>Let&rsquo;s travel back to a simpler time when all everyone talked about in machine learning were SVMs and boosted trees, while Andrew Ng introduced neural networks as a neat party hat trick you would probably never use in practice<sup class="footnote-ref" id="fnref:mlcoursera"><a href="#fn:mlcoursera">1</a></sup>.</p>
+<p> This is a test <p>Let&rsquo;s travel back to a simpler time when all everyone talked about in machine learning were SVMs and boosted trees, while Andrew Ng introduced neural networks as a neat party hat trick you would probably never use in practice<sup class="footnote-ref" id="fnref:mlcoursera"><a href="#fn:mlcoursera">1</a></sup>.</p>
 ---
 
 <h2 id="extensive-involvement">Extensive Involvement</h2>    
