@@ -49,7 +49,7 @@ including (re-)emergence of many now promising approaches such as generative adv
 meta-learning, self-supervised learning, federated learning, neural architecture search, neural differential equations, neural graph networks, and many more.</p>
 
 <p><img src="/assets/img/bar-support.png" alt="" />
-<span class="source">Image via <a href="https://medium.com/@dcharrezt/neurips-2019-stats-c91346d31c8f" target="_blank">Charrez, D. (2019)</a>.</span></p>
+<span class="source">Adapted from <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/sta4.679" target="_blank">Slade, et al. (2024)<sup class="footnote-ref" id="fnref:flextime"><a href="#fn:flextime">1</a></sup></a>.</span></p>
 
 
 <p>One could claim that this is just a natural outcome of the AI hype. However, I believe a significant factor was the emergence of the second generation of general-purpose
@@ -142,5 +142,4 @@ with out-of-distribution generalization, sparse graph networks, and causal reaso
 <hr />
 
 <ol>
-<li id="fn:mlcoursera">Ng, A. (2011). Week 4: Neural Networks. COURSERA: Machine Learning.
- <a class="footnote-return" href="#fnref:mlcoursera">↑</a></li>
+<li id="fn:flextime">Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative biostatistics units in universities and academic medical centres. Stat, 13(2), e679. <a class="footnote-return" href="#fnref:flextime">↑</a></li>
