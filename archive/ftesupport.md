@@ -16,10 +16,6 @@
 </ul>
 </nav>
 
----
-
-
-
 <h2 id="introduction">Introduction</h2>
 
 <p>As the demands of research projects vary widely in scope and complexity, defining levels of support—ranging from extensive to very limited involvement—becomes crucial. Each level not only clarifies the roles and responsibilities of biostatisticians but also ensures that the project&rsquo;s needs are adequately met. Let’s delve deeper into why these distinctions are necessary.<sup class="footnote-ref" id="fnref:mlcoursera"><a href="#fn:mlcoursera">1</a></sup>.</p>
