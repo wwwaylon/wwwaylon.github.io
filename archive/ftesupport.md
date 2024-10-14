@@ -52,11 +52,6 @@ meta-learning, self-supervised learning, federated learning, neural architecture
 <span class="source">Image via <a href="https://medium.com/@dcharrezt/neurips-2019-stats-c91346d31c8f" target="_blank">Charrez, D. (2019)</a>.</span></p>
 
 
-![Bar chart supporting data visualization](/assets/img/bar-support.png "Bar chart supporting data visualization")
-  
-*Image via [Charrez, D. (2019)](https://medium.com/@dcharrezt/neurips-2019-stats-c91346d31c8f "Charrez, D. (2019)").*
-
-
 <p>One could claim that this is just a natural outcome of the AI hype. However, I believe a significant factor was the emergence of the second generation of general-purpose
 ML frameworks such as TensorFlow<sup class="footnote-ref" id="fnref:tf"><a href="#fn:tf">4</a></sup> and PyTorch<sup class="footnote-ref" id="fnref:pt"><a href="#fn:pt">5</a></sup>, along with NVIDIA going all-in on AI. The frameworks that existed before, such as Caffe<sup class="footnote-ref" id="fnref:caffe"><a href="#fn:caffe">6</a></sup> and Theano<sup class="footnote-ref" id="fnref:theano"><a href="#fn:theano">7</a></sup>,
 were challenging to work with, and awkward to extend, which slowed down the research and development of novel ideas.</p>
