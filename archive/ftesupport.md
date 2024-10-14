@@ -26,6 +26,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
+QQQ This is a test <p>Let&rsquo;s travel back to a simpler time when all everyone talked about in machine learning were SVMs and boosted trees, while Andrew Ng introduced neural networks as a neat party hat trick you would probably never use in practice<sup class="footnote-ref" id="fnref:mlcoursera"><a href="#fn:mlcoursera">1</a></sup>.</p>
 ---
 
 <h2 id="extensive-involvement">Extensive Involvement</h2>    
@@ -70,3 +71,13 @@
 - **Analysis**: Does not perform any statistical analyses.
 - **Publications**: Does not contribute to publications or authorship.
 - **Meetings**: Does not regularly attend meetings.
+
+
+<h2 id="references">References</h2>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:mlcoursera">Ng, A. (2011). Week 4: Neural Networks. COURSERA: Machine Learning.
+ <a class="footnote-return" href="#fnref:mlcoursera">↑</a></li>
