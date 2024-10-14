@@ -143,3 +143,4 @@ with out-of-distribution generalization, sparse graph networks, and causal reaso
 
 <ol>
 <li id="fn:flextime">Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative biostatistics units in universities and academic medical centres. Stat, 13(2), e679. <a class="footnote-return" href="#fnref:flextime">↑</a></li>
+<li id="fn:flextime">Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative biostatistics units in universities and academic medical centres. Stat, 13(2), e679. <a class="footnote-return" href="#fnref:flextime">↑</a></li>
