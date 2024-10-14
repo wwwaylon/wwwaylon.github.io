@@ -5,15 +5,23 @@
 ---
 ## Table of Contents
 
+<p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
-- [Introduction](#introduction)
-- [QQQ Involvement](#qqq-involvement)
-- [A Need for Innovation](#a-need-for-innovation)
-- [The Next Generation](#the-next-generation)
-  - [Extensive Involvement](#extensive-involvement)
-  - [JAX](#jax)
-- [Conclusion](#conclusion)
-- [References](#references)
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#qqq-involvement">QQQ Involvement</a></li>
+<li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
+<li><a href="#the-next-generation">The Next Generation</a>
+<ul>
+<li><a href="#extensive-involvement">Extensive Involvement</a></li>
+<li><a href="#jax">JAX</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
 </nav>
 
 ---
