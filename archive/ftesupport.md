@@ -48,8 +48,8 @@ In fact, Alex Krizhevsky&rsquo;s former colleagues recall that many meetings bef
 including (re-)emergence of many now promising approaches such as generative adversarial learning, deep reinforcement learning,
 meta-learning, self-supervised learning, federated learning, neural architecture search, neural differential equations, neural graph networks, and many more.</p>
 
-<p><img src="[https://miro.medium.com/max/770/1*Y-CZdwBP2L_XW1YRLdxt0A.png](https://onlinelibrary.wiley.com/cms/asset/588c2750-0270-4c43-85ed-8b928879f878/sta4679-fig-0001-m.jpg)" alt="" />
-<span class="source">Image via <a href="https://medium.com/@dcharrezt/neurips-2019-stats-c91346d31c8f" target="_blank">Welty, et al. (2013)</a>.</span></p>
+<p><img src="https://onlinelibrary.wiley.com/cms/asset/588c2750-0270-4c43-85ed-8b928879f878/sta4679-fig-0001-m.jpg" alt="" />
+<span class="source">Image via <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/sta4.679" target="_blank">Welty, et al. (2013)</a>.</span></p>
 
 <p>One could claim that this is just a natural outcome of the AI hype. However, I believe a significant factor was the emergence of the second generation of general-purpose
 ML frameworks such as TensorFlow<sup class="footnote-ref" id="fnref:tf"><a href="#fn:tf">4</a></sup> and PyTorch<sup class="footnote-ref" id="fnref:pt"><a href="#fn:pt">5</a></sup>, along with NVIDIA going all-in on AI. The frameworks that existed before, such as Caffe<sup class="footnote-ref" id="fnref:caffe"><a href="#fn:caffe">6</a></sup> and Theano<sup class="footnote-ref" id="fnref:theano"><a href="#fn:theano">7</a></sup>,
