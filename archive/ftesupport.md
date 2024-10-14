@@ -3,6 +3,28 @@
 #### FTE Support and Expected Contributions
 
 ---
+<p><h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#tools-in-ml-research">Tools in ML Research</a></li>
+<li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
+<li><a href="#the-next-generation">The Next Generation</a>
+<ul>
+<li><a href="#swift-for-tensorflow">Swift for TensorFlow</a></li>
+<li><a href="#jax">JAX</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
+</nav>
+
+---
+
+<h2 id="introduction">Introduction</h2>
 
 **Extensive Involvement**  
 *More than 20% FTE*
