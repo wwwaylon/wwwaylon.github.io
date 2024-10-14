@@ -9,7 +9,7 @@
 <nav id="TableOfContents">
 <ul>
 <li>
-<ul>
+<ul style="list-style-type: none;"> 
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#qqq-involvement">QQQ Involvement</a></li>
 <li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
