@@ -6,13 +6,13 @@
 <nav id="TableOfContents">
 <ul>
 <li>
-<ul> 
+<ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#qqq-involvement">QQQ Involvement</a></li>
+<li><a href="#tools-in-ml-research">Tools in ML Research</a></li>
 <li><a href="#a-need-for-innovation">A Need for Innovation</a></li>
 <li><a href="#the-next-generation">The Next Generation</a>
 <ul>
-<li><a href="#extensive-involvement">Extensive Involvement</a></li>
+<li><a href="#swift-for-tensorflow">Swift for TensorFlow</a></li>
 <li><a href="#jax">JAX</a></li>
 </ul></li>
 <li><a href="#conclusion">Conclusion</a></li>
@@ -22,6 +22,8 @@
 </nav>
 
 ---
+
+
 
 <h2 id="introduction">Introduction</h2>
 
