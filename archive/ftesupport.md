@@ -1,6 +1,4 @@
-# Level of Involvement
-
-## FTE Support and Expected Contributions
+# Level of Involvement: FTE Support and Expected Contributions
 
 <p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
