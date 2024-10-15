@@ -46,7 +46,7 @@ While this progression may seem like a smooth trajectory, career progression in 
 
 ---
 
-In addition to these challenges, another key factor influencing career decisions is **compensation and recognition**. 
+In addition to these challenges, another key factor influencing career decisions is **9. compensation and recognition**. 
 
 Tenure-based pay structures and rigid compensation models in some organizations can limit financial rewards for even top performers. This challenge is particularly pronounced in research environments, where maintaining pay equity while recognizing exceptional talent creates a tension. Research organizations often face the dilemma of how to fairly compensate high achievers while adhering to HR-driven equity guidelines. Achieving this balance is essential for fostering a motivated, high-performing workforce, but it often requires institutional flexibility. Transitioning to a company with more adaptive compensation structures can provide better recognition and help sustain career motivation.
 
