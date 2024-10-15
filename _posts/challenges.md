@@ -24,13 +24,9 @@ Before diving into the complexities of career progression, here’s a typical pa
 
 7. **Senior Director of Biostatistics (Year 25+)**: Senior Directors shape the future direction of biostatistics within the organization, often contributing to healthcare policy at a national level and securing major funding for long-term research initiatives.
 
-#### Why You May Need to Change Companies to Advance
-
-While this progression may seem like a smooth trajectory, several factors often prevent biostatisticians from advancing through all of these stages within a single organization:
-
 ### Why You May Need to Change Companies to Advance
 
-Career progression in biostatistics can sometimes be limited within a single organization. Often, biostatisticians need to explore opportunities outside their current institution to continue growing professionally. Below are key reasons why moving to a new company may become necessary for advancing in the field:
+While this progression may seem like a smooth trajectory, career progression in biostatistics can sometimes be limited within a single organization. Often, biostatisticians need to explore opportunities outside their current institution to continue growing professionally. Below are key reasons why moving to a new company may become necessary for advancing in the field:
 
 #### 1. **Limited Opportunities for Senior Roles**
 As you climb the career ladder, fewer senior roles are available. Once you reach the Senior or Principal Biostatistician level, advancement may be hindered if higher-level positions, such as Director or Senior Director, are occupied long-term. External opportunities may offer a clearer path for continued growth.
