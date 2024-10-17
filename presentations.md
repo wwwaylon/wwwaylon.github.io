@@ -5,6 +5,8 @@ title: Presentations
 
 ### Oral Presentations and Panel Discussions
 
+* Schmale, G., Niu E., Kirby, J., Sheasley, J., **Howard W. J.**, et. al. (2025, January). Complications in the treatment of discord lateral meniscus: A multicenter study [In-Person Contributed Talk]. 12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH. ([link](https://www.prismsports.org/events/2025-annual-meeting)) 
+
 * **Howard W. J.** (2024, June) SEM, Revealed. Modeling connections with latent variables and regression pathways [In-Person Invited Talk]. Center for Child Health Behavior and Development, Seattle Childrens Research Institute, Seattle, WA.
 
 * McKinney, C., **Howard W. J.**, Bijlani, K., Evans, K., Kassuhn, M., Leavitt, D., Heike, C. (2023, May). Growth velocity in U.S. children with orofacial clefts in the first 6 months of life [In-Person Contributed Talk]. 80th Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Raleigh, NC. ([link](https://acpacares.org/wp-content/uploads/2023/04/ACPA_PROGRAM_FINAL.pdf))  
