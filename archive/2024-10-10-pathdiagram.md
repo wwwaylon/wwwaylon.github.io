@@ -19,9 +19,9 @@ Once you’ve built a library of Illustrator files for different model types, yo
 <ul>
 <li><a href="#step-1-generate-a-template">Step 1. Generate a template</a></li>
 <li><a href="#step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</a></li>
-<li><a href="#regular-involvement">Regular Involvement</a></li>
+<li><a href="#step-3-import-into-adobe-illustrator">Step 3. Import into Adobe Illustrator</a></li>
 <li><a href="#step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</a></li>
-<li><a href="#step-5-exporting-the-final-path-diagram">Step 5. Exporting thr Final Path Diagram</a></li> 
+<li><a href="#step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</a></li> 
 </ul>
 </nav>
 
