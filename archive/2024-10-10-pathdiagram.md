@@ -39,9 +39,9 @@ Before you can refine the diagram, you need to create it in Mplus:
 
 Mplus Diagrammer can export diagrams in the .svg format, which is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
 
-	1.	Open your .mdg file in Mplus Diagrammer.
-	2.	Go to File -> Save As, and select .svg (Scalable Vector Graphics) from the list of available formats.
-	•	This will export the diagram in a high-quality vector format, which can then be imported into Adobe Illustrator for further adjustments.
+1.	Open your .mdg file in Mplus Diagrammer.
+2.	Go to File -> Save As, and select .svg (Scalable Vector Graphics) from the list of available formats.
+- This will export the diagram in a high-quality vector format, which can then be imported into Adobe Illustrator for further adjustments.
 
 With the diagram saved as an .svg file, you’re ready to move on to Illustrator for editing.
 
