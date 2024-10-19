@@ -64,7 +64,7 @@ Now that you’ve exported your diagram in `.pdf` format, it can be opened and r
 
 Now that the diagram is open in Adobe Illustrator, it’s time to customize it to make it publication-ready.
 
-**1. Ungroup/group the Diagram Elements:**
+1. **Ungroup/group the Diagram Elements:**
 
 - On import, all components may be grouped together. To edit individual parts, select the diagram and choose Object -> Ungroup. This allows you to manipulate individual nodes, paths, and text elements.
   - You may need to repeat this ungrouping process if elements are nested in multiple groups.
@@ -72,8 +72,8 @@ Now that the diagram is open in Adobe Illustrator, it’s time to customize it t
 
 2. **Edit Text and Labels:**
 
-- Font Style and Size: Select text labels to adjust their font size, style, or color to match your publication’s formatting. Most journals prefer sans-serif fonts like Arial or Helvetica for clarity. Use the Character panel to customize the text.
-- Positioning: Ensure that all labels are properly aligned and not overlapping with paths or nodes. You can drag and reposition text using Illustrator’s selection tool.
+- *Font Style and Size*. Select text labels to adjust their font size, style, or color to match your publication’s formatting. Most journals prefer sans-serif fonts like Arial or Helvetica for clarity. Use the Character panel to customize the text.
+- *Positioning*. Ensure that all labels are properly aligned and not overlapping with paths or nodes. You can drag and reposition text using Illustrator’s selection tool.
 
 3. **Customize Paths and Arrows:**
 
