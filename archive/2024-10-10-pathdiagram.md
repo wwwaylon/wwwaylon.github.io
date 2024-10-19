@@ -67,39 +67,39 @@ Now that the diagram is open in Adobe Illustrator, it’s time to customize it t
 1. **Ungroup/group the Diagram Elements:**
 
 - On import, all components may be grouped together. To edit individual parts, select the diagram and choose Object -> Ungroup. This allows you to manipulate individual nodes, paths, and text elements.
-- You may need to repeat this ungrouping process if elements are nested in multiple groups.
+  - You may need to repeat this ungrouping process if elements are nested in multiple groups.
 - Alternatively, some elements may be ungrouped (e.g., arrowheads) and should be grouped or modified (e.g., adding arrowheads to lines via Illustrator).
 
-2. Edit Text and Labels:
+2. **Edit Text and Labels:**
 
 - Font Style and Size: Select text labels to adjust their font size, style, or color to match your publication’s formatting. Most journals prefer sans-serif fonts like Arial or Helvetica for clarity. Use the Character panel to customize the text.
 - Positioning: Ensure that all labels are properly aligned and not overlapping with paths or nodes. You can drag and reposition text using Illustrator’s selection tool.
 
-3. Customize Paths and Arrows:
+3. **Customize Paths and Arrows:**
 
 - Line Thickness and Color: Adjust the stroke width of arrows or lines to ensure they are clearly visible. Select any arrow, then modify its properties in the Stroke panel (Window -> Stroke).
 - Arrowheads and Styles: You can adjust the shape and size of arrowheads or switch between solid and dashed lines, depending on the type of relationship being represented (e.g., direct effects vs. covariances). Access these options in the Stroke panel.
 - Color Coding: To enhance visual clarity, consider using different colors to represent various types of paths. This is particularly useful for distinguishing between latent variables, observed variables, and covariances.
 
-4. Refine Shapes (Nodes):
+4. **Refine Shapes (Nodes):**
 
 - Adjust Node Sizes: Click on rectangles (observed variables) or ovals (latent variables) to resize them for better readability. You can also adjust their stroke thickness or fill color to match your figure’s overall design.
 - Fill and Border Colors: Customize the fill color of shapes to group variables visually. Ensure there’s enough contrast between shapes and the background for easy reading.
 
-5. Alignment and Symmetry:
+5. **Alignment and Symmetry:**
 
 - Use Illustrator’s Align and Distribute tools (Window -> Align) to ensure that all elements are aligned and evenly spaced. Proper alignment ensures that the diagram looks professional and well-organized.
 - Adjust overlapping arrows or nodes to maintain clarity, especially if multiple relationships are represented in your model.
 
-6. Add or Modify Annotations (Optional):
+6. **Add or Modify Annotations (Optional):**
 
-	•	You can add additional labels or annotations if necessary to clarify relationships in your model. Use Illustrator’s Text tool to insert any additional notes, and align them with the diagram to ensure a clean, consistent look.
+- You can add additional labels or annotations if necessary to clarify relationships in your model. Use Illustrator’s Text tool to insert any additional notes, and align them with the diagram to ensure a clean, consistent look.
 
 <h2 id="step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</h2> 
 
 Once your diagram is fully refined, the final step is to export it in a format suitable for publication. Adobe Illustrator supports a range of high-quality formats that are widely accepted by academic journals.
 
-1.	Save Your Work in Illustrator Format (.ai):
+1.	Save Your Work in Illustrator Format:
 - Before exporting, save your working file in .ai format (File -> Save As -> Adobe Illustrator (.ai)). This allows you to go back and make adjustments if necessary.
 	
 2.	Export for Publication:
