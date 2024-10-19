@@ -17,6 +17,21 @@ Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in 
   <img src="/assets/img/lgm.png" alt="Image 2" width="45%"/>
 </p>
 
+Qqq
+
+<p align="center">
+  <div style="display: inline-block; text-align: center; width: 45%;">
+    <h3>Title 1</h3>
+    <img src="/assets/img/lgm.png" alt="Image 1" width="100%"/>
+  </div>
+  <div style="display: inline-block; text-align: center; width: 45%;">
+    <h3>Title 2</h3>
+    <img src="/assets/img/lgm.png" alt="Image 2" width="100%"/>
+  </div>
+</p>
+
+
+
 Once you’ve built a library of Illustrator files for different model types, you can bypass the need to use `.mdg` files altogether.
 
 <p><h2>Table of Contents</h2>
