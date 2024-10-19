@@ -51,9 +51,9 @@ Step 3: Import the .svg File into Adobe Illustrator
 
 Now that you’ve exported your diagram in .svg format, it can be opened and refined in Adobe Illustrator, which provides powerful vector-editing capabilities.
 
-	1.	Open Adobe Illustrator and go to File -> Open.
-	2.	Select the .svg file you just saved from Mplus Diagrammer.
-	•	When opened, the diagram will be fully editable as a vector file, allowing you to make any adjustments to paths, nodes, and text elements.
+1.	Open Adobe Illustrator and go to File -> Open.
+2.	Select the .svg file you just saved from Mplus Diagrammer.
+- When opened, the diagram will be fully editable as a vector file, allowing you to make any adjustments to paths, nodes, and text elements.
 
 Step 4: Refining the Path Diagram in Adobe Illustrator
 
