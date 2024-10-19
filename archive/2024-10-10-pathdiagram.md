@@ -30,7 +30,7 @@ Before you can refine the diagram, you need to create it in Mplus:
    
    ```mplus
    PLOT:
-   TYPE = PLOT3;
+   TYPE = PLOT3;```
 
 	3.	This command will generate the path diagram and save it in .mdg format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
 
