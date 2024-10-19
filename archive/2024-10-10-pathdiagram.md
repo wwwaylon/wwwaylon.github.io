@@ -1,17 +1,17 @@
-Creating Professional Path Diagrams for Publication: Importing .mdg Files from Mplus Diagrammer to Adobe Illustrator Using .svg
+# Creating Professional Path Diagrams for Publication: Importing `.mdg` Files from Mplus Diagrammer to Adobe Illustrator Using `.svg`
 
-Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. Mplus provides the Mplus Diagrammer, which can export diagrams in .mdg format, but to make the diagrams publication-ready, further refinement in Adobe Illustrator is often necessary. In this guide, we’ll show you how to export your Mplus path diagram as an .svg file (a scalable vector graphic format) and refine it in Adobe Illustrator to create polished, professional diagrams.
+Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. Mplus provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, but to make the diagrams publication-ready, further refinement in Adobe Illustrator is often necessary. In this guide, we’ll show you how to export your Mplus path diagram as an `.svg` file (a scalable vector graphic format) and refine it in Adobe Illustrator to create polished, professional diagrams.
 
-Step 1: Generate and Save the .mdg File in Mplus
+## Step 1: Generate and Save the `.mdg` File in Mplus
 
 Before you can refine the diagram, you need to create it in Mplus:
 
-	1.	Run your model in Mplus with your desired SEM specifications.
-	2.	After running your analysis, use the following command to generate a diagram:
-
-PLOT:
-TYPE = PLOT3;
-
+1. **Run your model in Mplus** with your desired SEM specifications.
+2. After running your analysis, use the following command to generate a diagram:
+   
+   ```mplus
+   PLOT:
+   TYPE = PLOT3;
 
 	3.	This command will generate the path diagram and save it in .mdg format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
 
@@ -83,3 +83,4 @@ Once your diagram is fully refined, the final step is to export it in a format s
 Conclusion
 
 By exporting your .mdg file as an .svg and refining it in Adobe Illustrator, you gain full control over the visual design of your path diagram, allowing you to meet the stringent requirements of academic publishing. Illustrator’s advanced tools enable precise adjustments to fonts, shapes, and paths, ensuring that your diagrams are professional, clear, and visually appealing. With these steps, you can confidently produce publication-ready path diagrams that effectively communicate your SEM results to your audience.
+
