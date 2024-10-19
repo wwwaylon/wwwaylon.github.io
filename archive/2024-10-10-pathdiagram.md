@@ -33,13 +33,13 @@ Before you can refine the diagram, you need to create it in Mplus:
    TYPE = PLOT3;
 ```
 
-3.	This command will generate the path diagram and save it in .mdg format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
+3.	This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
 
 <h2 id="step-2">Step 2</h2> Export the .mdg File to .svg
 
 Mplus Diagrammer can export diagrams in the .svg format, which is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
 
-1.	Open your .mdg file in Mplus Diagrammer.
+1.	Open your `.mdg` file in Mplus Diagrammer.
 2.	Go to File -> Save As, and select .svg (Scalable Vector Graphics) from the list of available formats.
 - This will export the diagram in a high-quality vector format, which can then be imported into Adobe Illustrator for further adjustments.
 
