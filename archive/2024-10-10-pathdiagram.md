@@ -1,4 +1,12 @@
-# Creating Professional Path Diagrams for Publication: Importing `.mdg` Files from Mplus Diagrammer to Adobe Illustrator Using `.svg`
+---
+layout: post
+title: Creating Professional Path Diagrams for Publication
+subtitle: Using Adobe Illustrator
+#thumbnail-img: /assets/img/atrisk.png
+#gh-repo: wwwaylon/beautiful-jekyll
+#gh-badge: [star, fork, follow]
+tags: [Path Diagram Illustrator]
+---
 
 Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. Mplus provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, but to make the diagrams publication-ready, further refinement in Adobe Illustrator is often necessary. In this guide, we’ll show you how to export your Mplus path diagram as an `.svg` file (a scalable vector graphic format) and refine it in Adobe Illustrator to create polished, professional diagrams.
 
