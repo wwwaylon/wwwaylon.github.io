@@ -20,14 +20,12 @@ Once you’ve built a library of Illustrator files for different model types, yo
 <li><a href="#step-1-generate-a-template">Step 1. Generate a template</a></li>
 <li><a href="#step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</a></li>
 <li><a href="#regular-involvement">Regular Involvement</a></li>
-<li><a href="#limited-involvement">Limited Involvement</a></li>
-<li><a href="#very-limited-involvement">Very Limited Involvement</a></li> 
+<li><a href="#step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</a></li>
+<li><a href="#step-5-exporting-the-final-path-diagram">Step 5. Exporting thr Final Path Diagram</a></li> 
 </ul>
 </nav>
 
 <h2 id="step-1-generate-a-template">Step 1. Generate a template</h2> 
-
-Generate and Save the `.mdg` File in Mplus
 
 Before you can refine the diagram, you need to create it in Mplus:
 
@@ -47,25 +45,26 @@ Export the `.mdg` File to `.pdf`
 
 Mplus Diagrammer can export diagrams in the `.pdf` format, which in this case is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
 
-1.	Open your `.mdg` file in Mplus Diagrammer.
-2.	Go to File -> Save As, and select `.pdf` (vector elements in a PDF, such as lines, shapes, and text, are scalable without losing quality) from the list of available formats.
+1.	Open your `.out` file in Mplus.
+2. Open the Diagrammer and specify the content you want. 
+3.	Go to File -> Save As, and select `.pdf` (vector elements in a PDF, such as lines, shapes, and text, are scalable without losing quality).
 - This will export the diagram in a high-quality vector format, which can then be imported into Adobe Illustrator for further adjustments.
 
-With the diagram saved as an .pdf file, you’re ready to move on to Illustrator for editing.
+With the diagram saved as an `.pdf` file, you’re ready to move on to Illustrator for editing.
 
-Step 3: Import the .pdf File into Adobe Illustrator
+<h2 id="step-3-import-into-adobe-illustrator">Step 3. Import into Adobe Illustrator</h2> 
 
-Now that you’ve exported your diagram in .pdf format, it can be opened and refined in Adobe Illustrator, which provides powerful vector-editing capabilities.
+Now that you’ve exported your diagram in `.pdf` format, it can be opened and refined in Adobe Illustrator, which provides powerful vector-editing capabilities.
 
 1.	Open Adobe Illustrator and go to File -> Open.
-2.	Select the .pdf file you just saved from Mplus Diagrammer.
+2.	Select the `.pdf` file you just saved from Mplus Diagrammer.
 - When opened, the diagram will be fully editable as a vector file, allowing you to make any adjustments to paths, nodes, and text elements.
 
-Step 4: Refining the Path Diagram in Adobe Illustrator
+<h2 id="step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</h2> 
 
 Now that the diagram is open in Adobe Illustrator, it’s time to customize it to make it publication-ready.
 
-1. Ungroup the Diagram Elements:
+1. Ungroup/group the Diagram Elements:
 
 - On import, all components may be grouped together. To edit individual parts, select the diagram and choose Object -> Ungroup. This allows you to manipulate individual nodes, paths, and text elements.
 - You may need to repeat this ungrouping process if elements are nested in multiple groups.
@@ -96,20 +95,16 @@ Now that the diagram is open in Adobe Illustrator, it’s time to customize it t
 
 	•	You can add additional labels or annotations if necessary to clarify relationships in your model. Use Illustrator’s Text tool to insert any additional notes, and align them with the diagram to ensure a clean, consistent look.
 
-Step 5: Exporting the Final Diagram for Publication
+<h2 id="step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</h2> 
 
 Once your diagram is fully refined, the final step is to export it in a format suitable for publication. Adobe Illustrator supports a range of high-quality formats that are widely accepted by academic journals.
 
-	1.	Save Your Work in Illustrator Format:
-	•	Before exporting, save your working file in .ai format (File -> Save As -> Adobe Illustrator (.ai)). This allows you to go back and make adjustments if necessary.
-	2.	Export for Publication:
-	•	Depending on the journal’s requirements, export the diagram in a vector-based format such as .eps, .svg, or .pdf. These formats ensure that the diagram retains its high quality and scalability in the final publication.
-	•	Go to File -> Export -> Export As, and choose .eps, .svg, or .pdf from the list of file types.
-	•	Select high resolution or press quality settings to ensure the best possible image quality for publication.
-	3.	Raster Export (Optional):
-	•	For digital platforms or journals that accept raster images, you can also export the diagram as a high-resolution .png or .jpg (File -> Export -> Export As -> PNG/JPEG). Make sure to set the resolution to 300 DPI or higher to avoid pixelation.
-
-Conclusion
-
-By exporting your .mdg file as an .svg and refining it in Adobe Illustrator, you gain full control over the visual design of your path diagram, allowing you to meet the stringent requirements of academic publishing. Illustrator’s advanced tools enable precise adjustments to fonts, shapes, and paths, ensuring that your diagrams are professional, clear, and visually appealing. With these steps, you can confidently produce publication-ready path diagrams that effectively communicate your SEM results to your audience.
+1.	Save Your Work in Illustrator Format (.ai):
+- Before exporting, save your working file in .ai format (File -> Save As -> Adobe Illustrator (.ai)). This allows you to go back and make adjustments if necessary.
+	
+2.	Export for Publication:
+- Depending on the journal’s requirements, export the diagram in a vector-based format such as .eps, .svg, or .pdf. These formats ensure that the diagram retains its high quality and scalability in the final publication.
+  - Go to File -> Export -> Export As, and choose .eps, .svg, or .pdf from the list of file types.
+  - Select the resolution (DPI) per journal requirements. Note the best possible image quality will generate a **huge** file that may be difficult to share.
+	
 
