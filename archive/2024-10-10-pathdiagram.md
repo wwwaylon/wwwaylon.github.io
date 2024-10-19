@@ -8,7 +8,7 @@ subtitle: Using Adobe Illustrator
 tags: [Path Diagram Illustrator]
 ---
 
-Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. While some SEM software provide readily available path diagrams further refinement is often necessary. Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of the Mplus. To make the diagrams publication-ready, further refinement in Adobe Illustrator can be used. In this guide, we’ll show you how to export your Mplus path diagram as a `.pdf` file (a scalable vector graphic format) and refine it in Adobe Illustrator to create polished, professional diagrams.
+Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. While some SEM software provide readily available path diagrams, further refinement is often necessary. Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of the Mplus. To make the diagrams publication-ready, further refinement in Adobe Illustrator can be used. In this guide, we’ll show you how to export your Mplus path diagram as a `.pdf` file (a scalable vector graphic format) and refine it in Adobe Illustrator to create polished, professional diagrams.
 
 <p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
