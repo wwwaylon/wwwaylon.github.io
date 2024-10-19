@@ -14,7 +14,7 @@ Creating high-quality path diagrams for structural equation models (SEM) is cruc
 <nav id="TableOfContents">
 <ul>
 <li><a href="#step-1-generate-a-template">Step 1. Generate a template</a></li>
-<li><a href="#step-2">Step 2</a></li>
+<li><a href="#step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</a></li>
 <li><a href="#regular-involvement">Regular Involvement</a></li>
 <li><a href="#limited-involvement">Limited Involvement</a></li>
 <li><a href="#very-limited-involvement">Very Limited Involvement</a></li> 
@@ -36,7 +36,7 @@ Before you can refine the diagram, you need to create it in Mplus:
 
 3.	This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
 
-<h2 id="step-2">Step 2</h2> 
+<h2 id="step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</h2> 
 Export the `.mdg` File to `.svg`
 
 Mplus Diagrammer can export diagrams in the `.svg` format, which is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
