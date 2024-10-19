@@ -21,7 +21,7 @@ Creating high-quality path diagrams for structural equation models (SEM) is cruc
 </ul>
 </nav>
 
-<h2 id="step-1">Step 1</h2> 
+<h2 id="step-1">Step 1</h2> Generate a template
 Generate and Save the `.mdg` File in Mplus
 
 Before you can refine the diagram, you need to create it in Mplus:
