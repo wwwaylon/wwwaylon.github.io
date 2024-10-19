@@ -77,14 +77,14 @@ Now that the diagram is open in Adobe Illustrator, it’s time to customize it t
 
 3. **Customize Paths and Arrows:**
 
-- Line Thickness and Color: Adjust the stroke width of arrows or lines to ensure they are clearly visible. Select any arrow, then modify its properties in the Stroke panel (Window -> Stroke).
-- Arrowheads and Styles: You can adjust the shape and size of arrowheads or switch between solid and dashed lines, depending on the type of relationship being represented (e.g., direct effects vs. covariances). Access these options in the Stroke panel.
-- Color Coding: To enhance visual clarity, consider using different colors to represent various types of paths. This is particularly useful for distinguishing between latent variables, observed variables, and covariances.
+- *Line Thickness and Color*. Adjust the stroke width of arrows or lines to ensure they are clearly visible. Select any arrow, then modify its properties in the Stroke panel (Window -> Stroke).
+- *Arrowheads and Styles*. You can adjust the shape and size of arrowheads or switch between solid and dashed lines, depending on the type of relationship being represented (e.g., direct effects vs. covariances). Access these options in the Stroke panel.
+- *Color Coding*. To enhance visual clarity, consider using different colors to represent various types of paths. This is particularly useful for distinguishing between latent variables, observed variables, and covariances.
 
 4. **Refine Shapes (Nodes):**
 
-- Adjust Node Sizes: Click on rectangles (observed variables) or ovals (latent variables) to resize them for better readability. You can also adjust their stroke thickness or fill color to match your figure’s overall design.
-- Fill and Border Colors: Customize the fill color of shapes to group variables visually. Ensure there’s enough contrast between shapes and the background for easy reading.
+- *Adjust Node Sizes*. Click on rectangles (observed variables) or ovals (latent variables) to resize them for better readability. You can also adjust their stroke thickness or fill color to match your figure’s overall design.
+- *Fill and Border Colors*. Customize the fill color of shapes to group variables visually. Ensure there’s enough contrast between shapes and the background for easy reading.
 
 5. **Alignment and Symmetry:**
 
