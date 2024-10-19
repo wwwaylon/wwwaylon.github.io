@@ -26,22 +26,24 @@ Once you’ve built a library of Illustrator files for different model types, yo
 </nav>
 
 <h2 id="step-1-generate-a-template">Step 1. Generate a template</h2> 
+
 Generate and Save the `.mdg` File in Mplus
 
 Before you can refine the diagram, you need to create it in Mplus:
 
-1. **Run your model in Mplus** with your desired SEM specifications.
-2. After running your analysis, use the following command to generate a diagram:
+Run your model in Mplus with your desired SEM specifications.
+- Use the following command to generate a diagram:
    
 ```mplus
    PLOT:
    TYPE = PLOT3;
 ```
 
-3.	This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
+This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
 
 <h2 id="step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</h2> 
-Export the `.mdg` File to `.svg`
+
+Export the `.mdg` File to `.pdf`
 
 Mplus Diagrammer can export diagrams in the `.pdf` format, which in this case is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
 
