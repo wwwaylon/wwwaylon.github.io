@@ -28,7 +28,7 @@ Once you’ve built a library of Illustrator files for different model types, yo
 <li><a href="#step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</a></li>
 <li><a href="#step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</a></li> 
 </ul>
-</nav>
+</nav></p>
 
 <h2 id="step-1-generate-a-template">Step 1. Generate a template</h2> 
 
