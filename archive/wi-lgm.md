@@ -11,7 +11,7 @@
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
-  <li><a href="#purpose">Purpose</a></li>
+  <li><a href="#purpose">1. Purpose</a></li>
   <li><a href="#scope">Scope</a></li>
   <li><a href="#prerequisites">Prerequisites</a></li>
   <li><a href="#materials">Materials</a></li>
