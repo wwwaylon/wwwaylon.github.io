@@ -114,12 +114,12 @@ The model fit should be assessed using multiple fit indices.
 Steps:
 
 1.	Fit Indices:
-	•	Use fit indices such as CFI (Comparative Fit Index), RMSEA (Root Mean Square Error of Approximation), and SRMR (Standardized Root Mean Square Residual).
-	•	Typical acceptable values: CFI > 0.95, RMSEA < 0.06, SRMR < 0.08.
+- Use fit indices such as CFI (Comparative Fit Index), RMSEA (Root Mean Square Error of Approximation), and SRMR (Standardized Root Mean Square Residual).
+- Typical acceptable values: CFI > 0.95, RMSEA < 0.06, SRMR < 0.08.
 
 2.	Estimation Methods:
-	•	Maximum Likelihood Estimation (MLE) is the default choice for latent growth models.
-	•	Use robust estimation techniques (e.g., MLM or MLR) if data does not meet normality assumptions.
+- Maximum Likelihood Estimation (MLE) is the default choice for latent growth models.
+- Use robust estimation techniques (e.g., MLM or MLR) if data does not meet normality assumptions.
 
 <h3 id="interpretation-of-results">5.4 Interpretation of Results</h3>
 
