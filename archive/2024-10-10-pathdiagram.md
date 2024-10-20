@@ -10,7 +10,7 @@ tags: [Path Diagram Illustrator]
 
 Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. While some SEM software provide readily available path diagrams, further refinement is often necessary. 
 
-Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of Mplus. In this guide, we’ll show you how to export your Mplus path diagram as a `.pdf` file and refine it in Adobe Illustrator to create polished, publication-ready professional diagrams. 
+Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of Mplus. In this guide, we’ll show you how to export your Mplus path diagram (left image) as a `.pdf` file and refine it in Adobe Illustrator to create polished, publication-ready professional diagram (right image). 
 
 <p align="center">
   <img src="/assets/img/lgm-diagrammer.PNG" alt="Mplus Diagrammer" width="45%"/>
