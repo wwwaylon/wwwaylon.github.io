@@ -23,8 +23,8 @@
           <li><a href="#interpretation-of-results">Interpretation of Results</a></li>
       </ul>
   </li>
-  <li><a href="#appendix">Appendix: Reference Code</a></li>
-  <li><a href="#revision-history">Revision History</a></li>
+  <li><a href="#appendix">6. Appendix: Reference Code</a></li>
+  <li><a href="#revision-history">7. Revision History</a></li>
 </ul>
 </nav>
 
