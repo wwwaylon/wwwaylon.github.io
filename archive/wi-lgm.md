@@ -12,10 +12,10 @@
 <nav id="TableOfContents">
 <ul>
   <li><a href="#purpose">1. Purpose</a></li>
-  <li><a href="#scope">Scope</a></li>
-  <li><a href="#prerequisites">Prerequisites</a></li>
-  <li><a href="#materials">Materials</a></li>
-  <li><a href="#instructions">Instructions</a>
+  <li><a href="#scope">2. Scope</a></li>
+  <li><a href="#prerequisites">3. Prerequisites</a></li>
+  <li><a href="#materials">4. Materials</a></li>
+  <li><a href="#instructions">5. Instructions</a>
       <ul>
           <li><a href="#data-structure-preparation">Data Structure Preparation</a></li>
           <li><a href="#model-specification">Model Specification</a></li>
