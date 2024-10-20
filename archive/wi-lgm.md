@@ -166,6 +166,7 @@ summary(fit, fit.measures=TRUE)
 
 <h2 id="revision-history">7. Revision History</h2>
 
-Version	Date	Author	Description
-1.0	[Insert Date]	[Author Name]	Initial version
-2.0	[Insert Date]	[Author Name]	Updated to reflect methodological guidance from recent literature, including data preparation, model specification, and fit evaluation.
+| Version | Date         | Author        | Description                                                                                              |
+|---------|--------------|---------------|----------------------------------------------------------------------------------------------------------|
+| 1.0     | [Insert Date] | [Author Name] | Initial version                                                                                           |
+| 2.0     | [Insert Date] | [Author Name] | Updated to reflect methodological guidance from recent literature, including data preparation, model specification, and fit evaluation. |
