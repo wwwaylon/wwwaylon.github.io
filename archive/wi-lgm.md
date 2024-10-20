@@ -75,21 +75,24 @@ Latent growth models estimate **two primary latent variables**: the intercept an
 
    Example code in Mplus:
 
-   ```mplus
+```mplus
    MODEL:
    I S | outcome_time1@0 outcome_time2@1 outcome_time3@2;
+```
 
-	2.	Variance-Covariance Structures:
-Estimate the variances of the intercept and slope factors, along with their covariance.
-	3.	Consideration of Non-Linear Growth:
-	•	If the trajectory is not linear, quadratic or piecewise models should be explored.
-	•	In cases of non-linear growth, quadratic growth models include an additional latent factor for curvature (squared term).
+2.	**Variance-Covariance Structures**:
+- Estimate the variances of the intercept and slope factors, along with their covariance.
+	
+3.	**Consideration of Non-Linear Growth**:
+- If the trajectory is not linear, quadratic or piecewise models should be explored.
+- In cases of non-linear growth, quadratic growth models include an additional latent factor for curvature (squared term).
+
 Example code in Mplus for quadratic growth:
 
+```mplus
 MODEL:
 I S Q | outcome_time1@0 outcome_time2@1 outcome_time3@2 outcome_time4@3;
-
-
+```
 
 5.3 Model Fit and Estimation
 
@@ -97,10 +100,11 @@ The model fit should be assessed using multiple fit indices.
 
 Steps:
 
-	1.	Fit Indices:
+1.	Fit Indices:
 	•	Use fit indices such as CFI (Comparative Fit Index), RMSEA (Root Mean Square Error of Approximation), and SRMR (Standardized Root Mean Square Residual).
 	•	Typical acceptable values: CFI > 0.95, RMSEA < 0.06, SRMR < 0.08.
-	2.	Estimation Methods:
+
+2.	Estimation Methods:
 	•	Maximum Likelihood Estimation (MLE) is the default choice for latent growth models.
 	•	Use robust estimation techniques (e.g., MLM or MLR) if data does not meet normality assumptions.
 
@@ -110,10 +114,10 @@ The estimated parameters provide insights into the overall trajectory (intercept
 
 Steps:
 
-	1.	Intercept: Represents the average initial status (baseline level).
-	2.	Slope: The average rate of change. A significant positive slope indicates an upward trajectory, while a significant negative slope indicates a downward trajectory.
-	3.	Variance: Assess the variance of both intercept and slope factors to understand the degree of individual differences in initial levels and rates of change.
-	4.	Covariance: The covariance between the intercept and slope can reveal whether individuals with higher initial values tend to change faster or slower over time.
+1.	Intercept: Represents the average initial status (baseline level).
+2.	Slope: The average rate of change. A significant positive slope indicates an upward trajectory, while a significant negative slope indicates a downward trajectory.
+3.	Variance: Assess the variance of both intercept and slope factors to understand the degree of individual differences in initial levels and rates of change.
+4.	Covariance: The covariance between the intercept and slope can reveal whether individuals with higher initial values tend to change faster or slower over time.
 
 6. Appendix: Reference Code
 
@@ -121,15 +125,18 @@ Below is example code for conducting a basic LGM in Mplus and R (lavaan).
 
 Mplus Example:
 
+```mplus
 DATA: FILE IS data.dat;
 VARIABLE: NAMES ARE id outcome_time1 outcome_time2 outcome_time3;
 MODEL:
   I S | outcome_time1@0 outcome_time2@1 outcome_time3@2;
   I WITH S;
 OUTPUT: TECH1 TECH4;
+```
 
 R (lavaan) Example:
 
+```r
 library(lavaan)
 model <- '
   # intercept and slope
@@ -142,11 +149,10 @@ model <- '
 '
 fit <- growth(model, data = mydata)
 summary(fit, fit.measures=TRUE)
+```
 
 7. Revision History
 
 Version	Date	Author	Description
 1.0	[Insert Date]	[Author Name]	Initial version
 2.0	[Insert Date]	[Author Name]	Updated to reflect methodological guidance from recent literature, including data preparation, model specification, and fit evaluation.
-
-This markdown document extends your previous work instruction with enhanced details, including updated references to handling missing data, model fit indices, and variance-covariance specifications as per the source article.
