@@ -31,14 +31,17 @@
 ---
 
 <h2 id="purpose">1. Purpose</h2>
+
 This instruction guides researchers through conducting a Latent Growth Model (LGM), focusing on modeling change over time. LGMs estimate latent variables (intercept and slope) that represent the underlying trajectory of an outcome variable across multiple time points. This instruction has been updated based on current literature on the topic, ensuring comprehensive and accurate guidance.
 
 <h2 id="scope">2. Scope</h2>
+
 This work instruction applies to analysts working with longitudinal data in a wide format. It assumes basic familiarity with structural equation modeling (SEM) and latent variable estimation. The instruction covers the setup, execution, and interpretation of a latent growth model.
 
 ---
 
 <h2 id="prerequisites">3. Prerequisites</h2>
+
 Before conducting an LGM, ensure the following:
 - **Software**: Mplus, R (with `lavaan`), or similar SEM software.
 - **Data Structure**: Data must be prepared in a **wide format** (i.e., one row per subject with separate columns for each time point).
@@ -47,6 +50,7 @@ Before conducting an LGM, ensure the following:
 ---
 
 <h2 id="materials">4. Materials</h2>
+
 - **Software**: Mplus or R
 - **Dataset**: Longitudinal dataset with the outcome variable measured at multiple time points.
 - **Modeling Resources**: Code templates, previous analyses for reference (if available).
@@ -56,6 +60,7 @@ Before conducting an LGM, ensure the following:
 <h2 id="instructions">5. Instructions</h2>
 
 <h3 id="data-structure-preparation">5.1 Data Structure Preparation</h3>
+
 Latent growth modeling requires **longitudinal data** organized in a **wide format**. Each participant should have multiple columns corresponding to the outcome variable at different time points.
 
 #### Steps:
@@ -71,6 +76,7 @@ Latent growth modeling requires **longitudinal data** organized in a **wide form
 ---
 
 <h3 id="model-specification">5.2 Model Specification</h3>
+
 Latent growth models estimate **two primary latent variables**: the intercept and the slope (linear change). 
 
 #### Steps:
