@@ -28,67 +28,17 @@
 </ul>
 </nav>
 
+---
+
 <h2 id="purpose">1. Purpose</h2>
-<p>[Content about the purpose]</p>
-
-<h2 id="scope">2. Scope</h2>
-<p>[Content about the scope]</p>
-
-<h2 id="prerequisites">3. Prerequisites</h2>
-<p>[Content about the prerequisites]</p>
-
-<h2 id="materials">4. Materials</h2>
-<p>[Content about materials]</p>
-
-<h2 id="instructions">5. Instructions</h2>
-
-<h3 id="data-structure-preparation">5.1 Data Structure Preparation</h3>
-<p>[Content for data structure preparation]</p>
-
-<h3 id="model-specification">5.2 Model Specification</h3>
-<p>[Content for model specification]</p>
-
-<h3 id="model-fit-and-estimation">5.3 Model Fit and Estimation</h3>
-<p>[Content for model fit and estimation]</p>
-
-<h3 id="interpretation-of-results">5.4 Interpretation of Results</h3>
-<p>[Content for interpretation of results]</p>
-
-<h2 id="appendix">6. Appendix: Reference Code</h2>
-<p>[Content for reference code]</p>
-
-<h2 id="revision-history">7. Revision History</h2>
-<p>[Content for revision history]</p>
-
-
-
-
----
-
-## Table of Contents:
-1. Purpose
-2. Scope
-3. Prerequisites
-4. Materials
-5. Instructions
-    - Data Structure Preparation
-    - Model Specification
-    - Model Fit and Estimation
-    - Interpretation of Results
-6. Appendix: Reference Code
-7. Revision History
-
----
-
-## 1. Purpose
 This instruction guides researchers through conducting a Latent Growth Model (LGM), focusing on modeling change over time. LGMs estimate latent variables (intercept and slope) that represent the underlying trajectory of an outcome variable across multiple time points. This instruction has been updated based on current literature on the topic, ensuring comprehensive and accurate guidance.
 
-## 2. Scope
+<h2 id="scope">2. Scope</h2>
 This work instruction applies to analysts working with longitudinal data in a wide format. It assumes basic familiarity with structural equation modeling (SEM) and latent variable estimation. The instruction covers the setup, execution, and interpretation of a latent growth model.
 
 ---
 
-## 3. Prerequisites
+<h2 id="prerequisites">3. Prerequisites</h2>
 Before conducting an LGM, ensure the following:
 - **Software**: Mplus, R (with `lavaan`), or similar SEM software.
 - **Data Structure**: Data must be prepared in a **wide format** (i.e., one row per subject with separate columns for each time point).
@@ -96,16 +46,16 @@ Before conducting an LGM, ensure the following:
 
 ---
 
-## 4. Materials
+<h2 id="materials">4. Materials</h2>
 - **Software**: Mplus or R
 - **Dataset**: Longitudinal dataset with the outcome variable measured at multiple time points.
 - **Modeling Resources**: Code templates, previous analyses for reference (if available).
 
 ---
 
-## 5. Instructions
+<h2 id="instructions">5. Instructions</h2>
 
-### 5.1 Data Structure Preparation
+<h3 id="data-structure-preparation">5.1 Data Structure Preparation</h3>
 Latent growth modeling requires **longitudinal data** organized in a **wide format**. Each participant should have multiple columns corresponding to the outcome variable at different time points.
 
 #### Steps:
@@ -120,7 +70,7 @@ Latent growth modeling requires **longitudinal data** organized in a **wide form
 
 ---
 
-### 5.2 Model Specification
+<h3 id="model-specification">5.2 Model Specification</h3>
 Latent growth models estimate **two primary latent variables**: the intercept and the slope (linear change). 
 
 #### Steps:
@@ -151,7 +101,7 @@ MODEL:
 I S Q | outcome_time1@0 outcome_time2@1 outcome_time3@2 outcome_time4@3;
 ```
 
-5.3 Model Fit and Estimation
+<h3 id="model-fit-and-estimation">5.3 Model Fit and Estimation</h3>
 
 The model fit should be assessed using multiple fit indices.
 
@@ -165,7 +115,7 @@ Steps:
 	•	Maximum Likelihood Estimation (MLE) is the default choice for latent growth models.
 	•	Use robust estimation techniques (e.g., MLM or MLR) if data does not meet normality assumptions.
 
-5.4 Interpretation of Results
+<h3 id="interpretation-of-results">5.4 Interpretation of Results</h3>
 
 The estimated parameters provide insights into the overall trajectory (intercept and slope) and the variability between individuals.
 
@@ -176,7 +126,7 @@ Steps:
 3.	Variance: Assess the variance of both intercept and slope factors to understand the degree of individual differences in initial levels and rates of change.
 4.	Covariance: The covariance between the intercept and slope can reveal whether individuals with higher initial values tend to change faster or slower over time.
 
-6. Appendix: Reference Code
+<h2 id="appendix">6. Appendix: Reference Code</h2>
 
 Below is example code for conducting a basic LGM in Mplus and R (lavaan).
 
@@ -208,7 +158,7 @@ fit <- growth(model, data = mydata)
 summary(fit, fit.measures=TRUE)
 ```
 
-7. Revision History
+<h2 id="revision-history">7. Revision History</h2>
 
 Version	Date	Author	Description
 1.0	[Insert Date]	[Author Name]	Initial version
