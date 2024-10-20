@@ -1,5 +1,3 @@
-Certainly! Here is the detailed work instruction in markdown code:
-
 # Work Instruction: Conducting a Latent Growth Model (LGM)
 
 **Version**: 2.0  
