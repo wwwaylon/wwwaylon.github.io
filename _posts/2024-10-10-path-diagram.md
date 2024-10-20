@@ -64,9 +64,9 @@ With the diagram saved as an `.pdf` file, you’re ready to move on to Illustrat
 
 Now that you’ve exported your diagram in `.pdf` format, it can be opened and refined in Adobe Illustrator, which provides powerful vector-editing capabilities.
 
-1.	Open Adobe Illustrator and go to File -> Open.
+1. Open Adobe Illustrator and go to File -> Open.
    
-2.	Select the `.pdf` file you just saved from Mplus Diagrammer.
+2. Select the `.pdf` file you just saved from Mplus Diagrammer.
    
 - When opened, the diagram will be fully editable as a vector file, allowing you to make any adjustments to paths, nodes, and text elements.
 
@@ -115,12 +115,10 @@ Now that the diagram is open in Adobe Illustrator, it’s time to customize it t
 
 Once your diagram is fully refined, the final step is to export it in a format suitable for publication. Adobe Illustrator supports a range of high-quality formats that are widely accepted by academic journals.
 
-1.	Save Your Work in Illustrator Format:
+1. Save Your Work in Illustrator Format:
 - Before exporting, save your working file in .ai format (File -> Save As -> Adobe Illustrator (.ai)). This allows you to go back and make adjustments if necessary.
 	
-2.	Export for Publication:
-- Depending on the journal’s requirements, export the diagram in a vector-based format such as .eps, .svg, or .pdf. These formats ensure that the diagram retains its high quality and scalability in the final publication.
-  - Go to File -> Export -> Export As, and choose .eps, .svg, or .pdf from the list of file types.
-  - Select the resolution (DPI) per journal requirements. Note the best possible image quality will generate a **huge** file that may be difficult to share.
-	
-
+2. Export for Publication:
+- Depending on the journal’s requirements, export the diagram in a vector-based format such as `.eps`, `.svg`, `.tiff` or `.pdf`. These formats ensure that the diagram retains its high quality and scalability in the final publication.
+- Go to File -> Export -> Export As, and choose .eps, .svg, or .pdf from the list of file types.
+- Select the resolution (DPI) per journal requirements. Note the best possible image quality will generate a **huge** file that may be difficult to share.
