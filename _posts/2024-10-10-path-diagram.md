@@ -10,7 +10,7 @@ tags: [Path Diagram Illustrator]
 
 Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. While some SEM software provide readily available path diagrams, further refinement is often necessary. 
 
-Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of Mplus. In this guide, we’ll show you how to export your Mplus path diagram (left image) as a `.pdf` file and refine it in Adobe Illustrator to create a polished, publication-ready professional diagram (right image). 
+Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t easily parse or manipulate outside of Mplus. In this guide, we’ll show you how to export your Mplus path diagram (left image) as a `.pdf` file and refine it in Adobe Illustrator to create a polished, publication-ready professional diagram (right image). 
 
 <p align="center">
   <img src="/assets/img/lgm-diagrammer.PNG" alt="Mplus Diagrammer" width="45%"/>
@@ -43,6 +43,31 @@ Run your model in Mplus with your desired SEM specifications.
 ```
 
 This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
+
+- Alternatively, use the following code to generate a diagram using R:
+
+```r
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+graph <- DiagrammeR::grViz(" digraph mimic_mode_3 {
+graph [overlap = true, fontsize = 10, fontname = Times]    
+  node [shape = box]                    
+  t_pi_0; t_pi_1; t_pi_2; t_pi_3; t_pi_4; t_pi_5;
+  node [shape = circle, fixedsize = true, width = 0.75, label = 'Intercept'] 
+  F1; 
+  node [shape = circle, fixedsize = true, width = 0.75, label = 'Slope'] 
+  F2; 
+  edge [color = black]                   
+  F1->{t_pi_0 t_pi_1 t_pi_2 t_pi_3 t_pi_4 t_pi_5}
+  F2->{t_pi_0 t_pi_1 t_pi_2 t_pi_3 t_pi_4 t_pi_5}
+}") 
+# Convert DiagrammeR graph to SVG
+svg <- export_svg(graph)
+# Save the SVG to a file
+writeLines(svg, "C://Desktop/lgm.svg")
+```
+This code will generate a path diagram and save it in `.svg` format. While the following example focuses on Mplus, you can also import the `.svg` file using the same process.
 
 <h2 id="step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</h2> 
 
