@@ -59,7 +59,7 @@ FDA regulations allow for innovative designs, such as *adaptive trials*, where m
 
 NIH trials may also employ adaptive designs, but the scrutiny from FDA on how adaptations affect statistical inferences is more intense. In FDA-regulated trials, changes in the design must be justified and approved, and the statistical methods must account for potential biases introduced by these adaptations (see [FDA Adaptive Design Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics)).
 
-The FDA recently released updated guidance on using real-world evidence for regulatory submissions. This shift opens opportunities for biostatistics teams to leverage real-world data, but only if they understand the nuances of applying these new standards ([FDA Real-World Evidence Guidance](https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence)).
+The FDA recently released updated guidance on using real-world evidence for regulatory submissions. This shift opens opportunities for biostatistics teams to leverage real-world data, but only if they understand the nuances of applying these new standards (see [FDA Real-World Evidence Guidance](https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence)).
 
 <h2 id="compliance-and-documentation">Compliance and Documentation</h2>
 
