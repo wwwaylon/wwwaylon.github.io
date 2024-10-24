@@ -10,7 +10,23 @@ tags: [Leadership Biostatistics Regulations]
 
 When transitioning from an NIH-funded clinical trial to an FDA-regulated clinical trial, biostatisticians face new layers of regulatory oversight and specific procedural requirements. While the statistical principles and modeling techniques may be similar, the rigor of documentation, validation, and adherence to regulations within FDA-regulated trials introduces unique challenges. This post will introduce some of the key statistical processes and regulatory differences a biostatistician needs to consider when working within the FDA framework.
 
-## Key Differences in Trial Oversight
+<p><h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#differences-in-trial-oversight">Differences in Trial Oversight</a></li>
+<li><a href="#the-landscape-of-biostatistics-funding-models">The Landscape of Biostatistics Funding Models</a></li>
+<li><a href="#understanding-the-hourly-billing-model">Understanding the Hourly Billing Model</a></li>
+<li><a href="#the-case-for-flexible-funding">The Case for Flexible Funding</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</nav>
+</p>
+
+<h2 id="differences-in-trial-oversight">Differences in Trial Oversight</h2>
+
+
+## Key 
 
 ### NIH vs. FDA Oversight
 NIH-funded trials are primarily governed by scientific rigor and ethical standards, with a focus on producing high-quality, reproducible research. FDA-regulated trials, on the other hand, must meet stringent requirements because their findings can directly impact drug approvals, medical devices, or therapies intended for widespread public use. As a result, FDA-regulated trials have stricter documentation standards and require adherence to Good Clinical Practices (GCP) and FDA-specific guidelines, such as 21 CFR Part 11.
