@@ -59,7 +59,7 @@ Interim analysis for NIH trials also occurs, but FDA-regulated trials may impose
 
 FDA regulations allow for innovative designs, such as *adaptive trials*, where modifications to the trial can be made based on interim data. However, adaptive designs must be rigorously pre-specified, and the statistical considerations for controlling the type I error rate become even more critical.
 
-NIH trials may also employ adaptive designs, but the scrutiny from FDA on how adaptations affect statistical inferences is more intense. In FDA-regulated trials, changes in the design must be justified and approved, and the statistical methods must account for potential biases introduced by these adaptations.
+NIH trials may also employ adaptive designs, but the scrutiny from FDA on how adaptations affect statistical inferences is more intense. In FDA-regulated trials, changes in the design must be justified and approved, and the statistical methods must account for potential biases introduced by these adaptations (see [FDA Adaptive Design Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics)).
 
 <h2 id="compliance-and-documentation">Compliance and Documentation</h2>
 
