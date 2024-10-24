@@ -14,7 +14,7 @@ When transitioning from an NIH-funded clinical trial to an FDA-regulated clinica
 <nav id="TableOfContents">
 <ul>
 <li><a href="#differences-in-trial-oversight">Differences in Trial Oversight</a></li>
-<li><a href="#the-landscape-of-biostatistics-funding-models">The Landscape of Biostatistics Funding Models</a></li>
+<li><a href="#statistical-process-in-fdaregulated-trials">Statistical Processes in FDA-Regulated Trials</a></li>
 <li><a href="#understanding-the-hourly-billing-model">Understanding the Hourly Billing Model</a></li>
 <li><a href="#the-case-for-flexible-funding">The Case for Flexible Funding</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
@@ -33,7 +33,7 @@ In FDA-regulated trials, the biostatistician’s work often feeds into key regul
 
 For example, biostatisticians must ensure that all statistical outputs are fully reproducible and that all analysis code is validated for accuracy. This is often not a requirement in NIH trials, where the focus is more on the soundness of the statistical methods rather than the formal validation of the software or code used to implement them.
 
-## Key Statistical Processes in FDA-Regulated Trials
+<h2 id="statistical-process-in-fdaregulated-trials">Statistical Processes in FDA-Regulated Trials</h2
 
 ### Pre-Specified Statistical Analysis Plans (SAPs)
 In FDA-regulated trials, a well-defined *Statistical Analysis Plan* (SAP) must be prepared and finalized before any analysis begins. The SAP includes all planned statistical methods, hypotheses, and decision rules for data analysis. Pre-specification is critical because post-hoc analyses, or any deviation from the SAP, can raise concerns about data dredging or bias.
