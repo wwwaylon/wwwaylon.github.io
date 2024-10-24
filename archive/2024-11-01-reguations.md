@@ -15,7 +15,7 @@ When transitioning from an NIH-funded clinical trial to an FDA-regulated clinica
 <ul>
 <li><a href="#differences-in-trial-oversight">Differences in Trial Oversight</a></li>
 <li><a href="#statistical-process-in-fdaregulated-trials">Statistical Processes in FDA-Regulated Trials</a></li>
-<li><a href="#understanding-the-hourly-billing-model">Understanding the Hourly Billing Model</a></li>
+<li><a href="#compliance-and-documentation">Compliance and Documentation</a></li>
 <li><a href="#the-case-for-flexible-funding">The Case for Flexible Funding</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#references">References</a></li>
@@ -55,7 +55,7 @@ FDA regulations allow for innovative designs, such as *adaptive trials*, where m
 
 NIH trials may also employ adaptive designs, but the scrutiny from FDA on how adaptations affect statistical inferences is more intense. In FDA-regulated trials, changes in the design must be justified and approved, and the statistical methods must account for potential biases introduced by these adaptations.
 
-## Compliance and Documentation
+<h2 id="compliance-and-documentation">Compliance and Documentation</h2>
 
 ### Good Clinical Practice (GCP) and FDA Audits
 Compliance with GCP is a cornerstone of FDA-regulated clinical trials. As a biostatistician, this means maintaining impeccable documentation of all analyses, including audit trails of all decisions, analysis steps, and versions of datasets and code. The FDA may audit any aspect of the trial, including statistical analyses, to ensure compliance with regulations.
