@@ -28,7 +28,7 @@ When transitioning from an NIH-funded clinical trial to an FDA-regulated clinica
 ### NIH vs. FDA Oversight
 NIH-funded trials are primarily governed by scientific rigor and ethical standards, with a focus on producing high-quality, reproducible research. FDA-regulated trials, on the other hand, must meet stringent requirements because their findings can directly impact drug approvals, medical devices, or therapies intended for widespread public use. As a result, FDA-regulated trials have stricter documentation standards and require adherence to Good Clinical Practices (GCP) and FDA-specific guidelines, such as 21 CFR Part 11.
 
-### Regulatory Submissions and Monitoring.  
+### Regulatory Submissions and Monitoring
 
 In FDA-regulated trials, the biostatistician’s work often feeds into key regulatory submissions, such as Investigational New Drug (IND) applications and New Drug Applications (NDA). As a result, statisticians are tasked with ensuring that data analyses are not only scientifically valid but also meet the regulatory submission standards, including the use of validated software and transparent reporting of results.
 
@@ -36,7 +36,7 @@ For example, biostatisticians must ensure that all statistical outputs are fully
 
 <h2 id="statistical-process-in-fdaregulated-trials">Statistical Processes in FDA-Regulated Trials</h2
 
-### Pre-Specified Statistical Analysis Plans (SAPs).    
+### Pre-Specified Statistical Analysis Plans
 
 In FDA-regulated trials, a well-defined *Statistical Analysis Plan* (SAP) must be prepared and finalized before any analysis begins. The SAP includes all planned statistical methods, hypotheses, and decision rules for data analysis. Pre-specification is critical because post-hoc analyses, or any deviation from the SAP, can raise concerns about data dredging or bias. For example, the FDA’s guidance on [Statistical Principles for Clinical Trials](https://www.fda.gov/science-research/clinical-trials-and-human-subject-protection/clinical-trials-guidance-documents#:~:text=Clinical%20Trials%20Guidance%20Documents%20%7C%20FDA,content%20to%20reflect%20these%20changes) highlights the importance of pre-specified analysis plans and transparent data handling practices.
 
