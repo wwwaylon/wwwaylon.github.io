@@ -16,8 +16,6 @@ When transitioning from an NIH-funded clinical trial to an FDA-regulated clinica
 <li><a href="#differences-in-trial-oversight">Differences in Trial Oversight</a></li>
 <li><a href="#statistical-process-in-fdaregulated-trials">Statistical Processes in FDA-Regulated Trials</a></li>
 <li><a href="#compliance-and-documentation">Compliance and Documentation</a></li>
-<li><a href="#the-case-for-flexible-funding">The Case for Flexible Funding</a></li>
-<li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#references">References</a></li>
 </ul>
 </nav>
