@@ -79,4 +79,10 @@ In NIH-funded trials, while data security and integrity are important, Part 11 c
 
 For a biostatistician moving from NIH to FDA-regulated clinical trials, the shift is not just about applying sound statistical methodologies but also about adhering to rigorous regulatory standards. The emphasis on pre-specified plans, comprehensive documentation, validation, and compliance with FDA regulations adds an additional layer of responsibility. Understanding these differences and adapting statistical workflows accordingly is key to ensuring that analyses meet the high standards necessary for FDA approval.
 
-Whether you’re new to FDA trials or simply expanding your expertise, this understanding will help ensure that your contributions are not only scientifically sound but also fully compliant with regulatory requirements.
+<h2 id="references">References</h2>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:missing">O'Kelly, M., & Ratitch, B. (2014). Clinical trials with missing data: a guide for practitioners. John Wiley & Sons.<a class="footnote-return" href="#fnref:missing">↑</a></li>
