@@ -47,7 +47,7 @@ In contrast, NIH trials often allow more flexibility, where exploratory analyses
 
 Both NIH and FDA-regulated trials require robust strategies for dealing with missing data. However, in FDA-regulated trials, handling missing data becomes especially crucial because of the potential impact on regulatory approval. Techniques like *multiple imputation*, *inverse probability weighting*, or *sensitivity analyses* are often employed, and it’s essential to pre-specify how missing data will be addressed in the SAP.
 
-Additionally, sensitivity analyses in FDA trials are critical for demonstrating that the results are not biased or overly dependent on how missing data is handled, adding another layer of rigor to the analysis.
+Additionally, sensitivity analyses in FDA trials are critical for demonstrating that the results are not biased or overly dependent on how missing data is handled, adding another layer of rigor to the analysis.<sup class="footnote-ref" id="fnref:missing"><a href="#fn:missing">1</a></sup>
 
 ### Data Monitoring Committees (DMCs)
 
