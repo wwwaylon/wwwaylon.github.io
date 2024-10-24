@@ -8,7 +8,7 @@ subtitle: Statistical Process Differences
 tags: [Leadership Biostatistics Regulations]
 ---
 
-When transitioning from an NIH-funded clinical trial to an FDA-regulated clinical trial, biostatisticians face new layers of regulatory oversight and specific procedural requirements. While the statistical principles and modeling techniques may be similar, the rigor of documentation, validation, and adherence to regulations within FDA-regulated trials introduces unique challenges. This post will introduce some of the key statistical processes and regulatory differences a biostatistician needs to consider when working within the FDA framework.
+When transitioning from an NIH-funded clinical trial to an FDA-regulated clinical trial, biostatisticians face new layers of regulatory oversight and specific procedural requirements. While the statistical principles and modeling techniques may be similar, the rigor of documentation, validation, and adherence to regulations within FDA-regulated trials introduces unique challenges. 
 
 <p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
