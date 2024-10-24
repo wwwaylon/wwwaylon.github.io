@@ -55,7 +55,7 @@ Interim analysis for NIH trials also occurs, but FDA-regulated trials may impose
 
 ### Adaptive Trial Designs and Real-World Evidence
 
-FDA regulations allow for innovative trial designs, such as adaptive trials, where modifications to the trial’s protocol can be made based on interim data. These adaptations could include adjusting sample sizes, changing treatment groups, or even modifying endpoints. However, to maintain the scientific validity of the trial, these adaptations must be rigorously pre-specified. Additionally, the statistical methods used must carefully control the type I error rate—the likelihood of falsely concluding that a treatment works when it does not. This makes precise planning and ongoing evaluation critical in adaptive designs.
+FDA regulations allow for innovative trial designs, such as adaptive trials, where modifications to the trial’s protocol can be made based on interim data. These adaptations could include adjusting sample sizes, changing treatment groups, or even modifying endpoints. However, to maintain the scientific validity of the trial, these adaptations must be rigorously pre-specified. 
 
 Adaptive designs can also be used in NIH-funded trials, but those regulated by the FDA face an extra level of scrutiny. The FDA requires that any changes made during the trial be scientifically justified, pre-approved, and supported by statistical approaches that account for potential biases. These adaptations, while flexible, must not undermine the credibility of the trial’s findings, a principle highlighted in the [FDA Adaptive Design Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics)).
 
