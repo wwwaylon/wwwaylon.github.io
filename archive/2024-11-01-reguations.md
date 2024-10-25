@@ -75,9 +75,51 @@ Another specific requirement for FDA trials is 21 CFR Part 11 compliance, which 
 
 In NIH-funded trials, while data security and integrity are important, Part 11 compliance may not be as stringently enforced.
 
-## Conclusion
 
-For a biostatistician moving from NIH to FDA-regulated clinical trials, the shift is not just about applying sound statistical methodologies but also about adhering to rigorous regulatory standards. The emphasis on pre-specified plans, comprehensive documentation, validation, and compliance with FDA regulations adds an additional layer of responsibility. Understanding these differences and adapting statistical workflows accordingly is key to ensuring that analyses meet the high standards necessary for FDA approval.
+# Working as a Biostatistician in FDA-Regulated vs. NIH-Funded Trials
+
+As a biostatistician, working within FDA-regulated trials and NIH-funded studies entails different expectations for software compliance, validation, and documentation. Here’s an overview of what to anticipate in each environment, focusing on software like SAS, Stata, R, and Mplus.
+
+## FDA-Regulated Trials
+
+In FDA-regulated trials, **21 CFR Part 11 compliance** is crucial, affecting both software choice and usage.
+
+### SAS
+- **Compliance Features**: SAS is often preferred for FDA-regulated trials due to established procedures for Part 11 compliance. Built-in functions log data changes, manage electronic signatures, and create secure audit trails.
+- **Macros**: You’ll frequently work with validated SAS macros for tasks like adverse event summarization or randomization scheme generation. These macros require extensive documentation to ensure reproducibility and traceability.
+
+### Stata
+- **Compliance Adaptation**: Stata provides some Part 11 compliance features, though custom scripts or commands may be needed for specific requirements.
+- **Macro Use**: Macro use in Stata may be more limited than in SAS, but it’s crucial to document all steps, particularly for any custom scripts created for data handling or analysis.
+
+### R and Mplus
+- **Challenges and Customization**: Open-source tools like R and Mplus require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity.
+- **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards. Mplus, often used for latent variable modeling, may require third-party validation processes.
+  
+### Macros and Functions
+In FDA settings, macros and functions undergo stringent testing and validation. For example, each macro may include documented input/output specifications, expected vs. actual results, and limitations to meet regulatory standards.
+
+## NIH-Funded Trials
+
+While **data security and integrity** are still essential in NIH-funded studies, Part 11 compliance is typically not required, allowing more flexibility.
+
+### SAS and Stata
+- **Focus on Replicability**: You might still use SAS and Stata for NIH studies, but emphasis is on replicability rather than strict compliance documentation.
+- **Macro Development**: Macros can be developed with more flexibility, focusing on efficiency. Documentation is still important for reproducibility but is generally less detailed than for FDA trials.
+
+### R
+- **Flexibility in Use**: R is widely used in NIH-funded studies due to its cost-effectiveness and flexibility. Part 11 compliance isn’t required, so validation is limited to ensuring project-team reproducibility. Commenting and version control remain best practices.
+  
+### Mplus
+- **Modeling Focus**: With Mplus in NIH trials, you can focus more on modeling rather than validating each function for compliance. Scripts are developed with reproducibility in mind but without extensive regulatory documentation.
+
+### Macros and Functions
+Custom macros and functions are often created to streamline analyses, especially for complex tasks. Documentation is typically lighter, emphasizing reproducibility within the research team rather than regulatory standards.
+
+## Summary
+
+In FDA trials, meticulous validation, documentation, and compliance with Part 11 are essential. NIH-funded studies allow more flexibility, with documentation focusing on transparency and reproducibility. Both environments, however, demand rigorous methods to ensure the reliability and transparency of analyses.
+
 
 <h2 id="references">References</h2>
 <div class="footnotes">
