@@ -76,14 +76,6 @@ Another specific requirement for FDA trials is 21 CFR Part 11 compliance, which 
 In NIH-funded trials, while data security and integrity are important, Part 11 compliance may not be as stringently enforced.
 
 
-# Working as a Biostatistician in FDA-Regulated vs. NIH-Funded Trials
-
-As a biostatistician, working within FDA-regulated trials and NIH-funded studies entails different expectations for software compliance, validation, and documentation. Here’s an overview of what to anticipate in each environment, focusing on software like SAS, Stata, R, and Mplus.
-
-## FDA-Regulated Trials
-
-In FDA-regulated trials, **21 CFR Part 11 compliance** is crucial, affecting both software choice and usage.
-
 ### SAS
 - **Compliance Features**: SAS is often preferred for FDA-regulated trials due to established procedures for Part 11 compliance. Built-in functions log data changes, manage electronic signatures, and create secure audit trails.
 - **Macros**: You’ll frequently work with validated SAS macros for tasks like adverse event summarization or randomization scheme generation. These macros require extensive documentation to ensure reproducibility and traceability.
