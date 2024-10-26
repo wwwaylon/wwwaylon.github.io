@@ -73,8 +73,9 @@ In contrast, NIH trials may not be subjected to the same level of external audit
 
 Another specific requirement for FDA trials is 21 CFR Part 11 compliance, which governs electronic records and electronic signatures. Biostatisticians must ensure that any software used for analysis complies with these regulations, which may involve validation of the software environment and electronic data handling procedures.
 
-In NIH-funded trials, while data security and integrity are important, Part 11 compliance may not be as stringently enforced.
+In NIH-funded trials, while data security and integrity are important, Part 11 compliance may not be as stringently enforced. Consider popular statistical software:
 
+## FDA Regulatory Environment
 
 ### SAS
 - **Compliance Features**: SAS is often preferred for FDA-regulated trials due to established procedures for Part 11 compliance. Built-in functions log data changes, manage electronic signatures, and create secure audit trails.
@@ -86,12 +87,12 @@ In NIH-funded trials, while data security and integrity are important, Part 11 c
 
 ### R
 - **Challenges and Customization**: Open-source tools like R require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity.
-- **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards. 
+- **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards ([read more here](https://www.r-project.org/doc/R-FDA.pdf)). 
   
 ### Macros and Functions
 In FDA settings, macros and functions undergo stringent testing and validation. For example, each macro may include documented input/output specifications, expected vs. actual results, and limitations to meet regulatory standards.
 
-## NIH-Funded Trials
+## NIH-Funded Environment
 
 While **data security and integrity** are still essential in NIH-funded studies, Part 11 compliance is typically not required, allowing more flexibility.
 
@@ -107,10 +108,6 @@ While **data security and integrity** are still essential in NIH-funded studies,
 
 ### Macros and Functions
 Custom macros and functions are often created to streamline analyses, especially for complex tasks. Documentation is typically lighter, emphasizing reproducibility within the research team (e.g. annotated code) rather than regulatory standards.
-
-## Summary
-
-In FDA trials, meticulous validation, documentation, and compliance with Part 11 are essential. NIH-funded studies allow more flexibility, with documentation focusing on transparency and reproducibility. Both environments, however, demand rigorous methods to ensure the reliability and transparency of analyses.
 
 
 <h2 id="references">References</h2>
