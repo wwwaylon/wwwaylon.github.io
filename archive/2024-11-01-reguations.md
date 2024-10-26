@@ -86,7 +86,7 @@ In NIH-funded trials, while data security and integrity are important, Part 11 c
 - **Macro Use**: Macro use in Stata may be more limited than in SAS, but it’s crucial to document all steps, particularly for any custom scripts created for data handling or analysis.
 
 ### R
-- **Challenges and Customization**: Open-source tools like R require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity.
+- **Challenges and Customization**: Open-source tools like R require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity. Additionally, new versions of packages may require additional validation measures. 
 - **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards ([read more here](https://www.r-project.org/doc/R-FDA.pdf)). 
   
 ### Macros and Functions
