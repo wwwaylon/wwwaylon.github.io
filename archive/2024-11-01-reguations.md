@@ -84,9 +84,9 @@ In NIH-funded trials, while data security and integrity are important, Part 11 c
 - **Compliance Adaptation**: Stata provides some Part 11 compliance features, though custom scripts or commands may be needed for specific requirements.
 - **Macro Use**: Macro use in Stata may be more limited than in SAS, but it’s crucial to document all steps, particularly for any custom scripts created for data handling or analysis.
 
-### R and Mplus
-- **Challenges and Customization**: Open-source tools like R and Mplus require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity.
-- **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards. Mplus, often used for latent variable modeling, may require third-party validation processes.
+### R
+- **Challenges and Customization**: Open-source tools like R require extra steps for compliance. In R, you may need to implement custom logging functions or use packages such as `validate` to ensure data integrity.
+- **Validation of Custom Code**: Every custom function, macro, or script needs rigorous documentation and validation to meet FDA standards. 
   
 ### Macros and Functions
 In FDA settings, macros and functions undergo stringent testing and validation. For example, each macro may include documented input/output specifications, expected vs. actual results, and limitations to meet regulatory standards.
@@ -103,10 +103,10 @@ While **data security and integrity** are still essential in NIH-funded studies,
 - **Flexibility in Use**: R is widely used in NIH-funded studies due to its cost-effectiveness and flexibility. Part 11 compliance isn’t required, so validation is limited to ensuring project-team reproducibility. Commenting and version control remain best practices.
   
 ### Mplus
-- **Modeling Focus**: With Mplus in NIH trials, you can focus more on modeling rather than validating each function for compliance. Scripts are developed with reproducibility in mind but without extensive regulatory documentation.
+- **Modeling Focus**: With SEM programs like Mplus in NIH trials, you can focus more on modeling rather than validating each function for compliance. Scripts are developed with reproducibility in mind but without extensive regulatory documentation.
 
 ### Macros and Functions
-Custom macros and functions are often created to streamline analyses, especially for complex tasks. Documentation is typically lighter, emphasizing reproducibility within the research team rather than regulatory standards.
+Custom macros and functions are often created to streamline analyses, especially for complex tasks. Documentation is typically lighter, emphasizing reproducibility within the research team (e.g. annotated code) rather than regulatory standards.
 
 ## Summary
 
