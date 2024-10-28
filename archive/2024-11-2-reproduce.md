@@ -6,6 +6,7 @@ subtitle: RStudio .Rmd Files
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
 tags: [workflow statistics rmd rstudio]
+---
 
 The ability to create reproducible analysis workflows is critical. One of the best tools to help you accomplish this is RStudio’s .Rmd (R Markdown) files. This approach has unique advantages for conducting and sharing reproducible, efficient, and transparent statistical analyses and this can be done completely within R or while using other statistical packages like SAS and Mplus. 
 
