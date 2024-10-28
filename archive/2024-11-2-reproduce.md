@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enhancing Your Statistical Workflow 
-subtitle: RStudio .Rmd Files
+subtitle: RStudio Rmd Files
 #thumbnail-img: /assets/img/atrisk.png
 #gh-repo: wwwaylon/beautiful-jekyll
 #gh-badge: [star, fork, follow]
