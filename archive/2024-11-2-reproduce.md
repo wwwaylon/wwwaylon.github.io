@@ -27,7 +27,7 @@ When conducting statistical analysis, the ability to create reproducible analysi
 <h2 id="reproducibility-made-simple">Reproducibility Made Simple</h2>
 As statisticians, our work often involves complex analyses with many steps, from data cleaning and visualization to statistical modeling and interpretation. Ensuring that these steps can be accurately replicated by others (or by ourselves in the future) is crucial. An .Rmd file integrates code, output, and narrative text in one cohesive document, providing a seamless way to reproduce analyses from start to finish.
 
-When you use '.Rmd', anyone with access to your file (and data) can run the code and produce identical results. This guarantees that colleagues and reviewers can verify your findings and that your work remains accessible and interpretable over time.
+When you use `.Rmd`, anyone with access to your file (and data) can run the code and produce identical results. This guarantees that colleagues and reviewers can verify your findings and that your work remains accessible and interpretable over time.
 
 <h2 id="clear-documentation-for-collaboration">Clear Documentation for Collaboration</h2>
 Applied statistics in research often involves working as part of a team with diverse backgrounds, including clinicians, epidemiologists, and other statisticians. A typical '.Rmd' document allows you to add explanatory text alongside your code (annotations), turning your analyses into readable, self-contained reports. You can describe your choice of models, explain data transformations, functions or macros, and even outline limitations, all in one document.
@@ -35,7 +35,7 @@ Applied statistics in research often involves working as part of a team with div
 This documentation is especially useful for interdisciplinary collaboration. When non-statistical stakeholders review your work, your annotations help them understand the steps taken without requiring extensive statistical expertise. In the long run, this clarity can lead to smoother collaborations and more informed feedback from team members who may not be fluent in the coding language.
 
 <h2 id="efficiency-with-integrated-code-and-output">Efficiency with Integrated Code and Output</h2>
-One of the most compelling reasons to use '.Rmd' files is that they allow you to integrate code, results, tables, and figures in a single document. This combination eliminates the need to export results manually or copy and paste figures into separate reports, minimizing the risk of errors. For instance, if your dataset or model specifications change, you only need to rerun the .Rmd file, and the entire report will automatically update.
+One of the most compelling reasons to use `.Rmd` files is that they allow you to integrate code, results, tables, and figures in a single document. This combination eliminates the need to export results manually or copy and paste figures into separate reports, minimizing the risk of errors. For instance, if your dataset or model specifications change, you only need to rerun the .Rmd file, and the entire report will automatically update.
 
 This level of automation saves time, particularly during project revisions or manuscript preparation. It also makes it easy to try different model variations and visually compare outputs without manually updating each result in the report. File management is also enhanced when numerous sets of results are needed. 
 
