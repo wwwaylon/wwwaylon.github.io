@@ -8,7 +8,7 @@ subtitle: RStudio .Rmd Files
 tags: [workflow statistics rmd rstudio]
 ---
 
-The ability to create reproducible analysis workflows is critical. One of the best tools to help you accomplish this is RStudio’s .Rmd (R Markdown) files. This approach has unique advantages for conducting and sharing reproducible, efficient, and transparent statistical analyses and this can be done completely within R or while using other statistical packages like SAS and Mplus. 
+When conducting statistical analysis, the ability to create reproducible analysis workflows is critical. One of the best tools to help you accomplish this is RStudio’s .Rmd (R Markdown) files. This approach has unique advantages for conducting and sharing reproducible, efficient, and transparent statistical analyses and this can be done completely within R or while using other statistical packages such as SAS and Mplus. 
 
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
@@ -27,20 +27,20 @@ The ability to create reproducible analysis workflows is critical. One of the be
 <h2 id="reproducibility-made-simple">Reproducibility Made Simple</h2>
 As statisticians, our work often involves complex analyses with many steps, from data cleaning and visualization to statistical modeling and interpretation. Ensuring that these steps can be accurately replicated by others (or by ourselves in the future) is crucial. An .Rmd file integrates code, output, and narrative text in one cohesive document, providing a seamless way to reproduce analyses from start to finish. This feature is particularly valuable in fields like biostatistics, where robust, reproducible results directly impact public health and medical decision-making.
 
-When you use .Rmd, anyone with access to your file can run the code and produce identical results. This guarantees that colleagues and reviewers can verify your findings and that your work remains accessible and interpretable over time.
+When you use '.Rmd', anyone with access to your file (and data) can run the code and produce identical results. This guarantees that colleagues and reviewers can verify your findings and that your work remains accessible and interpretable over time.
 
 <h2 id="clear-documentation-for-collaboration">Clear Documentation for Collaboration</h2>
-Biostatistics often involves working as part of a team with diverse backgrounds, including clinicians, epidemiologists, and other statisticians. A typical .Rmd document allows you to add explanatory text alongside your code, turning your analyses into readable, self-contained reports. You can describe your choice of models, explain data transformations, and even outline limitations, all in one document.
+Applied statistics in research often involves working as part of a team with diverse backgrounds, including clinicians, epidemiologists, and other statisticians. A typical '.Rmd' document allows you to add explanatory text alongside your code (annotations), turning your analyses into readable, self-contained reports. You can describe your choice of models, explain data transformations, functions or macros, and even outline limitations, all in one document.
 
-This documentation is especially useful for interdisciplinary collaboration. When non-statistical stakeholders review your work, your annotations help them understand the steps taken without requiring extensive statistical expertise. In the long run, this clarity can lead to smoother collaborations and more informed feedback from team members who may not be fluent in R code.
+This documentation is especially useful for interdisciplinary collaboration. When non-statistical stakeholders review your work, your annotations help them understand the steps taken without requiring extensive statistical expertise. In the long run, this clarity can lead to smoother collaborations and more informed feedback from team members who may not be fluent in the coding language.
 
 <h2 id="efficiency-with-integrated-code-and-output">Efficiency with Integrated Code and Output</h2>
-One of the most compelling reasons to use .Rmd files is that they allow you to integrate code, results, and figures in a single document. This combination eliminates the need to export results manually or copy and paste figures into separate reports, minimizing the risk of errors. For instance, if your dataset or model specifications change, you only need to rerun the .Rmd file, and the entire report will automatically update.
+One of the most compelling reasons to use '.Rmd' files is that they allow you to integrate code, results, tables, and figures in a single document. This combination eliminates the need to export results manually or copy and paste figures into separate reports, minimizing the risk of errors. For instance, if your dataset or model specifications change, you only need to rerun the .Rmd file, and the entire report will automatically update.
 
-This level of automation saves time, particularly during project revisions or manuscript preparation. It also makes it easy to try different model variations and visually compare outputs without manually updating each result in the report.
+This level of automation saves time, particularly during project revisions or manuscript preparation. It also makes it easy to try different model variations and visually compare outputs without manually updating each result in the report. File management is also enhanced when numerous sets of results are needed. 
 
 <h2 id="flexible-output-formats-for-diverse-audiences">Flexible Output Formats for Diverse Audiences</h2>
-Whether you’re preparing a technical report for statisticians or a high-level summary for stakeholders, .Rmd files have you covered. R Markdown supports multiple output formats, including PDF, HTML, Word, and even PowerPoint. This flexibility allows you to present your findings in a format that best suits the audience, without needing to recreate content across different tools.
+Whether you’re preparing a technical report for statisticians or a high-level summary for stakeholders, '.Rmd' files have you covered. R Markdown supports multiple output formats, including PDF, HTML, Word, and even PowerPoint. This flexibility allows you to present your findings in a format that best suits the audience, without needing to recreate content across different tools.
 
 For instance, you could prepare a detailed PDF report with statistical methods and code for internal review, then convert the same document to an HTML summary with key visuals for non-technical stakeholders. This adaptability allows you to tailor your communication style without sacrificing the content’s integrity or reproducibility.
 
