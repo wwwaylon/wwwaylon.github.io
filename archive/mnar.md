@@ -7,7 +7,6 @@ share-img: /assets/img/path.jpg
 tags: [missing data, MNAR, Mplus, advanced modeling]
 
 
-
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
@@ -16,8 +15,10 @@ tags: [missing data, MNAR, Mplus, advanced modeling]
 <li><a href="#mnar-modeling-in-mplus">MNAR Modeling in Mplus</a></li>
 <li><a href="#1-pattern-mixture-model-for-mnar">1. Pattern-Mixture Model for MNAR</a></li>
 <li><a href="#mplus-code-for-pattern-mixture-model">Mplus Code for Pattern-Mixture Model</a></li>
+<li><a href="#interpretation-and-write-up-for-pattern-mixture-model">Interpretation and Write-up for Pattern-Mixture Model</a></li>
 <li><a href="#2-selection-model-for-mnar">2. Selection Model for MNAR</a></li>
 <li><a href="#mplus-code-for-selection-model">Mplus Code for Selection Model</a></li>
+<li><a href="#interpretation-and-write-up-for-selection-model">Interpretation and Write-up for Selection Model</a></li>
 <li><a href="#comparing-the-approaches">Comparing the Approaches</a></li>
 <li><a href="#limitations-and-considerations">Limitations and Considerations</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
@@ -79,6 +80,17 @@ MODEL TEST:
   ! Test if MNAR effect is significantly different
   mnar_effect = 0;
 
+<h3 id="interpretation-and-write-up-for-pattern-mixture-model">Interpretation and Write-up for Pattern-Mixture Model</h3>
+
+
+After fitting the pattern-mixture model, you may interpret the results as follows:
+
+Interpretation:
+The pattern-mixture model output provides coefficients for the relationship between Income and Age for those with observed income (missing_income#1) and for those with missing income (missing_income#2). The mnar_effect coefficient reflects the MNAR mechanism’s impact on the income-age relationship. If mnar_effect is significantly different from zero, it suggests that the income-age association differs systematically between individuals with observed vs. missing income data, indicating the presence of MNAR.
+
+Write-up Example:
+“A pattern-mixture model was used to investigate whether missing income data depended on the income-age relationship. Results indicated a significant MNAR effect (p < .05), suggesting that individuals with missing income had a systematically different income-age association compared to those with observed income data. This indicates that the missing income data mechanism is likely MNAR, requiring adjustments in interpretation for potential bias.”
+
 <h3 id="2-selection-model-for-mnar">2. Selection Model for MNAR</h3>
 
 
@@ -106,6 +118,15 @@ MODEL:
   ! Model the probability of missingness on income
   income_missing ON age income;  ! Selection model equation
 
+<h3 id="interpretation-and-write-up-for-selection-model">Interpretation and Write-up for Selection Model</h3>
+
+
+Interpretation:
+The selection model estimates how both observed variables (Age and Income) relate to the probability of missing income. If the coefficient for Income in predicting missingness (income_missing) is significant, it suggests that the probability of missingness is dependent on income itself, confirming the MNAR assumption.
+
+Write-up Example:
+“A selection model was applied to assess the dependency of income missingness on the variable itself. Findings indicated that the likelihood of missing income was significantly associated with the unobserved income level (p < .05), supporting an MNAR mechanism. This suggests that individuals with missing income values may have systematically different income levels, warranting caution in interpretation of analyses without appropriate adjustments.”
+
 <h2 id="comparing-the-approaches">Comparing the Approaches</h2>
 
 
@@ -121,4 +142,4 @@ While MNAR models can help address bias, they rely on strong assumptions. Both s
 
 Modeling MNAR data can be challenging, but Mplus offers powerful tools to address it. By understanding and applying pattern-mixture or selection models, you can more accurately handle MNAR data and improve the validity of your research findings. As always, it’s vital to report these methods transparently and to consider sensitivity analyses to assess the robustness of your conclusions.
 
-This post provides an overview of MNAR models and sample Mplus code for implementing them. As you work with your own data, remember that no single model can perfectly correct for MNAR data, but these tools allow you to approach the problem more rigorously and mitigate potential biases.
+This post provides a comprehensive introduction to MNAR models with code examples, interpretations, and report templates for each approach. These tools can enhance your analyses and support the transparent reporting of assumptions around missing data.
