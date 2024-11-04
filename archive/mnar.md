@@ -29,8 +29,7 @@ tags: [missing data, MNAR, Mplus, advanced modeling]
 
 <h2 id="introduction-to-mnar-data">Introduction to MNAR Data</h2>
 
-
-In research, missing data is nearly inevitable, and how we handle it can substantially affect our findings. While most missing data handling techniques assume that data are either Missing Completely at Random (MCAR) or Missing at Random (MAR), some situations involve data that are Missing Not at Random (MNAR). In these cases, the missingness depends on the unobserved values themselves, and typical MAR assumptions won’t suffice. 
+Missing data is almost unavoidable in research, and how it’s handled can significantly impact the results. Most common techniques for managing missing data assume it is either Missing Completely at Random (MCAR) or Missing at Random (MAR). However, some situations involve data that are Missing Not at Random (MNAR), where the likelihood of missingness depends on the unobserved values themselves. In these cases, standard MAR-based methods are insufficient.
 
 <h2 id="why-mnar-data-requires-special-handling">Why MNAR Data Requires Special Handling</h2>
 
