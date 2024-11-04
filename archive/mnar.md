@@ -39,16 +39,13 @@ For example, individuals with lower income may be less likely to report their in
 
 Common approaches for handling MNAR include:
 
-- Selection Models: These specify a model for the probability of missingness and the substantive model jointly.
+- **Selection Models**: These specify a model for the probability of missingness and the substantive model jointly.
 
-- Pattern-Mixture Models: These involve modeling the observed data by conditioning on the missingness patterns.
+- **Pattern-Mixture Models**: These involve modeling the observed data by conditioning on the missingness patterns.
 
-- Latent Variable Models: In Mplus, a latent variable approach can be implemented to handle MNAR, where the missing data mechanism is incorporated into the analysis.
-
-In this post, we’ll focus on using Mplus to apply a pattern-mixture model and a selection model for MNAR data.
+- **Latent Variable Models**: In Mplus, a latent variable approach can be implemented to handle MNAR, where the missing data mechanism is incorporated into the analysis.
 
 <h2 id="mnar-modeling-in-mplus">MNAR Modeling in Mplus</h2>
-
 
 To illustrate, we’ll use a hypothetical dataset where Income has missing values that depend on its own (unobserved) level. We’ll look at both pattern-mixture and selection models to address this MNAR scenario.
 
