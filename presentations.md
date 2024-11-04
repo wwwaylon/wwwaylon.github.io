@@ -5,7 +5,7 @@ title: Presentations
 
 ### Oral Presentations and Panel Discussions
 
-* Schmale, G., Niu E., Kirby, J., Sheasley, J., **Howard W. J.**, et. al. (2025, January). Complications in the treatment of discord lateral meniscus: A multicenter study [In-Person Contributed Talk]. 12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH. ([link](https://www.prismsports.org/events/2025-annual-meeting)) 
+* Willson, R., Thomsen, S., Swanson, M., **Howard W. J.**, Mistovich, J., Ellis, H.B., Cruz Jr., A., Fabricant, P., Lee, R.J., McKay, S., Yen, Y-M., Kushare, I.V., Ganley, T.J., Schmale, G.A. (2025, January). No Impact of Posterior Tibial Slope on Subsequent ACL tears in Patients with Tibial Spine Fractures [In-Person Contributed Talk]. 12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH. ([link](https://www.prismsports.org/events/2025-annual-meeting)) 
 
 * **Howard W. J.** (2024, June) SEM, Revealed. Modeling connections with latent variables and regression pathways [In-Person Invited Talk]. Center for Child Health Behavior and Development, Seattle Childrens Research Institute, Seattle, WA.
 
@@ -49,7 +49,7 @@ title: Presentations
 
 ### Interactive Sessions
 
-* **Howard W. J.** (2023, November) An introduction to missing data analysis [Webinar Workshop]. Statistical Literacy for Biologists Training Session. Research Scientific Computing, Seattle Childrens Research Institute, Seattle, WA. 
+* **Howard W. J.** (2023/2024, November) An introduction to missing data analysis [Webinar Workshop]. Statistical Literacy for Biologists Training Session. Research Scientific Computing, Seattle Childrens Research Institute, Seattle, WA. 
 
 * **Howard, W. J.** (2015, June) Introduction to Confirmatory Factor Analysis [In-Person Workshop]. Summer Summit Research Methodology Conference, University of Massachusetts, Institute for Social Science Research, Amherst, MA. ([outline](https://drive.google.com/file/d/1_UzEuzj4tUjIO5u4IL3FTtEAm3BJGWMk/view?usp=sharing), [link](https://www.umass.edu/issr/events/))
 
@@ -61,7 +61,9 @@ title: Presentations
 
 ### Visual Presentations
 
-* Ittleman, B., Bhawna, A., **Howard, W. J.**, et al. (2024, November). Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution. Poster presented at the centennial American Heart Association Scientific Sessions, Chicago, IL. ([link](https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24)) 
+* Lyle, A., **Howard, W. J.**, Weiss, E. (2025, April). Differences in Comfort in Ethical Dilemmas Among Pediatric Residents: A Survey Study. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Honolulu, HI. ([link](https://www.pas-meeting.org/2025-meeting/))  
+
+* Ittleman, B., **Howard, W. J.**, Virk, K., Brown, N., Bhat, A., Caris, E., Conwell, J., Edwards, L., Lewin, M., Pinto, N., Studer, M., Young, L., & Bhawna, A. (2024, November). Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution. Poster presented at the centennial American Heart Association Scientific Sessions, Chicago, IL. ([link](https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24)) 
 
 * Lyle, A., **Howard, W. J.**, Weiss, E. (2024, May). Pediatric Residents Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Toronto, ON, CA. ([link](https://2024.pas-meeting.org/fsPopup.asp?PosterID=649537&mode=posterInfo))  
 
@@ -95,5 +97,6 @@ title: Presentations
 
 * Geldhof, G. J., Stump, K., **Howard, W. J.**, & Hawley P. H. (2010). Support for five distinct resource control types via a cluster analytic approach. Poster presented at the 12th biennial meeting of the Society for Research on Adolescence, Philadelphia, PA.  ([link](http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2010_printedprogram.pdf)) 
 
-* Greenwood, C. R., Buzhardt, J., Walker, D., Anderson, R. A., & **Howard, W. J.** (2010). The early communication indicator (ECI) for infants and toddlers: Early head start growth norms. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.  
+* Greenwood, C. R., Buzhardt, J., Walker, D., Anderson, R. A., & **Howard, W. J.** (2010). The early communication indicator (ECI) for infants and toddlers: Early head start growth norms. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.
+
 * Greenwood, C. R., Anderson, R. A., Walker, D., Buzhardt, J., & **Howard, W. J.** (2010). Exploring the early communication key skills for intervention decision-making with infants and toddlers. Poster presented at 5th annual Institute of Education Sciences Research Conference, National Harbor, MD.  

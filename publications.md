@@ -4,7 +4,7 @@ title: Publications
 ---
 
 ### peer-reviewed articles 
-According to Google Scholar, my work has been cited **1050+** times, and my h-index is **16**. 
+According to Google Scholar, my work has been cited **1070+** times, and my h-index is **16**. 
 
 * Ross, F., Tjoeng, L., Chan, T., Tan, J., **Howard, W. J.**, & Jimenez, N. (2024). The Impact of Medicaid Expansion on Congenital Heart Surgery Outcomes: Data from the Society of Thoracic Surgeons Database. *Anesthesia & Analgesia* [Impact Factor [4.6](https://journals.lww.com/anesthesia-analgesia/pages/default.aspx)] ([Source Document](https://journals.lww.com/anesthesia-analgesia/pages/default.aspx))
 
