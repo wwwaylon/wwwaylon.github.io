@@ -33,8 +33,9 @@ Missing data is almost unavoidable in research, and how it’s handled can signi
 
 <h2 id="why-mnar-data-requires-special-handling">Why MNAR Data Requires Special Handling</h2>
 
+According to Little and Rubin (2002), Missing Not at Random (MNAR) occurs when the probability that data are missing depends on the unobserved values themselves, even after accounting for observed data. In other words, MNAR means that missingness is related to the missing data points in a way that cannot be explained by the observed data alone. This dependency creates a more complex missing data mechanism, as the missingness is associated with values that are not present in the dataset, making it challenging to accurately account for without additional assumptions or modeling approaches. 
 
-When data are MNAR, the probability of missingness is related to the missing values themselves. For example, individuals with lower income may be less likely to report their income, or people with more severe symptoms may avoid completing a mental health survey. Without explicitly modeling this missingness mechanism, analyses may yield biased results.
+For example, individuals with lower income may be less likely to report their income, or people with more severe symptoms may avoid completing a mental health survey. Without explicitly modeling this missingness mechanism, analyses may yield biased results.
 
 Common approaches for handling MNAR include:
 
