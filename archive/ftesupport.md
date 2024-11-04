@@ -1,27 +1,19 @@
----
-layout: post
-title: Level of Involvement for Biostatistics Support
-subtitle: FTE Support and Expected Contributions
-#thumbnail-img: /assets/img/PD_Cube.png
-#gh-repo: wwwaylon/beautiful-jekyll
-#gh-badge: [star, fork, follow]
-tags: [Leadership Biostatistics Billing]
----
+# Level of Involvement: FTE Support and Expected Contributions
 
-## Table of Contents
+<p><h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
-  <li><a href="#why-define-levels-of-support">Why Define Levels of Support</a></li>
-  <li><a href="#extensive-involvement">Extensive Involvement</a></li>
-  <li><a href="#regular-involvement">Regular Involvement</a></li>
-  <li><a href="#limited-involvement">Limited Involvement</a></li>
-  <li><a href="#very-limited-involvement">Very Limited Involvement</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#extensive-involvement">Extensive Involvement</a></li>
+<li><a href="#regular-involvement">Regular Involvement</a></li>
+<li><a href="#limited-involvement">Limited Involvement</a></li>
+<li><a href="#very-limited-involvement">Very Limited Involvement</a></li> 
 </ul>
 </nav>
 
-As the demands of research projects vary widely in scope and complexity, defining levels of support—ranging from extensive to very limited involvement—becomes crucial. Each level not only clarifies the roles and responsibilities of biostatisticians but also ensures that the project’s needs are adequately met.
+<h2 id="introduction">Introduction</h2>
 
-## Why Define Levels of Support {#why-define-levels-of-support}
+<p>As the demands of research projects vary widely in scope and complexity, defining levels of support—ranging from extensive to very limited involvement—becomes crucial. Each level not only clarifies the roles and responsibilities of biostatisticians but also ensures that the project&rsquo;s needs are adequately met. 
 
 1. **Tailored Expertise for Project Needs:** Different research projects require varying degrees of statistical expertise. By categorizing involvement levels, organizations can effectively match biostatistical resources with the specific needs of a project. For instance, projects that require methodological development—such as designing innovative statistical models or handling intricate study designs—benefit greatly from the Extensive Involvement level, where statisticians lead and shape the analytical framework. This tailored approach ensures that the right expertise is applied where it’s most needed, enhancing the overall quality and reliability of the research.
 
@@ -37,7 +29,7 @@ As the demands of research projects vary widely in scope and complexity, definin
 
 ---
 
-## Extensive Involvement {#extensive-involvement}
+<h2 id="extensive-involvement">Extensive Involvement</h2>    
 
 *More than 20% FTE*
 
@@ -50,7 +42,7 @@ As the demands of research projects vary widely in scope and complexity, definin
 
 ---
 
-## Regular Involvement {#regular-involvement}
+<h2 id="regular-involvement">Regular Involvement</h2>
 
 *15% FTE*
 
@@ -61,7 +53,7 @@ As the demands of research projects vary widely in scope and complexity, definin
 
 ---
 
-## Limited Involvement {#limited-involvement}
+<h2 id="limited-involvement">Limited Involvement</h2>
 
 *10% FTE*
 
@@ -73,7 +65,7 @@ As the demands of research projects vary widely in scope and complexity, definin
 
 ---
 
-## Very Limited Involvement {#very-limited-involvement}
+<h2 id="very-limited-involvement">Very Limited Involvement</h2>
 
 *5% FTE*
 
@@ -82,3 +74,4 @@ As the demands of research projects vary widely in scope and complexity, definin
 - **Analysis**: Does not perform any statistical analyses.
 - **Publications**: Does not contribute to publications or authorship.
 - **Meetings**: Does not regularly attend meetings.
+
