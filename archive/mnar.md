@@ -1,3 +1,4 @@
+---
 layout: post
 title: Modeling Missing Not at Random (MNAR) Data
 subtitle: Advanced Techniques in Handling Missing Data
@@ -5,7 +6,7 @@ cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/mnar.png
 share-img: /assets/img/path.jpg
 tags: [missing data, MNAR, Mplus, advanced modeling]
-
+---
 
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
