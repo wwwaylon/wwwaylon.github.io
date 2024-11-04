@@ -83,9 +83,7 @@ MODEL:
 MODEL TEST:
   ! Test if MNAR effect is significantly different
   mnar_effect = 0;
-
 ```
-
 
 <h3 id="interpretation-and-write-up-for-pattern-mixture-model">Interpretation and Write-up for Pattern-Mixture Model</h3>
 
@@ -97,6 +95,28 @@ The pattern-mixture model output provides coefficients for the relationship betw
 
 Write-up Example:
 “A pattern-mixture model was used to investigate whether missing income data depended on the income-age relationship. Results indicated a significant MNAR effect (p < .05), suggesting that individuals with missing income had a systematically different income-age association compared to those with observed income data. This indicates that the missing income data mechanism is likely MNAR, requiring adjustments in interpretation for potential bias.”
+
+
+In a pattern-mixture model, the p-value associated with the mnar_effect coefficient (or any coefficient) is typically obtained through statistical testing of whether the coefficient significantly differs from zero. This p-value tells us whether there is evidence that the relationship between variables (e.g., income and age) differs between groups with observed vs. missing data.
+
+Here’s how the p-value is obtained and the assumptions involved:
+
+	1.	Model Fitting and Estimation: The pattern-mixture model is usually fitted using maximum likelihood estimation (MLE), which involves calculating parameter estimates that maximize the likelihood of observing the data given the model. This process is common in mixed-effects models, structural equation modeling (SEM), or other types of regression frameworks that can handle missing data.
+	2.	Significance Testing:
+	•	Once the model is fitted, the p-value for the mnar_effect coefficient is derived by testing the null hypothesis that mnar_effect = 0, meaning there is no difference in the income-age relationship between groups with observed and missing income data.
+	•	The test statistic (such as a Wald test or likelihood ratio test) is calculated based on the coefficient estimate and its standard error. This test statistic follows a known distribution (often approximately normal or chi-square), allowing for the calculation of a p-value.
+	3.	Assumptions:
+	•	Normality of Residuals: The residuals (errors) in the model are typically assumed to be normally distributed. This is particularly important for obtaining accurate standard errors and thus reliable p-values, especially in smaller samples.
+	•	Independence of Observations: Observations are assumed to be independent within groups (i.e., between individuals with observed vs. missing income).
+	•	Correct Model Specification: The model structure, including predictors and the MNAR effect, must be correctly specified. Mis-specification can lead to incorrect estimates and invalid p-values.
+	•	MNAR Mechanism Validity: The model assumes that the missing data mechanism is indeed MNAR. The pattern-mixture model approach incorporates this assumption by allowing the relationship between variables (e.g., income and age) to vary based on missingness. However, demonstrating that data are truly MNAR is challenging, as this mechanism is not directly testable.
+
+It’s important to note that testing for MNAR is inherently complex, and interpreting the significance of the mnar_effect coefficient as evidence for MNAR should be done with caution, acknowledging that the model assumes the data mechanism is MNAR based on observed patterns rather than providing definitive proof.
+
+
+
+
+
 
 <h3 id="2-selection-model-for-mnar">2. Selection Model for MNAR</h3>
 
