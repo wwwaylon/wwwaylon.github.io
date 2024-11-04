@@ -62,6 +62,7 @@ In a pattern-mixture model, we account for the missingness by grouping data base
 
 Here’s an example of Mplus code to implement a pattern-mixture model for the variable Income:
 
+```mplus
 TITLE: Pattern-Mixture Model for MNAR Data
 
 DATA: FILE IS income_data.dat;
@@ -82,6 +83,9 @@ MODEL:
 MODEL TEST:
   ! Test if MNAR effect is significantly different
   mnar_effect = 0;
+
+```
+
 
 <h3 id="interpretation-and-write-up-for-pattern-mixture-model">Interpretation and Write-up for Pattern-Mixture Model</h3>
 
