@@ -156,4 +156,106 @@ run;
 	•	Appendix A: Sample Output of Missing Data Patterns.
 	•	Appendix B: Example MICE Analysis Output.
 
-Note: This document must be reviewed and updated annually or when significant regulatory changes arise. All personnel involved in clinical trial data handling are required to undergo training on this work instruction.
+.rise. All personnel involved in clinical trial data handling are required to undergo training on this work instruction.
+
+Certainly. Here are complete examples for Appendix A and Appendix B as requested.
+
+Appendix A: Sample Output of Missing Data Patterns
+
+This appendix provides an example of the output for missing data patterns in a clinical trial dataset using the R package mice.
+
+R Code to Generate Missing Data Pattern Summary:
+
+# Load necessary packages
+library(mice)
+
+# Load example clinical trial data
+# Assuming study_data is the dataset loaded previously
+# Simulating missing data pattern analysis
+md_pattern <- md.pattern(study_data)
+
+# Print missing data pattern summary
+print(md_pattern)
+
+Example Output:
+
+     outcome treatment covariate1 covariate2    
+269       1         1         1         1    0
+12        1         1         1         0    1
+8         1         1         0         1    1
+5         1         0         1         1    1
+4         1         1         0         0    2
+Total     1         1         1         1  Sum
+
+Note: In the table above, "1" indicates observed values, and "0" indicates missing values.
+The rightmost column shows the total number of missing values for each pattern.
+
+The md.pattern() function generates a matrix that describes the observed and missing data patterns. This output helps in identifying which variables frequently have missing values and informs decisions on appropriate handling strategies.
+
+Visual Representation of Missing Data Pattern:
+
+Using the mice package, a plot can help visualize missing data patterns, which is particularly useful for large datasets.
+
+# Plot missing data pattern
+library(VIM)
+aggr_plot <- aggr(study_data, col=c('navyblue','red'), numbers=TRUE, sortVars=TRUE,
+                  labels=names(study_data), cex.axis=.7, gap=3, ylab=c("Missing data","Pattern"))
+
+This code will create a graphical summary, where blue bars indicate observed data and red bars indicate missing data, providing an immediate overview of missing data distributions across variables.
+
+Appendix B: Example MICE Analysis Output
+
+This appendix provides an example of multiple imputation and pooling results using the mice package in R.
+
+1. Performing Multiple Imputation
+
+R Code for Multiple Imputation:
+
+# Perform multiple imputation
+# Specifying 'm' for the number of imputed datasets, 'maxit' for maximum iterations
+imputed_data <- mice(study_data, m = 5, maxit = 10, method = 'pmm', seed = 500)
+
+# Display summary of imputations
+summary(imputed_data)
+
+Example Output (Imputation Summary):
+
+Multiply imputed data set
+Number of multiple imputations:  5 
+Imputation methods:
+ outcome   : pmm 
+ treatment : logreg 
+ covariate1: pmm 
+ covariate2: pmm 
+
+Number of logged events:
+  iteration 1 :   10
+  iteration 2 :   10
+...
+
+The output from summary(imputed_data) provides an overview of the imputation process, including the number of imputations and the method used for each variable. Here, predictive mean matching (pmm) and logistic regression (logreg) are applied to continuous and binary variables, respectively.
+
+2. Analyzing and Pooling Results
+
+R Code for Fitting Models on Imputed Datasets and Pooling:
+
+# Fit linear regression model on each imputed dataset
+model <- with(imputed_data, lm(outcome ~ treatment + covariate1 + covariate2))
+
+# Pool results from the imputed datasets
+pooled_results <- pool(model)
+
+# Display pooled results
+summary(pooled_results)
+
+Example Output (Pooled Results):
+
+          term       estimate  std.error statistic      df    p.value
+1     (Intercept)      3.25     0.45      7.22     345.2     <0.001
+2      treatment       1.02     0.12      8.50     342.8     <0.001
+3     covariate1       0.54     0.08      6.75     341.9     <0.001
+4     covariate2      -0.30     0.07     -4.29     340.6     <0.001
+
+The pooled results combine estimates from the imputed datasets using Rubin’s Rules. Here, each predictor’s estimate, standard error, t-statistic, degrees of freedom (df), and p-value are provided. These results are used in the final report for clinical trial analysis.
+
+Note: The full documentation, including output interpretations and validation steps, should be maintained in the Statistical Analysis Plan (SAP) and Clinical Study Report (CSR). These appendices provide a template for the standard outputs to be generated and recorded.
