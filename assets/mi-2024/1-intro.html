@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>An introduction to missing data analysis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Waylon Howard" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script src="libs/twitter-widget/widgets.js"></script>
+    <link rel="stylesheet" href="src/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="src/slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# An introduction to missing data analysis
+]
+.subtitle[
+## <small>Introduction</small>
+]
+.author[
+### Waylon Howard
+]
+.date[
+### Webinar, November 12, 2024
+]
+
+---
+
+exclude: true
+
+
+
+
+
+
+
+
+
+---
+
+#  About me
+
+[Waylon Howard](https://wwwaylon.github.io/)
+
+- Senior researcher at [*GESIS - Leibniz Institute for the Social Sciences*](https://www.gesis.org/home) (Department Survey Data Curation) &amp; (co-) leader of the team *Research Data &amp; Methods* at the [*Center for Advanced Internet Studies*](https://www.cais.nrw/) (CAIS)
+
+--
+  - Uses and effects of digital media
+  - Computational methods
+  - Data management &amp; Open science
+
+---
+
+# About you
+
+- What's your name?  
+- What is your research area?  
+- What are your experiences with reproducible research (and the tools we cover in this course)?
+- What are your expectations for this course?
+
+---
+
+# Preliminaries
+
+Slides and material are available at
+
+.center[
+http://frederikaust.com/reproducible-research-practices-workshop
+]
+
+- The workshop consists of a combination of lectures and hands-on exercises
+- Feel free to ask questions anytime
+- We will have frequent breaks (please remind us if necessary)
+
+---
+
+# Preliminaries
+
+Did you have any trouble with the setup for this workshop?
+
+Installing...
+
+- [`git`](https://git-scm.com/)
+- [`R`](https://www.r-project.org/) &amp; [*RStudio*](https://www.rstudio.com/products/rstudio/)
+- a `TeX` distribution (e.g., [TinyTeX](https://yihui.name/tinytex/))
+- [`papaja`](https://github.com/crsh/papaja)
+
+---
+
+# Preliminaries
+
+Did you have any trouble with the setup for this workshop?
+
+Creating...
+
+- a [*GitHub*](https://github.com/) account
+- an account for the [KU Leuven *GitLab*](https://gitlab.kuleuven.be/)
+- access credentials for *GitHub* (HTTPS, PAT) and *GitLab* (SSH)
+
+---
+
+## Course schedule
+
+.center[**Wednesday, April 27th, 2022**]
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; When? &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; &amp;nbsp; &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; What? &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 10:00 - 12:00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Introduction: Reproducible Workflows &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 12:00 - 13:00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;i&gt;Lunch break&lt;/i&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 13:00 - 15:00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Introduction to R Markdown &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 15:00 - 15:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;i&gt;Coffee break&lt;/i&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 15:30 - 17:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; papaja &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+## Course schedule
+
+.center[**Thursday, April 28th, 2022**]
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; When? &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; &amp;nbsp; &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; What? &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 09:00 - 10:15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Introduction to Git &amp; GitHub &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 10:15 - 10:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;i&gt;Coffee break&lt;/i&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 10:30 - 11:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Git in RStudio &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 11:30 - 12:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Git &amp; GitHub for collaboration - Part 1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+## Course schedule
+
+.center[**Thursday, April 28th, 2022**]
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; When? &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; &amp;nbsp; &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; What? &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 12:30 - 13:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;i&gt;Lunch break&lt;/i&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 13:30 - 14:00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Git &amp; GitHub for collaboration - Part 2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 14:00 - 14:15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;i&gt;Coffee break&lt;/i&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 14:15 - 15:30 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Other tools &amp; workflows &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 15:30 - 16:00 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;nbsp; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wrap-Up &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+# What is reproducibility?
+
+.center[
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">&quot;Reproducibility is just collaboration with people you don&#39;t know, including yourself next week&quot; – <a href="https://twitter.com/philipbstark?ref_src=twsrc%5Etfw">@philipbstark</a> <a href="https://twitter.com/hashtag/dsesummit?src=hash&amp;ref_src=twsrc%5Etfw">#dsesummit</a> <a href="https://twitter.com/hashtag/openscience?src=hash&amp;ref_src=twsrc%5Etfw">#openscience</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/519563939177197571?ref_src=twsrc%5Etfw">October 7, 2014</a></blockquote>
+
+
+]
+
+---
+
+# Why reproducibility matters
+
+
+.center[
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr"><a href="https://twitter.com/hspter?ref_src=twsrc%5Etfw">@hspter</a> reproduciibilty is actually all about being as lazy as possible!</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/598532170160873472?ref_src=twsrc%5Etfw">May 13, 2015</a></blockquote>
+
+
+]
+
+---
+
+# Defining reproducibility
+
+As with (almost) everything in science, there are different definitions of reproducibility.
+We will discuss some of them in the following.
+
+---
+
+# Defining dimensions
+
+3-dimensional concept space
+
+
+&lt;small&gt;&lt;small&gt;By Christof Schöch. Source: https://dh-trier.github.io/trr/#/2/1&lt;/small&gt;&lt;/small&gt;
+
+---
+
+# Defining dimensions
+
+
+&lt;small&gt;&lt;small&gt;[*The Turing Way Project*](https://the-turing-way.netlify.app/welcome.html) illustration by Scriberia. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)&lt;/small&gt;&lt;/small&gt;
+
+---
+
+# *The Turing Way* definition
+
+
+&lt;small&gt;&lt;small&gt;Source: https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html&lt;/small&gt;&lt;/small&gt;
+
+---
+
+# Replication or reproduction?
+
+
+&lt;small&gt;&lt;small&gt;By Christof Schöch. Source: https://dh-trier.github.io/trr/#/2/2&lt;/small&gt;&lt;/small&gt;
+
+---
+exclude: true
+&lt;!-- Frederik takes over from here --&gt;
+
+# Zooming in
+
+
+
+---
+
+# Reproducible research workflows
+
+&gt; being an open scientist means .highlight[adopting a few straightforward research management practices, which lead to less error-prone, reproducible research workflows] ([Klein et al., 2018](https://doi.org/10.1525/collabra.158), p. 11)
+
+---
+
+# Research management practices
+
+There are quite a few practices that researchers can adopt to increase the reproducibility of their work.
+
+- [Project-oriented workflow](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
+- [Folder structures](https://psych-transparency-guide.uni-koeln.de/folder-structure.html)
+- [Naming things](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841?gi=3295916e039)
+- ...
+
+&lt;!-- also mention/discuss file paths here? relative vs. absolute --&gt;
+
+---
+
+# Exercise: Folder structures
+
+If you feel comfortable with that, feel free to share screenshots of some of your project folders. You can choose examples that you think are particularly well-organized as well as negative examples from your "dark past" as someone whose research might have been difficult to reproduce.
+
+---
+
+&lt;!-- Johannes takes over from here --&gt;
+
+# Sharing is caring
+
+.small[
+One prerequisite for research being reproducible (by others) is sharing research materials. There are many parts of their work that researchers can share to increase the reproducibility as well as the (potential) replicability of their work (see Klein et al., 2018). Four main types of output are:
+
+1. Data
+2. Code &amp; scripts (for data collection, processing, and analysis)
+3. Other study materials (e.g., questionnaires or stimulus materials)
+4. (Detailed) Information about the study procedure
+
+Notably, all of these outputs should be well-documented (e.g., via README files, metadata or comments in code).
+]
+
+---
+
+# Sharing for reproducibility
+
+While sharing study materials and information about the procedure are important for replicability, for reproducibility, the most important things to share are the data and code.
+
+---
+
+# Sharing data &amp; code
+
+There are many different ways in which researchers can share their data and code/scripts (see Klein et al., 2018). Keeping only local copies of things and sharing upon personal request is not a very sustainable or scalable solution. The better option is sharing via institutional or public archives and repositories.
+
+---
+
+# Fantastic repositories and where to find them 🐉
+
+The paper by [Klein et al. (2018)](https://doi.org/10.1525/collabra.158) provides an overview of public repositories that hold psychological data.&lt;sup&gt;1&lt;/sup&gt;
+A good tool for finding suitable repositories is the [*Registry of Research Data Repositories*](https://www.re3data.org/).
+
+&lt;small&gt;&lt;small&gt;[1] However, parts of this overview have inevitably become somewhat outdated since the paper was published.&lt;/small&gt;&lt;/small&gt;
+
+
+---
+
+# How to choose a repository
+
+In general, research data (and code) that are publicly archived should follow the so-called [FAIR principles](https://www.go-fair.org/fair-principles/) ([Wilkinson et al., 2016](https://doi.org/10.1038/sdata.2016.18)), meaning that the shared materials should be...
+
+- **F**indable: Persistent identifiers; metadata; indexed
+- **A**ccessible: Retrievable by identifier; controlled access where necessary
+- **I**nteroperable: Standardized metadata; open, lightweight, and interoperable file formats (e.g., CSV, TSV, JSON, ODS)
+- **R**eusable: Documented; clear usage license
+
+---
+
+# How to choose a repository
+
+Some more specific key criteria for choosing a repository are that it should...
+
+- use persistent and unique identifiers (such as DOIs)
+- accommodate licensing
+- feature access controls (e.g., allowing the restriction of 
+access to a particular set of users)
+- have persistence guarantees for long-term access
+- store data in accordance with local legislation (e.g. the [GDPR](https://gdpr.eu/) in Europe)
+
+.small[See [Klein et al., (2018)](https://doi.org/10.1525/collabra.158) for further details
+]
+
+---
+
+# Public archiving options
+
+Two archiving options that are quite popular among researchers (esp. also in psychology) are the [*Open Science Framework*](https://osf.io/) (OSF) and [*Zenodo*](https://zenodo.org/). 
+
+--
+
+While these two archives are not curated, which somewhat reduces findability, they are quite flexible and easy to use. They can be used to share different types of content, including data and code, and also offer some degree of access control. A nice feature of the *OSF* and *Zenodo*, especially for sharing code, is that they offer integration with *GitHub* (which facilitates version control).
+
+---
+
+# Tools &amp; tool stacks
+
+As you probably already know, there are lots of different tools and workflows that can be used to increase the reproducibility of research. These tools can then be combined into different tool stacks. We will introduce you to some of those in this workshop, but there are many more, and, in the end, it depends on your personal preferences and needs what tools/tool stacks and workflows you (should) employ.&lt;sup&gt;1&lt;/sup&gt;
+
+&lt;small&gt;&lt;small&gt;[1] As you will see, the two of us also have different preferences in our workflows and tool use.&lt;/small&gt;&lt;/small&gt;
+
+---
+
+# Tools in this workshop
+
+As stated before, we will focus on the following tools for reproducible research in this workshop:
+
+- Git &amp; *GitHub*/*GitLab*
+- R Markdown
+
+We will focus on using them via *RStudio*.
+
+.small[
+*Note:* In the outlook part, we will also briefly introduce some other/additional tools.
+]
+
+---
+
+class: center, middle
+
+# Any questions so far?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"countIncrementalSlides": false,
+"highlightLines": true,
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
