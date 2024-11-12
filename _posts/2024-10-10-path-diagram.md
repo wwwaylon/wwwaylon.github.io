@@ -19,7 +19,7 @@ Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in 
 
 Once you’ve built a library of Illustrator files for different model types, you can bypass the need to use `.mdg` files altogether.
 
-<p><h2>Table of Contents</h2>
+<p><h2>Sections</h2>
 <nav id="TableOfContents">
 <ul>
 <li><a href="#step-1-generate-a-template">Step 1. Generate a template</a></li>
