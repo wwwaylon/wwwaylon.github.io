@@ -32,7 +32,7 @@ The idea of `BioBuilder` is to let you create and share your NIH/IES/NSF/PCORI f
 
 ### But, why?
 
-**Efficientcy**. A biographical sketch (also referred to as biosketch) documents an individual's qualifications and experience for a specific role in a project. For instance, NIH requires submission of a biosketch for each proposed senior/key personnel and other significant contributor on a grant application. I've genrated numerous biosketches for grant submissions and used lots of time searching for a template, updating a previous version (hoping I've located the most recent version) and just needed a *simple* solution that could easily update.   
+**Efficiency**. A biographical sketch (also referred to as biosketch) documents an individual's qualifications and experience for a specific role in a project. For instance, NIH requires submission of a biosketch for each proposed senior/key personnel and other significant contributor on a grant application. I've genrated numerous biosketches for grant submissions and used lots of time searching for a template, updating a previous version (hoping I've located the most recent version) and just needed a *simple* solution that could easily update.   
 
 ---
 
