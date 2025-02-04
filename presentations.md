@@ -5,6 +5,8 @@ title: Presentations
 
 ### Oral Presentations and Panel Discussions
 
+* Buzhardt, J., Dykstra-Steinbrenner, J., Nowell, S. W., Wallisch, A., Irvin, D., Brunson, L. Y., **Howard W. J.**, Boyd B., (2025, May). Variation in Social-Communication Outcomes of Young Autistic Children Using a Novel Parent-mediated Play-based Assessment [In-Person Contributed Talk]. Biennial Meeting of the Society for Research in Child Development, Minneapolis, MN. ([link](https://www.srcd.org/event/srcd-2025-biennial-meeting)) 
+
 * Willson, R., Thomsen, S., Swanson, M., **Howard W. J.**, Mistovich, J., Ellis, H.B., Cruz Jr., A., Fabricant, P., Lee, R.J., McKay, S., Yen, Y-M., Kushare, I.V., Ganley, T.J., Schmale, G.A. (2025, January). No Impact of Posterior Tibial Slope on Subsequent ACL tears in Patients with Tibial Spine Fractures [In-Person Contributed Talk]. 12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH. ([link](https://www.prismsports.org/events/2025-annual-meeting)) 
 
 * **Howard W. J.** (2024, June) SEM, Revealed. Modeling connections with latent variables and regression pathways [In-Person Invited Talk]. Center for Child Health Behavior and Development, Seattle Childrens Research Institute, Seattle, WA.
@@ -60,6 +62,8 @@ title: Presentations
 * **Howard, W. J.** (2010, September). Latent variable modeling using LISREL notation [In-Person Tutorial]. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
 
 ### Visual Presentations
+
+* McKinney, C., **Howard W. J.**, Bijlani, K., Rahman, A., Meehan, K. Evans, D. Leavitt, T. J. Sitzman, P. Amoako-Yirenkyi, C. L. Heike (2025, May). Impact of Comorbidities on Growth in Children With Cleft From 0-18 Months of Age. Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Palm Springs, CA. ([link](google.com))  
 
 * Lyle, A., **Howard, W. J.**, Weiss, E. (2025, April). Differences in Comfort in Ethical Dilemmas Among Pediatric Residents: A Survey Study. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Honolulu, HI. ([link](https://www.pas-meeting.org/2025-meeting/))  
 
