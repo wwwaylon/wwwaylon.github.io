@@ -38,11 +38,22 @@ In this model, $\text{Intensity}_i$ is a continuous measure of disaster intensit
 
 ### H2a. Disaster exposure will be associated with fewer EI and pediatric visits (within 3 months).
 
+H2a. Disaster exposure will be associated with fewer early intervention and pediatric visits within 3 months.
+
+To evaluate whether disaster exposure disrupts access to routine pediatric and early intervention (EI) services, we will model the count of service encounters within the 3-month period following the disaster. The outcome variable, $S_i$, represents the number of routine service visits for child $i$, including both pediatric primary care and EI contacts. A generalized linear mixed-effects model with a log link will be used to estimate the expected number of visits, assuming a Poisson or negative binomial distribution based on the presence of overdispersion.
+
+The model is specified as:
+
 $$
-\log(E[S_i]) = \alpha_0 + \alpha_1 \text{Exposure}_i + \alpha_2 \mathbf{x}_i + u_i
+\log(E[S_i]) = \alpha_0 + \alpha_1 \text{Exposure}_i + \boldsymbol{\alpha}_2 \mathbf{x}_i + u_i
 $$
 
-Here, $S_i$ is the expected number of service encounters (e.g., EI or pediatric visits) for child $i$. The model uses a log-link to model counts, assuming a Poisson or negative binomial distribution. $\alpha_1$ is the key coefficient indicating whether exposure to a disaster is associated with a reduction in service use. Covariates are included in $\alpha_2$, and $u_i$ represents child-specific random effects. A significantly negative $\alpha_1$ would support the hypothesis that exposure disrupts access to routine care.
+In this equation, $\text{Exposure}_i$ captures the level of disaster exposure experienced by child $i$, and $\mathbf{x}_i$ is a vector of time-invariant covariates, such as child age, sex, race/ethnicity, baseline health status, socioeconomic indicators (e.g., insurance type, maternal education), and service enrollment status prior to the disaster. The term $u_i$ denotes a child-specific random effect to account for unmeasured heterogeneity in baseline service utilization.
+
+The coefficient of interest, $\alpha_1$, estimates the log difference in expected service use associated with disaster exposure. A significantly negative $\alpha_1$ would indicate that children exposed to the disaster accessed fewer EI or pediatric services during the post-disaster recovery period, supporting the hypothesis that such exposure disrupts routine care continuity.
+
+This model allows us to quantify the extent to which exposure to large-scale disruptive events—such as natural disasters or public health emergencies—interferes with timely receipt of services that are critical to early development and health maintenance.
+
 
 ### H2b. Disaster exposure will be associated with more ACSC-related ED and hospital visits (within 12 months).
 
