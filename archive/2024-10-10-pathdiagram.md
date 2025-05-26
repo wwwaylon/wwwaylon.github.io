@@ -20,11 +20,21 @@ This model estimates each child’s neurodevelopmental score ($Y_{ij}$) over tim
 
 ### H1b. Greater cumulative exposure will be associated with poorer outcomes.
 
+H1b. Greater cumulative exposure will be associated with poorer developmental outcomes.
+
+To evaluate the long-term effects of repeated disaster exposure on child development, we will estimate a linear mixed-effects growth model to assess the relationship between cumulative exposure and developmental trajectories. The dependent variable, $Y_{ij}$, represents a developmental score (e.g., cognitive, language, or social-emotional functioning) for child $i$ at time point $j$. The primary predictor, $\text{CumulativeExposure}_i$, is a child-level, time-invariant measure indicating the total number of discrete disaster events experienced by the child (e.g., multiple hurricanes or public health emergencies).
+
+The model is specified as:
+
 $$
-Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{CumulativeExposure}_i + \beta_3 (\text{Time}_{ij} \times \text{CumulativeExposure}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 \text{Time}{ij} + \beta_2 \text{CumulativeExposure}i + \beta_3 (\text{Time}{ij} \times \text{CumulativeExposure}i) + \boldsymbol{\beta}4 \mathbf{x}i + u{0i} + u{1i} \text{Time}{ij} + \epsilon{ij}
 $$
 
-Here, $\text{CumulativeExposure}_i$ represents the total number of disasters a child has experienced. $\beta_2$ captures differences in baseline neurodevelopmental functioning by exposure level, while $\beta_3$ evaluates whether cumulative exposure changes the rate of developmental progress. A significantly negative $\beta_3$ would support the hypothesis that increased exposure leads to poorer neurodevelopmental outcomes over time. Covariates, random effects, and residual error are specified as in H1a.
+In this specification, $\text{Time}{ij}$ reflects the time of assessment (e.g., months since baseline or disaster onset), $\mathbf{x}i$ is a vector of time-invariant covariates such as child age at enrollment, sex, race/ethnicity, baseline developmental status, maternal education, household income, or pre-existing health conditions. The random effects $u{0i}$ and $u{1i}$ allow each child to have a unique intercept and slope, while $\epsilon_{ij}$ represents the residual error term.
+
+The coefficient $\beta_2$ estimates differences in baseline developmental status by level of cumulative exposure, while $\beta_3$ captures whether the rate of developmental change over time varies as a function of cumulative disaster exposure. A significantly negative $\beta_3$ would support the hypothesis that children exposed to a greater number of disasters experience slower developmental growth or sharper declines, suggesting a cumulative burden on neurodevelopment. This model enables evaluation of dose–response relationships between disaster frequency and developmental outcomes while controlling for confounders and individual heterogeneity in change.
+
+
 
 ### H1c. Increased disaster intensity will be associated with worse developmental trajectories.
 
