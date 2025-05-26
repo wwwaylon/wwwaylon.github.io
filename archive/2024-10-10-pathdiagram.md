@@ -8,108 +8,67 @@ thumbnail-img: /assets/img/lgm.png
 tags: [Path Diagram Illustrator]
 ---
 
-Creating high-quality path diagrams for structural equation models (SEM) is crucial for clearly communicating your results in academic publications. While some SEM software provide readily available path diagrams, further refinement is often necessary. 
+---
+title: "Analysis Plan"
+output: pdf_document
+---
 
-Mplus, for example, provides the Mplus Diagrammer, which can export diagrams in `.mdg` format, a proprietary binary format, you can’t directly parse or manipulate outside of Mplus. In this guide, we’ll show you how to export your Mplus path diagram (left image) as a `.pdf` file and refine it in Adobe Illustrator to create polished, publication-ready professional diagram (right image). 
+## Aim 1: Weather-Related Disaster Exposure and Neurodevelopment
 
-<p align="center">
-  <img src="/assets/img/lgm-diagrammer.PNG" alt="Mplus Diagrammer" width="45%"/>
-  <img src="/assets/img/lgm-six.png" alt="Adobe Illustrator" width="45%"/>
-</p>
+### H1a. Children with any disaster exposure will demonstrate poorer neurodevelopmental trajectories.
 
-Once you’ve built a library of Illustrator files for different model types, you can bypass the need to use `.mdg` files altogether.
+$$
+Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Exposure}_i + \beta_3 (\text{Time}_{ij} \times \text{Exposure}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+$$
 
-<p><h2>Table of Contents</h2>
-<nav id="TableOfContents">
-<ul>
-<li><a href="#step-1-generate-a-template">Step 1. Generate a template</a></li>
-<li><a href="#step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</a></li>
-<li><a href="#step-3-import-into-adobe-illustrator">Step 3. Import into Adobe Illustrator</a></li>
-<li><a href="#step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</a></li>
-<li><a href="#step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</a></li> 
-</ul>
-</nav>
+This model estimates each child’s neurodevelopmental score ($Y_{ij}$) over time ($\text{Time}_{ij}$). The fixed intercept ($\beta_0$) represents the average baseline score, and $\beta_1$ is the average slope of change across all children. $\beta_2$ captures baseline differences between children with and without disaster exposure. The key parameter of interest is $\beta_3$, which estimates whether the rate of developmental change over time differs by disaster exposure status—i.e., whether exposure moderates the developmental trajectory. $\mathbf{x}_i \boldsymbol{\beta}_4$ includes child-level covariates such as age, sex, and SES. The random effects $u_{0i}$ and $u_{1i}$ allow for child-specific intercepts and slopes, and $\epsilon_{ij}$ represents residual error. Inference will focus on $\beta_3$ to determine whether exposure significantly alters developmental trajectories.
 
-<h2 id="step-1-generate-a-template">Step 1. Generate a template</h2> 
+### H1b. Greater cumulative exposure will be associated with poorer outcomes.
 
-Before you can refine the diagram, you need to create it in Mplus:
+$$
+Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{CumulativeExposure}_i + \beta_3 (\text{Time}_{ij} \times \text{CumulativeExposure}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+$$
 
-Run your model in Mplus with your desired SEM specifications.
-- Use the following command to generate a diagram:
-   
-```mplus
-   PLOT:
-   TYPE = PLOT3;
-```
+Here, $\text{CumulativeExposure}_i$ represents the total number of disasters a child has experienced. $\beta_2$ captures differences in baseline neurodevelopmental functioning by exposure level, while $\beta_3$ evaluates whether cumulative exposure changes the rate of developmental progress. A significantly negative $\beta_3$ would support the hypothesis that increased exposure leads to poorer neurodevelopmental outcomes over time. Covariates, random effects, and residual error are specified as in H1a.
 
-This command will generate the path diagram and save it in `.mdg` format, which contains the structure and layout of your model’s diagram. Now, you need to export it in a format that Adobe Illustrator can work with.
+### H1c. Increased disaster intensity will be associated with worse developmental trajectories.
 
-<h2 id="step-2-export-for-adobe-illustrator">Step 2. Export for Adobe Illustrator</h2> 
+$$
+Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Intensity}_i + \beta_3 (\text{Time}_{ij} \times \text{Intensity}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+$$
 
-Export the `.mdg` File to `.pdf`
+In this model, $\text{Intensity}_i$ is a continuous measure of disaster intensity (e.g., wind speed, FEMA damage index). $\beta_3$ is the key coefficient testing whether the severity of disaster exposure predicts differential developmental trajectories. A significant and negative $\beta_3$ would suggest a dose-response relationship, indicating that greater disaster intensity is associated with steeper declines or slower improvements in neurodevelopment.
 
-Mplus Diagrammer can export diagrams in the `.pdf` format, which in this case is a vector-based file type that retains scalability, making it perfect for detailed editing in Adobe Illustrator.
+## Aim 2: Disruptions in Services as a Mediator
 
-1.	Open your `.out` file in Mplus.
-2. Open the Diagrammer and specify the content you want. 
-3.	Go to File -> Save As, and select `.pdf` (vector elements in a PDF, such as lines, shapes, and text, are scalable without losing quality).
-- This will export the diagram in a high-quality vector format, which can then be imported into Adobe Illustrator for further adjustments.
+### H2a. Disaster exposure will be associated with fewer EI and pediatric visits (within 3 months).
 
-With the diagram saved as an `.pdf` file, you’re ready to move on to Illustrator for editing.
+$$
+\log(E[S_i]) = \alpha_0 + \alpha_1 \text{Exposure}_i + \alpha_2 \mathbf{x}_i + u_i
+$$
 
-<h2 id="step-3-import-into-adobe-illustrator">Step 3. Import into Adobe Illustrator</h2> 
+Here, $S_i$ is the expected number of service encounters (e.g., EI or pediatric visits) for child $i$. The model uses a log-link to model counts, assuming a Poisson or negative binomial distribution. $\alpha_1$ is the key coefficient indicating whether exposure to a disaster is associated with a reduction in service use. Covariates are included in $\alpha_2$, and $u_i$ represents child-specific random effects. A significantly negative $\alpha_1$ would support the hypothesis that exposure disrupts access to routine care.
 
-Now that you’ve exported your diagram in `.pdf` format, it can be opened and refined in Adobe Illustrator, which provides powerful vector-editing capabilities.
+### H2b. Disaster exposure will be associated with more ACSC-related ED and hospital visits (within 12 months).
 
-1.	Open Adobe Illustrator and go to File -> Open.
-2.	Select the `.pdf` file you just saved from Mplus Diagrammer.
-- When opened, the diagram will be fully editable as a vector file, allowing you to make any adjustments to paths, nodes, and text elements.
+$$
+\log(E[H_i]) = \gamma_0 + \gamma_1 \text{Exposure}_i + \gamma_2 \mathbf{x}_i + u_i
+$$
 
-<h2 id="step-4-refining-the-path-diagram">Step 4. Refining the Path Diagram</h2> 
+$H_i$ represents the number of emergency department or hospitalization events for ambulatory care-sensitive conditions. The log-linear model examines whether prior disaster exposure predicts increased acute care utilization. $\gamma_1$ is the key coefficient. A significantly positive $\gamma_1$ would indicate greater reliance on emergency care in the aftermath of disaster exposure.
 
-Now that the diagram is open in Adobe Illustrator, it’s time to customize it to make it publication-ready.
+### H2c. Service disruptions mediate the relationship between disaster exposure and child outcomes.
 
-1. **Ungroup/group the Diagram Elements:**
+#### Mediator model (e.g., reduction in EI visits):
 
-- On import, all components may be grouped together. To edit individual parts, select the diagram and choose Object -> Ungroup. This allows you to manipulate individual nodes, paths, and text elements.
-  - You may need to repeat this ungrouping process if elements are nested in multiple groups.
-- Alternatively, some elements may be ungrouped (e.g., arrowheads) and should be grouped or modified (e.g., adding arrowheads to lines via Illustrator).
+$$
+\log(E[M_i]) = \alpha_0 + \alpha_1 \text{Exposure}_i + \alpha_2 \mathbf{x}_i + u_i
+$$
 
-2. **Edit Text and Labels:**
+#### Outcome model (e.g., cognitive scores over time):
 
-- *Font Style and Size*. Select text labels to adjust their font size, style, or color to match your publication’s formatting. Most journals prefer sans-serif fonts like Arial or Helvetica for clarity. Use the Character panel to customize the text.
-- *Positioning*. Ensure that all labels are properly aligned and not overlapping with paths or nodes. You can drag and reposition text using Illustrator’s selection tool.
+$$
+Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Exposure}_i + \beta_3 M_i + \beta_4 (\text{Time}_{ij} \times \text{Exposure}_i) + \beta_5 (\text{Time}_{ij} \times M_i) + \mathbf{x}_i \boldsymbol{\beta}_6 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+$$
 
-3. **Customize Paths and Arrows:**
-
-- *Line Thickness and Color*. Adjust the stroke width of arrows or lines to ensure they are clearly visible. Select any arrow, then modify its properties in the Stroke panel (Window -> Stroke).
-- *Arrowheads and Styles*. You can adjust the shape and size of arrowheads or switch between solid and dashed lines, depending on the type of relationship being represented (e.g., direct effects vs. covariances). Access these options in the Stroke panel.
-- *Color Coding*. To enhance visual clarity, consider using different colors to represent various types of paths. This is particularly useful for distinguishing between latent variables, observed variables, and covariances.
-
-4. **Refine Shapes (Nodes):**
-
-- *Adjust Node Sizes*. Click on rectangles (observed variables) or ovals (latent variables) to resize them for better readability. You can also adjust their stroke thickness or fill color to match your figure’s overall design.
-- *Fill and Border Colors*. Customize the fill color of shapes to group variables visually. Ensure there’s enough contrast between shapes and the background for easy reading.
-
-5. **Alignment and Symmetry:**
-
-- Use Illustrator’s Align and Distribute tools (Window -> Align) to ensure that all elements are aligned and evenly spaced. Proper alignment ensures that the diagram looks professional and well-organized.
-- Adjust overlapping arrows or nodes to maintain clarity, especially if multiple relationships are represented in your model.
-
-6. **Add or Modify Annotations (Optional):**
-
-- You can add additional labels or annotations if necessary to clarify relationships in your model. Use Illustrator’s Text tool to insert any additional notes, and align them with the diagram to ensure a clean, consistent look.
-
-<h2 id="step-5-exporting-the-final-path-diagram">Step 5. Exporting the Final Path Diagram</h2> 
-
-Once your diagram is fully refined, the final step is to export it in a format suitable for publication. Adobe Illustrator supports a range of high-quality formats that are widely accepted by academic journals.
-
-1.	Save Your Work in Illustrator Format:
-- Before exporting, save your working file in .ai format (File -> Save As -> Adobe Illustrator (.ai)). This allows you to go back and make adjustments if necessary.
-	
-2.	Export for Publication:
-- Depending on the journal’s requirements, export the diagram in a vector-based format such as .eps, .svg, or .pdf. These formats ensure that the diagram retains its high quality and scalability in the final publication.
-  - Go to File -> Export -> Export As, and choose .eps, .svg, or .pdf from the list of file types.
-  - Select the resolution (DPI) per journal requirements. Note the best possible image quality will generate a **huge** file that may be difficult to share.
-	
-
+In this mediation framework, $M_i$ represents the mediator (e.g., number of missed EI visits), which may be influenced by disaster exposure and, in turn, influence neurodevelopment. The mediator model estimates whether exposure predicts disruption in services ($\alpha_1$), while the outcome model estimates the effect of the mediator ($\beta_3$) on child development and whether that effect changes over time ($\beta_5$). Mediation is supported if both $\alpha_1$ and $\beta_3$ are significant, suggesting that disaster exposure impacts child outcomes in part through service disruption. For formal mediation testing, bootstrapping or causal mediation analysis is recommended.
