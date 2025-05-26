@@ -28,11 +28,19 @@ Here, $\text{CumulativeExposure}_i$ represents the total number of disasters a c
 
 ### H1c. Increased disaster intensity will be associated with worse developmental trajectories.
 
+H1c. Increased disaster intensity will be associated with worse developmental trajectories.
+
+To examine whether the severity of disaster exposure predicts changes in child development over time, we will estimate a linear mixed-effects growth model with random intercepts and slopes. The outcome variable, $Y_{ij}$, represents a repeated developmental measure for child $i$ at time $j$ (e.g., cognitive, language, or motor scores). Disaster intensity is modeled as a continuous, child-level predictor, measured using indicators such as maximum wind speed, flood height, or a composite index derived from FEMA damage assessments.
+
+The model is specified as:
+
 $$
-Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Intensity}_i + \beta_3 (\text{Time}_{ij} \times \text{Intensity}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 \text{Time}{ij} + \beta_2 \text{Intensity}i + \beta_3 (\text{Time}{ij} \times \text{Intensity}i) + \boldsymbol{\beta}4 \mathbf{x}i + u{0i} + u{1i} \text{Time}{ij} + \epsilon{ij}
 $$
 
-In this model, $\text{Intensity}_i$ is a continuous measure of disaster intensity (e.g., wind speed, FEMA damage index). $\beta_3$ is the key coefficient testing whether the severity of disaster exposure predicts differential developmental trajectories. A significant and negative $\beta_3$ would suggest a dose-response relationship, indicating that greater disaster intensity is associated with steeper declines or slower improvements in neurodevelopment.
+In this equation, $\text{Time}{ij}$ represents the assessment occasion (e.g., months since disaster or months since baseline), $\text{Intensity}i$ is a time-invariant, continuous measure of disaster exposure severity for child $i$, and $\mathbf{x}i$ includes time-invariant covariates such as baseline developmental status, child sex, age at enrollment, race/ethnicity, maternal education, and pre-disaster health conditions. Random effects $u{0i}$ and $u{1i}$ allow for individual variability in intercepts and slopes, respectively, and $\epsilon{ij}$ is the residual error term.
+
+The coefficient of primary interest is $\beta_3$, which captures the interaction between time and disaster intensity. A significantly negative $\beta_3$ would indicate that children who experienced more severe disaster impacts exhibit slower developmental gains or steeper declines over time, consistent with a dose–response relationship between disaster intensity and developmental trajectory. This model accounts for both individual baseline differences and intra-individual change, enabling inference about how disaster-related stressors may disrupt developmental progress across early childhood.
 
 ## Aim 2: Disruptions in Services as a Mediator
 
