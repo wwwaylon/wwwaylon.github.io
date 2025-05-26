@@ -24,9 +24,7 @@ $$
 
 In this formulation, $\text{Time}{ij}$ denotes the time of assessment (e.g., in months since baseline or disaster onset), and $\mathbf{x}i$ includes a vector of time-invariant child- and family-level covariates, such as child age at enrollment, sex, race/ethnicity, maternal education, household income, and baseline developmental status. Random intercepts ($u{0i}$) and slopes ($u{1i}$) allow each child to have an individualized trajectory, while $\epsilon_{ij}$ denotes residual within-child variation.
 
-The intercept $\beta_0$ represents the average baseline score across all children, and $\beta_1$ is the average rate of developmental change. The coefficient $\beta_2$ captures baseline differences in developmental functioning between exposed and unexposed children, while $\beta_3$ estimates the extent to which disaster exposure moderates the slope of developmental change. A significantly negative $\beta_3$ would indicate that children with disaster exposure experience slower developmental progress or steeper declines over time relative to their unexposed peers. This model provides a formal test of the hypothesis that disaster exposure disrupts normative developmental trajectories, accounting for individual variability and relevant covariates.
-
-
+The intercept $\beta_0$ represents the average baseline score across all children, and $\beta_1$ is the average rate of developmental change. The coefficient $\beta_2$ captures baseline differences in developmental functioning between exposed and unexposed children, while $\beta_3$ estimates the extent to which disaster exposure moderates the slope of developmental change. A significantly negative $\beta_3$ would suggest that children with disaster exposure tend to show slower developmental progress or steeper declines over time relative to their unexposed peers. This model provides a formal test of the association between disaster exposure and developmental trajectories, while accounting for individual variability and relevant covariates.
 
 ### H1b. Greater cumulative exposure will be associated with poorer outcomes.
 
