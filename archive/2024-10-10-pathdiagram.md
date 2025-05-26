@@ -54,16 +54,25 @@ $H_i$ represents the number of emergency department or hospitalization events fo
 
 ### H2c. Service disruptions mediate the relationship between disaster exposure and child outcomes.
 
-#### Mediator model (e.g., reduction in EI visits):
+H2c. Service disruptions mediate the time-varying relationship between disaster exposure and child outcomes.
+
+To evaluate whether disruptions in early intervention (EI) services mediate the relationship between disaster exposure and child developmental outcomes, we will estimate a 1-1-1 multilevel mediation model in which all primary variables—exposure, mediator, and outcome—vary across time and are measured repeatedly for each child. In this framework, disaster exposure ($\text{Exposure}{ij}$) and service disruption ($M{ij}$) are specified as time-varying Level 1 predictors of child outcomes ($Y_{ij}$), also measured at Level 1. Repeated observations are nested within children, and between-child variation is modeled through random effects and time-invariant covariates at Level 2.
+
+The mediation model is specified in two parts. First, the mediator model evaluates whether time-varying exposure predicts disruptions in EI services at the same time point:
 
 $$
-\log(E[M_i]) = \alpha_0 + \alpha_1 \text{Exposure}_i + \alpha_2 \mathbf{x}_i + u_i
+M_{ij} = \alpha_0 + \alpha_1 \text{Exposure}_{ij} + \boldsymbol{\alpha}2 \mathbf{x}^{(1)}{ij} + \boldsymbol{\alpha}3 \mathbf{x}^{(2)}i + u{0i} + e{ij}
 $$
 
-#### Outcome model (e.g., cognitive scores over time):
+Second, the outcome model assesses whether service disruptions predict developmental outcomes, accounting for both exposure and covariates:
 
 $$
-Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Exposure}_i + \beta_3 M_i + \beta_4 (\text{Time}_{ij} \times \text{Exposure}_i) + \beta_5 (\text{Time}_{ij} \times M_i) + \mathbf{x}_i \boldsymbol{\beta}_6 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 \text{Time}{ij} + \beta_2 \text{Exposure}{ij} + \beta_3 M_{ij} + \beta_4 (\text{Time}{ij} \times \text{Exposure}{ij}) + \beta_5 (\text{Time}{ij} \times M{ij}) + \boldsymbol{\beta}6 \mathbf{x}^{(1)}{ij} + \boldsymbol{\beta}7 \mathbf{x}^{(2)}i + u{0i} + u{1i} \text{Time}{ij} + \epsilon{ij}
 $$
 
-In this mediation framework, $M_i$ represents the mediator (e.g., number of missed EI visits), which may be influenced by disaster exposure and, in turn, influence neurodevelopment. The mediator model estimates whether exposure predicts disruption in services ($\alpha_1$), while the outcome model estimates the effect of the mediator ($\beta_3$) on child development and whether that effect changes over time ($\beta_5$). Mediation is supported if both $\alpha_1$ and $\beta_3$ are significant, suggesting that disaster exposure impacts child outcomes in part through service disruption. For formal mediation testing, bootstrapping or causal mediation analysis is recommended.
+In these models, $\text{Exposure}{ij}$ is a child’s disaster-related exposure at time $j$, $M{ij}$ is the number of missed or reduced EI visits, and $Y_{ij}$ is a continuous child outcome (e.g., cognitive or language development score). Time-varying covariates $\mathbf{x}^{(1)}_{ij}$ include dynamic factors such as current caregiver stress, time since disaster, and seasonal availability of services. Time-invariant covariates $\mathbf{x}^{(2)}_i$ include baseline child age, race/ethnicity, maternal education, and child diagnosis at enrollment. All time-varying predictors will be group-mean centered to isolate within-child effects over time, while time-invariant predictors will be grand-mean centered to interpret between-child effects.
+
+To preserve the temporal logic required for mediation, we will lag the mediator such that $M_{i(j-1)}$ is used to predict $Y_{ij}$, and $\text{Exposure}{i(j-1)}$ is used to predict both $M{i(j-1)}$ and $Y_{ij}$. This temporal structure aligns with the hypothesized causal ordering $\text{Exposure}{j-1} \rightarrow M{j-1} \rightarrow Y_j$, minimizing risks of reverse causation.
+
+Multilevel indirect effects will be estimated using Monte Carlo confidence intervals or parametric bootstrap procedures, consistent with the approach recommended by Preacher, Zyphur, and Zhang (2010). This modeling framework accounts for the nested data structure, disaggregates within- and between-person effects, and enables rigorous inference regarding the mediating role of service disruption in the association between disaster exposure and child development over time.
+
