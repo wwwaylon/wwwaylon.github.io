@@ -138,3 +138,69 @@ For the multilevel mediation model (H2c), we used simulation-based approaches to
 
 All power estimates assume minimal clustering at levels above the child (e.g., household or community), but sensitivity checks were performed under scenarios with modest community-level intraclass correlation (ICC = 0.05). If needed, multilevel modeling will be adjusted to account for clustering or design effects. These estimates indicate adequate power to detect key hypothesized relationships while allowing for inclusion of relevant covariates and random effects.
 
+
+# Load necessary libraries
+library(simr)         # For power simulations of mixed models
+library(lme4)         # For mixed-effects modeling
+library(MASS)         # For Negative Binomial
+library(mediation)    # For causal mediation analysis
+library(powerlmm)     # For longitudinal power analysis
+
+# -----------------------------------------
+# 1. Longitudinal mixed-effects model power
+# -----------------------------------------
+# Simulate a dataset for 600 children with 3 time points
+
+model1 <- lmer(Y ~ Time * Exposure + (1 + Time | ID), 
+               data = simdata <- powerlmm::sim_data_fixed(n1 = 3, n2 = 600, fixed_intercept = 50,
+                                                         fixed_slope = 0.5, sigma_subject_intercept = 5,
+                                                         sigma_subject_slope = 1, sigma_error = 2,
+                                                         fixed_effects = list(Exposure = c(0, -1, 1))))
+
+# Power for the interaction term (Exposure x Time)
+power1 <- powerSim(model1, fixed("Time:Exposure", "t"), nsim = 100)
+summary(power1)
+
+# -----------------------------------------
+# 2. GLMM with Poisson outcome (H2a/H2b)
+# -----------------------------------------
+# Simulate Poisson outcome for health service use
+
+glmm_model <- glmer(Visits ~ Exposure + (1 | ID), 
+                    data = simdata2 <- data.frame(ID = rep(1:600, each = 1),
+                                                  Exposure = rbinom(600, 1, 0.5),
+                                                  Visits = rpois(600, lambda = 2.5)),
+                    family = poisson)
+
+# Power analysis for Exposure effect
+power2 <- powerSim(glmm_model, fixed("Exposure", "z"), nsim = 100)
+summary(power2)
+
+# -----------------------------------------
+# 3. Multilevel mediation model (2-1-1)
+# -----------------------------------------
+# Simulate data for multilevel mediation model
+set.seed(123)
+N <- 600
+J <- 3
+ID <- rep(1:N, each = J)
+Time <- rep(1:J, times = N)
+Exposure <- rep(rbinom(N, 1, 0.5), each = J)
+Mediator <- rep(rnorm(N, mean = 0.5 * Exposure[1:N * J %/% J], sd = 1), each = J)
+Y <- 50 + 0.5 * Time + 0.3 * Mediator + 0.2 * Exposure + 
+     0.1 * Time * Mediator + rnorm(N * J, 0, 1)
+med_data <- data.frame(ID, Time, Exposure, Mediator, Y)
+
+# Fit mediator and outcome models
+med_model <- lm(Mediator ~ Exposure, data = med_data[!duplicated(med_data$ID), ])
+outcome_model <- lmer(Y ~ Time * Exposure + Time * Mediator + (1 + Time | ID), data = med_data)
+
+# Mediation analysis
+med_power <- mediate(med_model, outcome_model, treat = "Exposure", mediator = "Mediator",
+                     sims = 100, boot = TRUE)
+summary(med_power)
+
+
+
+
+
