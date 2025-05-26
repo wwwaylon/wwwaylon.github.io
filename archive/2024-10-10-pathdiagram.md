@@ -12,11 +12,21 @@ tags: [Path Diagram Illustrator]
 
 ### H1a. Children with any disaster exposure will demonstrate poorer neurodevelopmental trajectories.
 
+H1a. Children with any disaster exposure will demonstrate poorer neurodevelopmental trajectories.
+
+To test whether disaster exposure is associated with differential developmental change, we will estimate a linear mixed-effects growth model of child neurodevelopment over time. The outcome variable, $Y_{ij}$, represents a neurodevelopmental score (e.g., cognitive, language, motor) for child $i$ at time point $j$. Disaster exposure is modeled as a binary, time-invariant predictor, $\text{Exposure}_i$, indicating whether the child experienced a disaster during the study period.
+
+The model is specified as:
+
 $$
-Y_{ij} = \beta_0 + \beta_1 \text{Time}_{ij} + \beta_2 \text{Exposure}_i + \beta_3 (\text{Time}_{ij} \times \text{Exposure}_i) + \mathbf{x}_i \boldsymbol{\beta}_4 + u_{0i} + u_{1i} \text{Time}_{ij} + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 \text{Time}{ij} + \beta_2 \text{Exposure}i + \beta_3 (\text{Time}{ij} \times \text{Exposure}i) + \boldsymbol{\beta}4 \mathbf{x}i + u{0i} + u{1i} \text{Time}{ij} + \epsilon{ij}
 $$
 
-This model estimates each child’s neurodevelopmental score ($Y_{ij}$) over time ($\text{Time}_{ij}$). The fixed intercept ($\beta_0$) represents the average baseline score, and $\beta_1$ is the average slope of change across all children. $\beta_2$ captures baseline differences between children with and without disaster exposure. The key parameter of interest is $\beta_3$, which estimates whether the rate of developmental change over time differs by disaster exposure status—i.e., whether exposure moderates the developmental trajectory. $\mathbf{x}_i \boldsymbol{\beta}_4$ includes child-level covariates such as age, sex, and SES. The random effects $u_{0i}$ and $u_{1i}$ allow for child-specific intercepts and slopes, and $\epsilon_{ij}$ represents residual error. Inference will focus on $\beta_3$ to determine whether exposure significantly alters developmental trajectories.
+In this formulation, $\text{Time}{ij}$ denotes the time of assessment (e.g., in months since baseline or disaster onset), and $\mathbf{x}i$ includes a vector of time-invariant child- and family-level covariates, such as child age at enrollment, sex, race/ethnicity, maternal education, household income, and baseline developmental status. Random intercepts ($u{0i}$) and slopes ($u{1i}$) allow each child to have an individualized trajectory, while $\epsilon_{ij}$ denotes residual within-child variation.
+
+The fixed intercept $\beta_0$ represents the average baseline score across all children, and $\beta_1$ is the average rate of developmental change. The coefficient $\beta_2$ captures baseline differences in developmental functioning between exposed and unexposed children, while $\beta_3$ estimates the extent to which disaster exposure moderates the slope of developmental change. A significantly negative $\beta_3$ would indicate that children with disaster exposure experience slower developmental progress or steeper declines over time relative to their unexposed peers. This model provides a formal test of the hypothesis that disaster exposure disrupts normative developmental trajectories, accounting for individual variability and relevant covariates.
+
+
 
 ### H1b. Greater cumulative exposure will be associated with poorer outcomes.
 
