@@ -8,11 +8,6 @@ thumbnail-img: /assets/img/lgm.png
 tags: [Path Diagram Illustrator]
 ---
 
----
-title: "Analysis Plan"
-output: pdf_document
----
-
 ## Aim 1: Weather-Related Disaster Exposure and Neurodevelopment
 
 ### H1a. Children with any disaster exposure will demonstrate poorer neurodevelopmental trajectories.
