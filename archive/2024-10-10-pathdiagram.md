@@ -46,11 +46,20 @@ Here, $S_i$ is the expected number of service encounters (e.g., EI or pediatric 
 
 ### H2b. Disaster exposure will be associated with more ACSC-related ED and hospital visits (within 12 months).
 
+H2b. Disaster exposure will be associated with increased ACSC-related ED and hospital visits within 12 months.
+
+To test whether disaster exposure is associated with greater acute care utilization, we will model the count of emergency department (ED) and hospitalization visits for ambulatory care-sensitive conditions (ACSCs) using a log-linear mixed-effects model. The outcome variable, $H_i$, represents the total number of ED or hospital encounters for ACSCs experienced by child $i$ during the 12-month post-disaster observation period. Disaster exposure is modeled as a primary predictor at the child level, with additional time-invariant covariates included to control for confounding factors.
+
+The model is specified as follows:
+
 $$
-\log(E[H_i]) = \gamma_0 + \gamma_1 \text{Exposure}_i + \gamma_2 \mathbf{x}_i + u_i
+\log(E[H_i]) = \gamma_0 + \gamma_1 \text{Exposure}_i + \boldsymbol{\gamma}_2 \mathbf{x}_i + u_i
 $$
 
-$H_i$ represents the number of emergency department or hospitalization events for ambulatory care-sensitive conditions. The log-linear model examines whether prior disaster exposure predicts increased acute care utilization. $\gamma_1$ is the key coefficient. A significantly positive $\gamma_1$ would indicate greater reliance on emergency care in the aftermath of disaster exposure.
+In this equation, $\text{Exposure}_i$ indicates the cumulative level of disaster exposure experienced by child $i$, $\mathbf{x}_i$ is a vector of time-invariant covariates (e.g., child age at baseline, gender, race/ethnicity, pre-disaster health conditions, insurance status, maternal education), and $u_i$ is a subject-level random effect capturing unobserved heterogeneity in acute care use across individuals. The log link function allows for modeling of non-negative, overdispersed count outcomes using a Poisson or negative binomial distribution, depending on model fit and dispersion diagnostics.
+
+The coefficient of primary interest is $\gamma_1$, which estimates the log change in the expected count of ACSC-related visits associated with disaster exposure. A significantly positive $\gamma_1$ would suggest that greater disaster exposure is linked to increased reliance on emergency or inpatient care for conditions that are typically manageable through timely primary or preventive services. This finding would provide evidence that disaster events may destabilize care continuity or access, especially for vulnerable populations.
+
 
 ### H2c. Service disruptions mediate the relationship between disaster exposure and child outcomes.
 
