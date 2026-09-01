@@ -180,4 +180,7 @@ font-size:15px; line-height:1.55; max-width:1280px; margin:0 auto; }
 </div>
 <a class="sc-btn" href="mailto:wwwaylon@gmail.com" style="border:0">Get in touch</a>
 </footer>
+<br>
+<p class="pf-footer"><a href="https://wwwaylon.github.io/">Quantitative Research &amp; Measurement Scientist</a></p>
+
 </div>
