@@ -482,6 +482,6 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 </div>
 </section>
 
-<p class="pf-footer">Quantitative Research &amp; Measurement Scientist</p>
+<p class="pf-footer"><a href="https://wwwaylon.github.io/">Quantitative Research &amp; Measurement Scientist</a></p>
 
 </div><!-- /.pf -->
