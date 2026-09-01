@@ -11,6 +11,136 @@
 #
 # Site-wide numbers shown at the top of the page live in _data/scholarship.yml
 
+- year: 2026
+  authors: "Murray, C., Li, R., Stone, A., **Howard, W. J.**, & Palermo, T."
+  title: "Change in pain phenotypes from adolescence to young adulthood: A latent class and transition analysis"
+  journal: "The Journal of Pain"
+  details: "41"
+  impact: "4.4"
+  impact_url: "https://www.jpain.org/"
+  links:
+    - label: "Cite"
+      url: "https://www.jpain.org/action/showCitFormats?doi=10.1016%2Fj.jpain.2025.106051&pii=S1526-5900%2825%2901278-7"
+    - label: "Source Document"
+      url: "https://doi.org/10.1016/j.jpain.2025.12.012"
+
+- year: 2026
+  authors: "Little, L. M., Keith, S. N., Wallisch, A., Rous, B. S., Johnson, T., **Howard, W. J.**, & Tomchek, S."
+  title: "Age of entry into early intervention: Influence of the COVID-19 pandemic, telehealth, and other factors"
+  journal: "The Journal of Pediatrics: Clinical Practice"
+  details: "200207"
+  impact: "1.0"
+  impact_url: "https://www.sciencedirect.com/journal/the-journal-of-pediatrics-clinical-practice"
+  links:
+    - label: "Cite"
+      url: "https://www.sciencedirect.com/science/article/pii/S2950541026000086"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S2950541026000086"
+
+- year: 2026
+  authors: "Ittleman, B., **Howard, W. J.**, Virk, K., Brown, N. K., Caris, E., Conwell, J., Edwards, L. A., Lewin, M., Pinto, N. M., Studer, M., Young, L., & Arya, B."
+  title: "Socioeconomic and geographic factors are associated with lower prenatal diagnosis rates of congenital heart disease"
+  journal: "Progress in Pediatric Cardiology"
+  details: "101948"
+  impact: "0.4"
+  impact_url: "https://www.sciencedirect.com/journal/progress-in-pediatric-cardiology"
+  links:
+    - label: "Cite"
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1058981326000470"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S1058981326000470"
+
+- year: 2026
+  authors: "Willson, R., Thomsen, S. R., Swanson, M., **Howard, W. J.**, Mistovich, R. J., Ellis, H. B., ... & Schmale, G. A."
+  title: "No difference in posterior tibial slope comparing patients with and without delayed anterior cruciate ligament tear after tibial spine fracture: A multicenter study"
+  journal: "Journal of the Pediatric Orthopaedic Society of North America"
+  details: "15, 100314"
+  impact: "1.1"
+  impact_url: "https://www.sciencedirect.com/journal/journal-of-the-pediatric-orthopaedic-society-of-north-america"
+  links:
+    - label: "Cite"
+      url: "https://www.sciencedirect.com/science/article/pii/S2768276525001580"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S2768276525001580"
+
+- year: 2026
+  authors: "Ohlsen, S., Son, M., **Howard, W. J.**, Sheasley, J., Niu, E., Kirby, J., Gopalan, M., Stavinoha, T., Carsen, S., Stinson, Z., Finlayson, C., Nault, M. L., Lee, R. J., Haus, B., Green, D., Schlechter, J., Heyworth, B., Beck, J., Nguyen, J., PRiSM Meniscus Research Interest Group, & Schmale, G."
+  title: "Risk factors for complication and reoperation in the treatment of discoid lateral meniscus in children and adolescents: A multicenter study"
+  journal: "Orthopaedic Journal of Sports Medicine"
+  impact: "2.5"
+  impact_url: "https://journals.sagepub.com/home/ojs"
+  links:
+    - label: "Cite"
+      url: "https://journals.sagepub.com/doi/10.1177/23259671251411397#core-collateral-self-citation"
+    - label: "Source Document"
+      url: "https://journals.sagepub.com/doi/10.1177/23259671251411397"
+
+- year: 2026
+  authors: "Kim, B., **Howard, W. J.**, & Weiss, E."
+  title: "Diverging illness perceptions in the NICU: Insights from parents, physicians, and nurses"
+  journal: "Journal of Perinatology"
+  impact: "2.4"
+  impact_url: "https://www.nature.com/jp/journal-information"
+
+- year: 2026
+  authors: "Nicholson, J., Deboeck, P. R., Gomer, B., & **Howard, W. J.**"
+  title: "Implications of missing at random assumption in cognitive training randomized controlled trials: Current practices and suggestions"
+  journal: "Journal of the American Geriatrics Society"
+  impact: "4.5"
+  impact_url: "https://agsjournals.onlinelibrary.wiley.com/journal/15325415"
+  links:
+    - label: "PDF"
+      url: "https://agsjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/jgs.70591"
+    - label: "Cite"
+      url: "https://agsjournals.onlinelibrary.wiley.com/doi/full/10.1111/jgs.70591"
+    - label: "Source Document"
+      url: "https://agsjournals.onlinelibrary.wiley.com/doi/full/10.1111/jgs.70591"
+
+- year: 2026
+  authors: "McKinney, C., **Howard, W. J.**, Bijlani, K., Kinter, S., Crerand, C., Dang, R., Jackson, O., Discolo, C., Rosenman, M., Mendonca, E., Dickinson, K., & Heike, C."
+  title: "Growth in children with a cleft lip and/or palate in 8 US hospitals: A retrospective cohort study"
+  journal: "JDR Clinical & Translational Research"
+  details: "21(6), 1007-1021"
+  impact: "2.2"
+  impact_url: "https://journals.sagepub.com/home/JCT"
+  links:
+    - label: "Cite"
+      url: "https://journals.sagepub.com/home/JCT"
+    - label: "Source Document"
+      url: "https://journals.sagepub.com/home/JCT"
+
+- year: 2026
+  authors: "Rea, H. M., Lindley, A., **Howard, W. J.**, Neuhaus, E., Faja, S., Bernier, R., Chawarska, K., Dawson, G., Dziura, J., Jeste, S., Kleinhans, N., Naples, A. J., Nelson, C. A., Sabatos-DeVito, M., Seow, H., Shic, F., Sugar, C. A., McPartland, J. C., & Webb, S. J."
+  title: "A longitudinal investigation of aggression and social skills in youth with autism spectrum disorder"
+  journal: "Research in Autism"
+  details: "130, 202767"
+  impact: "3.4"
+  impact_url: "https://www.sciencedirect.com/journal/research-in-autism"
+  links:
+    - label: "PDF"
+      url: "http://pmc.ncbi.nlm.nih.gov/articles/PMC13251598/pdf/nihms-2179921.pdf"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S3050656525002391"
+
+- year: 2025
+  authors: "Willson, R., Thomsen, S., Swanson, M., **Howard, W. J.**, Mistovich, J., Ellis, H., Cruz, A., Jr., Fabricant, P., Lee, J. R., McKay, S., Yen, Y.-M., Kushare, I. V., Ganley, T. J., & Schmale, G. A."
+  title: "No impact of posterior tibial slope on subsequent ACL tears in patients with tibial spine fractures"
+  journal: "Journal of the Pediatric Orthopaedic Society of North America"
+  details: "100314"
+  links:
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S2768276525001580"
+
+- year: 2025
+  authors: "Ward, T., **Howard, W. J.**, & Palermo, T."
+  title: "A shared-management web-based intervention for sleep deficiency in school-age children with juvenile idiopathic arthritis and their parents: Feasibility and acceptability study"
+  journal: "Journal of Clinical Sleep Medicine"
+  impact: "4.2"
+  impact_url: "https://jcsm.aasm.org/submit/author-benefits"
+  links:
+    - label: "Source Document"
+      url: "https://jcsm.aasm.org/journal/jcsm"
+
 - year: 2025
   authors: "Zhai, S., Palermo, T. M., Shenoi, S., Demiris, G., **Howard, W. J.**, Kientz, J., Yuwen, W., & Ward, T. M."
   title: "A shared-management web-based intervention for sleep deficiency in school-age children with juvenile idiopathic arthritis and their parents: feasibility and acceptability study"
@@ -105,6 +235,7 @@
   authors: "Law, E. F., Tham, S. W., **Howard, W. J.**, Ward, T. M., & Palermo, T. M."
   title: "Executive functioning and self-management processes mediate the relationship between insomnia and pain-related disability"
   journal: "The Journal of Pain"
+  details: "25(1), 273-283"
   impact: "5.559"
   impact_url: "https://journals.lww.com/pain/pages/default.aspx"
   links:
