@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Presentations"
 output:
   html_document:
     theme: null
@@ -10,7 +10,9 @@ output:
 
 <!--
 Local preview of the site's Presentations page.
-Content lives in _data/presentations.yml — edit that file only, then Knit.
+Content lives in ../_data/presentations.yml — edit that file only, then Knit.
+This file lives in preview/ on purpose: its knit output must never land at the repo root,
+where it would overwrite the real presentations.html.
 Requires: install.packages(c("yaml","htmltools"))
 -->
 
@@ -22,12 +24,12 @@ library(yaml)
 ```{r assets}
 cat('<link rel="preconnect" href="https://fonts.googleapis.com">',
     '<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">',
-    '<style>', paste(readLines("assets/css/presentations.css", warn = FALSE), collapse = "\n"), '</style>',
+    '<style>', paste(readLines("../assets/css/presentations.css", warn = FALSE), collapse = "\n"), '</style>',
     sep = "\n")
 ```
 
 ```{r page}
-d <- yaml::read_yaml("_data/presentations.yml")
+d <- yaml::read_yaml("../_data/presentations.yml")
 
 kinds  <- c("Invited talk", "Contributed talk", "Workshop", "Panel", "Poster")
 labels <- c("Invited talks", "Contributed talks", "Workshops & tutorials",
@@ -89,5 +91,5 @@ for (i in seq_along(kinds)) {
 }
 cat('</div>')
 
-cat('<script>', paste(readLines("assets/js/presentations.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
+cat('<script>', paste(readLines("../assets/js/presentations.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
 ```
