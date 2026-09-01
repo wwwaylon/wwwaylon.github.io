@@ -114,30 +114,8 @@
     validity with a diverse sample of adolescents engaged in research at PEDSnet academic medical
     center sites.
 
-- title: "Leveraging Data for Infants with Cleft to Grow and Flourish: BLOOM"
-  status: "Current"
-  source: "NIH R01"
-  award: "1R01DE033703-01"
-  place: "Seattle Children's Research Institute"
-  start: "08/2024"
-  end: "04/2029"
-  amount: "$815,556"
-  role: "Contact PI: McKinney, Christy · Other PI: Heike, Carrie"
-  months:
-    - { year: 2025, value: 1.8 }
-    - { year: 2026, value: 1.2 }
-    - { year: 2027, value: 1.2 }
-    - { year: 2028, value: 1.2 }
-  objectives: >
-    Predicts which infants with cleft will develop undernutrition and determines associations
-    between undernutrition and surgical outcomes in a retrospective cohort of roughly 18,000
-    children; quantifies associations between caregiver/infant factors and undernutrition in a
-    prospective cohort of 336 caregiver/infant pairs; and determines the contribution of
-    caregiver/infant factors to the clinical predictive model. Aim 1 leverages curated electronic
-    health records from PEDSnet, covering over 12 million children from 2009 to the present.
-
 - title: "Sleep health and socio-ecological context in childhood systemic lupus erythematosus"
-  status: "Pending"
+  status: "Current"
   source: "NIH"
   award: "1R01HL180859"
   place: "Seattle Children's Research Institute"
@@ -155,58 +133,3 @@
     symptomatology among youth with childhood systemic lupus erythematosus — critical to creating
     effective, culturally tailored interventions in this at-risk population.
 
-- title: "BEAM: Behavioral Eye-Tracking and Attention to Media"
-  status: "Pending"
-  source: "NIH R01"
-  place: "Seattle Children's Research Institute"
-  start: "09/2025"
-  end: "08/2028"
-  amount: "$4,999,590"
-  months:
-    - { year: 2026, value: 1.2 }
-    - { year: 2027, value: 1.2 }
-    - { year: 2028, value: 1.2 }
-  objectives: >
-    Assesses associations between screen media use, autistic traits, and social, physical, and
-    mental health outcomes, linking them to developmental histories and attentional strategies
-    that may compound harmful social media effects.
-
-- title: "Loneliness in adolescent and young adult cancer survivors: Risk factors, drivers, and biological correlates"
-  status: "Pending"
-  source: "NIH R01"
-  place: "Seattle Children's Research Institute"
-  start: "07/2025"
-  end: "04/2030"
-  amount: "$2,500,000"
-  months:
-    - { year: 2026, value: 1.2 }
-    - { year: 2027, value: 1.2 }
-    - { year: 2028, value: 1.2 }
-    - { year: 2029, value: 1.8 }
-    - { year: 2030, value: 1.8 }
-  objectives: >
-    A prospective longitudinal cohort study of 226 adolescents and young adults aged 18-29 during
-    early cancer survivorship. Latent growth models across five assessments over two years
-    characterize prevalence, expected change, and heterogeneity in loneliness and identify
-    discrete loneliness profiles; further aims identify risk factors and drivers, and examine
-    biomarkers of inflammation and biologic aging from clinical blood draw data.
-
-- title: "Mobile media use in toddlers and their parents: Impacts on language and self-regulation"
-  status: "Pending"
-  source: "NIH R01"
-  place: "Seattle Children's Research Institute"
-  start: "07/2025"
-  end: "05/2030"
-  amount: "$4,190,396"
-  months:
-    - { year: 2026, value: 1.2 }
-    - { year: 2027, value: 1.2 }
-    - { year: 2028, value: 1.2 }
-    - { year: 2029, value: 1.2 }
-    - { year: 2030, value: 0.5 }
-  objectives: >
-    Tests whether mobile media use displaces joint attention opportunities and thereby mediates
-    the relationship between elevated media use and worse language outcomes; whether mobile media
-    use in non-home locations reduces self-regulation opportunities and decreases executive
-    functioning over time; and whether children with neurological vulnerability face increased
-    risk from these effects.
