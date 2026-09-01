@@ -1,0 +1,7 @@
+# Headline numbers shown on the Publications page.
+# Update these when you refresh from Google Scholar, and set the date so the
+# page can say when it was last checked.
+citations: "1300+"
+h_index: 17
+scholar_url: "https://scholar.google.com/citations?user=YOUR_ID"
+updated: "September 2026"

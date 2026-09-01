@@ -1,0 +1,95 @@
+---
+title: "Publications"
+output:
+  html_document:
+    theme: null
+    highlight: null
+    self_contained: true
+    mathjax: null
+---
+
+<!--
+Local preview of the site's Publications page.
+Content lives in ../_data/publications.yml — edit that file only, then Knit.
+This file lives in preview/ on purpose: its knit output must never land at the
+repo root, where it would overwrite the real publications.html.
+Requires: install.packages("yaml")
+-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis", message = FALSE, warning = FALSE)
+library(yaml)
+```
+
+```{r assets}
+cat('<link rel="preconnect" href="https://fonts.googleapis.com">',
+    '<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">',
+    '<style>', paste(readLines("../assets/css/listing.css", warn = FALSE), collapse = "\n"), '</style>',
+    sep = "\n")
+```
+
+```{r page}
+d <- yaml::read_yaml("../_data/publications.yml")
+s <- yaml::read_yaml("../_data/scholarship.yml")
+
+esc  <- function(x) gsub("<", "&lt;", gsub("&", "&amp;", x, fixed = TRUE), fixed = TRUE)
+bold <- function(x) gsub("\\*\\*(.+?)\\*\\*", "<b>\\1</b>", esc(x))
+
+year <- vapply(d, function(e) e$year, numeric(1))
+d    <- d[order(-year)]
+year <- sort(year, decreasing = TRUE)
+first <- vapply(d, function(e) startsWith(e$authors, "**Howard, W."), logical(1))
+
+cat('<div class="lst" data-listing>',
+    '<header class="lst-head"><div class="lst-head-row"><h1>Publications</h1>',
+    sprintf('<div class="lst-span">%d&ndash;%d</div></div>', min(year), max(year)),
+    '<p class="lst-intro">Peer-reviewed articles in pediatrics, developmental science, and',
+    'quantitative methods. Filter by period or search a title, coauthor, or journal.</p></header>',
+    '<div class="lst-stats">',
+    sprintf('<div class="lst-stat"><b>%d</b><span>Peer-reviewed articles</span></div>', length(d)),
+    sprintf('<div class="lst-stat"><b>%s</b><span>Citations</span></div>', s$citations),
+    sprintf('<div class="lst-stat"><b>%s</b><span>h-index</span></div>', s$h_index),
+    sprintf('<div class="lst-stat"><b>%d</b><span>Since 2020</span></div>', sum(year >= 2020)),
+    '</div>', sep = "\n")
+
+decade <- paste0(floor(year / 10) * 10, "s")
+chips <- c(sprintf('<button type="button" class="lst-chip" data-group="all" aria-pressed="true">All <i>%d</i></button>', length(d)))
+for (dec in unique(decade)) {
+  chips <- c(chips, sprintf('<button type="button" class="lst-chip" data-group="%s" aria-pressed="false">%s <i>%d</i></button>',
+                            dec, dec, sum(decade == dec)))
+}
+chips <- c(chips, sprintf('<button type="button" class="lst-chip" data-group="first" aria-pressed="false">First author <i>%d</i></button>', sum(first)))
+cat('<div class="lst-bar"><div class="lst-chips">', paste(chips, collapse = ""),
+    '</div><input type="search" class="lst-search" placeholder="Search title, coauthor, journal"></div>',
+    '<p class="lst-empty">Nothing matches that filter.</p>',
+    sprintf('<section class="lst-section"><div class="lst-group"><h2>Peer-reviewed articles</h2><span>%d</span></div>', length(d)),
+    sep = "\n")
+
+for (i in seq_along(d)) {
+  e <- d[[i]]
+  links <- if (!is.null(e$links))
+    sprintf('<div class="lst-links">%s</div>',
+            paste(vapply(e$links, function(l)
+              sprintf('<a href="%s" target="_blank" rel="noopener">%s</a>', l$url, esc(l$label)),
+              character(1)), collapse = "")) else ""
+  impact <- if (!is.null(e$impact)) {
+    val <- if (!is.null(e$impact_url))
+      sprintf('<a href="%s" target="_blank" rel="noopener">%s</a>', e$impact_url, e$impact) else e$impact
+    sprintf(' &middot; Impact factor %s', val)
+  } else ""
+  cat(sprintf(paste0('<article class="lst-item" data-groups="%s%s"><div><div class="lst-year">%d</div>%s</div>',
+                     '<div>%s<h3>%s</h3><p class="lst-authors">%s</p>',
+                     '<p class="lst-venue"><em>%s</em>%s%s</p>%s</div></article>'),
+              decade[i], if (first[i]) "|first" else "", e$year,
+              if (!is.null(e$impact)) sprintf('<div class="lst-month">IF %s</div>', e$impact) else "",
+              if (first[i]) '<div class="lst-tags"><span class="lst-kind is-accent">First author</span></div>' else "",
+              esc(e$title), bold(e$authors), esc(e$journal),
+              if (!is.null(e$details)) paste0(", ", esc(e$details)) else "", impact, links))
+}
+cat('</section>')
+
+cat(sprintf('<p class="lst-note">Citation count and h-index from Google Scholar, last checked %s.</p>', s$updated))
+cat('</div>')
+
+cat('<script>', paste(readLines("../assets/js/listing.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
+```

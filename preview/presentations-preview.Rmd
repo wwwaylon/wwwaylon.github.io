@@ -24,7 +24,7 @@ library(yaml)
 ```{r assets}
 cat('<link rel="preconnect" href="https://fonts.googleapis.com">',
     '<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">',
-    '<style>', paste(readLines("../assets/css/presentations.css", warn = FALSE), collapse = "\n"), '</style>',
+    '<style>', paste(readLines("../assets/css/listing.css", warn = FALSE), collapse = "\n"), '</style>',
     sep = "\n")
 ```
 
@@ -49,47 +49,47 @@ kind  <- kind[order(-year, -month)]
 n <- function(k) sum(kind == k)
 
 cat('<div class="pres">',
-    '<header class="pres-head"><div class="pres-head-row"><h1>Presentations</h1>',
-    sprintf('<div class="pres-span">%d&ndash;%d</div></div>', min(year), max(year)),
-    '<p class="pres-intro">Invited and contributed talks, panels, teaching workshops,',
+    '<header class="lst-head"><div class="lst-head-row"><h1>Presentations</h1>',
+    sprintf('<div class="lst-span">%d&ndash;%d</div></div>', min(year), max(year)),
+    '<p class="lst-intro">Invited and contributed talks, panels, teaching workshops,',
     'and posters. Filter by format or search a title, collaborator, or venue.</p></header>',
-    '<div class="pres-stats">',
-    sprintf('<div class="pres-stat"><b>%d</b><span>Presentations</span></div>', length(d)),
-    sprintf('<div class="pres-stat"><b>%d</b><span>Invited talks</span></div>', n("Invited talk")),
-    sprintf('<div class="pres-stat"><b>%d</b><span>Posters</span></div>', n("Poster")),
-    sprintf('<div class="pres-stat"><b>%d</b><span>Workshops &amp; panels</span></div>',
+    '<div class="lst-stats">',
+    sprintf('<div class="lst-stat"><b>%d</b><span>Presentations</span></div>', length(d)),
+    sprintf('<div class="lst-stat"><b>%d</b><span>Invited talks</span></div>', n("Invited talk")),
+    sprintf('<div class="lst-stat"><b>%d</b><span>Posters</span></div>', n("Poster")),
+    sprintf('<div class="lst-stat"><b>%d</b><span>Workshops &amp; panels</span></div>',
             n("Workshop") + n("Panel")),
     '</div>', sep = "\n")
 
-cat('<div class="pres-bar"><div class="pres-chips">',
-    sprintf('<button type="button" class="pres-chip" data-kind="all" aria-pressed="true">All <i>%d</i></button>', length(d)),
-    paste(sprintf('<button type="button" class="pres-chip" data-kind="%s" aria-pressed="false">%s <i>%d</i></button>',
+cat('<div class="lst-bar"><div class="lst-chips">',
+    sprintf('<button type="button" class="lst-chip" data-group="all" aria-pressed="true">All <i>%d</i></button>', length(d)),
+    paste(sprintf('<button type="button" class="lst-chip" data-group="%s" aria-pressed="false">%s <i>%d</i></button>',
                   kinds, labels, vapply(kinds, n, numeric(1))), collapse = ""),
-    '</div><input type="search" class="pres-search" placeholder="Search title, author, venue"></div>',
-    '<p class="pres-empty">Nothing matches that filter.</p>', sep = "\n")
+    '</div><input type="search" class="lst-search" placeholder="Search title, author, venue"></div>',
+    '<p class="lst-empty">Nothing matches that filter.</p>', sep = "\n")
 
 for (i in seq_along(kinds)) {
   items <- d[kind == kinds[i]]
   if (!length(items)) next
-  cat(sprintf('<section class="pres-section"><div class="pres-group"><h2>%s</h2><span>%d</span></div>',
+  cat(sprintf('<section class="lst-section"><div class="lst-group"><h2>%s</h2><span>%d</span></div>',
               labels[i], length(items)))
   for (e in items) {
     links <- if (!is.null(e$links))
-      sprintf('<div class="pres-links">%s</div>',
+      sprintf('<div class="lst-links">%s</div>',
               paste(vapply(e$links, function(l)
                 sprintf('<a href="%s" target="_blank" rel="noopener">%s</a>', l$url, esc(l$label)),
                 character(1)), collapse = "")) else ""
-    cat(sprintf(paste0('<article class="pres-item" data-kind="%s"><div><div class="pres-year">%d</div>%s</div>',
-                       '<div><div class="pres-tags"><span class="pres-kind%s">%s</span></div>',
-                       '<h3>%s</h3><p class="pres-authors">%s</p><p class="pres-venue">%s</p>%s</div></article>'),
+    cat(sprintf(paste0('<article class="lst-item" data-groups="%s"><div><div class="lst-year">%d</div>%s</div>',
+                       '<div><div class="lst-tags"><span class="lst-kind%s">%s</span></div>',
+                       '<h3>%s</h3><p class="lst-authors">%s</p><p class="lst-venue">%s</p>%s</div></article>'),
                 e$kind, e$year,
-                if (e$month > 0) sprintf('<div class="pres-month">%s</div>', months[e$month]) else "",
-                if (e$kind == "Invited talk") " is-invited" else "",
+                if (e$month > 0) sprintf('<div class="lst-month">%s</div>', months[e$month]) else "",
+                if (e$kind == "Invited talk") " is-accent" else "",
                 esc(e$kind), esc(e$title), bold(e$authors), esc(e$venue), links))
   }
   cat('</section>')
 }
 cat('</div>')
 
-cat('<script>', paste(readLines("../assets/js/presentations.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
+cat('<script>', paste(readLines("../assets/js/listing.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
 ```

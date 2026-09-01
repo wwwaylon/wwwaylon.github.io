@@ -1,0 +1,353 @@
+# Peer-reviewed articles — one entry per paper. Add anywhere; the page sorts by year.
+#
+#   year:       required
+#   authors:    full string; wrap your own name in ** ** to bold it
+#   title:      plain text, no trailing period
+#   journal:    journal name (rendered in italics)
+#   details:    volume/issue/pages, e.g. "21(6), 1007-1021"
+#   impact:     optional impact factor, e.g. "4.2"
+#   impact_url: optional link for the impact factor
+#   links:      optional list of { label, url } — PDF, Cite, Source Document, Altmetric
+#
+# Site-wide numbers shown at the top of the page live in _data/scholarship.yml
+
+- year: 2025
+  authors: "Zhai, S., Palermo, T. M., Shenoi, S., Demiris, G., **Howard, W. J.**, Kientz, J., Yuwen, W., & Ward, T. M."
+  title: "A shared-management web-based intervention for sleep deficiency in school-age children with juvenile idiopathic arthritis and their parents: feasibility and acceptability study"
+  journal: "Journal of Clinical Sleep Medicine"
+  details: "21(6), 1007-1021"
+  impact: "4.2"
+  impact_url: "https://jcsm.aasm.org/info/about-jcsm"
+  links:
+    - label: "Source Document"
+      url: "https://jcsm.aasm.org/doi/abs/10.5664/jcsm.11610"
+
+- year: 2025
+  authors: "Dervan, L., Garros, D., **Howard, W. J.**, & Roumeliotis, N."
+  title: "Prevalence and predictors of home discharge from the pediatric intensive care unit"
+  journal: "Critical Care Explorations"
+  details: "7(5), e1266"
+  impact: "2.7"
+  impact_url: "https://sccm.org/research/journals/critical-care-explorations"
+  links:
+    - label: "PDF"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12088628/pdf/cc9-7-e1266.pdf"
+    - label: "Cite"
+      url: "https://pmc.ncbi.nlm.nih.gov/resources/citations/12088628/export/"
+    - label: "Source Document"
+      url: "https://journals.lww.com/ccejournal/fulltext/2025/05000/prevalence_and_predictors_of_home_discharge_from.13.aspx"
+
+- year: 2025
+  authors: "McKinney, C., **Howard, W. J.**, Bijlani, K., Kinter, S., Crerand, C., Dang, R., Jackson, O., Discolo, C., Rosenman, M., Mendonca, E., Dickinson, K., & Heike, C."
+  title: "A retrospective cohort study of growth in children with orofacial cleft in 8 US hospitals"
+  journal: "Journal of the Academy of Nutrition and Dietetics"
+  details: "125(4), 537-544"
+  impact: "4.0"
+  impact_url: "https://www.sciencedirect.com/journal/journal-of-the-academy-of-nutrition-and-dietetics"
+  links:
+    - label: "PDF"
+      url: "https://www.sciencedirect.com/science/article/pii/S221226722400251X/pdfft"
+    - label: "Cite"
+      url: "https://www.sciencedirect.com/sdfe/arp/export/S221226722400251X/refworks-tagged-format"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S221226722400251X"
+
+- year: 2025
+  authors: "Ross, F., Tjoeng, L., Chan, T., Tan, J., **Howard, W. J.**, & Jimenez, N."
+  title: "The impact of Medicaid expansion on congenital heart surgery outcomes: Data from the Society of Thoracic Surgeons database"
+  journal: "Anesthesia & Analgesia"
+  impact: "4.6"
+  impact_url: "https://journals.lww.com/anesthesia-analgesia/pages/default.aspx"
+  links:
+    - label: "Source Document"
+      url: "https://journals.lww.com/anesthesia-analgesia/pages/default.aspx"
+
+- year: 2024
+  authors: "Kim, S., Kim, L., **Howard, W. J.**, McNulty, B., & Salehi, P."
+  title: "Aberrant Behavior Checklist in youth with Prader-Willi syndrome: Preliminary study of cross-sectional and longitudinal behavior characterization"
+  journal: "American Journal of Medical Genetics Part A"
+  impact: "2.249"
+  impact_url: "https://onlinelibrary.wiley.com/loi/15524833"
+  links:
+    - label: "PDF"
+      url: "https://onlinelibrary.wiley.com/doi/10.1002/ajmg.a.63853"
+    - label: "Source Document"
+      url: "https://onlinelibrary.wiley.com/doi/10.1002/ajmg.a.63853"
+
+- year: 2024
+  authors: "Webb, S. J., **Howard, W. J.**, Garrison, M., Corrigan, S., Quinata, S., Taylor, L., & Christakis, D. A."
+  title: "Mobile media content exposure and toddlers' responses to attention prompts and behavioral requests"
+  journal: "JAMA Network Open"
+  details: "7(7), e2418492"
+  impact: "13.8"
+  impact_url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2816467"
+  links:
+    - label: "Cite"
+      url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820972"
+    - label: "Source Document"
+      url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820972"
+    - label: "Altmetric"
+      url: "https://jamanetwork.altmetric.com/details/165294834"
+
+- year: 2024
+  authors: "McKinney, C. M., **Howard, W. J.**, Bijlani, K., Rahman, M., Meehan, A., Evans, K. N., Leavitt, D., Sitzman, T. J., Amoako-Yirenkyi, P., & Heike, C. L."
+  title: "Growth patterns between 0 to 36 months of age among US children with orofacial cleft: A retrospective cohort study"
+  journal: "Journal of the Academy of Nutrition and Dietetics"
+  impact: "4.7"
+  impact_url: "https://www.jandonline.org/"
+  links:
+    - label: "PDF"
+      url: "https://www.sciencedirect.com/science/article/pii/S221226722400251X/pdfft"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S221226722400251X"
+
+- year: 2024
+  authors: "Law, E. F., Tham, S. W., **Howard, W. J.**, Ward, T. M., & Palermo, T. M."
+  title: "Executive functioning and self-management processes mediate the relationship between insomnia and pain-related disability"
+  journal: "The Journal of Pain"
+  impact: "5.559"
+  impact_url: "https://journals.lww.com/pain/pages/default.aspx"
+  links:
+    - label: "PDF"
+      url: "https://www.sciencedirect.com/science/article/pii/S1526590023005138/pdfft"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S1526590023005138"
+
+- year: 2024
+  authors: "Boyd, B. A., **Howard, W. J.**, Bodfish, J. W., Lecavalier, L., Harrop, C., Jones, D., Dallman, A., Kalburgi, S. N., & Hollway, J."
+  title: "Examining sensitivity to developmental changes on the Behavioral Inflexibility Scale"
+  journal: "Journal of Autism and Developmental Disorders"
+  details: "1-10"
+  impact: "5.258"
+  impact_url: "https://www.springer.com/journal/10803"
+  links:
+    - label: "PDF"
+      url: "https://link.springer.com/content/pdf/10.1007/s10803-022-05837-z.pdf"
+    - label: "Cite"
+      url: "https://citation-needed.springer.com/v2/references/10.1007/s10803-022-05837-z?format=refman&flavour=citation"
+    - label: "Source Document"
+      url: "https://link.springer.com/article/10.1007/s10803-022-05837-z"
+
+- year: 2020
+  authors: "Okech, D., **Howard, W. J.**, Matthew, R. A., & Purser, G. L."
+  title: "The effects of sociodemographic variables on the economic behaviour of poorer households in the US and Kenya: A cross-national analyses"
+  journal: "Journal of Contemporary African Studies"
+  details: "1-19"
+  impact: "0.69"
+  links:
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F02589001.2020.1825648"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/02589001.2020.1825648"
+
+- year: 2018
+  authors: "Okech, D., Hansen, N., **Howard, W. J.**, Anarfi, J. K., & Burns, A. C."
+  title: "Social support, dysfunctional coping, and community reintegration as predictors of PTSD among human trafficking survivors"
+  journal: "Behavioral Medicine"
+  details: "44(3), 209-218"
+  impact: "2.442"
+  impact_url: "https://www.tandfonline.com/toc/vbmd20/current"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/326480880_Social_Support_Dysfunctional_Coping_and_Community_Reintegration_as_Predictors_of_PTSD_Among_Human_Trafficking_Survivors"
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F08964289.2018.1432553"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/08964289.2018.1432553"
+
+- year: 2018
+  authors: "Desai, A. D., Jacob-Files, E. A., Lowry, S. J., Opel, D. J., Mangione-Smith, R., Britto, M. T., & **Howard, W. J.**"
+  title: "Development of a caregiver-reported experience measure for pediatric hospital-to-home transitions"
+  journal: "Health Services Research"
+  details: "53(S1), 3084-3106"
+  impact: "1.769"
+  impact_url: "https://link.springer.com/journal/11414"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/325041447_Development_of_a_Caregiver-Reported_Experience_Measure_for_Pediatric_Hospital-to-Home_Transitions"
+    - label: "Cite"
+      url: "https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1111%2F1475-6773.12864"
+    - label: "Source Document"
+      url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.12864"
+
+- year: 2018
+  authors: "Malik, F. S., Yi-Frazier, J. P., Taplin, C. E., Roth, C. L., Whitlock, K. B., **Howard, W. J.**, & Pihoker, C."
+  title: "Improving the care of youth with type 1 diabetes with a novel medical-legal community intervention: The Diabetes Community Care Ambassador Program"
+  journal: "The Diabetes Educator"
+  details: "44(2), 168-177"
+  impact: "1.736"
+  impact_url: "https://journals.sagepub.com/home/tde"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/322431809_Improving_the_Care_of_Youth_With_Type_1_Diabetes_With_a_Novel_Medical-Legal_Community_Intervention_The_Diabetes_Community_Care_Ambassador_Program"
+    - label: "Cite"
+      url: "https://journals.sagepub.com/doi/full/10.1177/0145721717750346"
+    - label: "Source Document"
+      url: "https://journals.sagepub.com/doi/abs/10.1177/0145721717750346"
+
+- year: 2018
+  authors: "Okech, D., McGarity, S. V., Hansen, N., Burns, A. C., & **Howard, W. J.**"
+  title: "Financial capability and sociodemographic factors among survivors of human trafficking"
+  journal: "Journal of Evidence-Informed Social Work"
+  details: "15(2), 123-136"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/322079767_Financial_Capability_and_Sociodemographic_Factors_among_Survivors_of_Human_Trafficking"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/citedby/10.1080/23761407.2017.1419154"
+
+- year: 2017
+  authors: "Stein, E., **Howard, W. J.**, Rowhani-Rahbar, A., Rivara, F. P., Zatzick, D., & McCarty, C. A."
+  title: "Longitudinal trajectories of post-concussive and depressive symptoms in adolescents with prolonged recovery from concussion"
+  journal: "Brain Injury"
+  details: "31(13-14), 1736-1744"
+  impact: "2.061"
+  impact_url: "https://www.tandfonline.com/toc/ibij20/current"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/320934763_Longitudinal_trajectories_of_post-concussive_and_depressive_symptoms_in_adolescents_with_prolonged_recovery_from_concussion"
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F02699052.2017.1380843"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/02699052.2017.1380843"
+
+- year: 2017
+  authors: "Simon, T. D., Whitlock, K. B., Haaland, W., Wright, D. R., Hood, M., Zhou, C., Neff, J., **Howard, W. J.**, Cartin, B., & Mangione-Smith, R."
+  title: "Effectiveness of a comprehensive case management service for children with medical complexity"
+  journal: "Pediatrics"
+  details: "140(6), e20171641"
+  impact: "5.515"
+  impact_url: "http://www.aappublications.org/content/pediatrics-overview"
+  links:
+    - label: "PDF"
+      url: "http://pediatrics.aappublications.org/content/pediatrics/140/6/e20171641.full.pdf"
+    - label: "Source Document"
+      url: "http://pediatrics.aappublications.org/content/140/6/e20171641"
+
+- year: 2017
+  authors: "Law, E. F., Fisher, E., **Howard, W. J.**, Levy, R., Ritterband, L., & Palermo, T. M."
+  title: "Longitudinal change in parent and child functioning after internet-delivered cognitive-behavioral therapy for chronic pain"
+  journal: "PAIN"
+  details: "158(10), 1992-2000"
+  impact: "5.559"
+  impact_url: "https://journals.lww.com/pain/pages/default.aspx"
+  links:
+    - label: "PDF"
+      url: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC5608643&blobtype=pdf"
+    - label: "Source Document"
+      url: "https://journals.lww.com/pain/Abstract/2017/10000/Longitudinal_change_in_parent_and_child.18.aspx"
+
+- year: 2017
+  authors: "Nicholson, J., Deboeck, P. R., & **Howard, W. J.**"
+  title: "Attrition in developmental psychology: A review of modern missing data reporting and practices"
+  journal: "International Journal of Behavioral Development"
+  details: "41(1), 143-153"
+  impact: "1.760"
+  impact_url: "https://journals.sagepub.com/home/jbd"
+  links:
+    - label: "PDF"
+      url: "https://journals.sagepub.com/doi/pdf/10.1177/0165025415618275"
+    - label: "Source Document"
+      url: "https://journals.sagepub.com/doi/abs/10.1177/0165025415618275"
+
+- year: 2015
+  authors: "**Howard, W. J.**, Rhemtulla, M., & Little, T. D."
+  title: "Using principal component analysis (PCA) to obtain auxiliary variables for missing data in large data sets"
+  journal: "Multivariate Behavioral Research"
+  details: "50(3), 285-299"
+  impact: "3.691"
+  impact_url: "https://www.tandfonline.com/toc/hmbr20/current"
+  links:
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F00273171.2014.999267"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/00273171.2014.999267"
+
+- year: 2013
+  authors: "Chan, C. S., Rhodes, J. E., **Howard, W. J.**, Lowe, S. R., Schwartz, S. E., & Herrera, C."
+  title: "Pathways of influence in school-based mentoring: The mediating role of parent and teacher relationships"
+  journal: "Journal of School Psychology"
+  details: "51(1), 129-142"
+  impact: "2.299"
+  impact_url: "https://www.journals.elsevier.com/journal-of-school-psychology"
+  links:
+    - label: "PDF"
+      url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3593655/pdf/nihms438737.pdf"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S0022440512000830"
+
+- year: 2013
+  authors: "Greenwood, C. R., Buzhardt, J., Walker, D., McCune, L., & **Howard, W. J.**"
+  title: "Advancing the construct validity of the Early Communication Indicator (ECI) for infants and toddlers: Equivalence of growth trajectories across two Early Head Start samples"
+  journal: "Early Childhood Research Quarterly"
+  details: "28(4), 743-758"
+  impact: "2.364"
+  impact_url: "https://www.journals.elsevier.com/early-childhood-research-quarterly"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/259133266_Advancing_the_construct_validity_of_the_Early_Communication_Indicator_ECI_for_infants_and_toddlers_Equivalence_of_growth_trajectories_across_two_early_head_start_samples"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S0885200613000598"
+
+- year: 2013
+  authors: "Greenwood, C. R., Walker, D., Buzhardt, J., **Howard, W. J.**, McCune, L., & Anderson, R. A."
+  title: "Evidence of a continuum in foundational expressive communication skills"
+  journal: "Early Childhood Research Quarterly"
+  details: "28, 540-554"
+  impact: "2.364"
+  impact_url: "https://www.journals.elsevier.com/early-childhood-research-quarterly"
+  links:
+    - label: "PDF"
+      url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4036115/pdf/nihms570538.pdf"
+    - label: "Source Document"
+      url: "https://www.sciencedirect.com/science/article/pii/S0885200613000276"
+
+- year: 2012
+  authors: "Okech, D., **Howard, W. J.**, Mauldin, T., Mimura, Y., & Kim, J."
+  title: "The effects of economic pressure on the resilience and strengths of individuals living in extreme poverty"
+  journal: "Journal of Poverty"
+  details: "16(4), 429-446"
+  links:
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F10875549.2012.720659"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/10875549.2012.720659"
+
+- year: 2012
+  authors: "Okech, D., **Howard, W. J.**, & Kim, J."
+  title: "Efficacy and agency among poor families with and without children"
+  journal: "Child & Family Social Work"
+  details: "17(2), 1-12"
+  links:
+    - label: "Cite"
+      url: "https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1111%2Fj.1365-2206.2012.00861.x"
+    - label: "Source Document"
+      url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2206.2012.00861.x"
+
+- year: 2011
+  authors: "Buzhardt, J., Greenwood, C. R., Walker, D., Anderson, R., **Howard, W. J.**, & Carta, J. J."
+  title: "Effects of web-based support on Early Head Start home visitors' use of evidence-based intervention decision making and growth in children's expressive communication"
+  journal: "NHSA Dialog: A Research-to-Practice Journal for the Early Childhood Field"
+  details: "14(3), 121-146"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/profile/Jay_Buzhardt/publication/233140699"
+    - label: "Cite"
+      url: "https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F15240754.2011.587614"
+    - label: "Source Document"
+      url: "https://www.tandfonline.com/doi/abs/10.1080/15240754.2011.587614"
+
+- year: 2011
+  authors: "Greenwood, C. R., Buzhardt, J., Walker, D., **Howard, W. J.**, & Anderson, R. A."
+  title: "Program-level influences on the measurement of early communication of infants and toddlers in Early Head Start"
+  journal: "Journal of Early Intervention"
+  details: "33(2), 110-134"
+  impact: "1.241"
+  impact_url: "https://journals.sagepub.com/home/jei"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/254114117_Program-Level_Influences_on_the_Measurement_of_Early_Communication_for_Infants_and_Toddlers_in_Early_Head_Start"
+    - label: "Cite"
+      url: "https://journals.sagepub.com/doi/10.1177/1053815111403149"
+    - label: "Source Document"
+      url: "https://journals.sagepub.com/doi/abs/10.1177/1053815111403149"

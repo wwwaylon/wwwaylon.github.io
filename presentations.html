@@ -3,9 +3,9 @@ layout: page
 title: Presentations
 full-width: true
 css:
-  - "/assets/css/presentations.css"
+  - "/assets/css/listing.css"
 js:
-  - "/assets/js/presentations.js"
+  - "/assets/js/listing.js"
 ext-css:
   - "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap"
 ---
@@ -21,55 +21,55 @@ ext-css:
 {%- assign n_panel = all | where: "kind", "Panel" | size -%}
 {%- assign n_wp = n_workshop | plus: n_panel -%}
 
-<div class="pres">
-  <header class="pres-head">
-    <div class="pres-head-row">
+<div class="lst" data-listing>
+  <header class="lst-head">
+    <div class="lst-head-row">
       <h1>Presentations</h1>
-      <div class="pres-span">{{ years | first }}&ndash;{{ years | last }}</div>
+      <div class="lst-span">{{ years | first }}&ndash;{{ years | last }}</div>
     </div>
-    <p class="pres-intro">Invited and contributed talks, panels, teaching workshops, and posters. Filter by format or search a title, collaborator, or venue.</p>
+    <p class="lst-intro">Invited and contributed talks, panels, teaching workshops, and posters. Filter by format or search a title, collaborator, or venue.</p>
   </header>
 
-  <div class="pres-stats">
-    <div class="pres-stat"><b>{{ all | size }}</b><span>Presentations</span></div>
-    <div class="pres-stat"><b>{{ n_invited }}</b><span>Invited talks</span></div>
-    <div class="pres-stat"><b>{{ n_poster }}</b><span>Posters</span></div>
-    <div class="pres-stat"><b>{{ n_wp }}</b><span>Workshops &amp; panels</span></div>
+  <div class="lst-stats">
+    <div class="lst-stat"><b>{{ all | size }}</b><span>Presentations</span></div>
+    <div class="lst-stat"><b>{{ n_invited }}</b><span>Invited talks</span></div>
+    <div class="lst-stat"><b>{{ n_poster }}</b><span>Posters</span></div>
+    <div class="lst-stat"><b>{{ n_wp }}</b><span>Workshops &amp; panels</span></div>
   </div>
 
-  <div class="pres-bar">
-    <div class="pres-chips">
-      <button type="button" class="pres-chip" data-kind="all" aria-pressed="true">All <i>{{ all | size }}</i></button>
+  <div class="lst-bar">
+    <div class="lst-chips">
+      <button type="button" class="lst-chip" data-group="all" aria-pressed="true">All <i>{{ all | size }}</i></button>
       {%- for kind in kinds %}
       {%- assign n = all | where: "kind", kind | size %}
-      <button type="button" class="pres-chip" data-kind="{{ kind }}" aria-pressed="false">{{ labels[forloop.index0] }} <i>{{ n }}</i></button>
+      <button type="button" class="lst-chip" data-group="{{ kind }}" aria-pressed="false">{{ labels[forloop.index0] }} <i>{{ n }}</i></button>
       {%- endfor %}
     </div>
-    <input type="search" class="pres-search" placeholder="Search title, author, venue">
+    <input type="search" class="lst-search" placeholder="Search title, author, venue">
   </div>
 
-  <p class="pres-empty">Nothing matches that filter.</p>
+  <p class="lst-empty">Nothing matches that filter.</p>
 
   {%- for kind in kinds %}
   {%- assign items = all | where: "kind", kind %}
   {%- if items.size > 0 %}
-  <section class="pres-section">
-    <div class="pres-group"><h2>{{ labels[forloop.index0] }}</h2><span>{{ items.size }}</span></div>
+  <section class="lst-section">
+    <div class="lst-group"><h2>{{ labels[forloop.index0] }}</h2><span>{{ items.size }}</span></div>
     {%- for item in items %}
-    <article class="pres-item" data-kind="{{ item.kind }}">
+    <article class="lst-item" data-groups="{{ item.kind }}">
       <div>
-        <div class="pres-year">{{ item.year }}</div>
-        {%- if item.month > 0 %}<div class="pres-month">{{ months[item.month] }}</div>{% endif %}
+        <div class="lst-year">{{ item.year }}</div>
+        {%- if item.month > 0 %}<div class="lst-month">{{ months[item.month] }}</div>{% endif %}
       </div>
       <div>
-        <div class="pres-tags">
-          <span class="pres-kind{% if item.kind == 'Invited talk' %} is-invited{% endif %}">{{ item.kind }}</span>
+        <div class="lst-tags">
+          <span class="lst-kind{% if item.kind == 'Invited talk' %} is-accent{% endif %}">{{ item.kind }}</span>
         </div>
         <h3>{{ item.title }}</h3>
-        <p class="pres-authors">{{ item.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
-        <p class="pres-venue">{{ item.venue }}</p>
+        <p class="lst-authors">{{ item.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+        <p class="lst-venue">{{ item.venue }}</p>
         {%- if item.links %}
-        <div class="pres-links">
+        <div class="lst-links">
           {%- for link in item.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
         </div>
         {%- endif %}
