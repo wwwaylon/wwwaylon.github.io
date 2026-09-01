@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantitative Research &amp; Measurement Scientist
+title: 
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,6 +8,7 @@ title: Quantitative Research &amp; Measurement Scientist
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap">
 
 <style>
+
 /* ---- Modernist tokens ---- */
 .pf {
 --bg: #f3f2f2;
@@ -183,7 +184,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 
 <!-- MASTHEAD -->
 <nav class="pf-nav">
-<span class="pf-nav-brand">Quantitative Research &amp; Measurement Science</span>
+<span class="pf-nav-brand">Quantitative Research &amp; Measurement Scientist</span>
 <span class="pf-nav-spacer"></span>
 <a href="#work">Selected work</a>
 <a href="#philosophy">Philosophy</a>
@@ -194,14 +195,14 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 
 <!-- HERO -->
 <section class="pf-hero">
-<span class="pf-kicker">Quantitative Psychology · Measurement Science · Applied Research</span>
+<span class="pf-kicker">Quantitative Psychology &middot; Measurement Science &middot; Applied Research</span>
 <h1>
 <span>I study how complex</span>
 <span>human experience can be</span>
 <span class="pf-red">measured and understood over time.</span>
 </h1>
 <div class="pf-hero-cols">
-<p class="pf-lede">My work sits at the intersection of <strong>quantitative psychology, measurement science, and behavioral and health research</strong>. I develop and apply quantitative methods for answering difficult questions about human behavior, health, and development; particularly when the phenomena of interest cannot be directly observed, when measurement may function differently across people or contexts, or when the most important information lies in how individuals change over time.</p>
+<p class="pf-lede">My work sits at the intersection of <strong>quantitative psychology, measurement science, and behavioral and health research</strong>. I develop and apply quantitative methods for answering difficult questions about human behavior, health, and development, particularly when the phenomena of interest cannot be directly observed, when measurement may function differently across people or contexts, or when the most important information lies in how individuals change over time.</p>
 <p class="pf-lede-2">Across academic, clinical, healthcare, and industry research settings, I work with multidisciplinary teams to translate complex data into rigorous and interpretable evidence.</p>
 </div>
 <div class="pf-tags">
@@ -231,7 +232,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 
 <br>
 
-<p class="pf-meta"><strong>Applications:</strong> Behavioral health · Human development · Patient-reported outcomes · Engagement · Clinical research · User experience</p>
+<p class="pf-meta"><strong>Applications:</strong> Behavioral health &middot; Human development &middot; Patient-reported outcomes &middot; Engagement &middot; Clinical research &middot; User experience</p>
 
 </div>
 <div class="pf-interests">
@@ -239,21 +240,21 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <div class="pf-interest">
 <p class="pf-interest-num"><i></i>01</p>
 <h3>Measurement &amp; psychometrics</h3>
-<p class="pf-meta">Construct validity · Measurement equivalence · Latent variable modeling · Instrument development · Reliability · Sensitivity to change</p>
+<p class="pf-meta">Construct validity &middot; Measurement equivalence &middot; Latent variable modeling &middot; Instrument development &middot; Reliability &middot; Sensitivity to change</p>
 <p class="pf-body-sm">How do we determine whether a measure is capturing the construct we intend to study and whether that measurement retains its meaning across people, groups, and time?</p>
 </div>
 
 <div class="pf-interest">
 <p class="pf-interest-num"><i></i>02</p>
 <h3>Modeling change</h3>
-<p class="pf-meta">Longitudinal analysis · Structural equation modeling · Multilevel models · Growth trajectories · Individual differences in change</p>
+<p class="pf-meta">Longitudinal analysis &middot; Structural equation modeling &middot; Multilevel models &middot; Growth trajectories &middot; Individual differences in change</p>
 <p class="pf-body-sm">Many of the phenomena we care about most are dynamic. A single observation provides a snapshot; understanding trajectories of change reveals a much richer picture of development, behavior, and health.</p>
 </div>
 
 <div class="pf-interest">
 <p class="pf-interest-num"><i></i>03</p>
 <h3>Complex data &amp; research questions</h3>
-<p class="pf-meta">Mediation and moderation · Missing data · Predictive modeling · Behavioral data · Research design</p>
+<p class="pf-meta">Mediation and moderation &middot; Missing data &middot; Predictive modeling &middot; Behavioral data &middot; Research design</p>
 <p class="pf-body-sm">I use quantitative methods to investigate complex relationships, identify meaningful heterogeneity, and design studies that can give credible answers to difficult scientific questions.</p>
 </div>
 
@@ -278,7 +279,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <p class="pf-project-num">01</p>
 <h3>When does change mean the same thing for everyone?</h3>
 <p class="pf-project-sub">Measurement equivalence and developmental growth</p>
-<p class="pf-methods">Measurement validation · Growth modeling · Longitudinal analysis · SEM · Construct validity</p>
+<p class="pf-methods">Measurement validation &middot; Growth modeling &middot; Longitudinal analysis &middot; SEM &middot; Construct validity</p>
 </div>
 <div>
 <p class="pf-question">When we observe differences in developmental or behavioral scores, how do we know they represent real differences in the underlying construct rather than differences in how the measurement performs?</p>
@@ -293,7 +294,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <p class="pf-body-sm">With a multidisciplinary team, I led analyses using parallel-process and piecewise latent growth models to examine developmental trajectories, relationships among communication domains, and transitions between communication strategies.</p>
 </div>
 </div>
-<p class="pf-note"><strong>Why it matters -</strong> a measurement system should do more than assign a score. It should give confidence that observed change reflects the phenomenon we intend to understand: not only where someone is, but how they are changing.</p>
+<p class="pf-note"><strong>Why it matters &mdash;</strong> a measurement system should do more than assign a score. It should give confidence that observed change reflects the phenomenon we intend to understand: not only where someone is, but how they are changing.</p>
 </div>
 </div>
 </article>
@@ -305,7 +306,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <p class="pf-project-num">02</p>
 <h3>Looking beyond the average trajectory</h3>
 <p class="pf-project-sub">Understanding heterogeneity in longitudinal change</p>
-<p class="pf-methods">Longitudinal modeling · Multilevel models · Growth trajectories · SEM</p>
+<p class="pf-methods">Longitudinal modeling &middot; Multilevel models &middot; Growth trajectories &middot; SEM</p>
 </div>
 <div>
 <p class="pf-question">What do we lose when we summarize an entire population with a single average trajectory?</p>
@@ -325,7 +326,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 </ul>
 </div>
 </div>
-<p class="pf-note"><strong>Why it matters -</strong> a single measurement is only a snapshot. Whether the subject is well-being, engagement, development, health, or user experience, the trajectory tells the more meaningful story.</p>
+<p class="pf-note"><strong>Why it matters &mdash;</strong> a single measurement is only a snapshot. Whether the subject is well-being, engagement, development, health, or user experience, the trajectory tells the more meaningful story.</p>
 </div>
 </div>
 </article>
@@ -337,22 +338,22 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <p class="pf-project-num">03</p>
 <h3>Measuring what we cannot directly observe</h3>
 <p class="pf-project-sub">Latent variables and structural equation modeling</p>
-<p class="pf-methods">SEM · Factor analysis · Latent variables · Psychometrics · Measurement invariance</p>
+<p class="pf-methods">SEM &middot; Factor analysis &middot; Latent variables &middot; Psychometrics &middot; Measurement invariance</p>
 </div>
 <div>
-<p class="pf-question">Well-being, engagement, symptoms, functioning, motivation - none can be measured directly. How do we know our observed measures represent the construct at all?</p>
+<p class="pf-question">Well-being, engagement, symptoms, functioning, motivation &mdash; none can be measured directly. How do we know our observed measures represent the construct at all?</p>
 <div class="pf-subcols">
 <div>
 <span class="pf-label">The challenge</span>
-<p class="pf-body-sm">Observed variables are imperfect indicators. A survey response, behavioral observation, or clinical assessment carries both meaningful information and measurement error; and scientific conclusions depend on telling them apart.</p>
+<p class="pf-body-sm">Observed variables are imperfect indicators. A survey response, behavioral observation, or clinical assessment carries both meaningful information and measurement error, and scientific conclusions depend on telling them apart.</p>
 </div>
 <div>
 <span class="pf-label">My approach</span>
-<p class="pf-body-sm" style="margin-bottom: 16px !important;">Latent variable methods - factor analysis and structural equation modeling - used to define constructs, examine validity, test theoretical models, and separate meaningful variation from error over time.</p>
+<p class="pf-body-sm" style="margin-bottom: 16px !important;">Latent variable methods &mdash; factor analysis and structural equation modeling &mdash; used to define constructs, examine validity, test theoretical models, and separate meaningful variation from error over time.</p>
 <p class="pf-body-sm">I am most interested in questions where the <strong>measurement model and the substantive model cannot be treated as separate problems</strong>.</p>
 </div>
 </div>
-<p class="pf-note"><strong>Why it matters -</strong> good measurement begins with a clear understanding of the construct, but rigorous measurement means asking whether the data actually support the claims we want to make.</p>
+<p class="pf-note"><strong>Why it matters &mdash;</strong> good measurement begins with a clear understanding of the construct, but rigorous measurement means asking whether the data actually support the claims we want to make.</p>
 </div>
 </div>
 </article>
@@ -362,23 +363,23 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <div class="pf-split pf-split-top">
 <div>
 <p class="pf-project-num">04</p>
-<h3>Finding the signal in incomplete data</h3>
+<h3>Finding the signal in complex data</h3>
 <p class="pf-project-sub">Missing data and scalable quantitative methods</p>
-<p class="pf-methods">Missing data · Dimension reduction · Principal component analysis · Computational statistics</p>
+<p class="pf-methods">Missing data &middot; Dimension reduction &middot; Principal component analysis &middot; Computational statistics</p>
 </div>
 <div>
-<p class="pf-question">How can researchers preserve valid inference when real-world data are incomplete?</p>
+<p class="pf-question">How can researchers preserve useful information when real-world datasets are incomplete?</p>
 <div class="pf-subcols">
 <div>
 <span class="pf-label">The challenge</span>
-<p class="pf-body-sm">Missing data are rarely just a technical inconvenience: how missing observations are handled can change a study’s conclusions. At the same time, modern datasets often contain hundreds or thousands of potentially informative variables, creating challenges for both statistical modeling and computation.</p>
+<p class="pf-body-sm">Missing data are rarely a technical inconvenience: how missing observations are handled can change a study&rsquo;s conclusions. Large datasets hold thousands of potentially useful variables, but including them directly is often computationally impractical.</p>
 </div>
 <div>
-<span class="pf-label">My work</span>
-<p class="pf-body-sm">My methodological research examines how auxiliary information can be incorporated into missing-data analyses, including the use of dimension-reduction techniques to identify useful signal within high-dimensional datasets. I focus on methods that balance statistical rigor with computational practicality, allowing researchers to make better use of complex, incomplete data without introducing unnecessary complexity.</p>
+<span class="pf-label">My approach</span>
+<p class="pf-body-sm">My methodological research examines how auxiliary information can be brought into missing-data analyses, including dimension-reduction techniques for finding the useful signal inside large datasets. The goal is methods that are both statistically rigorous and practically scalable.</p>
 </div>
 </div>
-<p class="pf-note"><strong>Why it matters -</strong> Better inference depends not only on the models we choose, but on how we represent and use the information contained in our data. I am interested in methods that make complex data more informative, analyses more robust, and rigorous statistical approaches practical for researchers working with real-world datasets.</p>
+<p class="pf-note"><strong>Why it matters &mdash;</strong> the most sophisticated method is not necessarily the most useful one. I care about approaches that improve inference while staying practical enough for researchers working with real data.</p>
 </div>
 </div>
 </article>
@@ -428,7 +429,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 </div>
 <div class="pf-subcols">
 <div>
-<p class="pf-body" style="margin-bottom: 20px !important;">I work across the full research lifecycle; from formulating the scientific question through design, analysis, interpretation, dissemination, and methodological development.</p>
+<p class="pf-body" style="margin-bottom: 20px !important;">I work across the full research lifecycle &mdash; from formulating the scientific question through design, analysis, interpretation, dissemination, and methodological development.</p>
 <p class="pf-body-sm">As a Principal Biostatistician and research methods leader, I collaborate with investigators across clinical, behavioral, and translational research: building statistical strategy for grant applications, leading primary analyses, and advancing methodological approaches.</p>
 </div>
 <div>
@@ -474,7 +475,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 <section class="pf-close">
 <div class="pf-wrap">
 <h2>
-<span>Let's measure</span>
+<span>Let&rsquo;s measure</span>
 <span>something difficult.</span>
 </h2>
 <p>Open to collaborations involving measurement science, quantitative research, behavioral data, longitudinal analysis, psychometrics, research methodology, and product and experience measurement.</p>
