@@ -4,7 +4,7 @@ title: Publications
 ---
 
 ### peer-reviewed articles 
-According to Google Scholar, my work has been cited **1100+** times, and my h-index is **16**. 
+According to Google Scholar, my work has been cited **1300+** times, and my h-index is **17**. 
 
 * Zhai, S., Palermo, T. M., Shenoi, S., Demiris, G., **Howard, W. J.**, Kientz, J., Yuwen, W., Ward, T. M. (2025). A shared-management web-based intervention for sleep deficiency in school-age children with juvenile idiopathic arthritis and their parents: feasibility and acceptability study. *Journal of Clinical Sleep Medicine*, *21*(6), 1007-1021. [Impact Factor [4.2](https://jcsm.aasm.org/info/about-jcsm)], ([Cite](https://scholar.googleusercontent.com/scholar.bib?q=info:oVim0l-iLaYJ:scholar.google.com/&output=citation&scisdr=CgIMKLzYEJam16LvJro:AAZF9b8AAAAAaGLpPrp2S1L19tLdMR3jbFsRTiM&scisig=AAZF9b8AAAAAaGLpPka6ZYgtb_HVRLUSITVdgwY&scisf=4&ct=citation&cd=-1&hl=en), [Source Document](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.11610))
 

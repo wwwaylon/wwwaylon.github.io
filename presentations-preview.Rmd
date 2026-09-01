@@ -1,0 +1,93 @@
+---
+title: "Presentations"
+output:
+  html_document:
+    theme: null
+    highlight: null
+    self_contained: true
+    mathjax: null
+---
+
+<!--
+Local preview of the site's Presentations page.
+Content lives in _data/presentations.yml — edit that file only, then Knit.
+Requires: install.packages(c("yaml","htmltools"))
+-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis", message = FALSE, warning = FALSE)
+library(yaml)
+```
+
+```{r assets}
+cat('<link rel="preconnect" href="https://fonts.googleapis.com">',
+    '<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">',
+    '<style>', paste(readLines("assets/css/presentations.css", warn = FALSE), collapse = "\n"), '</style>',
+    sep = "\n")
+```
+
+```{r page}
+d <- yaml::read_yaml("_data/presentations.yml")
+
+kinds  <- c("Invited talk", "Contributed talk", "Workshop", "Panel", "Poster")
+labels <- c("Invited talks", "Contributed talks", "Workshops & tutorials",
+            "Panels & roundtables", "Posters")
+months <- c("January","February","March","April","May","June",
+            "July","August","September","October","November","December")
+
+esc  <- function(x) gsub("<", "&lt;", gsub("&", "&amp;", x, fixed = TRUE), fixed = TRUE)
+bold <- function(x) gsub("\\*\\*(.+?)\\*\\*", "<b>\\1</b>", esc(x))
+
+year  <- vapply(d, function(e) e$year,  numeric(1))
+month <- vapply(d, function(e) e$month, numeric(1))
+kind  <- vapply(d, function(e) e$kind,  character(1))
+d     <- d[order(-year, -month)]
+kind  <- kind[order(-year, -month)]
+
+n <- function(k) sum(kind == k)
+
+cat('<div class="pres">',
+    '<header class="pres-head"><div class="pres-head-row"><h1>Presentations</h1>',
+    sprintf('<div class="pres-span">%d&ndash;%d</div></div>', min(year), max(year)),
+    '<p class="pres-intro">Invited and contributed talks, panels, teaching workshops,',
+    'and posters. Filter by format or search a title, collaborator, or venue.</p></header>',
+    '<div class="pres-stats">',
+    sprintf('<div class="pres-stat"><b>%d</b><span>Presentations</span></div>', length(d)),
+    sprintf('<div class="pres-stat"><b>%d</b><span>Invited talks</span></div>', n("Invited talk")),
+    sprintf('<div class="pres-stat"><b>%d</b><span>Posters</span></div>', n("Poster")),
+    sprintf('<div class="pres-stat"><b>%d</b><span>Workshops &amp; panels</span></div>',
+            n("Workshop") + n("Panel")),
+    '</div>', sep = "\n")
+
+cat('<div class="pres-bar"><div class="pres-chips">',
+    sprintf('<button type="button" class="pres-chip" data-kind="all" aria-pressed="true">All <i>%d</i></button>', length(d)),
+    paste(sprintf('<button type="button" class="pres-chip" data-kind="%s" aria-pressed="false">%s <i>%d</i></button>',
+                  kinds, labels, vapply(kinds, n, numeric(1))), collapse = ""),
+    '</div><input type="search" class="pres-search" placeholder="Search title, author, venue"></div>',
+    '<p class="pres-empty">Nothing matches that filter.</p>', sep = "\n")
+
+for (i in seq_along(kinds)) {
+  items <- d[kind == kinds[i]]
+  if (!length(items)) next
+  cat(sprintf('<section class="pres-section"><div class="pres-group"><h2>%s</h2><span>%d</span></div>',
+              labels[i], length(items)))
+  for (e in items) {
+    links <- if (!is.null(e$links))
+      sprintf('<div class="pres-links">%s</div>',
+              paste(vapply(e$links, function(l)
+                sprintf('<a href="%s" target="_blank" rel="noopener">%s</a>', l$url, esc(l$label)),
+                character(1)), collapse = "")) else ""
+    cat(sprintf(paste0('<article class="pres-item" data-kind="%s"><div><div class="pres-year">%d</div>%s</div>',
+                       '<div><div class="pres-tags"><span class="pres-kind%s">%s</span></div>',
+                       '<h3>%s</h3><p class="pres-authors">%s</p><p class="pres-venue">%s</p>%s</div></article>'),
+                e$kind, e$year,
+                if (e$month > 0) sprintf('<div class="pres-month">%s</div>', months[e$month]) else "",
+                if (e$kind == "Invited talk") " is-invited" else "",
+                esc(e$kind), esc(e$title), bold(e$authors), esc(e$venue), links))
+  }
+  cat('</section>')
+}
+cat('</div>')
+
+cat('<script>', paste(readLines("assets/js/presentations.js", warn = FALSE), collapse = "\n"), '</script>', sep = "\n")
+```

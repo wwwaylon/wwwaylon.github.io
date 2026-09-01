@@ -1,106 +1,125 @@
 ---
-layout: page
-title: Presentations 
+title: 
+output:
+  html_document:
+    theme: null
+    highlight: null
+    self_contained: true
+    mathjax: null
 ---
 
-### Oral Presentations and Panel Discussions
-
-* Buzhardt, J., Dykstra-Steinbrenner, J., Nowell, S. W., Wallisch, A., Irvin, D., Brunson, L. Y., **Howard W. J.**, Boyd B., (2025, May). Variation in Social-Communication Outcomes of Young Autistic Children Using a Novel Parent-mediated Play-based Assessment [In-Person Contributed Talk]. Biennial Meeting of the Society for Research in Child Development, Minneapolis, MN. ([link](https://www.srcd.org/event/srcd-2025-biennial-meeting)) 
-
-* Willson, R., Thomsen, S., Swanson, M., **Howard W. J.**, Mistovich, J., Ellis, H.B., Cruz Jr., A., Fabricant, P., Lee, R.J., McKay, S., Yen, Y-M., Kushare, I.V., Ganley, T.J., Schmale, G.A. (2025, January). No Impact of Posterior Tibial Slope on Subsequent ACL tears in Patients with Tibial Spine Fractures [In-Person Contributed Talk]. 12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH. ([link](https://www.prismsports.org/events/2025-annual-meeting)) 
-
-* **Howard W. J.** (2024, June) SEM, Revealed. Modeling connections with latent variables and regression pathways [In-Person Invited Talk]. Center for Child Health Behavior and Development, Seattle Childrens Research Institute, Seattle, WA.
-
-* McKinney, C., **Howard W. J.**, Bijlani, K., Evans, K., Kassuhn, M., Leavitt, D., Heike, C. (2023, May). Growth velocity in U.S. children with orofacial clefts in the first 6 months of life [In-Person Contributed Talk]. 80th Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Raleigh, NC. ([link](https://acpacares.org/wp-content/uploads/2023/04/ACPA_PROGRAM_FINAL.pdf))  
-
-* McNulty, B., Salehi, P., Kim, L. Kim, S., **Howard W. J.**. (2023, September). Aberrant Behavior Checklist Scores in Youth with Prader-Willi Syndrome [In-Person Contributed Talk]. Annual Foundation for Pradi-Willi Research Symposium and Family Conference, Atlanta, GA. ([link](https://www.fpwr.org/hubfs/Conference/2023%20Conference/Scientific%20Day%20Abstract%20Booklet_2023.pdf?hsCtaTracking=2277e48d-301f-4451-8f71-f11130da8c86%7Ce149335f-b033-4d8b-aa39-da74a29a1aab)) 
-
-* Okech D., **Howard, W. J.**, (2018, January). Predictors of Financial Capability among Female Survivors of Human Trafficking in Ghana, West Africa [In-Person Symposia]. Financial Capability across the Globe: Results from Canada, China, and Ghana, 22nd Annual Conference of the Society for Social Work and Research, Washington D.C. ([link](https://sswr.confex.com/sswr/2018/webprogram/Paper32290.html))  
-
-* **Howard, W. J.** (2017, April). Missing Data in Applied Research [In-Person Invited Talk]. University of Washington, Dept. of Epidemiology, Seattle, WA.  ([outline](https://drive.google.com/file/d/1K2K-h-IPL_KCQyTdWn4t1w4qBrJw5ZMI/view?usp=sharing))
-
-* **Howard, W. J.** (2015, October). Planned Missing Data in Pediatric Research [In-Person Invited Talk]. Seattle Childrens Research Institute, Center for Child Health Behavior and Development, Seattle, WA. ([outline](https://drive.google.com/file/d/1M-BYMZL1ykEidCh4QL6LigBWE0VUtFCb/view?usp=sharing))  
-
-* **Howard, W. J.**, Johnston, H., & Misra, C., (2015, May). Research Computing for Social Scientists [In-Person Roundtable Discussions]. University of Massachusetts, Amherst, MA. ([outline](https://drive.google.com/file/d/1Rysd5DoAhZ6FutDIzqbEEecgWmFqvVZB/view?usp=sharing),  [link](https://www.umass.edu/issr/research-computing-social-scientists-panel-discussion-campus-resources-and-opportunities))  
-
-* **Howard, W. J.** (2015, February). Planned Missing Data Designs [In-Person Invited Talk]. Department of Statistics, University of Massachusetts, Amherst, MA.  
-
-* **Howard, W. J.** (2014, March). Missing Data [In-Person Invited Talk]. Institute for Social Science Research, University of Massachusetts, Amherst, MA.  
-
-* **Howard, W. J.** (2014, February). Introduction to Biostatistics [In-Person Symposia]. Lecture for the James A. Ferguson Emerging Infectious Diseases Research Initiatives for Student Enhancement (RISE) Fellowship Program at the Kennedy Krieger Institute, Baltimore, MD.  ([link](https://www.kennedykrieger.org/training/programs/center-for-diversity-in-public-health-leadership-training/ferguson-rise))
-
-* **Howard, W. J.** (2013, August). An alternative to the restrictive strategy in modern missing data procedures [In-Person Invited Talk]. Department of Mental Health, Johns Hopkins School of Public Health, Baltimore, MD.    
-
-* **Howard, W. J.**. (2013, June). Using principal components analysis to obtain auxiliary variables for missing data in large data sets [In-Person Invited Talk]. Department of Psychology, University of North Carolina, Chapel Hill, NC.  
-
-* **Howard, W. J.** & Little, T. D. (2013, May). Use of principal components analysis to reap the benefits of the inclusive strategy in the presence of many possible auxiliary variables [In-Person Invited Talk]. Annual Modern Modeling Methods (M3) Conference, Storrs, CT.  
-
-* **Howard, W. J.** (2013, March). Missing data analysis [In-Person Invited Talk]. Bi-annual Biostatistics, Epidemiology and Data Management Core, Johns Hopkins University, Bayview, MD.  
-
-* **Howard, W. J.** (2012, November). Understanding missing data: An introduction to basic concepts [In-Person Invited Talk]. Bi-annual Biostatistics, Epidemiology and Data Management Core Seminar, Johns Hopkins University, Bayview, MD.  
-
-* **Howard, W. J.** (2011, March). Latent growth modeling of language and early literacy for two parallel processes [In-Person Special Session]. Annual meeting of the Midwestern Social Development Consortium, Lawrence, KS.  
-
-* **Howard, W. J.** & Anderson, R. A. (2010, April). Receiver operating characteristic curve benchmark decision-making [In-Person Flash Talk]. Quantitative Training Program Weekly Colloquium Series, University of Kansas, Lawrence, KS.  
-
-* **Howard, W. J.**, Ratliff, J. M., Turner, A. D., Smith, M., & Page, M. C. (2008, May). Summer research programs: Getting in and making the most of your experience [In-Person Roundtable Discussion]. 20th annual meeting of the Association for Psychological Science, Chicago, IL.  
-
-* Evans, S. J., Baker, A. J., **Howard, W. J.**, & Roberts, S. L. (2008, April). Exploring graduate school: Preparation, application, and experiences [In-Person Roundtable Discussion]. 54th annual meeting of the Southwestern Psychological Association, Kansas City, MO.  
-
-* Long, R. L., **Howard, W. J.** & McIntosh, A. (2008, November). Internationalize your vitae: How to have a global career in psychology [In-Person Roundtable Discussion]. Joint meeting of the Association for Psychological and Educational Research in Kansas and the Nebraska Psychological Society, Bellevue, NE.  
-
-### Interactive Sessions
-
-* **Howard W. J.** (2023/2024, November) An introduction to missing data analysis [Webinar Workshop]. Statistical Literacy for Biologists Training Session. Research Scientific Computing, Seattle Childrens Research Institute, Seattle, WA. 
-
-* **Howard, W. J.** (2015, June) Introduction to Confirmatory Factor Analysis [In-Person Workshop]. Summer Summit Research Methodology Conference, University of Massachusetts, Institute for Social Science Research, Amherst, MA. ([outline](https://drive.google.com/file/d/1_UzEuzj4tUjIO5u4IL3FTtEAm3BJGWMk/view?usp=sharing), [link](https://www.umass.edu/issr/events/))
-
-* **Howard, W. J.** (2011, February). Multilevel modeling in MULTILEV [In-Person Tutorial]. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS. 
-
-* **Howard, W. J.**, & McCune, L. A. (2011, October,). Latent variable modeling using LISREL notation [In-Person Tutorial]. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
-
-* **Howard, W. J.** (2010, September). Latent variable modeling using LISREL notation [In-Person Tutorial]. Saturday Seminar, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS.  
-
-### Visual Presentations
-
-* McKinney, C., **Howard W. J.**, Bijlani, K., Rahman, A., Meehan, K. Evans, D. Leavitt, T. J. Sitzman, P. Amoako-Yirenkyi, C. L. Heike (2025, May). Impact of Comorbidities on Growth in Children With Cleft From 0-18 Months of Age. Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Palm Springs, CA. ([link](google.com))  
-
-* Lyle, A., **Howard, W. J.**, Weiss, E. (2025, April). Differences in Comfort in Ethical Dilemmas Among Pediatric Residents: A Survey Study. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Honolulu, HI. ([link](https://www.pas-meeting.org/2025-meeting/))  
-
-* Ittleman, B., **Howard, W. J.**, Virk, K., Brown, N., Bhat, A., Caris, E., Conwell, J., Edwards, L., Lewin, M., Pinto, N., Studer, M., Young, L., & Bhawna, A. (2024, November). Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution. Poster presented at the centennial American Heart Association Scientific Sessions, Chicago, IL. ([link](https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24)) 
-
-* Lyle, A., **Howard, W. J.**, Weiss, E. (2024, May). Pediatric Residents Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment. Poster presented at the annual Pediatric Academic Societies (PAS) Conference, Toronto, ON, CA. ([link](https://2024.pas-meeting.org/fsPopup.asp?PosterID=649537&mode=posterInfo))  
-
-* McKinney, C., **Howard W. J.**, Bijlani, K., Rahman, A., Meehan, K. Evans, D. Leavitt, T. J. Sitzman, P. Amoako-Yirenkyi, C. L. Heike (2024, May). Growth in U.S. Infants with Orofacial Cleft. 31st Annual Meeting of the American Society of Craniofacial Surgeons, Denver, CO. ([link](https://acpacares.org/wp-content/uploads/2024/04/ACPA_AnnualMeeting24_ProgramGuide_Final.pdf))  
-
-* Chrisman, S., Tham, S., **Howard W. J.**, Zatzick, D. F., Rivara, F. P., McCarty.  C. M. (2023). Sleep and Concussion Recovery in a Pediatric Collaborative Care Intervention Trial: Do Concussion Symptoms Improve Because Teens are Sleeping Better? Poster presented at the annual Neurotrauma conference, Austin, TX. ([link](https://www.neurotrauma.org/event-4404776))
-
-* McNulty, B., Kim, L. Kim, S., **Howard W. J.**, Salehi, P. (2023). Changes in hyperphagia behaviors correlate with both improvement in quality of life and worsening of maladaptive behaviors in children with Pradi-Willi Syndrome over time. Poster presented at the annual Pediatric Academic Societies (PAS), Washington, D.C. ([link](https://www.pas-meeting.org/2023-exhibits/#:~:text=PAS%202023%20will%20be%20held,27%20%E2%80%93%20May%201%2C%202023.))
-
-* Zhou, C., Gao, Y., **Howard, W. J.** (2017). Evaluation of combining bootstrap with multiple imputation using R on Knights Landing platform. Poster presented at the 4th International Conference on Cyber Security and Cloud Computing, New York, New York. ([PDF](https://www.researchgate.net/publication/318670029_Evaluation_of_Combining_Bootstrap_with_Multiple_Imputation_Using_R_on_Knights_Landing_Platform),  [link](https://ieeexplore.ieee.org/document/7987168)) 
-
-* Malik, F. S., Yi-Frazier, J. P., Taplin, C. E., Roth, C. L., Whitlock, K., **Howard, W. J.**, Pihoker, C. (2017). Psychosocial Mediators Impacting the Effectiveness of a Novel Medical-Legal Community Care Program. Poster presented at the Annual Meeting of the American Diabetes Association, San Diego, California.  ([link](https://ada.scientificposters.com/epsAbstractADA.cfm?id=2)) 
-
-* Desai, A. D., Opel, D. J., Mangione-Smith R., Britto, M. T., & **Howard, W. J.** (2015). Development of a Caregiver-Reported Outcome Measure for Pediatric Hospital-to-Home Transitions. Poster presented at the Annual Pediatric Academic Societies Meeting, San Diego, California.  
-
-* Matson, P., **Howard, W. J.**, Chung, S. (2014). Use of P-technique to examine the dynamic relationship among STD-associated feelings and perceptions in a cohort of adolescent females. Poster presented at the 47th Annual Meeting of the Society for Epidemiological Research, Seattle, Washington.  ([link](https://epiresearch.org/wp-content/uploads/2014/07/finalprogram.pdf)) 
-
-* Stone, J., **Howard, W. J.**, & DAbundo M., L. (2013). A latent variable approach to attitudes and practices of health professionals serving persons with developmental disabilities. Poster presented at the 42nd annual meeting of the Association of University Centers on Disabilities, Washington, DC.
-
-* Greenwood, C. R., Carta, J. J., Atwater, J., **Howard, W. J.**, & McCune L. A. (2012). Program and ELL differences in the quantity and quality of preschool language and early literacy instruction and child Outcomes. Poster presented at Head Starts 11th National Research Conference, Washington, DC.  ([link](https://www.acf.hhs.gov/sites/default/files/opre/hsrc_program_2012_final.pdf)) 
-
-* Chan, C. S., Lowe, S. R., **Howard, W. J.**, Schwartz, S. E. O., & Rhodes, J. E. (2012). Pathways of influence in school-based mentoring: The mediating role of parent and teacher relationships. Poster presented at the 14th biennial meeting of the Society for Research on Adolescence (SRA), Vancouver, British Columbia, Canada.  ([link](http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2012%20Program%20Book%203-16-2012_Complete.pdf)) 
-
-* McCune A. L., **Howard, W. J.**, Greenwood, C. R., Walker, D., Buzhardt, J., & Anderson, R. A. (2012). Dynamic relations within and between early communication key skill elements over time: Evidence of contiguous continuity in skill development. Poster presented at the Developmental Methodology Themed Meeting of the Society for Research in Child Development, Tampa, FL. ([link](http://www.srcd.org/sites/default/files/documents/dm_program_book_rev.pdf)) 
-
-* Buzhardt, J., Greenwood, C. R., Walker, D., Anderson, R. A., & **Howard, W. J.** (2011). A web based tool to support data-based intervention decision-making for infant and toddler language growth. Poster presented at the annual meeting of the Kansas Association for Behavior Analysis, Overland Park, KS.    
-
-* Okech, D., & **Howard, W. J.** (2011). Down but not out: Resilience in poor households. Poster presented at the 15th annual meeting of the Society for Social Work and Research, Tampa, FL. ([link](http://secure.sswr.org/past-conferences/2011-annual-conference/)) 
-
-* Carta, J. J., Greenwood, C. R., Pitchlyn, C., & **Howard, W. J.** (2010). Challenging behavior implications for childrens early communication and literacy development. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.  
-
-* Geldhof, G. J., Stump, K., **Howard, W. J.**, & Hawley P. H. (2010). Support for five distinct resource control types via a cluster analytic approach. Poster presented at the 12th biennial meeting of the Society for Research on Adolescence, Philadelphia, PA.  ([link](http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2010_printedprogram.pdf)) 
-
-* Greenwood, C. R., Buzhardt, J., Walker, D., Anderson, R. A., & **Howard, W. J.** (2010). The early communication indicator (ECI) for infants and toddlers: Early head start growth norms. Poster presented at the 26th annual meeting of the Division for Early Childhood of the Council for Exceptional Children, Kansas City, KS.
-
-* Greenwood, C. R., Anderson, R. A., Walker, D., Buzhardt, J., & **Howard, W. J.** (2010). Exploring the early communication key skills for intervention decision-making with infants and toddlers. Poster presented at 5th annual Institute of Education Sciences Research Conference, National Harbor, MD.  
+```{=html}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+.pres { --ink:#201e1d; --bg:#f3f2f2; --accent:#ec3013; --accent-700:#a8210c;
+--n300:#d6d3d1; --n400:#b8b4b1; --n500:#8f8a86; --n600:#6b6663; --n700:#4a4644; --n100:#faf9f9;
+font-family:"Archivo",system-ui,sans-serif; color:var(--ink); max-width:1120px; margin:0 auto; }
+.pres * { box-sizing:border-box; }
+.pres a { color:var(--accent-700); text-decoration:none; border-bottom:1px solid #f0a99c; }
+.pres a:hover { color:var(--accent); border-bottom-color:var(--accent); }
+.pres :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.pres-head { border-bottom:2px solid var(--ink); padding-bottom:28px; }
+.pres-head-row { display:flex; align-items:flex-end; justify-content:space-between; gap:40px; flex-wrap:wrap; }
+.pres h1 { font-size:64px; line-height:.95; letter-spacing:-.03em; margin:0; font-weight:700; }
+.pres-span { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--n600); padding-bottom:8px; }
+.pres-intro { margin:22px 0 0; max-width:64ch; font-size:17px; line-height:1.55; text-wrap:pretty; color:var(--n700); }
+.pres-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); border-bottom:2px solid var(--ink); }
+.pres-stat { padding:26px 26px 26px 0; }
+.pres-stat b { display:block; font-size:44px; line-height:1; letter-spacing:-.02em; font-weight:700; }
+.pres-stat span { display:block; margin-top:10px; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--n600); }
+.pres-bar { display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; padding:18px 0; border-bottom:2px solid var(--ink); }
+.pres-chips { display:flex; gap:8px; flex-wrap:wrap; }
+.pres-chip { font:inherit; font-size:13px; letter-spacing:.04em; padding:9px 14px; border-radius:0; cursor:pointer;
+border:1px solid var(--n400); background:transparent; color:var(--n700); }
+.pres-chip:hover { border-color:var(--accent); color:var(--accent-700); }
+.pres-chip[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+.pres-chip i { font-style:normal; opacity:.5; }
+.pres-search { font:inherit; font-size:14px; padding:11px 12px; min-width:280px; border:1px solid var(--n400); border-radius:0; background:var(--n100); color:var(--ink); }
+.pres-group { display:flex; align-items:baseline; gap:16px; padding:44px 0 14px; border-bottom:2px solid var(--ink); }
+.pres-group h2 { font-size:15px; letter-spacing:.14em; text-transform:uppercase; margin:0; font-weight:700; }
+.pres-group span { font-size:13px; color:var(--n600); }
+.pres-item { display:grid; grid-template-columns:104px 1fr; gap:36px; padding:26px 0; border-bottom:1px solid var(--n300); align-items:start; }
+.pres-year { font-size:32px; line-height:1; letter-spacing:-.01em; font-weight:700; }
+.pres-month { margin-top:8px; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--n600); }
+.pres-tags { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:9px; }
+.pres-kind { font-size:11px; letter-spacing:.1em; text-transform:uppercase; padding:4px 8px; border:1px solid var(--n400); color:var(--n700); }
+.pres-kind.is-invited { background:var(--accent); border-color:var(--accent); color:#fff; }
+.pres-lead { font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-700); }
+.pres-item h3 { font-size:21px; line-height:1.3; letter-spacing:-.01em; margin:0 0 10px; font-weight:700; text-wrap:pretty; }
+.pres-authors { margin:0 0 5px; font-size:15px; line-height:1.5; color:var(--n700); }
+.pres-authors b { color:var(--ink); }
+.pres-venue { margin:0; font-size:15px; line-height:1.5; color:var(--n600); }
+.pres-links { display:flex; gap:18px; flex-wrap:wrap; margin-top:12px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+.pres-empty { padding:72px 0; font-size:18px; color:var(--n600); }
+@media (max-width:640px){ .pres h1{font-size:40px} .pres-item{grid-template-columns:1fr; gap:12px} .pres-search{min-width:100%} }
+</style>
+<div class="pres">
+<header class="pres-head">
+<div class="pres-head-row">
+<h1>Presentations</h1>
+<div class="pres-span" id="pres-span"></div>
+</div>
+<p class="pres-intro">Invited and contributed talks, panels, teaching workshops, and posters. Filter by format or search a title, collaborator, or venue.</p>
+</header>
+<div class="pres-stats" id="pres-stats"></div>
+<div class="pres-bar">
+<div class="pres-chips" id="pres-chips"></div>
+<input type="search" class="pres-search" id="pres-search" placeholder="Search title, author, venue">
+</div>
+<div id="pres-list"></div>
+</div>
+<script>
+(function(){
+var DATA = [{"y":2027,"m":0,"k":"Poster","t":"Identifying Factors That Predict Underweight in Infants with Cleft Lip and/or Palate in 10 U.S. Children's Hospitals","a":"Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D. M., Amoako-Yirenkyi, P., Heike, C., Owusu Adusei, A., Oliphant, H., Crerand, C. E., Jackson, O., Discolo, C., Vetter, S., Wilson, K., Geronimo, Y., Galera, R., Lyman, N., Whyte, V., Pajor, N., McKinney, C. M.","v":"Annual Meeting of the American Cleft Palate???Craniofacial Association (conference abstract)"},{"y":2026,"m":11,"k":"Poster","t":"Development and Validation of a Multivariable Prediction Model for Underweight Status at 4 Months in Infants with Cleft Lip and/or Palate Across U.S. Children's Hospitals","a":"Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D., Amoako-Yirenkyi, P., Kinter, S., Heike, C., McKinney, C.","v":"11th MIOHR Congress, Athens, Greece (accepted poster presentation, November 5???7)"},{"y":2026,"m":10,"k":"Contributed talk","t":"Drivers of Change in Who Is Served by Pediatric Integrated Care","a":"Wissow, L., King, S., Cunningham, K. A., Warner, E., Bijlani, K., **Howard, W. J.**","v":"AACAP 2026 Annual Meeting, American Academy of Child and Adolescent Psychiatry"},{"y":2026,"m":4,"k":"Poster","t":"Current Practices and Views: Prenatal Critical Congenital Heart Disease Diagnoses and Palliative Care Involvement","a":"Roome, K., Arya, B., Opel, D., **Howard, W. J.**","v":"Journal of the American College of Cardiology, 87(13 Suppl.), A375"},{"y":2026,"m":3,"k":"Poster","t":"Monitoring for Post-Transplant Lymphoproliferative Disease in Pediatric Patients by Quantifying Epstein-Barr Virus Viral Load","a":"Schauer, J., Zheyi, T., Wagner, T., Spencer, K., Rivers, J., Chisholm, K., Smith, J., Saarela, K., Albers, E., Hong, B., Kemna, M., Kronmal, R., **Howard, W. J.**, Law, Y.","v":"46th Annual Meeting and Scientific Sessions of the International Society for Heart and Lung Transplantation (ISHLT), Toronto, Canada"},{"y":2026,"m":3,"k":"Poster","t":"Current Practices and Views: Prenatal Critical Congenital Heart Disease Diagnoses and Palliative Care Involvement","a":"Roome, K., Arya, B., Opel, D., **Howard, W. J.**","v":"46th Annual Meeting and Scientific Sessions of the International Society for Heart and Lung Transplantation (ISHLT), Toronto, Canada"},{"y":2026,"m":3,"k":"Poster","t":"Predicting Underweight in Children with Cleft Across 10 Hospitals","a":"Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D., Amoako-Yirenkyi, P., Kinter, S., Heike, C., McKinney, C.","v":"26th International Association for Dental Research (IADR) General Session and Exhibition, San Diego, CA (March 25???28)"},{"y":2026,"m":2,"k":"Workshop","t":"Linear Mixed Models (LMMs) and Applied R Packages","a":"Yeji, B., **Howard, W. J.**","v":"Webinar workshop, Research Forum Training Session ??? Statistical Literacy for Biologists, Seattle Children's Research Institute, Seattle, WA"},{"y":2025,"m":10,"k":"Poster","t":"To What Extent Do Children with a Cleft Follow World Health Organization Growth Standards in the First 2 Years of Life?","a":"McKinney, C. M., Kinter, S., Ormanidou, I., **Howard, W. J.**, Bijlani, K., Madhoun, L., Crerand, C., Meehan, A., Rahman, M., Heike, C. L.","v":"15th International Congress on Cleft Lip/Palate and Related Craniofacial Anomalies, Kyoto, Japan (October 20???24)"},{"y":2025,"m":10,"k":"Poster","t":"A Novel Play-Based Measure of Social-Communication for Autistic Children","a":"Buzhardt, J., Nowell, S., Higgins, S., **Howard, W. J.**","v":"Division for Early Childhood Annual International Conference on Young Children with Disabilities and Their Families, Portland, OR"},{"y":2025,"m":6,"k":"Invited talk","t":"Streamlined Workflows for Statistician???Investigator Research Partnerships","a":"**Howard, W. J.**","v":"Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA"},{"y":2025,"m":3,"k":"Workshop","t":"Latent Variable Modeling in Behavioral and Clinical Outcomes Research: A Practical Guide","a":"**Howard, W. J.**","v":"Webinar workshop, Research Forum Training Session ??? Behavioral and Clinical Outcomes Research Program, Seattle Children's Research Institute, Seattle, WA"},{"y":2025,"m":0,"k":"Contributed talk","t":"TTTS: Likelihood of Donor Survival ??? Introducing a Calculator for Prediction of Donor Demise on Post-Op Day 1 and Donor Live Birth","a":"Paek, B., **Howard, W. J.**, Keller, S., Hirose, S., Dorn, M., Walker, M.","v":"International Fetal Medicine and Surgery Society (IFMSS) Annual Meeting, Napa, CA"},{"y":2025,"m":5,"k":"Contributed talk","t":"Variation in Social-Communication Outcomes of Young Autistic Children Using a Novel Parent-mediated Play-based Assessment","a":"Buzhardt, J., Dykstra-Steinbrenner, J., Nowell, S. W., Wallisch, A., Irvin, D., Brunson, L. Y., **Howard, W. J.**, Boyd, B.","v":"Biennial Meeting of the Society for Research in Child Development, Minneapolis, MN","l":[["Meeting","https://www.srcd.org/event/srcd-2025-biennial-meeting"]]},{"y":2025,"m":5,"k":"Poster","t":"Impact of Comorbidities on Growth in Children With Cleft From 0???18 Months of Age","a":"McKinney, C., **Howard, W. J.**, Bijlani, K., Rahman, A., Meehan, K., Evans, D., Leavitt, T. J., Sitzman, P., Amoako-Yirenkyi, C., Heike, C. L.","v":"Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Palm Springs, CA"},{"y":2025,"m":4,"k":"Poster","t":"Differences in Comfort in Ethical Dilemmas Among Pediatric Residents: A Survey Study","a":"Lyle, A., **Howard, W. J.**, Weiss, E.","v":"Annual Pediatric Academic Societies (PAS) Conference, Honolulu, HI","l":[["Meeting","https://www.pas-meeting.org/2025-meeting/"]]},{"y":2025,"m":1,"k":"Contributed talk","t":"No Impact of Posterior Tibial Slope on Subsequent ACL Tears in Patients with Tibial Spine Fractures","a":"Willson, R., Thomsen, S., Swanson, M., **Howard, W. J.**, Mistovich, J., Ellis, H. B., Cruz Jr., A., Fabricant, P., Lee, R. J., McKay, S., Yen, Y-M., Kushare, I. V., Ganley, T. J., Schmale, G. A.","v":"12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH","l":[["Meeting","https://www.prismsports.org/events/2025-annual-meeting"]]},{"y":2024,"m":11,"k":"Workshop","t":"An Introduction to Missing Data Analysis","a":"**Howard, W. J.**","v":"Statistical Literacy for Biologists Training Session (2023 and 2024), Research Scientific Computing, Seattle Children's Research Institute, Seattle, WA"},{"y":2024,"m":11,"k":"Poster","t":"Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution","a":"Ittleman, B., **Howard, W. J.**, Virk, K., Brown, N., Bhat, A., Caris, E., Conwell, J., Edwards, L., Lewin, M., Pinto, N., Studer, M., Young, L., Bhawna, A.","v":"Centennial American Heart Association Scientific Sessions, Chicago, IL","l":[["Planner","https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24"]]},{"y":2024,"m":6,"k":"Invited talk","t":"SEM, Revealed: Modeling Connections with Latent Variables and Regression Pathways","a":"**Howard, W. J.**","v":"Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA"},{"y":2024,"m":5,"k":"Poster","t":"Pediatric Residents' Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment","a":"Lyle, A., **Howard, W. J.**, Weiss, E.","v":"Annual Pediatric Academic Societies (PAS) Conference, Toronto, ON","l":[["Abstract","https://2024.pas-meeting.org/fsPopup.asp?PosterID=649537&mode=posterInfo"]]},{"y":2024,"m":5,"k":"Poster","t":"Growth in U.S. Infants with Orofacial Cleft","a":"McKinney, C., **Howard, W. J.**, Bijlani, K., Rahman, A., Meehan, K., Evans, D., Leavitt, T. J., Sitzman, P., Amoako-Yirenkyi, C., Heike, C. L.","v":"31st Annual Meeting of the American Society of Craniofacial Surgeons, Denver, CO","l":[["Program","https://acpacares.org/wp-content/uploads/2024/04/ACPA_AnnualMeeting24_ProgramGuide_Final.pdf"]]},{"y":2023,"m":9,"k":"Contributed talk","t":"Aberrant Behavior Checklist Scores in Youth with Prader-Willi Syndrome","a":"McNulty, B., Salehi, P., Kim, L., Kim, S., **Howard, W. J.**","v":"Annual Foundation for Prader-Willi Research Symposium and Family Conference, Atlanta, GA","l":[["Abstracts","https://www.fpwr.org/hubfs/Conference/2023%20Conference/Scientific%20Day%20Abstract%20Booklet_2023.pdf"]]},{"y":2023,"m":5,"k":"Contributed talk","t":"Growth Velocity in U.S. Children with Orofacial Clefts in the First 6 Months of Life","a":"McKinney, C., **Howard, W. J.**, Bijlani, K., Evans, K., Kassuhn, M., Leavitt, D., Heike, C.","v":"80th Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Raleigh, NC","l":[["Program","https://acpacares.org/wp-content/uploads/2023/04/ACPA_PROGRAM_FINAL.pdf"]]},{"y":2023,"m":0,"k":"Poster","t":"Sleep and Concussion Recovery in a Pediatric Collaborative Care Intervention Trial: Do Concussion Symptoms Improve Because Teens Are Sleeping Better?","a":"Chrisman, S., Tham, S., **Howard, W. J.**, Zatzick, D. F., Rivara, F. P., McCarty, C. M.","v":"Annual Neurotrauma Conference, Austin, TX","l":[["Meeting","https://www.neurotrauma.org/event-4404776"]]},{"y":2023,"m":0,"k":"Poster","t":"Changes in Hyperphagia Behaviors Correlate with Both Improvement in Quality of Life and Worsening of Maladaptive Behaviors in Children with Prader-Willi Syndrome Over Time","a":"McNulty, B., Kim, L., Kim, S., **Howard, W. J.**, Salehi, P.","v":"Annual Pediatric Academic Societies (PAS) Conference, Washington, D.C.","l":[["Meeting","https://www.pas-meeting.org/2023-exhibits/"]]},{"y":2018,"m":1,"k":"Contributed talk","t":"Predictors of Financial Capability among Female Survivors of Human Trafficking in Ghana, West Africa","a":"Okech, D., **Howard, W. J.**","v":"Symposium: Financial Capability across the Globe ??? 22nd Annual Conference of the Society for Social Work and Research, Washington, D.C.","l":[["Abstract","https://sswr.confex.com/sswr/2018/webprogram/Paper32290.html"]]},{"y":2017,"m":4,"k":"Invited talk","t":"Missing Data in Applied Research","a":"**Howard, W. J.**","v":"Department of Epidemiology, University of Washington, Seattle, WA","l":[["Outline","https://drive.google.com/file/d/1K2K-h-IPL_KCQyTdWn4t1w4qBrJw5ZMI/view?usp=sharing"]]},{"y":2017,"m":0,"k":"Poster","t":"Evaluation of Combining Bootstrap with Multiple Imputation Using R on the Knights Landing Platform","a":"Zhou, C., Gao, Y., **Howard, W. J.**","v":"4th International Conference on Cyber Security and Cloud Computing, New York, NY","l":[["PDF","https://www.researchgate.net/publication/318670029_Evaluation_of_Combining_Bootstrap_with_Multiple_Imputation_Using_R_on_Knights_Landing_Platform"],["IEEE","https://ieeexplore.ieee.org/document/7987168"]]},{"y":2017,"m":0,"k":"Poster","t":"Psychosocial Mediators Impacting the Effectiveness of a Novel Medical-Legal Community Care Program","a":"Malik, F. S., Yi-Frazier, J. P., Taplin, C. E., Roth, C. L., Whitlock, K., **Howard, W. J.**, Pihoker, C.","v":"Annual Meeting of the American Diabetes Association, San Diego, CA","l":[["Abstract","https://ada.scientificposters.com/epsAbstractADA.cfm?id=2"]]},{"y":2015,"m":10,"k":"Invited talk","t":"Planned Missing Data in Pediatric Research","a":"**Howard, W. J.**","v":"Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA","l":[["Outline","https://drive.google.com/file/d/1M-BYMZL1ykEidCh4QL6LigBWE0VUtFCb/view?usp=sharing"]]},{"y":2015,"m":6,"k":"Workshop","t":"Introduction to Confirmatory Factor Analysis","a":"**Howard, W. J.**","v":"Summer Summit Research Methodology Conference, Institute for Social Science Research, University of Massachusetts, Amherst, MA","l":[["Outline","https://drive.google.com/file/d/1_UzEuzj4tUjIO5u4IL3FTtEAm3BJGWMk/view?usp=sharing"],["Event","https://www.umass.edu/issr/events/"]]},{"y":2015,"m":5,"k":"Panel","t":"Research Computing for Social Scientists","a":"**Howard, W. J.**, Johnston, H., Misra, C.","v":"Roundtable discussion, University of Massachusetts, Amherst, MA","l":[["Outline","https://drive.google.com/file/d/1Rysd5DoAhZ6FutDIzqbEEecgWmFqvVZB/view?usp=sharing"],["Event","https://www.umass.edu/issr/research-computing-social-scientists-panel-discussion-campus-resources-and-opportunities"]]},{"y":2015,"m":2,"k":"Invited talk","t":"Planned Missing Data Designs","a":"**Howard, W. J.**","v":"Department of Statistics, University of Massachusetts, Amherst, MA"},{"y":2015,"m":0,"k":"Poster","t":"Development of a Caregiver-Reported Outcome Measure for Pediatric Hospital-to-Home Transitions","a":"Desai, A. D., Opel, D. J., Mangione-Smith, R., Britto, M. T., **Howard, W. J.**","v":"Annual Pediatric Academic Societies Meeting, San Diego, CA"},{"y":2014,"m":3,"k":"Invited talk","t":"Missing Data","a":"**Howard, W. J.**","v":"Institute for Social Science Research, University of Massachusetts, Amherst, MA"},{"y":2014,"m":2,"k":"Invited talk","t":"Introduction to Biostatistics","a":"**Howard, W. J.**","v":"James A. Ferguson Emerging Infectious Diseases RISE Fellowship Program, Kennedy Krieger Institute, Baltimore, MD","l":[["Program","https://www.kennedykrieger.org/training/programs/center-for-diversity-in-public-health-leadership-training/ferguson-rise"]]},{"y":2014,"m":0,"k":"Poster","t":"Use of P-Technique to Examine the Dynamic Relationship among STD-Associated Feelings and Perceptions in a Cohort of Adolescent Females","a":"Matson, P., **Howard, W. J.**, Chung, S.","v":"47th Annual Meeting of the Society for Epidemiological Research, Seattle, WA","l":[["Program","https://epiresearch.org/wp-content/uploads/2014/07/finalprogram.pdf"]]},{"y":2013,"m":8,"k":"Invited talk","t":"An Alternative to the Restrictive Strategy in Modern Missing Data Procedures","a":"**Howard, W. J.**","v":"Department of Mental Health, Johns Hopkins School of Public Health, Baltimore, MD"},{"y":2013,"m":6,"k":"Invited talk","t":"Using Principal Components Analysis to Obtain Auxiliary Variables for Missing Data in Large Data Sets","a":"**Howard, W. J.**","v":"Department of Psychology, University of North Carolina, Chapel Hill, NC"},{"y":2013,"m":5,"k":"Invited talk","t":"Use of Principal Components Analysis to Reap the Benefits of the Inclusive Strategy in the Presence of Many Possible Auxiliary Variables","a":"**Howard, W. J.**, Little, T. D.","v":"Annual Modern Modeling Methods (M3) Conference, Storrs, CT"},{"y":2013,"m":3,"k":"Invited talk","t":"Missing Data Analysis","a":"**Howard, W. J.**","v":"Bi-annual Biostatistics, Epidemiology and Data Management Core, Johns Hopkins University, Bayview, MD"},{"y":2013,"m":0,"k":"Poster","t":"A Latent Variable Approach to Attitudes and Practices of Health Professionals Serving Persons with Developmental Disabilities","a":"Stone, J., **Howard, W. J.**, D'Abundo, M. L.","v":"42nd Annual Meeting of the Association of University Centers on Disabilities, Washington, D.C."},{"y":2012,"m":11,"k":"Invited talk","t":"Understanding Missing Data: An Introduction to Basic Concepts","a":"**Howard, W. J.**","v":"Bi-annual Biostatistics, Epidemiology and Data Management Core Seminar, Johns Hopkins University, Bayview, MD"},{"y":2012,"m":0,"k":"Poster","t":"Program and ELL Differences in the Quantity and Quality of Preschool Language and Early Literacy Instruction and Child Outcomes","a":"Greenwood, C. R., Carta, J. J., Atwater, J., **Howard, W. J.**, McCune, L. A.","v":"Head Start's 11th National Research Conference, Washington, D.C.","l":[["Program","https://www.acf.hhs.gov/sites/default/files/opre/hsrc_program_2012_final.pdf"]]},{"y":2012,"m":0,"k":"Poster","t":"Pathways of Influence in School-Based Mentoring: The Mediating Role of Parent and Teacher Relationships","a":"Chan, C. S., Lowe, S. R., **Howard, W. J.**, Schwartz, S. E. O., Rhodes, J. E.","v":"14th Biennial Meeting of the Society for Research on Adolescence, Vancouver, BC","l":[["Program","http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2012%20Program%20Book%203-16-2012_Complete.pdf"]]},{"y":2012,"m":0,"k":"Poster","t":"Dynamic Relations Within and Between Early Communication Key Skill Elements Over Time: Evidence of Contiguous Continuity in Skill Development","a":"McCune, A. L., **Howard, W. J.**, Greenwood, C. R., Walker, D., Buzhardt, J., Anderson, R. A.","v":"Developmental Methodology Themed Meeting of the Society for Research in Child Development, Tampa, FL","l":[["Program","http://www.srcd.org/sites/default/files/documents/dm_program_book_rev.pdf"]]},{"y":2011,"m":10,"k":"Workshop","t":"Latent Variable Modeling Using LISREL Notation","a":"**Howard, W. J.**, McCune, L. A.","v":"Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"},{"y":2011,"m":3,"k":"Contributed talk","t":"Latent Growth Modeling of Language and Early Literacy for Two Parallel Processes","a":"**Howard, W. J.**","v":"Special session, Annual Meeting of the Midwestern Social Development Consortium, Lawrence, KS"},{"y":2011,"m":2,"k":"Workshop","t":"Multilevel Modeling in MULTILEV","a":"**Howard, W. J.**","v":"Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"},{"y":2011,"m":0,"k":"Poster","t":"A Web-Based Tool to Support Data-Based Intervention Decision-Making for Infant and Toddler Language Growth","a":"Buzhardt, J., Greenwood, C. R., Walker, D., Anderson, R. A., **Howard, W. J.**","v":"Annual Meeting of the Kansas Association for Behavior Analysis, Overland Park, KS"},{"y":2011,"m":0,"k":"Poster","t":"Down but Not Out: Resilience in Poor Households","a":"Okech, D., **Howard, W. J.**","v":"15th Annual Meeting of the Society for Social Work and Research, Tampa, FL","l":[["Conference","http://secure.sswr.org/past-conferences/2011-annual-conference/"]]},{"y":2010,"m":9,"k":"Workshop","t":"Latent Variable Modeling Using LISREL Notation","a":"**Howard, W. J.**","v":"Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"},{"y":2010,"m":4,"k":"Contributed talk","t":"Receiver Operating Characteristic Curve Benchmark Decision-Making","a":"**Howard, W. J.**, Anderson, R. A.","v":"Flash talk, Quantitative Training Program Weekly Colloquium Series, University of Kansas, Lawrence, KS"},{"y":2010,"m":0,"k":"Poster","t":"Challenging Behavior Implications for Children's Early Communication and Literacy Development","a":"Carta, J. J., Greenwood, C. R., Pitchlyn, C., **Howard, W. J.**","v":"26th Annual Meeting of the Division for Early Childhood, Council for Exceptional Children, Kansas City, KS"},{"y":2010,"m":0,"k":"Poster","t":"Support for Five Distinct Resource Control Types via a Cluster Analytic Approach","a":"Geldhof, G. J., Stump, K., **Howard, W. J.**, Hawley, P. H.","v":"12th Biennial Meeting of the Society for Research on Adolescence, Philadelphia, PA","l":[["Program","http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2010_printedprogram.pdf"]]},{"y":2010,"m":0,"k":"Poster","t":"The Early Communication Indicator (ECI) for Infants and Toddlers: Early Head Start Growth Norms","a":"Greenwood, C. R., Buzhardt, J., Walker, D., Anderson, R. A., **Howard, W. J.**","v":"26th Annual Meeting of the Division for Early Childhood, Council for Exceptional Children, Kansas City, KS"},{"y":2010,"m":0,"k":"Poster","t":"Exploring the Early Communication Key Skills for Intervention Decision-Making with Infants and Toddlers","a":"Greenwood, C. R., Anderson, R. A., Walker, D., Buzhardt, J., **Howard, W. J.**","v":"5th Annual Institute of Education Sciences Research Conference, National Harbor, MD"},{"y":2008,"m":11,"k":"Panel","t":"Internationalize Your Vitae: How to Have a Global Career in Psychology","a":"Long, R. L., **Howard, W. J.**, McIntosh, A.","v":"Roundtable, joint meeting of the Association for Psychological and Educational Research in Kansas and the Nebraska Psychological Society, Bellevue, NE"},{"y":2008,"m":5,"k":"Panel","t":"Summer Research Programs: Getting In and Making the Most of Your Experience","a":"**Howard, W. J.**, Ratliff, J. M., Turner, A. D., Smith, M., Page, M. C.","v":"Roundtable, 20th Annual Meeting of the Association for Psychological Science, Chicago, IL"},{"y":2008,"m":4,"k":"Panel","t":"Exploring Graduate School: Preparation, Application, and Experiences","a":"Evans, S. J., Baker, A. J., **Howard, W. J.**, Roberts, S. L.","v":"Roundtable, 54th Annual Meeting of the Southwestern Psychological Association, Kansas City, MO"}];
+var MONTHS = ["","January","February","March","April","May","June","July","August","September","October","November","December"];
+var ORDER = ["Invited talk","Contributed talk","Workshop","Panel","Poster"];
+var PLURAL = {"Invited talk":"Invited talks","Contributed talk":"Contributed talks","Workshop":"Workshops & tutorials","Panel":"Panels & roundtables","Poster":"Posters"};
+var cat = "all", q = "";
+var esc = function(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); };
+var authors = function(s){ return s.split("**").map(function(t,i){ return i%2 ? "<b>"+esc(t)+"</b>" : esc(t); }).join(""); };
+var count = function(k){ return DATA.filter(function(e){ return e.k===k; }).length; };
+var years = DATA.map(function(e){ return e.y; });
+document.getElementById("pres-span").textContent = Math.min.apply(null,years) + "\u2013" + Math.max.apply(null,years);
+document.getElementById("pres-stats").innerHTML = [
+[DATA.length,"Presentations"],[count("Invited talk"),"Invited talks"],
+[count("Poster"),"Posters"],[count("Workshop")+count("Panel"),"Workshops & panels"]
+].map(function(s){ return '<div class="pres-stat"><b>'+s[0]+'</b><span>'+s[1]+'</span></div>'; }).join("");
+var chips = [{k:"all",label:"All",n:DATA.length}].concat(ORDER.map(function(k){ return {k:k,label:PLURAL[k],n:count(k)}; }));
+document.getElementById("pres-chips").innerHTML = chips.map(function(c){
+return '<button type="button" class="pres-chip" data-k="'+esc(c.k)+'" aria-pressed="'+(c.k==="all")+'">'+esc(c.label)+' <i>'+c.n+'</i></button>';
+}).join("");
+function render(){
+var shown = DATA.filter(function(e){
+return (cat==="all"||e.k===cat) && (!q || (e.t+" "+e.a+" "+e.v).toLowerCase().indexOf(q)>-1);
+}).sort(function(a,b){ return b.y-a.y || b.m-a.m; });
+var el = document.getElementById("pres-list");
+if(!shown.length){ el.innerHTML = '<p class="pres-empty">Nothing matches that filter.</p>'; return; }
+el.innerHTML = ORDER.map(function(k){
+var items = shown.filter(function(e){ return e.k===k; });
+if(!items.length) return "";
+return '<section><div class="pres-group"><h2>'+esc(PLURAL[k])+'</h2><span>'+items.length+'</span></div>' +
+items.map(function(e){
+var solo = e.a.split("**").filter(Boolean).length < 2;
+var links = (e.l||[]).map(function(l){ return '<a href="'+esc(l[1])+'" target="_blank" rel="noopener">'+esc(l[0])+'</a>'; }).join("");
+return '<article class="pres-item"><div><div class="pres-year">'+e.y+'</div>'+
+(e.m ? '<div class="pres-month">'+MONTHS[e.m]+'</div>' : '')+'</div><div>'+
+'<div class="pres-tags"><span class="pres-kind'+(k==="Invited talk"?" is-invited":"")+'">'+esc(e.k)+'</span>'+
+(/^\*\*Howard/.test(e.a) && !solo ? '<span class="pres-lead">Presenting author</span>' : '')+'</div>'+
+'<h3>'+esc(e.t)+'</h3><p class="pres-authors">'+authors(e.a)+'</p><p class="pres-venue">'+esc(e.v)+'</p>'+
+(links ? '<div class="pres-links">'+links+'</div>' : '')+'</div></article>';
+}).join("") + '</section>';
+}).join("");
+}
+document.getElementById("pres-chips").addEventListener("click", function(ev){
+var b = ev.target.closest(".pres-chip"); if(!b) return;
+cat = b.dataset.k;
+[].forEach.call(this.children, function(c){ c.setAttribute("aria-pressed", c===b); });
+render();
+});
+document.getElementById("pres-search").addEventListener("input", function(){ q = this.value.trim().toLowerCase(); render(); });
+render();
+})();
+</script>
+```

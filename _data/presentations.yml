@@ -1,0 +1,515 @@
+# Presentations — one entry per item. Add new ones anywhere; the page sorts by date.
+#
+#   year:    required, e.g. 2026
+#   month:   1-12, or 0 if the month is unknown
+#   kind:    Invited talk | Contributed talk | Workshop | Panel | Poster
+#   title:   plain text
+#   authors: full author string; wrap your own name in ** ** to bold it
+#   venue:   conference, department, city
+#   links:   optional list of { label, url }
+#
+
+- year: 2027
+  month: 0
+  kind: "Poster"
+  title: "Identifying Factors That Predict Underweight in Infants with Cleft Lip and/or Palate in 10 U.S. Children's Hospitals"
+  authors: "Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D. M., Amoako-Yirenkyi, P., Heike, C., Owusu Adusei, A., Oliphant, H., Crerand, C. E., Jackson, O., Discolo, C., Vetter, S., Wilson, K., Geronimo, Y., Galera, R., Lyman, N., Whyte, V., Pajor, N., McKinney, C. M."
+  venue: "Annual Meeting of the American Cleft Palate–Craniofacial Association (conference abstract)"
+
+- year: 2026
+  month: 11
+  kind: "Poster"
+  title: "Development and Validation of a Multivariable Prediction Model for Underweight Status at 4 Months in Infants with Cleft Lip and/or Palate Across U.S. Children's Hospitals"
+  authors: "Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D., Amoako-Yirenkyi, P., Kinter, S., Heike, C., McKinney, C."
+  venue: "11th MIOHR Congress, Athens, Greece (accepted poster presentation, November 5–7)"
+
+- year: 2026
+  month: 10
+  kind: "Contributed talk"
+  title: "Drivers of Change in Who Is Served by Pediatric Integrated Care"
+  authors: "Wissow, L., King, S., Cunningham, K. A., Warner, E., Bijlani, K., **Howard, W. J.**"
+  venue: "AACAP 2026 Annual Meeting, American Academy of Child and Adolescent Psychiatry"
+
+- year: 2026
+  month: 4
+  kind: "Poster"
+  title: "Current Practices and Views: Prenatal Critical Congenital Heart Disease Diagnoses and Palliative Care Involvement"
+  authors: "Roome, K., Arya, B., Opel, D., **Howard, W. J.**"
+  venue: "Journal of the American College of Cardiology, 87(13 Suppl.), A375"
+
+- year: 2026
+  month: 3
+  kind: "Poster"
+  title: "Monitoring for Post-Transplant Lymphoproliferative Disease in Pediatric Patients by Quantifying Epstein-Barr Virus Viral Load"
+  authors: "Schauer, J., Zheyi, T., Wagner, T., Spencer, K., Rivers, J., Chisholm, K., Smith, J., Saarela, K., Albers, E., Hong, B., Kemna, M., Kronmal, R., **Howard, W. J.**, Law, Y."
+  venue: "46th Annual Meeting and Scientific Sessions of the International Society for Heart and Lung Transplantation (ISHLT), Toronto, Canada"
+
+- year: 2026
+  month: 3
+  kind: "Poster"
+  title: "Current Practices and Views: Prenatal Critical Congenital Heart Disease Diagnoses and Palliative Care Involvement"
+  authors: "Roome, K., Arya, B., Opel, D., **Howard, W. J.**"
+  venue: "46th Annual Meeting and Scientific Sessions of the International Society for Heart and Lung Transplantation (ISHLT), Toronto, Canada"
+
+- year: 2026
+  month: 3
+  kind: "Poster"
+  title: "Predicting Underweight in Children with Cleft Across 10 Hospitals"
+  authors: "Ormanidou, I., **Howard, W. J.**, Bijlani, K., Denno, D., Amoako-Yirenkyi, P., Kinter, S., Heike, C., McKinney, C."
+  venue: "26th International Association for Dental Research (IADR) General Session and Exhibition, San Diego, CA (March 25–28)"
+
+- year: 2026
+  month: 2
+  kind: "Workshop"
+  title: "Linear Mixed Models (LMMs) and Applied R Packages"
+  authors: "Yeji, B., **Howard, W. J.**"
+  venue: "Webinar workshop, Research Forum Training Session — Statistical Literacy for Biologists, Seattle Children's Research Institute, Seattle, WA"
+
+- year: 2025
+  month: 10
+  kind: "Poster"
+  title: "To What Extent Do Children with a Cleft Follow World Health Organization Growth Standards in the First 2 Years of Life?"
+  authors: "McKinney, C. M., Kinter, S., Ormanidou, I., **Howard, W. J.**, Bijlani, K., Madhoun, L., Crerand, C., Meehan, A., Rahman, M., Heike, C. L."
+  venue: "15th International Congress on Cleft Lip/Palate and Related Craniofacial Anomalies, Kyoto, Japan (October 20–24)"
+
+- year: 2025
+  month: 10
+  kind: "Poster"
+  title: "A Novel Play-Based Measure of Social-Communication for Autistic Children"
+  authors: "Buzhardt, J., Nowell, S., Higgins, S., **Howard, W. J.**"
+  venue: "Division for Early Childhood Annual International Conference on Young Children with Disabilities and Their Families, Portland, OR"
+
+- year: 2025
+  month: 6
+  kind: "Invited talk"
+  title: "Streamlined Workflows for Statistician–Investigator Research Partnerships"
+  authors: "**Howard, W. J.**"
+  venue: "Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA"
+
+- year: 2025
+  month: 5
+  kind: "Contributed talk"
+  title: "Variation in Social-Communication Outcomes of Young Autistic Children Using a Novel Parent-mediated Play-based Assessment"
+  authors: "Buzhardt, J., Dykstra-Steinbrenner, J., Nowell, S. W., Wallisch, A., Irvin, D., Brunson, L. Y., **Howard, W. J.**, Boyd, B."
+  venue: "Biennial Meeting of the Society for Research in Child Development, Minneapolis, MN"
+  links:
+    - label: "Meeting"
+      url: "https://www.srcd.org/event/srcd-2025-biennial-meeting"
+
+- year: 2025
+  month: 5
+  kind: "Poster"
+  title: "Impact of Comorbidities on Growth in Children With Cleft From 0–18 Months of Age"
+  authors: "McKinney, C., **Howard, W. J.**, Bijlani, K., Rahman, A., Meehan, K., Evans, D., Leavitt, T. J., Sitzman, P., Amoako-Yirenkyi, C., Heike, C. L."
+  venue: "Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Palm Springs, CA"
+
+- year: 2025
+  month: 4
+  kind: "Poster"
+  title: "Differences in Comfort in Ethical Dilemmas Among Pediatric Residents: A Survey Study"
+  authors: "Lyle, A., **Howard, W. J.**, Weiss, E."
+  venue: "Annual Pediatric Academic Societies (PAS) Conference, Honolulu, HI"
+  links:
+    - label: "Meeting"
+      url: "https://www.pas-meeting.org/2025-meeting/"
+
+- year: 2025
+  month: 3
+  kind: "Workshop"
+  title: "Latent Variable Modeling in Behavioral and Clinical Outcomes Research: A Practical Guide"
+  authors: "**Howard, W. J.**"
+  venue: "Webinar workshop, Research Forum Training Session — Behavioral and Clinical Outcomes Research Program, Seattle Children's Research Institute, Seattle, WA"
+
+- year: 2025
+  month: 1
+  kind: "Contributed talk"
+  title: "No Impact of Posterior Tibial Slope on Subsequent ACL Tears in Patients with Tibial Spine Fractures"
+  authors: "Willson, R., Thomsen, S., Swanson, M., **Howard, W. J.**, Mistovich, J., Ellis, H. B., Cruz Jr., A., Fabricant, P., Lee, R. J., McKay, S., Yen, Y-M., Kushare, I. V., Ganley, T. J., Schmale, G. A."
+  venue: "12th Annual Meeting of the Pediatric Research in Sports Medicine Society, Columbus, OH"
+  links:
+    - label: "Meeting"
+      url: "https://www.prismsports.org/events/2025-annual-meeting"
+
+- year: 2025
+  month: 0
+  kind: "Contributed talk"
+  title: "TTTS: Likelihood of Donor Survival — Introducing a Calculator for Prediction of Donor Demise on Post-Op Day 1 and Donor Live Birth"
+  authors: "Paek, B., **Howard, W. J.**, Keller, S., Hirose, S., Dorn, M., Walker, M."
+  venue: "International Fetal Medicine and Surgery Society (IFMSS) Annual Meeting, Napa, CA"
+
+- year: 2024
+  month: 11
+  kind: "Workshop"
+  title: "An Introduction to Missing Data Analysis"
+  authors: "**Howard, W. J.**"
+  venue: "Statistical Literacy for Biologists Training Session (2023 and 2024), Research Scientific Computing, Seattle Children's Research Institute, Seattle, WA"
+
+- year: 2024
+  month: 11
+  kind: "Poster"
+  title: "Socioeconomic and Geographic Factors Associated with Reduced Prenatal Diagnosis of Significant Congenital Heart Disease at a Single Regional Institution"
+  authors: "Ittleman, B., **Howard, W. J.**, Virk, K., Brown, N., Bhat, A., Caris, E., Conwell, J., Edwards, L., Lewin, M., Pinto, N., Studer, M., Young, L., Bhawna, A."
+  venue: "Centennial American Heart Association Scientific Sessions, Chicago, IL"
+  links:
+    - label: "Planner"
+      url: "https://eppro01.ativ.me/src/EventPilot/php/express/web/planner.php?id=AHALITE24"
+
+- year: 2024
+  month: 6
+  kind: "Invited talk"
+  title: "SEM, Revealed: Modeling Connections with Latent Variables and Regression Pathways"
+  authors: "**Howard, W. J.**"
+  venue: "Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA"
+
+- year: 2024
+  month: 5
+  kind: "Poster"
+  title: "Pediatric Residents' Perceptions of Ethics Education in the Neonatal Intensive Care Unit: A Needs Assessment"
+  authors: "Lyle, A., **Howard, W. J.**, Weiss, E."
+  venue: "Annual Pediatric Academic Societies (PAS) Conference, Toronto, ON"
+  links:
+    - label: "Abstract"
+      url: "https://2024.pas-meeting.org/fsPopup.asp?PosterID=649537&mode=posterInfo"
+
+- year: 2024
+  month: 5
+  kind: "Poster"
+  title: "Growth in U.S. Infants with Orofacial Cleft"
+  authors: "McKinney, C., **Howard, W. J.**, Bijlani, K., Rahman, A., Meehan, K., Evans, D., Leavitt, T. J., Sitzman, P., Amoako-Yirenkyi, C., Heike, C. L."
+  venue: "31st Annual Meeting of the American Society of Craniofacial Surgeons, Denver, CO"
+  links:
+    - label: "Program"
+      url: "https://acpacares.org/wp-content/uploads/2024/04/ACPA_AnnualMeeting24_ProgramGuide_Final.pdf"
+
+- year: 2023
+  month: 9
+  kind: "Contributed talk"
+  title: "Aberrant Behavior Checklist Scores in Youth with Prader-Willi Syndrome"
+  authors: "McNulty, B., Salehi, P., Kim, L., Kim, S., **Howard, W. J.**"
+  venue: "Annual Foundation for Prader-Willi Research Symposium and Family Conference, Atlanta, GA"
+  links:
+    - label: "Abstracts"
+      url: "https://www.fpwr.org/hubfs/Conference/2023%20Conference/Scientific%20Day%20Abstract%20Booklet_2023.pdf"
+
+- year: 2023
+  month: 5
+  kind: "Contributed talk"
+  title: "Growth Velocity in U.S. Children with Orofacial Clefts in the First 6 Months of Life"
+  authors: "McKinney, C., **Howard, W. J.**, Bijlani, K., Evans, K., Kassuhn, M., Leavitt, D., Heike, C."
+  venue: "80th Annual Meeting of the American Cleft Palate Craniofacial Association (ACPA), Raleigh, NC"
+  links:
+    - label: "Program"
+      url: "https://acpacares.org/wp-content/uploads/2023/04/ACPA_PROGRAM_FINAL.pdf"
+
+- year: 2023
+  month: 0
+  kind: "Poster"
+  title: "Sleep and Concussion Recovery in a Pediatric Collaborative Care Intervention Trial: Do Concussion Symptoms Improve Because Teens Are Sleeping Better?"
+  authors: "Chrisman, S., Tham, S., **Howard, W. J.**, Zatzick, D. F., Rivara, F. P., McCarty, C. M."
+  venue: "Annual Neurotrauma Conference, Austin, TX"
+  links:
+    - label: "Meeting"
+      url: "https://www.neurotrauma.org/event-4404776"
+
+- year: 2023
+  month: 0
+  kind: "Poster"
+  title: "Changes in Hyperphagia Behaviors Correlate with Both Improvement in Quality of Life and Worsening of Maladaptive Behaviors in Children with Prader-Willi Syndrome Over Time"
+  authors: "McNulty, B., Kim, L., Kim, S., **Howard, W. J.**, Salehi, P."
+  venue: "Annual Pediatric Academic Societies (PAS) Conference, Washington, D.C."
+  links:
+    - label: "Meeting"
+      url: "https://www.pas-meeting.org/2023-exhibits/"
+
+- year: 2018
+  month: 1
+  kind: "Contributed talk"
+  title: "Predictors of Financial Capability among Female Survivors of Human Trafficking in Ghana, West Africa"
+  authors: "Okech, D., **Howard, W. J.**"
+  venue: "Symposium: Financial Capability across the Globe — 22nd Annual Conference of the Society for Social Work and Research, Washington, D.C."
+  links:
+    - label: "Abstract"
+      url: "https://sswr.confex.com/sswr/2018/webprogram/Paper32290.html"
+
+- year: 2017
+  month: 4
+  kind: "Invited talk"
+  title: "Missing Data in Applied Research"
+  authors: "**Howard, W. J.**"
+  venue: "Department of Epidemiology, University of Washington, Seattle, WA"
+  links:
+    - label: "Outline"
+      url: "https://drive.google.com/file/d/1K2K-h-IPL_KCQyTdWn4t1w4qBrJw5ZMI/view?usp=sharing"
+
+- year: 2017
+  month: 0
+  kind: "Poster"
+  title: "Evaluation of Combining Bootstrap with Multiple Imputation Using R on the Knights Landing Platform"
+  authors: "Zhou, C., Gao, Y., **Howard, W. J.**"
+  venue: "4th International Conference on Cyber Security and Cloud Computing, New York, NY"
+  links:
+    - label: "PDF"
+      url: "https://www.researchgate.net/publication/318670029_Evaluation_of_Combining_Bootstrap_with_Multiple_Imputation_Using_R_on_Knights_Landing_Platform"
+    - label: "IEEE"
+      url: "https://ieeexplore.ieee.org/document/7987168"
+
+- year: 2017
+  month: 0
+  kind: "Poster"
+  title: "Psychosocial Mediators Impacting the Effectiveness of a Novel Medical-Legal Community Care Program"
+  authors: "Malik, F. S., Yi-Frazier, J. P., Taplin, C. E., Roth, C. L., Whitlock, K., **Howard, W. J.**, Pihoker, C."
+  venue: "Annual Meeting of the American Diabetes Association, San Diego, CA"
+  links:
+    - label: "Abstract"
+      url: "https://ada.scientificposters.com/epsAbstractADA.cfm?id=2"
+
+- year: 2015
+  month: 10
+  kind: "Invited talk"
+  title: "Planned Missing Data in Pediatric Research"
+  authors: "**Howard, W. J.**"
+  venue: "Center for Child Health, Behavior and Development, Seattle Children's Research Institute, Seattle, WA"
+  links:
+    - label: "Outline"
+      url: "https://drive.google.com/file/d/1M-BYMZL1ykEidCh4QL6LigBWE0VUtFCb/view?usp=sharing"
+
+- year: 2015
+  month: 6
+  kind: "Workshop"
+  title: "Introduction to Confirmatory Factor Analysis"
+  authors: "**Howard, W. J.**"
+  venue: "Summer Summit Research Methodology Conference, Institute for Social Science Research, University of Massachusetts, Amherst, MA"
+  links:
+    - label: "Outline"
+      url: "https://drive.google.com/file/d/1_UzEuzj4tUjIO5u4IL3FTtEAm3BJGWMk/view?usp=sharing"
+    - label: "Event"
+      url: "https://www.umass.edu/issr/events/"
+
+- year: 2015
+  month: 5
+  kind: "Panel"
+  title: "Research Computing for Social Scientists"
+  authors: "**Howard, W. J.**, Johnston, H., Misra, C."
+  venue: "Roundtable discussion, University of Massachusetts, Amherst, MA"
+  links:
+    - label: "Outline"
+      url: "https://drive.google.com/file/d/1Rysd5DoAhZ6FutDIzqbEEecgWmFqvVZB/view?usp=sharing"
+    - label: "Event"
+      url: "https://www.umass.edu/issr/research-computing-social-scientists-panel-discussion-campus-resources-and-opportunities"
+
+- year: 2015
+  month: 2
+  kind: "Invited talk"
+  title: "Planned Missing Data Designs"
+  authors: "**Howard, W. J.**"
+  venue: "Department of Statistics, University of Massachusetts, Amherst, MA"
+
+- year: 2015
+  month: 0
+  kind: "Poster"
+  title: "Development of a Caregiver-Reported Outcome Measure for Pediatric Hospital-to-Home Transitions"
+  authors: "Desai, A. D., Opel, D. J., Mangione-Smith, R., Britto, M. T., **Howard, W. J.**"
+  venue: "Annual Pediatric Academic Societies Meeting, San Diego, CA"
+
+- year: 2014
+  month: 3
+  kind: "Invited talk"
+  title: "Missing Data"
+  authors: "**Howard, W. J.**"
+  venue: "Institute for Social Science Research, University of Massachusetts, Amherst, MA"
+
+- year: 2014
+  month: 2
+  kind: "Invited talk"
+  title: "Introduction to Biostatistics"
+  authors: "**Howard, W. J.**"
+  venue: "James A. Ferguson Emerging Infectious Diseases RISE Fellowship Program, Kennedy Krieger Institute, Baltimore, MD"
+  links:
+    - label: "Program"
+      url: "https://www.kennedykrieger.org/training/programs/center-for-diversity-in-public-health-leadership-training/ferguson-rise"
+
+- year: 2014
+  month: 0
+  kind: "Poster"
+  title: "Use of P-Technique to Examine the Dynamic Relationship among STD-Associated Feelings and Perceptions in a Cohort of Adolescent Females"
+  authors: "Matson, P., **Howard, W. J.**, Chung, S."
+  venue: "47th Annual Meeting of the Society for Epidemiological Research, Seattle, WA"
+  links:
+    - label: "Program"
+      url: "https://epiresearch.org/wp-content/uploads/2014/07/finalprogram.pdf"
+
+- year: 2013
+  month: 8
+  kind: "Invited talk"
+  title: "An Alternative to the Restrictive Strategy in Modern Missing Data Procedures"
+  authors: "**Howard, W. J.**"
+  venue: "Department of Mental Health, Johns Hopkins School of Public Health, Baltimore, MD"
+
+- year: 2013
+  month: 6
+  kind: "Invited talk"
+  title: "Using Principal Components Analysis to Obtain Auxiliary Variables for Missing Data in Large Data Sets"
+  authors: "**Howard, W. J.**"
+  venue: "Department of Psychology, University of North Carolina, Chapel Hill, NC"
+
+- year: 2013
+  month: 5
+  kind: "Invited talk"
+  title: "Use of Principal Components Analysis to Reap the Benefits of the Inclusive Strategy in the Presence of Many Possible Auxiliary Variables"
+  authors: "**Howard, W. J.**, Little, T. D."
+  venue: "Annual Modern Modeling Methods (M3) Conference, Storrs, CT"
+
+- year: 2013
+  month: 3
+  kind: "Invited talk"
+  title: "Missing Data Analysis"
+  authors: "**Howard, W. J.**"
+  venue: "Bi-annual Biostatistics, Epidemiology and Data Management Core, Johns Hopkins University, Bayview, MD"
+
+- year: 2013
+  month: 0
+  kind: "Poster"
+  title: "A Latent Variable Approach to Attitudes and Practices of Health Professionals Serving Persons with Developmental Disabilities"
+  authors: "Stone, J., **Howard, W. J.**, D'Abundo, M. L."
+  venue: "42nd Annual Meeting of the Association of University Centers on Disabilities, Washington, D.C."
+
+- year: 2012
+  month: 11
+  kind: "Invited talk"
+  title: "Understanding Missing Data: An Introduction to Basic Concepts"
+  authors: "**Howard, W. J.**"
+  venue: "Bi-annual Biostatistics, Epidemiology and Data Management Core Seminar, Johns Hopkins University, Bayview, MD"
+
+- year: 2012
+  month: 0
+  kind: "Poster"
+  title: "Program and ELL Differences in the Quantity and Quality of Preschool Language and Early Literacy Instruction and Child Outcomes"
+  authors: "Greenwood, C. R., Carta, J. J., Atwater, J., **Howard, W. J.**, McCune, L. A."
+  venue: "Head Start's 11th National Research Conference, Washington, D.C."
+  links:
+    - label: "Program"
+      url: "https://www.acf.hhs.gov/sites/default/files/opre/hsrc_program_2012_final.pdf"
+
+- year: 2012
+  month: 0
+  kind: "Poster"
+  title: "Pathways of Influence in School-Based Mentoring: The Mediating Role of Parent and Teacher Relationships"
+  authors: "Chan, C. S., Lowe, S. R., **Howard, W. J.**, Schwartz, S. E. O., Rhodes, J. E."
+  venue: "14th Biennial Meeting of the Society for Research on Adolescence, Vancouver, BC"
+  links:
+    - label: "Program"
+      url: "http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2012%20Program%20Book%203-16-2012_Complete.pdf"
+
+- year: 2012
+  month: 0
+  kind: "Poster"
+  title: "Dynamic Relations Within and Between Early Communication Key Skill Elements Over Time: Evidence of Contiguous Continuity in Skill Development"
+  authors: "McCune, A. L., **Howard, W. J.**, Greenwood, C. R., Walker, D., Buzhardt, J., Anderson, R. A."
+  venue: "Developmental Methodology Themed Meeting of the Society for Research in Child Development, Tampa, FL"
+  links:
+    - label: "Program"
+      url: "http://www.srcd.org/sites/default/files/documents/dm_program_book_rev.pdf"
+
+- year: 2011
+  month: 10
+  kind: "Workshop"
+  title: "Latent Variable Modeling Using LISREL Notation"
+  authors: "**Howard, W. J.**, McCune, L. A."
+  venue: "Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"
+
+- year: 2011
+  month: 3
+  kind: "Contributed talk"
+  title: "Latent Growth Modeling of Language and Early Literacy for Two Parallel Processes"
+  authors: "**Howard, W. J.**"
+  venue: "Special session, Annual Meeting of the Midwestern Social Development Consortium, Lawrence, KS"
+
+- year: 2011
+  month: 2
+  kind: "Workshop"
+  title: "Multilevel Modeling in MULTILEV"
+  authors: "**Howard, W. J.**"
+  venue: "Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"
+
+- year: 2011
+  month: 0
+  kind: "Poster"
+  title: "A Web-Based Tool to Support Data-Based Intervention Decision-Making for Infant and Toddler Language Growth"
+  authors: "Buzhardt, J., Greenwood, C. R., Walker, D., Anderson, R. A., **Howard, W. J.**"
+  venue: "Annual Meeting of the Kansas Association for Behavior Analysis, Overland Park, KS"
+
+- year: 2011
+  month: 0
+  kind: "Poster"
+  title: "Down but Not Out: Resilience in Poor Households"
+  authors: "Okech, D., **Howard, W. J.**"
+  venue: "15th Annual Meeting of the Society for Social Work and Research, Tampa, FL"
+  links:
+    - label: "Conference"
+      url: "http://secure.sswr.org/past-conferences/2011-annual-conference/"
+
+- year: 2010
+  month: 9
+  kind: "Workshop"
+  title: "Latent Variable Modeling Using LISREL Notation"
+  authors: "**Howard, W. J.**"
+  venue: "Saturday Seminar tutorial, Center for Research Methods and Data Analysis, University of Kansas, Lawrence, KS"
+
+- year: 2010
+  month: 4
+  kind: "Contributed talk"
+  title: "Receiver Operating Characteristic Curve Benchmark Decision-Making"
+  authors: "**Howard, W. J.**, Anderson, R. A."
+  venue: "Flash talk, Quantitative Training Program Weekly Colloquium Series, University of Kansas, Lawrence, KS"
+
+- year: 2010
+  month: 0
+  kind: "Poster"
+  title: "Challenging Behavior Implications for Children's Early Communication and Literacy Development"
+  authors: "Carta, J. J., Greenwood, C. R., Pitchlyn, C., **Howard, W. J.**"
+  venue: "26th Annual Meeting of the Division for Early Childhood, Council for Exceptional Children, Kansas City, KS"
+
+- year: 2010
+  month: 0
+  kind: "Poster"
+  title: "Support for Five Distinct Resource Control Types via a Cluster Analytic Approach"
+  authors: "Geldhof, G. J., Stump, K., **Howard, W. J.**, Hawley, P. H."
+  venue: "12th Biennial Meeting of the Society for Research on Adolescence, Philadelphia, PA"
+  links:
+    - label: "Program"
+      url: "http://104.247.77.203/~sra18/wp-content/uploads/2018/02/2010_printedprogram.pdf"
+
+- year: 2010
+  month: 0
+  kind: "Poster"
+  title: "The Early Communication Indicator (ECI) for Infants and Toddlers: Early Head Start Growth Norms"
+  authors: "Greenwood, C. R., Buzhardt, J., Walker, D., Anderson, R. A., **Howard, W. J.**"
+  venue: "26th Annual Meeting of the Division for Early Childhood, Council for Exceptional Children, Kansas City, KS"
+
+- year: 2010
+  month: 0
+  kind: "Poster"
+  title: "Exploring the Early Communication Key Skills for Intervention Decision-Making with Infants and Toddlers"
+  authors: "Greenwood, C. R., Anderson, R. A., Walker, D., Buzhardt, J., **Howard, W. J.**"
+  venue: "5th Annual Institute of Education Sciences Research Conference, National Harbor, MD"
+
+- year: 2008
+  month: 11
+  kind: "Panel"
+  title: "Internationalize Your Vitae: How to Have a Global Career in Psychology"
+  authors: "Long, R. L., **Howard, W. J.**, McIntosh, A."
+  venue: "Roundtable, joint meeting of the Association for Psychological and Educational Research in Kansas and the Nebraska Psychological Society, Bellevue, NE"
+
+- year: 2008
+  month: 5
+  kind: "Panel"
+  title: "Summer Research Programs: Getting In and Making the Most of Your Experience"
+  authors: "**Howard, W. J.**, Ratliff, J. M., Turner, A. D., Smith, M., Page, M. C."
+  venue: "Roundtable, 20th Annual Meeting of the Association for Psychological Science, Chicago, IL"
+
+- year: 2008
+  month: 4
+  kind: "Panel"
+  title: "Exploring Graduate School: Preparation, Application, and Experiences"
+  authors: "Evans, S. J., Baker, A. J., **Howard, W. J.**, Roberts, S. L."
+  venue: "Roundtable, 54th Annual Meeting of the Southwestern Psychological Association, Kansas City, MO"
