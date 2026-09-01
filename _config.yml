@@ -14,7 +14,7 @@ author: Waylon J. Howard, PhD
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  CV: "https://drive.google.com/file/d/1EjEuqFe7S8WQpgFRezrYjJWePMfsEpoO/view?usp=sharing"
+  CV: "/assets/cv/howard-cv.pdf"
   About: "aboutme2"
   Research: 
     - Positions: "appointments"
