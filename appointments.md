@@ -71,7 +71,7 @@ padding: 0 max(24px, calc(50vw - 560px)) 96px;
 
 <div class="rp" id="rp" data-detail="on">
 
-<div class="rp-eyebrow"><span>Curriculum Vitae - Waylon J. Howard</span><span>2008 - Present</span></div>
+<div class="rp-eyebrow"><span>Waylon J. Howard, Ph.D.</span><span>2008 - Present</span></div>
 <hr class="rp-rule">
 <h1>Research<br>Appointments</h1>
 <p class="rp-lede">Quantitative research leadership and collaboration across research institutes, academic medical centers, universities, and life-science analytics organizations.</p>
