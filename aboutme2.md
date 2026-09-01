@@ -184,7 +184,7 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 
 <!-- MASTHEAD -->
 <nav class="pf-nav">
-<span class="pf-nav-brand">Quantitative Research &amp; Measurement Scientist</span>
+<span class="pf-nav-brand">Quantitative Research &amp; Measurement</span>
 <span class="pf-nav-spacer"></span>
 <a href="#work">Selected work</a>
 <a href="#philosophy">Philosophy</a>
@@ -483,6 +483,6 @@ padding: 40px var(--edge) 64px; font-size: 13px; line-height: 24px; color: var(-
 </div>
 </section>
 
-<p class="pf-footer"><a href="https://wwwaylon.github.io/">Quantitative Research &amp; Measurement Scientist</a></p>
+<p class="pf-footer"><a href="https://wwwaylon.github.io/">Quantitative Research &amp; Measurement</a></p>
 
 </div><!-- /.pf -->
