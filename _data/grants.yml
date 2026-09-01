@@ -1,0 +1,212 @@
+# Grants and proposals — one entry per project. Add anywhere; the page groups by status.
+#
+#   title:        project title
+#   status:       Current | Pending  (drives which section it appears in)
+#   source:       funder, e.g. "NIH R01"
+#   award:        award/proposal number (omit if not yet assigned)
+#   place:        primary place of performance
+#   start / end:  "MM/YYYY"
+#   amount:       display string, e.g. "$4,390,219"
+#   role:         optional — your role, and contact PI if useful
+#   months:       optional list of { year, value } person-months per budget period
+#   objectives:   plain paragraph; use > for a multi-line block as below
+#
+# Administrative fields (statements of overlap, internal effort certifications)
+# deliberately do not appear on the public page.
+
+- title: "Evaluating and strengthening Special Olympics' approach to sexual violence prevention"
+  status: "Current"
+  source: "CDC"
+  award: "1U01CE003785"
+  place: "Seattle Children's Research Institute"
+  start: "09/2025"
+  end: "09/2028"
+  amount: "$374,659"
+  months:
+    - { year: 2026, value: 0.6 }
+    - { year: 2027, value: 0.6 }
+    - { year: 2028, value: 0.6 }
+  objectives: >
+    Special Olympics developed a multi-level preventive intervention that can be implemented by
+    local community-based programs. We will conduct a formative evaluation of aspects of this
+    intervention, validate a survey-based measure of sexual violence victimization that is
+    acceptable and appropriate for individuals living with intellectual disabilities, and use this
+    measure to conduct a pilot evaluation of intervention effectiveness.
+
+- title: "Randomized trial of a shared decision-making intervention for families about firearm storage"
+  status: "Current"
+  source: "NIH R01"
+  award: "1R01HD116794-01A1"
+  place: "Seattle Children's Research Institute"
+  start: "09/2025"
+  end: "05/2030"
+  amount: "$4,390,219"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+    - { year: 2029, value: 1.2 }
+    - { year: 2030, value: 1.2 }
+  objectives: >
+    Building from a successful pilot trial, this project translates and adapts the Family Safety
+    Check-In for Hispanic, Spanish-speaking families in partnership with a parent advisory board;
+    assesses its effectiveness on safe firearm storage practices in a randomized controlled trial
+    recruiting through well-child visits in the WWAMI Practice and Research Network; and tests the
+    family-level and dyadic mechanisms mediating effectiveness through actor-partner analyses.
+
+- title: "Understanding longitudinal relationships between sleep and menstrual pain in adolescents"
+  status: "Current"
+  source: "NIH R01"
+  award: "1R01HD116748-01"
+  place: "Seattle Children's Research Institute"
+  start: "08/2025"
+  end: "04/2030"
+  amount: "$4,416,992"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+    - { year: 2029, value: 1.2 }
+    - { year: 2030, value: 0.3 }
+  objectives: >
+    A longitudinal cohort-sequential study of 200 female adolescents in four age cohorts (13-16)
+    examining causal relationships between sleep deficiency and menstrual pain during pubertal
+    maturation. At baseline and 4, 8, and 12 months, participants complete a 30-day ecological
+    momentary assessment with daily symptom diary and continuous actigraphy, alongside survey
+    measures of sleep deficiency, pain, and psychological factors.
+
+- title: "Evaluating Huddles as a novel approach to improving concussion safety"
+  status: "Current"
+  source: "NIH R01"
+  award: "1R01HD114797-01A1"
+  place: "Seattle Children's Research Institute"
+  start: "05/2025"
+  end: "03/2030"
+  amount: "$4,344,318"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 0.6 }
+    - { year: 2028, value: 0.6 }
+    - { year: 2029, value: 1.2 }
+    - { year: 2030, value: 1.2 }
+  objectives: >
+    A cluster randomized controlled trial with league-level randomization testing whether Huddles
+    increases the proportion of youth soccer athletes who report concussive symptoms to an adult;
+    tests the theory-driven mechanisms explaining effectiveness, particularly perceived reporting
+    norms; and uses mixed methods to identify determinants of successful implementation and
+    maintenance at team and league level.
+
+- title: "Developing a multi-dimensional measure of adolescent engagement in research"
+  status: "Current"
+  source: "PCORI"
+  award: "PIR-1852"
+  place: "Seattle Children's Research Institute"
+  start: "10/2024"
+  end: "11/2026"
+  amount: "$710,000"
+  months:
+    - { year: 2025, value: 1.2 }
+    - { year: 2026, value: 1.2 }
+  objectives: >
+    Develops a valid and reliable measure of the process of adolescent engagement in research:
+    refining a conceptual model using concept mapping methods that elevate adolescent
+    perspectives, developing a measure reflecting that model, and testing its reliability and
+    validity with a diverse sample of adolescents engaged in research at PEDSnet academic medical
+    center sites.
+
+- title: "Leveraging Data for Infants with Cleft to Grow and Flourish: BLOOM"
+  status: "Current"
+  source: "NIH R01"
+  award: "1R01DE033703-01"
+  place: "Seattle Children's Research Institute"
+  start: "08/2024"
+  end: "04/2029"
+  amount: "$815,556"
+  role: "Contact PI: McKinney, Christy · Other PI: Heike, Carrie"
+  months:
+    - { year: 2025, value: 1.8 }
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+  objectives: >
+    Predicts which infants with cleft will develop undernutrition and determines associations
+    between undernutrition and surgical outcomes in a retrospective cohort of roughly 18,000
+    children; quantifies associations between caregiver/infant factors and undernutrition in a
+    prospective cohort of 336 caregiver/infant pairs; and determines the contribution of
+    caregiver/infant factors to the clinical predictive model. Aim 1 leverages curated electronic
+    health records from PEDSnet, covering over 12 million children from 2009 to the present.
+
+- title: "Sleep health and socio-ecological context in childhood systemic lupus erythematosus"
+  status: "Pending"
+  source: "NIH"
+  award: "1R01HL180859"
+  place: "Seattle Children's Research Institute"
+  start: "04/2026"
+  end: "03/2031"
+  amount: "$4,346,075"
+  months:
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+    - { year: 2029, value: 1.2 }
+    - { year: 2030, value: 1.2 }
+    - { year: 2031, value: 1.8 }
+  objectives: >
+    Examines socio-ecological moderators that enhance or buffer the effects of sleep on cSLE
+    symptomatology among youth with childhood systemic lupus erythematosus — critical to creating
+    effective, culturally tailored interventions in this at-risk population.
+
+- title: "BEAM: Behavioral Eye-Tracking and Attention to Media"
+  status: "Pending"
+  source: "NIH R01"
+  place: "Seattle Children's Research Institute"
+  start: "09/2025"
+  end: "08/2028"
+  amount: "$4,999,590"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+  objectives: >
+    Assesses associations between screen media use, autistic traits, and social, physical, and
+    mental health outcomes, linking them to developmental histories and attentional strategies
+    that may compound harmful social media effects.
+
+- title: "Loneliness in adolescent and young adult cancer survivors: Risk factors, drivers, and biological correlates"
+  status: "Pending"
+  source: "NIH R01"
+  place: "Seattle Children's Research Institute"
+  start: "07/2025"
+  end: "04/2030"
+  amount: "$2,500,000"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+    - { year: 2029, value: 1.8 }
+    - { year: 2030, value: 1.8 }
+  objectives: >
+    A prospective longitudinal cohort study of 226 adolescents and young adults aged 18-29 during
+    early cancer survivorship. Latent growth models across five assessments over two years
+    characterize prevalence, expected change, and heterogeneity in loneliness and identify
+    discrete loneliness profiles; further aims identify risk factors and drivers, and examine
+    biomarkers of inflammation and biologic aging from clinical blood draw data.
+
+- title: "Mobile media use in toddlers and their parents: Impacts on language and self-regulation"
+  status: "Pending"
+  source: "NIH R01"
+  place: "Seattle Children's Research Institute"
+  start: "07/2025"
+  end: "05/2030"
+  amount: "$4,190,396"
+  months:
+    - { year: 2026, value: 1.2 }
+    - { year: 2027, value: 1.2 }
+    - { year: 2028, value: 1.2 }
+    - { year: 2029, value: 1.2 }
+    - { year: 2030, value: 0.5 }
+  objectives: >
+    Tests whether mobile media use displaces joint attention opportunities and thereby mediates
+    the relationship between elevated media use and worse language outcomes; whether mobile media
+    use in non-home locations reduces self-regulation opportunities and decreases executive
+    functioning over time; and whether children with neurological vulnerability face increased
+    risk from these effects.
